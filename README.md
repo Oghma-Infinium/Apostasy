@@ -71,12 +71,13 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 >The listed specs are the best idea of a baseline that I can provide at the current moment, based on feedback I have gotten from testers and my own experiences. In the future this will be updated depending on feedback received. Your PC may run the list better or worse due a variety of reasons, I will not provide troubleshooting or support for hardware related issues.
 
 
-| Spec Category | Recommended (1440p) | Recommended (1080p) |
+| Spec Category | Minimum | Recommended |
 |     :---:    |     :---:     |     :---:     |
-| **CPU**   | R7 7800X or equivalent |  R7 5800X or equivalent |
-| **Video Card**    | RTX 4070 or equivalent | RTX 3080 or equivalent |
-| **Ram**    | 32gb (2x16) | 16gb (2x8) |
-| **Storage**    | M.2 SSD | SATA SSD |
+| **OS**    | 64-bit Windows 10 | 64-bit Windows 10 | 
+| **Processor** | R7 5800X or equivalent |  R7 7800X3D or equivalent |
+| **Memory** | 16gb RAM + 40gb Pagefile | 32gb RAM + 40gb Pagefile |
+| **Graphics** | RTX 3080 or equivalent | RTX 4070 or equivalent |
+| **Storage** | SATA SSD | M.2 SSD |
 
 Please note that the below numbers are current estimates and the actual may be larger or smaller depending on version.
 
