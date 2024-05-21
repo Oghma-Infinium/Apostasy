@@ -76,7 +76,7 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 | **OS**    | 64-bit Windows 10 | 64-bit Windows 10 | 
 | **Processor** | R7 5800X or equivalent |  R7 7800X3D or equivalent |
 | **Memory** | 16gb RAM + 40gb Pagefile | 32gb RAM + 40gb Pagefile |
-| **Graphics** | RTX 3080 or equivalent | RTX 4070 or equivalent |
+| **Graphics** | RTX 3060Ti or equivalent | RTX 4070 or equivalent |
 | **Storage** | SATA SSD | M.2 SSD |
 
 Please note that the below numbers are current estimates and the actual may be larger or smaller depending on version.
