@@ -114,7 +114,7 @@ These steps are only required for installing the Modlist for the first time. Add
 
 #### Pagefile and crash prevention
 
->[!CAUTION]
+>[!WARNING]
 >Larger Skyrim modlists require a significant amount of memory, running out of memory **will** result in crashes and other potential issues. Due to Apostasy's size and number of files required to be handled for the list, this step is **NOT** optional, I do not care how much RAM or VRAM you have, please do this step.
 
 <Details>
@@ -153,7 +153,7 @@ But why is this? Skyrim appears to use system memory in very unexpected ways, fo
 
 #### Setting Shader Cache Size
 
->[!CAUTION]
+>[!WARNING]
 >For Nvidia users, it is also recommended to boost the size of the shader cache. These settings have been shown to improve stability, while it may not be entirely necessary, it is still recommended.
 
 <Details>
@@ -217,16 +217,19 @@ Once you have completed pre-installation, download the [latest version of Wabbaj
 
 #### Downloading and Installing Apostasy
 
+>[!CAUTION]
+>A legal copy of Skyrim Special Edition is required. Pirated copies of the game will cause the installation to fail and even if you manage to somehow get around Wabbajack's built-in piracy prevention measures, SKSE does not work with the cracked exes.  
+**Buy the game.**
+
 Downloading and installing Apostasy can take a while depending on your internet connection and computer. To install Apostasy, complete the following steps.
 
  1. Open Wabbajack and click `Browse Modlists`
  2. Press the download button on Apostasy and wait for it to download.
  3. Set the installation folder to be somewhere like `C:\Games\Apostasy` or `C:\Apostasy`. **DO NOT place it in the Wabbajack root folder, Program Files, User folders (such as Desktop, Documents, Downloads, etc.), or in your Skyrim's Steam folder**
->[!TIP]
->The download location does not need to be on a SSD, but it makes installing faster.
- 4. Press the play button to begin.
- 5. Turn on your favorite show or a nice long video essay Wabbajack does its thing. Alternatively read through this readme again.
- 6. If the installation is successful, then rejoice and move onto [post installation](#post-installation-and-optional-setup). If the installation is unsuccessful, follow what is below or join the [discord server](https://discord.gg/4WwqfK5yHg) for support.
+    > The download location does not need to be on a SSD, but it makes installing faster.
+ 1. Press the play button to begin.
+ 2. Turn on your favorite show or a nice long video essay Wabbajack does its thing. Alternatively read through this readme again.
+ 3. If the installation is successful, then rejoice and move onto [post installation](#post-installation-and-optional-setup). If the installation is unsuccessful, follow what is below or join the [discord server](https://discord.gg/4WwqfK5yHg) for support.
 
 ### Problems with installation
 
