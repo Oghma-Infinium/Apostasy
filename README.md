@@ -70,7 +70,7 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 
 
 | Spec Category | Recommended (1440p) | Recommended (1080p) |
-|     :---:    |     :---:     |     :---:     
+|     :---:    |     :---:     |     :---:     |
 | **CPU**   | R7 7800X or equivalent |  R7 5800X or equivalent |
 | **Video Card**    | RTX 4070 or equivalent | RTX 3080 or equivalent |
 | **Ram**    | 32gb (2x16) | 16gb (2x8) |
@@ -89,7 +89,7 @@ Wabbajack typically requires around 30 GB of space on your main OS drive for tem
 <Details>
 <summary>BSA Warning</summary>
 
-Apostasy heavily employs BSAs in order to keep the list's size down and improve performance. However, this means that the installation process may take longer than some other lists and you may run into issues with Wabbajack crashing if you allocate too many system resources to it. It also can potentially inflate the amount of temporary file space required by Wabbajack but this still needs to be tested and confirmed.
+Apostasy heavily employs [BSA](https://en.uesp.net/wiki/Skyrim_Mod:Archive_File_Format)s in order to keep the list's size down and improve performance. However, this means that the installation process may take longer than some other lists and you may run into issues with Wabbajack crashing if you allocate too many system resources to it. It also can potentially inflate the amount of temporary file space required by Wabbajack but this still needs to be tested and confirmed.
 
 If you are struggling with issues of Wabbajack crashing during the installation process, please read the [Problems with Installation](#problems-with-installation) section of this ReadMe.
 
@@ -105,9 +105,9 @@ These steps are only required for installing the Modlist for the first time. Add
 
 #### Installing Microsoft Visual C++ Redistribution Package
 
- 1. Install [Visual C++ x64](https://aka.ms/vs/16/release/vc_redist.x64.exe) & [.Net Runtime v6 desktop x64](https://dotnet.microsoft.com/en-us/download/dotnet/6.0/runtime).
+ 1. Install [Visual C++ x64](https://aka.ms/vs/16/release/vc_redist.x64.exe) & [.Net Runtime 8.X.X desktop x64](https://dotnet.microsoft.com/en-us/download/dotnet/8.0).
  2. Change Skyrim so it does not [automatically update](https://help.steampowered.com/en/faqs/view/71AB-698D-57EB-178C#disable).
- 3. Right click on Skyrim SE and click on properties, untick the "Enable Steam Overlay while in-game."
+ 3. Right click on Skyrim SE and click on properties, untick the `Enable Steam Overlay while in-game.`
  4. You also need to start the games to the main menu in order to download all the creations. **DO NOT SKIP THIS STEP, IF YOU DO SO WABBAJACK WILL FAIL**
 
 #### Pagefile and crash prevention
@@ -118,22 +118,36 @@ These steps are only required for installing the Modlist for the first time. Add
 <Details>
 <summary>Setting up a pagefile:</summary>
 
- 1. Press **Win Key + R**
- 2. Type *sysdm.cpl ,3* and hit **ENTER**
- 3. Navigate to *Performance* and click the box "Settings..."
- 4. Click the *Advanced* tab at the top
- 5. Under *Virtual Memory* click the box "Change..."
- 6. Uncheck *Automatically manage* if it is checked
- 7. Select your disk drive, ideally your fastest solid state drive
- 8. Click the **Custom size:** button
- 9. In the box next to **Initial Size (MB)** type `40960`
- 10. In the box next to **Maximum Size (MB)** type `40960`
- 11. Click the *Set* button
- 12. Click *OK*
- 13. Click *Apply*
- 14. Click *OK*
- 15. Restart your computer in order for your new pagefile to take effect.
+ 1. Press `Win Key + R`.
+ 2. Type `sysdm.cpl ,3` and hit `ENTER`.
+ 3. Navigate to *Performance* and click the box `Settings...`.
+ 4. Click the *Advanced* tab at the top.
+ 5. Under *Virtual Memory* click the box `Change...`.
+ 6. **Uncheck** *Automatically manage* if it is checked.
+ 7. Select your disk drive, ideally your fastest solid state drive.
+ 8. Click `Custom size:`.
+ 9. In the box next to `Initial Size (MB)` type `40960`.
+ 10. In the box next to `Maximum Size (MB)` type `40960`.
+ 11. Click `Set`.
+ 12. Click `OK`.
+ 13. Click `Apply`.
+ 14. Click `OK`.
+ 15. **Restart your computer**.
   
+>[!TIP]
+>Your pagefile does not need to be on the same drive as your Wabbajack install or Steam install.
+  
+</Details>
+
+<Details>
+<summary>BONUS READING: Why do we need a pagefile?</summary>
+
+Skyrim is a very old game (originally released in 2011) that is built on the [Creation Engine](https://en.wikipedia.org/wiki/Creation_Engine), a engine based off of the [Gamebryo](https://en.wikipedia.org/wiki/Gamebryo) engine that was originally used for Morrowind (released in 2002).
+
+Through lots of experience and trial-and-error, we have discovered that increasing the window's pagefile can fix certain types of Skyrim crashes, the two most common examples being `Unhandled native exception occurred at 0x7FF6ADC8DDDA` and `Unhandled native exception occurred at 0x0`.
+
+But why is this? Skyrim appears to use system memory in very unexpected ways, for example it will frequently dip into the pagefile memory despite there being available RAM. Skyrim heavily favors high speed, low latency RAM (the best you can get as of writing this is 6000MHz and CL30 for DDR5).
+
 </Details>
 
 #### Setting Shader Cache Size
@@ -144,11 +158,11 @@ These steps are only required for installing the Modlist for the first time. Add
 <Details>
 <summary>Changing the shader cache size:</summary>
 
- 1. Right-click on your desktop and select **NVIDIA Control Panel**
- 2. Navigate and click on **Manage 3D settings**. It is the 2nd one to the top.
- 3. Scroll down in Global Settings until you see **Shader Cache Size**
+ 1. Right-click on your desktop and select `NVIDIA Control Panel`,.
+ 2. Navigate and click on `Manage 3D settings`. It is the 2nd one to the top.
+ 3. Scroll down in Global Settings until you see **Shader Cache Size**.
  4. Double Click **Driver Default** to the right of Shader Cache Size and select **10 GB**
- 5. Click **Apply** in the bottom right hand corner. 
+ 5. Click `Apply` in the bottom right hand corner. 
  6. You may exit out of the application.
 ![](https://raw.githubusercontent.com/iAmMe27/Tahrovin/main/img/ShaderCache.png)
 
@@ -157,7 +171,7 @@ These steps are only required for installing the Modlist for the first time. Add
 #### Steam Setup
 
 >[!IMPORTANT]
->If you have your Steam Library in Program Files, read [this article](https://github.com/LostDragonist/steam-library-setup-tool/wiki/Usage-Guide) and move it elsewhere. Locations such as Desktop, Documents, Downloads, OneDrive, etc. will cause issues with installing and playing the list.
+>If you have your Steam Library in Program Files, read [this article](https://github.com/LostDragonist/steam-library-setup-tool/wiki/Usage-Guide) by LostDragonist. Locations such as Desktop, Documents, Downloads, OneDrive, etc. *will* cause issues with installing and playing the list.
 
 #### Game Language
 
@@ -206,7 +220,7 @@ Downloading and installing Apostasy can take a while depending on your internet 
 
  1. Open Wabbajack and click `Browse Modlists`
  2. Press the download button on Apostasy and wait for it to download.
- 3. Set the installation folder to be somewhere like `C:\Games\Apostasy` or `C:\Apostasy`. **DO NOT place it in Program Files, User folders (such as Desktop, Documents, Downloads, etc.), or in your Skyrim's Steam folder**
+ 3. Set the installation folder to be somewhere like `C:\Games\Apostasy` or `C:\Apostasy`. **DO NOT place it in the Wabbajack root folder, Program Files, User folders (such as Desktop, Documents, Downloads, etc.), or in your Skyrim's Steam folder**
 >[!TIP]
 >The download location does not need to be on a SSD, but it makes installing faster.
  4. Press the play button to begin.
@@ -327,16 +341,15 @@ If you use Windows Defender, it is advised that you set up an Exception for the 
 
 ### Starting the Game
  
- Before starting the game, I suggest reading over the [Configuration](https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/CONFIG.md) and [Gameplay](https://github.com/Oghma-Infinium/Apostasy/blob/main/GAMEPLAY.md) documents for the list. It should only take 10 minutes at most.
- - Head over to the installation folder and locate an executable named ModOrganizer.exe and launch it.
- - **(Optional)** For those of you with arachnophobia, the list includes a mod called *bingus hates spiders.esp*, this is my personal patch that removes spiders from the leveled list and replaces spiders with other creatures within the list. It also has a few other tweaks to make it a bit more in depth than something like *Insects begone*.
+Before starting the game, I suggest reading over the [Configuration](https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/CONFIG.md) and [Gameplay](https://github.com/Oghma-Infinium/Apostasy/blob/main/GAMEPLAY.md) pages. It should only take 10-15 minutes at most, will save you a lot of confusion, and save me from answering many common questions.
 
- 1. Launch the "Play" Executable in MO2.
- 2. Click "New Game".
- 3. Create your character.
- 4. Wait about a minute or so before leaving the start room for the game to fully initialize.
- 5. Talk to the dragon to choose your start. (Note: If no start is chosen then you will have a default start in the Helgen Inn).
- 6. Leave the room.
+ 1. Head over to your modlist installation folder (e.g. `C:\Apostasy`), locate an executable named `ModOrganizer.exe`, and launch it.
+ 2. Launch the "Play" Executable in MO2.
+ 3. Click "New Game".
+ 4. Create your character.
+ 5. Wait about a minute or so before leaving the start room for the game to fully initialize.
+ 6. Talk to the dragon to choose your start. (Note: If no start is chosen then you will have a default start in the Helgen Inn).
+ 7. Leave the room.
 
 ## Updating the modlist
 
