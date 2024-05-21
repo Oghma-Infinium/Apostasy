@@ -71,7 +71,7 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 >The listed specs are the best idea of a baseline that I can provide at the current moment, based on feedback I have gotten from testers and my own experiences. In the future this will be updated depending on feedback received. Your PC may run the list better or worse due a variety of reasons, I will not provide troubleshooting or support for hardware related issues.
 
 >[!CAUTION]
->An SSD is required to the play the list. The list will NOT run on Linux.
+>An SSD is required to the play the list. The list will **NOT** run on Linux.
 
 | Spec Category | Minimum | Recommended |
 |     :---:    |     :---:     |     :---:     |
@@ -88,8 +88,12 @@ Install: ~XXX GB
 Temp Files: ~XX GB (on OS drive)  
 **TOTAL:** ~XXX GB  
 
-> [!NOTE]
+<Details>
+<summary>Temporary Files</summary>
+
 Wabbajack typically requires around 30 GB of space on your main OS drive for temporary and working files during the installation, this space is not counted towards the total install space of the list for sake of this guide, however Wabbajack roughly accounts for it in the UI.
+
+</Details>
 
 <Details>
 <summary>BSA Warning</summary>
