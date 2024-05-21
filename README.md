@@ -74,13 +74,13 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 >An SSD is required to the play the list.   
 >Only Windows 10 or 11 operating systems are supported. Windows LTSC, special variants, lightened editions or any other modified variant **WILL NOT WORK.** Lunix installations also **WILL NOT WORK**.
 
-| Spec Category | Minimum | Recommended |
-|     :---:    |     :---:     |     :---:     |
+| Spec Category | Minimum (1080p) | Recommended (1440p) |
+|     :---:    |     :---:     |     :---:     | 
 | **OS**    | 64-bit Windows 10 | 64-bit Windows 10 | 
-| **Processor** | R7 5800X or equivalent |  R7 7800X3D or equivalent |
-| **Memory** | 16gb RAM + 40gb Pagefile | 32gb RAM + 40gb Pagefile |
-| **Graphics** | RTX 3060Ti or equivalent | RTX 4070 or equivalent |
-| **Storage** | SATA SSD | M.2 SSD |
+| **Processor** | R7 5800X or equivalent |  R7 7800X3D or equivalent | 
+| **Memory** | 16gb RAM + 40gb Pagefile | 32gb RAM + 40gb Pagefile | 
+| **Graphics** | RTX 3060Ti or equivalent | RTX 4070 or equivalent | 
+| **Storage** | SATA SSD | M.2 SSD | 
 
 Please note that the below numbers are current estimates and the actual may be larger or smaller depending on version.
 
