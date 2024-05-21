@@ -364,14 +364,14 @@ If you use Windows Defender, it is advised that you set up an Exception for the 
 
  1. Head over to your modlist installation folder (e.g. `C:\Apostasy`), locate an executable named `ModOrganizer.exe`, and launch it.
  2. Launch the "Play" Executable in MO2.
-   > The game may take several minutes to load on your first launch. Please be patient and at no point should you click the `Unlock` button in MO2.
+    > The game may take several minutes to load on your first launch. Please be patient and at no point should you click the `Unlock` button in MO2.
  3. Click "New Game".
  4. Create your character.
  5. Wait about a minute or so before leaving the start room for the game to fully initialize and MCM Recorder to finish processing.
-   > The MCM Recorder should start automatically and will pop-up a message box when finished.
+    > The MCM Recorder should start automatically and will pop-up a message box when finished.
  6. **(OPTIONAL)** Refer to the MCM options listed on the [Configuration](https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/CONFIG.md#in-game-mcm-options) to adjust your settings.
  7. Talk to the dragon to choose your start.
-   > If no start is chosen then you will have a default start in the Helgen Inn.
+    > If no start is chosen then you will have a default start in the Helgen Inn.
  8. Leave the room.
 
 ## Updating the modlist
