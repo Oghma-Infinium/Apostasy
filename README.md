@@ -117,8 +117,7 @@ These steps are only required for installing the Modlist for the first time. Add
 >[!WARNING]
 >Larger Skyrim modlists require a significant amount of memory, running out of memory **will** result in crashes and other potential issues. Due to Apostasy's size and number of files required to be handled for the list, this step is **NOT** optional, I do not care how much RAM or VRAM you have, please do this step.
 
-<Details>
-<summary>Setting up a pagefile:</summary>
+Setting up a pagefile:
 
  1. Press `Win Key + R`.
  2. Type `sysdm.cpl ,3` and hit `ENTER`.
@@ -137,8 +136,6 @@ These steps are only required for installing the Modlist for the first time. Add
  15. **Restart your computer**.
   
 > Your pagefile does not need to be on the same drive as your Wabbajack install or Steam install.
-  
-</Details>
 
 <Details>
 <summary>BONUS READING: Why do we need a pagefile?</summary>
@@ -156,8 +153,7 @@ But why is this? Skyrim appears to use system memory in very unexpected ways, fo
 >[!WARNING]
 >For Nvidia users, it is also recommended to boost the size of the shader cache. These settings have been shown to improve stability, while it may not be entirely necessary, it is still recommended.
 
-<Details>
-<summary>Changing the shader cache size:</summary>
+Changing the shader cache size:
 
  1. Right-click on your desktop and select `NVIDIA Control Panel`,.
  2. Navigate and click on `Manage 3D settings`. It is the 2nd one to the top.
@@ -166,8 +162,6 @@ But why is this? Skyrim appears to use system memory in very unexpected ways, fo
  5. Click `Apply` in the bottom right hand corner. 
  6. You may exit out of the application.
 ![](https://raw.githubusercontent.com/iAmMe27/Tahrovin/main/img/ShaderCache.png)
-
-</Details>
 
 #### Steam Setup
 
@@ -179,23 +173,19 @@ But why is this? Skyrim appears to use system memory in very unexpected ways, fo
 >[!WARNING]
 >The English Steam version of Skyrim is the only supported version. I understand that this may be frustrating for non-English speaking users or users with the GOG/Bethesda.net versions, but due to the core file differences between the different versions, I am only able to support one game version.
 
-<Details>
-<summary>Setting the Game Language:</summary>
+Setting the Game Language:
 
  1. Right click on your Skyrim in Steam.
  2. Click `Properties`.
  3. Click `Language`.
  4. Set the Language to `English`.
 
-</Details>
-
 #### Installing Creation Club Content
 
 >[!WARNING]
 >Due to some issues with the 1.6.1130 update and onwards, Steam now ships Skyrim with its own version of some CC files. However these files do not have the same hashes as the files that are downloaded from the in-game Creation Club menu for AE users. In order to work around this issue and make the list as accessible as possible, the list is compiled using the file hashes from the in-game CC downloads.
 
-<Details>
-<summary>Installing Creation Club Content:</summary>
+Installing Creation Club Content:
 
  1. Navigate to your Skyrim SE's Steam data folder. (example: `D:\SteamLibrary\steamapps\common\Skyrim Special Edition\data`).
  2. Within your data folder, delete *both* the `ccbgssse037-curios.bsa` and `ccbgssse037-curios.esl` files.
@@ -203,8 +193,6 @@ But why is this? Skyrim appears to use system memory in very unexpected ways, fo
  4. Press `O` on your keyboard to open the options menu and click `Download all owned Creation Club content` (The Rare Curios CC should now be installing).
  5. Exit out of the Creations menu, say yes to Bethesda's load order shit, and exit the game.
  6. **VERY IMPORTANT**, from this step onwards, **DO NOT** verify your game files unless told to as it will revert the "correct" file hashes to the ones that are included in the base-game install.
-
-</Details>
 
 ### Wabbajack Installation
 
