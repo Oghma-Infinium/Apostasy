@@ -2,7 +2,7 @@
 
 <p align="center">
   [ <a href="https://www.nexusmods.com/skyrimspecialedition/mods/118893">Nexus</a> |
-  Installation |
+  __Installation__ |
   <a href="https://github.com/Oghma-Infinium/Apostasy/blob/main/GAMEPLAY.md">Gameplay Guide</a> |
   <a href="https://github.com/Oghma-Infinium/Apostasy/blob/main/CHANGELOG.md">Changelog</a> |
   <a href="https://loadorderlibrary.com/lists/Apostasy">Modlist</a> |
