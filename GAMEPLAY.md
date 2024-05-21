@@ -3,7 +3,7 @@
 <p align="center">
   [ <a href="https://www.nexusmods.com/skyrimspecialedition/mods/118893">Nexus</a> |
   <a href="https://github.com/Oghma-Infinium/Apostasy/blob/main/README.md">Installation</a> |
-  <a href="https://github.com/Oghma-Infinium/Apostasy/blob/main/GAMEPLAY.md">Gameplay Guide</a> |
+  Gameplay Guide |
   <a href="https://github.com/Oghma-Infinium/Apostasy/blob/main/CHANGELOG.md">Changelog</a> |
   <a href="https://loadorderlibrary.com/lists/Apostasy">Modlist</a> |
   <a href="https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/FAQ.md">FAQ</a> |
