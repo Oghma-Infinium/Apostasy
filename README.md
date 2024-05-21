@@ -275,6 +275,23 @@ This error means you failed to follow the readme. Go back to the [game language]
 </Details>  
 
 <Details>
+<summary>Sanity check error extracting file:</summary>
+
+Wabbajack will sometimes have issues extracting some files if they use special characters. If you encounter this issue in a wabbajack log, please try the steps down below:
+
+ 1. Press `Win Key + R`.
+ 2. Type `intl.cpl` and hit `ENTER`.
+ 3. Navigate to *Administrative* and click `Change system locale...`.
+ 4. Change the *Current system locale:* to `English (United Kingdom)`.
+ 5. **Uncheck** `Beta: Use Unicode UTF-8 for worldwide language support`
+ 6. Click `OK`
+ 7. **Restart your computer** and rerun the Wabbajack installer.
+
+> It is suggested to have a program installed on your PC that can open `.json` files, like [Notepad++](https://notepad-plus-plus.org/) or [Visual Studio Code](https://code.visualstudio.com/).  
+
+</Details>  
+
+<Details>
 <summary>Wabbajack Crashing during the installation:</summary>
 
 If you find yourself struggling to run Wabbajack without it crashing, freezing up, or blue-screening your PC, please try lowering Wabbajack's resource usage using these steps:
@@ -291,6 +308,10 @@ If you find yourself struggling to run Wabbajack without it crashing, freezing u
 </Details>  
 
 #### Problematic Files
+
+>[!NOTE]
+>Wabbajack frequently has trouble downloading mods hosted on sites other than Nexus. These files are listed below for your convenience.  
+>You will need to manually download these files and place them in the `Resource Download Location` that is made in the [Downloading and Installing Apostasy](#downloading-and-installing-apostasy) section.
 
 Google Drive Files:
 - [High Poly Head v1.4 (SE)](https://drive.google.com/uc?id=15_0njBUjHKidNnJPmLXEygzGVWsA3Zbq&export=download)
@@ -336,17 +357,22 @@ If you use Windows Defender, it is advised that you set up an Exception for the 
 
 ## Playing the List
 
+>[!TIP]
+>Before starting the list, read over the [Configuration](https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/CONFIG.md), [FAQ](https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/FAQ.md), and [Gameplay](https://github.com/Oghma-Infinium/Apostasy/blob/main/GAMEPLAY.md) pages.
+
 ### Starting the Game
- 
-Before starting the game, I suggest reading over the [Configuration](https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/CONFIG.md) and [Gameplay](https://github.com/Oghma-Infinium/Apostasy/blob/main/GAMEPLAY.md) pages. It should only take 10-15 minutes at most, will save you a lot of confusion, and save me from answering many common questions.
 
  1. Head over to your modlist installation folder (e.g. `C:\Apostasy`), locate an executable named `ModOrganizer.exe`, and launch it.
  2. Launch the "Play" Executable in MO2.
+   > The game may take several minutes to load on your first launch. Please be patient and at no point should you click the `Unlock` button in MO2.
  3. Click "New Game".
  4. Create your character.
- 5. Wait about a minute or so before leaving the start room for the game to fully initialize.
- 6. Talk to the dragon to choose your start. (Note: If no start is chosen then you will have a default start in the Helgen Inn).
- 7. Leave the room.
+ 5. Wait about a minute or so before leaving the start room for the game to fully initialize and MCM Recorder to finish processing.
+   > The MCM Recorder should start automatically and will pop-up a message box when finished.
+ 6. **(OPTIONAL)** Refer to the MCM options listed on the [Configuration](https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/CONFIG.md#in-game-mcm-options) to adjust your settings.
+ 7. Talk to the dragon to choose your start.
+   > If no start is chosen then you will have a default start in the Helgen Inn.
+ 8. Leave the room.
 
 ## Updating the modlist
 
@@ -380,7 +406,7 @@ Please check the [FAQ](https://github.com/Oghma-Infinium/Apostasy/blob/main/Docu
 - _YOU_ for reading this.
 - [Bingus](https://ko-fi.com/beangas) for [Ascensio](https://github.com/Oghma-Infinium/Ascensio), ENB tweaking, asset editing, mod page screenshots, and branding art for Apostasy (Logo, Banner, and Splash).
 - Curly for the original iteration of Ascensio that got me started with my first modlist.
-- [Ylikollikas](https://next.nexusmods.com/profile/Ylikollikas) for a lot.
+- [Ylikollikas](https://next.nexusmods.com/profile/Ylikollikas) for a lot, I can not even begin to list what he has contributed.
 - [iAmMe27](https://ko-fi.com/iamme27) for general modding, documentation, and WJ assistance.
 - Discord helpers for their time and effort playtesting, providing feedback, and support assistance.
 - [Jolly Co-Operators](https://discord.gg/jolly-coop) and [Cacophony](https://www.patreon.com/cacophony1979) for their wonderful community that inspired me to start modding more.
