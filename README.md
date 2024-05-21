@@ -2,7 +2,7 @@
 
 <p align="center">
   [ <a href="https://www.nexusmods.com/skyrimspecialedition/mods/118893">Nexus</a> |
-  <a href="https://github.com/Oghma-Infinium/Apostasy/blob/main/README.md">Installation</a> |
+  Installation |
   <a href="https://github.com/Oghma-Infinium/Apostasy/blob/main/GAMEPLAY.md">Gameplay Guide</a> |
   <a href="https://github.com/Oghma-Infinium/Apostasy/blob/main/CHANGELOG.md">Changelog</a> |
   <a href="https://loadorderlibrary.com/lists/Apostasy">Modlist</a> |
@@ -46,6 +46,8 @@
   - [Post-Installation and Optional Setup](#post-installation-and-optional-setup)
     - [Game Folder](#game-folder)
     - [Antivirus Exceptions](#antivirus-exceptions)
+    - [Keyboard Keybinds](#keyboard-keybinds)
+    - [Gamepad Keybinds](#gamepad-keybinds)
   - [Playing the List](#playing-the-list)
     - [Starting the Game](#starting-the-game)
   - [Updating the modlist](#updating-the-modlist)
@@ -355,6 +357,17 @@ If you use Windows Defender, it is advised that you set up an Exception for the 
 
 </Details>  
 
+### Keyboard Keybinds
+
+![](https://raw.githubusercontent.com/Oghma-Infinium/Apostasy/main/images/Keyboard.png)
+
+### Gamepad Keybinds
+
+>[!WARNING]
+>Gamepads may need additional setup in order to work as intended. Please refer to the [Configuration](https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/CONFIG.md#gamepad-support) page.
+
+![](https://raw.githubusercontent.com/Oghma-Infinium/Apostasy/main/images/Gamepad.png)
+
 ## Playing the List
 
 >[!TIP]
@@ -381,14 +394,13 @@ Versioning for the list will adhere to the following format: `MAJOR.MINOR.PATCH`
  - `MINOR`: Any release with a number change here will be considered a minor update, these updates will usually not be save safe, unless otherwise specified.
  - `PATCH`: Any release with a number change here will be considered a patch, these updates should be save safe and will be used primarily for bugfixes.
  - In some rare cases you may see a fourth slot be used, which I will refer to as `HOTFIX`. These list "updates" will be used if the list needs to be recompiled for any reason. There will be no changes in these "updates" as they are purely for maintenance.
-Before updating, please check the [changelog](https://github.com/Oghma-Infinium/Apostasy/blob/main/CHANGELOG.md) and back up your saves. You may need to start a new game after certain updates.
-Updating is like installing the list. Simply make sure your paths are the same and tick the `overwrite existing modlist` button. **Note**: Any mods you have added will be deleted when updating. To make sure that Wabbajack does not delete your added mods upon updating, prefix your mods with **[NoDelete]**.
+Updating is like installing the list. Simply make sure your paths are the same and tick the `overwrite existing modlist` button. **Note**: Any mods you have added will be deleted when updating. To make sure that Wabbajack does not delete your added mods upon updating, prefix your mods with `[NoDelete]`.
 
 >[!IMPORTANT]
->Please make sure you back up your saves if you plan on continuing a playthrough across a **save safe** update.
+>Saves can be continued across **Save-Safe** updates. Updates will be indicated whether or not they are **Save-Safe** on the [Changelog](https://github.com/Oghma-Infinium/Apostasy/blob/main/CHANGELOG.md). It is suggested that you backup your saves before updating if you plan on continuing them.
 
 >[!TIP]
->Please make sure to back up your RaceMenu Presets when updating. You can place them in the `[NoDelete] RaceMenu Presets` mod under the `Stock List [NoDelete]'s` Seperator of MO2.
+>RaceMenu presets can be placed in the `[NoDelete] RaceMenu Presets` mod under the `Stock List [NoDelete]'s` Seperator of MO2 if you want to ensure they are saved after an update.
 
 ## Removing the Modlist
 Simply delete the folder. Congratulations, you have uninstalled Apostasy.
