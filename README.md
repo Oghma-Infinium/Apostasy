@@ -69,12 +69,12 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 >The listed specs are the best idea of a baseline that I can provide at the current moment, based on feedback I have gotten from testers and my own experiences. In the future this will be updated depending on feedback received. Your PC may run the list better or worse due a variety of reasons, I will not provide troubleshooting or support for hardware related issues.
 
 
-| Spec Category | My Specs (1440p) | Recommended (1080p) |
+| Spec Category | Recommended (1440p) | Recommended (1080p) |
 |     :---:    |     :---:     |     :---:     
-| **CPU**   | R7 5800X |  R7 3700x / i5 10600k |
-| **Video Card**    | 2080 Ti | 3060 Ti / 2070 / 6700 XT |
+| **CPU**   | R7 7800X or equivalent |  R7 5800X or equivalent |
+| **Video Card**    | RTX 4070 or equivalent | RTX 3080 or equivalent |
 | **Ram**    | 32gb (2x16) | 16gb (2x8) |
-| **Storage**    | 970 EVO NVMe | SATA SSD |
+| **Storage**    | M.2 SSD | SATA SSD |
 
 Please note that the below numbers are current estimates and the actual may be larger or smaller depending on version.
 
