@@ -134,8 +134,7 @@ These steps are only required for installing the Modlist for the first time. Add
  14. Click `OK`.
  15. **Restart your computer**.
   
->[!TIP]
->Your pagefile does not need to be on the same drive as your Wabbajack install or Steam install.
+> Your pagefile does not need to be on the same drive as your Wabbajack install or Steam install.
   
 </Details>
 
@@ -287,9 +286,8 @@ If you find yourself struggling to run Wabbajack without it crashing, freezing u
  4. Lower the `MaxTasks` number for each category to half of what it is currently set to.
  5. Press `Ctrl+S` on your keyboard to save the file.
  6. Open Wabbajack and continue the installation process.
-  
->[!TIP]
->It is suggested to have a program installed on your PC that can open `.json` files, like [Notepad++](https://notepad-plus-plus.org/) or [Visual Studio Code](https://code.visualstudio.com/).  
+
+> It is suggested to have a program installed on your PC that can open `.json` files, like [Notepad++](https://notepad-plus-plus.org/) or [Visual Studio Code](https://code.visualstudio.com/).  
 
 </Details>  
 
