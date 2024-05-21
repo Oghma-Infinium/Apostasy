@@ -70,6 +70,8 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 >[!NOTE]
 >The listed specs are the best idea of a baseline that I can provide at the current moment, based on feedback I have gotten from testers and my own experiences. In the future this will be updated depending on feedback received. Your PC may run the list better or worse due a variety of reasons, I will not provide troubleshooting or support for hardware related issues.
 
+>[!CAUTION]
+>An SSD is required to the play the list. The list will NOT run on Linux.
 
 | Spec Category | Minimum | Recommended |
 |     :---:    |     :---:     |     :---:     |
