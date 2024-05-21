@@ -52,43 +52,57 @@ Apostasy modifies the vanilla leveling experience in a way to reward the player 
 
 Apostasy changes a significant amount of vanilla quests in one way or another in order to offer a more complete roleplaying exprience. The following list is non-exhaustive. Please note that not all MCM Options from Timing is Everything may work as intended in the list.
 
- - **DLC Quests**
-  - [Awakening](https://en.uesp.net/wiki/Skyrim:Awakening) Requires level 20, however this can be started at any point by going to [Dayspring Canyon](https://en.uesp.net/wiki/Skyrim:Dayspring_Canyon).
-  - [Dragonborn](https://en.uesp.net/wiki/Skyrim:Dragonborn_(quest)) Requires level 20 and completion of [The Horn of Jurgen Windcaller](https://en.uesp.net/wiki/Skyrim:The_Horn_of_Jurgen_Windcaller).
-  - Hearthfire Letter Requires level 15.
- - **Level Locked Quests**
-   - **Level 15+**
-     - [Dungeon Delving](https://en.uesp.net/wiki/Skyrim:Dungeon_Delving_(Jarl_-_Hagravens))
-     - [Kill the Giant](https://en.uesp.net/wiki/Skyrim:Kill_the_Giant_(Jarl))
-     - [The Forsworn Conspiracy](https://en.uesp.net/wiki/Skyrim:The_Forsworn_Conspiracy)
-   - **Level 20+**
-     - [A Night To Remember](https://en.uesp.net/wiki/Skyrim:A_Night_To_Remember)
-     - [Ill Met By Moonlight](https://en.uesp.net/wiki/Skyrim:Ill_Met_By_Moonlight)
-     - [Kill the Vampire](https://en.uesp.net/wiki/Skyrim:Kill_the_Vampire)
-     - [The Black Star](https://en.uesp.net/wiki/Skyrim:The_Black_Star)
-     - [The Break of Dawn](https://en.uesp.net/wiki/Skyrim:The_Break_of_Dawn)
-     - [The Mind of Madness](https://en.uesp.net/wiki/Skyrim:The_Mind_of_Madness)
-     - [Unfathomable Depths](https://en.uesp.net/wiki/Skyrim:Unfathomable_Depths)
-   - **Level 25+**
-     - [A Daedra's Best Friend](https://en.uesp.net/wiki/Skyrim:A_Daedra%27s_Best_Friend)
-     - [The Cursed Tribe](https://en.uesp.net/wiki/Skyrim:The_Cursed_Tribe)
-     - [The House of Horrors](https://en.uesp.net/wiki/Skyrim:The_House_of_Horrors)
-     - [The Taste of Death](https://en.uesp.net/wiki/Skyrim:The_Taste_of_Death)
-     - [The Wolf Queen Awakened](https://en.uesp.net/wiki/Skyrim:The_Wolf_Queen_Awakened)
-     - [Waking Nightmare](https://en.uesp.net/wiki/Skyrim:Waking_Nightmare)
-   - **Level 30+**
-     - [Boethiah's Calling](https://en.uesp.net/wiki/Skyrim:Boethiah%27s_Calling)
-     - [Deathbrand](https://en.uesp.net/wiki/Skyrim:Deathbrand_(quest))
-     - [Discerning the Transmundane](https://en.uesp.net/wiki/Skyrim:Discerning_the_Transmundane)
-     - [Pieces of the Past](https://en.uesp.net/wiki/Skyrim:Pieces_of_the_Past)
-     - [The Only Cure](https://en.uesp.net/wiki/Skyrim:The_Only_Cure)
-     - [The Whispering Door](https://en.uesp.net/wiki/Skyrim:The_Whispering_Door)
-   - **Level 40+**
-     - [The Ebony Warrior](https://en.uesp.net/wiki/Skyrim:The_Ebony_Warrior)
+<Details>
+<summary>DLC Quests</summary>
 
- - **Modded Quests**
+ - [Awakening](https://en.uesp.net/wiki/Skyrim:Awakening) Requires level 20, however this can be started at any point by going to [Dayspring Canyon](https://en.uesp.net/wiki/Skyrim:Dayspring_Canyon).
+ - [Dragonborn](https://en.uesp.net/wiki/Skyrim:Dragonborn_(quest)) Requires level 20 and completion of [The Horn of Jurgen Windcaller](https://en.uesp.net/wiki/Skyrim:The_Horn_of_Jurgen_Windcaller).
+ - Hearthfire Letter Requires level 15.
+
+</Details>
+
+<Details>
+<summary>Level Locked Quests</summary>
+
+  - **Level 15+**
+    - [Dungeon Delving](https://en.uesp.net/wiki/Skyrim:Dungeon_Delving_(Jarl_-_Hagravens))
+    - [Kill the Giant](https://en.uesp.net/wiki/Skyrim:Kill_the_Giant_(Jarl))
+    - [The Forsworn Conspiracy](https://en.uesp.net/wiki/Skyrim:The_Forsworn_Conspiracy)
+  - **Level 20+**
+    - [A Night To Remember](https://en.uesp.net/wiki/Skyrim:A_Night_To_Remember)
+    - [Ill Met By Moonlight](https://en.uesp.net/wiki/Skyrim:Ill_Met_By_Moonlight)
+    - [Kill the Vampire](https://en.uesp.net/wiki/Skyrim:Kill_the_Vampire)
+    - [The Black Star](https://en.uesp.net/wiki/Skyrim:The_Black_Star)
+    - [The Break of Dawn](https://en.uesp.net/wiki/Skyrim:The_Break_of_Dawn)
+    - [The Mind of Madness](https://en.uesp.net/wiki/Skyrim:The_Mind_of_Madness)
+    - [Unfathomable Depths](https://en.uesp.net/wiki/Skyrim:Unfathomable_Depths)
+  - **Level 25+**
+    - [A Daedra's Best Friend](https://en.uesp.net/wiki/Skyrim:A_Daedra%27s_Best_Friend)
+    - [The Cursed Tribe](https://en.uesp.net/wiki/Skyrim:The_Cursed_Tribe)
+    - [The House of Horrors](https://en.uesp.net/wiki/Skyrim:The_House_of_Horrors)
+    - [The Taste of Death](https://en.uesp.net/wiki/Skyrim:The_Taste_of_Death)
+    - [The Wolf Queen Awakened](https://en.uesp.net/wiki/Skyrim:The_Wolf_Queen_Awakened)
+    - [Waking Nightmare](https://en.uesp.net/wiki/Skyrim:Waking_Nightmare)
+  - **Level 30+**
+    - [Boethiah's Calling](https://en.uesp.net/wiki/Skyrim:Boethiah%27s_Calling)
+    - [Deathbrand](https://en.uesp.net/wiki/Skyrim:Deathbrand_(quest))
+    - [Discerning the Transmundane](https://en.uesp.net/wiki/Skyrim:Discerning_the_Transmundane)
+    - [Pieces of the Past](https://en.uesp.net/wiki/Skyrim:Pieces_of_the_Past)
+    - [The Only Cure](https://en.uesp.net/wiki/Skyrim:The_Only_Cure)
+    - [The Whispering Door](https://en.uesp.net/wiki/Skyrim:The_Whispering_Door)
+  - **Level 40+**
+    - [The Ebony Warrior](https://en.uesp.net/wiki/Skyrim:The_Ebony_Warrior)
+
+</Details>
+
+<Details>
+<summary>Modded Quests</summary>
+
    - **Vigilant**: Requires level 25+ and the completion of [Kindred Judgement](https://en.uesp.net/wiki/Skyrim:Kindred_Judgment) and [House of Horrors](https://en.uesp.net/wiki/Skyrim:The_House_of_Horrors).
    - **Unslaad**: Requires completion of [Dragonslayer](https://en.uesp.net/wiki/Skyrim:Dragonslayer) and Glenmoril.
+
+</Details>
+
 
 ## New Content
 
