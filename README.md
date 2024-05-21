@@ -71,7 +71,8 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 >The listed specs are the best idea of a baseline that I can provide at the current moment, based on feedback I have gotten from testers and my own experiences. In the future this will be updated depending on feedback received. Your PC may run the list better or worse due a variety of reasons, I will not provide troubleshooting or support for hardware related issues.
 
 >[!CAUTION]
->An SSD is required to the play the list. The list will **NOT** run on Linux.
+>An SSD is required to the play the list.   
+>Only Windows 10 or 11 operating systems are supported. Windows LTSC, special variants, lightened editions or any other modified variant **WILL NOT WORK.** Lunix installations also **WILL NOT WORK**.
 
 | Spec Category | Minimum | Recommended |
 |     :---:    |     :---:     |     :---:     |
