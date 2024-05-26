@@ -30,7 +30,7 @@ A: Go to the Helgen Inn and use the dialogue option `"I forgot what it says"` in
 A: VIGILANT requires the player be level 25, completion of House of Horrors, and completion of Kindred Judgement (the final quest of Dawnguard DLC). 
 
 ### Q: How do I start UNSLAAD?
-A: UNSLAAD requires the completion of Dragonslayer.
+A: UNSLAAD requires the completion of Dragonslayer (the final quest of the Main Quest).
 
 ### Q: What is the Pilgrim skill / How do I access the Pilgrim skill tree?
 A: The Pilgrim skill is added by [Pilgrim - Custom Skills Framework Addon](https://www.nexusmods.com/skyrimspecialedition/mods/93913) and acts as the way to progress the religion mechanic in the list. You can access the skill tree by using the **Pray** power while sneaking.

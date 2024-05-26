@@ -27,7 +27,7 @@ Before reading this section, I suggest looking over the [load order](https://loa
 
 ### Core Mods
 
- - [Adamant](https://www.nexusmods.com/skyrimspecialedition/mods/30191) and [Hand to Hand](https://www.nexusmods.com/skyrimspecialedition/mods/59790) handle the perks in the list.
+ - TBD
 
 ### Leveling and Progression
 
@@ -35,18 +35,11 @@ Apostasy modifies the vanilla leveling experience in a way to reward the player 
 
 #### Changes to leveling
 
-
+- TBD
 
 ### List Tweaks
 
-#### Notable Control Changes
-
- - In order to steal items while not sneaking, you must double tap the activator key (`E` by default).
-
-#### Religion Tweaks
-
- - **Auriel**: No longer gives a buff to sun spells, instead gives Restoration cost reduction.
- - **Jyggalag**: Has been added by [this mod](https://www.nexusmods.com/skyrimspecialedition/mods/99144).
+- TBD
 
 ### Quests Changes
 
