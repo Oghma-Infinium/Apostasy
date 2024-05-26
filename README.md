@@ -116,7 +116,7 @@ These steps are only required for installing the Modlist for the first time. Add
 
 #### Installing Microsoft Visual C++ Redistribution Package
 
- 1. Install [Visual C++ x64](https://aka.ms/vs/17/release/vc_redist.x64.exe) & [.Net Runtime 8.X.X desktop x64](https://dotnet.microsoft.com/en-us/download/dotnet/8.0).
+ 1. Install [Visual C++ x64](https://aka.ms/vs/17/release/vc_redist.x64.exe), [.Net Runtime 8.X.X desktop x64](https://dotnet.microsoft.com/en-us/download/dotnet/8.0), and [.Net 6.0 Runtime desktop x64](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-6.0.30-windows-x64-installer).
  2. Change Skyrim so it does not [automatically update](https://help.steampowered.com/en/faqs/view/71AB-698D-57EB-178C#disable).
  3. Right click on Skyrim SE and click on properties, untick the `Enable Steam Overlay while in-game.`
  4. You also need to start the games to the main menu in order to download all the creations. **DO NOT SKIP THIS STEP, IF YOU DO SO WABBAJACK WILL FAIL**
