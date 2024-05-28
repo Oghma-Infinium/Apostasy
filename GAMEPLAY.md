@@ -27,7 +27,7 @@ Before reading this section, I suggest looking over the [load order](https://loa
 
 ### Core Mods
 
- - TBD
+ - TBA
 
 ### Leveling and Progression
 
@@ -35,11 +35,28 @@ Apostasy modifies the vanilla leveling experience in a way to reward the player 
 
 #### Changes to leveling
 
-- TBD
+Apostasy uses [Experience](https://www.nexusmods.com/skyrimspecialedition/mods/17751) and [Static Skill Leveling Rewritten](https://www.nexusmods.com/skyrimspecialedition/mods/89940) to handle leveling and progression.
+
+My custom settings are explained below:
+<Details>
+<summary>Static Skill Leveling Settings</summary>
+
+ - Gain skill points equal to 5 + (0.5 * playerlevel) for each level up, up to 30 points at level 50.
+ - You can only store a maximum of 30 perks per level, therefore **after level 50, you must spend all your skill points at level up or you will waste some points.**
+ - You can increase perks up to 25 times per level (permitting you have enough points).
+
+Skills Costs are as follows:
+
+ > 0  to 25 : 1
+ > 26 to 50 : 2
+ > 51 to 75 : 4
+ > 76 to 100: 6
+
+</Details>
 
 ### List Tweaks
 
-- TBD
+- TBA
 
 ### Quests Changes
 

@@ -210,7 +210,7 @@ Installing Creation Club Content:
 Once you have completed pre-installation, download the [latest version of Wabbajack](https://github.com/wabbajack-tools/wabbajack/releases) on this github and place it in a folder such as `C:\Wabbajack`. **DO NOT place it in Program Files, User folders (such as Desktop, Documents, Downloads, OneDrive, etc.), or in your Skyrim's Steam folder**. I recommend placing it on an SSD as it will work quicker on there.
 
 >[!IMPORTANT]
->The list requires Wabbajack version **3.5.0.1 or later**, installing on older versions of Wabbajack will prevent the installation from being completed.
+>The list requires Wabbajack version **3.6.1.0 or later**, installing on older versions of Wabbajack will prevent the installation from being completed.
 
 #### Downloading and Installing Apostasy
 
