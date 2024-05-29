@@ -54,9 +54,26 @@ Skills Costs are as follows:
 
 </Details>
 
-### List Tweaks
+### Difficulty
 
-- TBA
+Apostasy uses [Difficulty Global Variable](https://www.nexusmods.com/skyrimspecialedition/mods/120521) allows for some additional tweaks to difficulty settings. 
+
+Advanced implementation will be explained later.
+
+<Details>
+<summary>Difficulty Sliders</summary>
+
+| Difficulty | Damage Done | Damage Taken |
+|     :---:    |     :---:     |     :---:     | 
+| **Novice**    | 1.50x | 1.00x | 
+| **Apprentice** | 1.25x | 1.25x |
+| **Adept** | 1.00x |  1.50x | 
+| **Expert** | 0.80x | 2.00x | 
+| **Master** | 0.70x | 2.50x | 
+| **Legendary** | 0.60x | 3.00x | 
+
+</Details>
+
 
 ### Quests Changes
 
