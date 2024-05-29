@@ -47,16 +47,16 @@ My custom settings are explained below:
 
 Skills Costs are as follows:
 
- > 0  to 25 : 1
- > 26 to 50 : 2
- > 51 to 75 : 4
- > 76 to 100: 6
+ > 0  to 25 : 1  
+ > 26 to 50 : 2  
+ > 51 to 75 : 4  
+ > 76 to 100: 6  
 
 </Details>
 
 ### Difficulty
 
-Apostasy uses [Difficulty Global Variable](https://www.nexusmods.com/skyrimspecialedition/mods/120521) allows for some additional tweaks to difficulty settings. 
+Apostasy uses [Difficulty Global Variable](https://www.nexusmods.com/skyrimspecialedition/mods/120521) allows for some additional tweaks to difficulty settings. A large advantage to using this mod is that difficulty setting will reflect in item and spell tooltips.
 
 Advanced implementation will be explained later.
 
