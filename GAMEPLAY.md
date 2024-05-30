@@ -42,8 +42,8 @@ My custom settings are explained below:
 <summary>Static Skill Leveling Settings</summary>
 
  - Gain skill points equal to 5 + (0.5 * playerlevel) for each level up, up to 30 points at level 50.
- - You can only store a maximum of 30 perks per level, therefore **after level 50, you must spend all your skill points at level up or you will waste some points.**
- - You can increase perks up to 25 times per level (permitting you have enough points).
+ - You can only store a maximum of 30 skill points per level, therefore **after level 50, you must spend all your skill points at level up or you will waste some points.**
+ - You can increase skills up to 25 times per level (permitting you have enough points).
 
 Skills Costs are as follows:
 
@@ -145,7 +145,7 @@ Apostasy changes a significant amount of vanilla quests in one way or another in
 <summary>Modded Quests</summary>
 
    - **Vigilant**: Requires level 25+ and the completion of [Kindred Judgement](https://en.uesp.net/wiki/Skyrim:Kindred_Judgment) and [House of Horrors](https://en.uesp.net/wiki/Skyrim:The_House_of_Horrors).
-   - **Unslaad**: Requires completion of [Dragonslayer](https://en.uesp.net/wiki/Skyrim:Dragonslayer) and Glenmoril.
+   - **Unslaad**: Requires completion of [Dragonslayer](https://en.uesp.net/wiki/Skyrim:Dragonslayer).
 
 </Details>
 
