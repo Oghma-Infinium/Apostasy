@@ -54,6 +54,25 @@ Skills Costs are as follows:
 
 </Details>
 
+<Details>
+<summary>Experience Skill Caps</summary>
+
+ Experience allows the implementation of level-based skill caps.
+
+ `skillCap = 18 + (playerlevel * 2.75)`
+
+| Level | Skill Cap |  
+|     :---:    |     :---:     |  
+| 1  | 20  |  
+| 5  | 31  | 
+| 10 | 45  | 
+| 15 | 59  | 
+| 20 | 73  | 
+| 25 | 86  |
+| 30 | 100 | 
+
+</Details>
+
 ### Difficulty
 
 Apostasy uses [Difficulty Global Variable](https://www.nexusmods.com/skyrimspecialedition/mods/120521) allows for some additional tweaks to difficulty settings. A large advantage to using this mod is that difficulty setting will reflect in item and spell tooltips.
