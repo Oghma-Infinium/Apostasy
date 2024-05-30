@@ -21,7 +21,7 @@
   - [Optional Visual Tweaks](#optional-visual-tweaks)
   - [Optional Gameplay Tweaks](#optional-gameplay-tweaks)
   - [Ultrawide Support](#ultrawide-support)
-  - [Changing Keybinds](#changing-keybinds)
+  - [Keybinds and Gamepad](#keybinds-and-gamepad)
   - [Changing Resolution](#changing-resolution)
   - [Skyrim Upscaler](#skyrim-upscaler)
   - [In-Game MCM options](#in-game-mcm-options)
@@ -61,7 +61,7 @@ This separator contains a series of visual-only mods that can be easily disabled
  7. `Precision Trail Magic Replacer - Chaos`: Edit of the precision weapon trail for enchanted and some unique weapons. Can be disabled if it does not suit user preferences.
  8. `Precision Trail Magic Replacer - Edit`: Disable if disabling the mod above.
  9. `Precision magic trails`: Disable if disabling the mods above.
- 10. `Precision Default Weapon Trail Replacer - Smoother`: Replacer for the default Precision weapon trail. 
+ 10. `[Addon] Precision Trail Replacer - Simple`: Replacer for the default Precision weapon trail. 
  11. `Visualized Critical Hits - MIF`: Adds some additional visual feedback on critical strikes. Can be disabled if it does not suit user preferences.
 
 ## Optional Gameplay Tweaks
@@ -76,11 +76,11 @@ Apostasy offers some mods to provide Ultrawide and Widescreen Support. Under the
 
 Please note that I (aljo) do not own a widescreen monitor. The ultrawide settings and additional mods are what have been said to work based on user input and may not be perfect.
 
-## Changing Keybinds
+## Keybinds and Gamepad
 
 This section is going to be short and basic and only cover keybinds that must be changed ***outside of the game***. Please refer the [this](https://ck.uesp.net/wiki/Input_Script) page for the DXScanCodes used by most mods.
 
-1. **Dual Wield Blocking**: Open the mod `Dual Wield Parrying - Settings` and locate the `DualWieldParryingSKSE.ini` file.
+1. **Dual Wield Blocking**: Open the mod `Apostasy - Dual Block Parry Keybinds`. In the mod open the `DualWieldParryingSKSE.ini` and the `BlockCancel.json` files. **MAKE SURE THE KEYBIND YOU CHANGE TO IN THE `DualWieldParryingSKSE.ini` MATCHES THE KEYBIND FOR `"BlockCancel2"` IN THE `BlockCancel.json`**.
 2. **Dodging**: Open the mod `TK Dodge - Settings` and locate the `TK Dodge RE.ini` file.
 
 ## Changing Resolution
