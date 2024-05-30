@@ -363,7 +363,7 @@ If you use Windows Defender, it is advised that you set up an Exception for the 
 
 ### Keyboard Keybinds
 
-![](https://raw.githubusercontent.com/Oghma-Infinium/Apostasy/main/images/Keyboard.png)
+![](https://raw.githubusercontent.com/Oghma-Infinium/Apostasy/main/images/Keybinds.png)
 
 ### Gamepad Keybinds
 
