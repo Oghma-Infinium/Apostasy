@@ -108,6 +108,7 @@ Harsher Health Regeneration is done to make Health Regeneration a more valuable 
 | **Expert** | 0% | 100% | 200% | 
 | **Master** | 0% | 100% | 150% | 
 | **Legendary** | 0% | 0% | 0% | 
+
  **On Novice and Apprentice, this mechanic is disabled.*
 
 **Legendary difficulty disables the Fortify Health Regeneration bonuses from falling below 50% and 25% Health.** This is done to ensure Legendary difficulty remains a challenge at all stages of the game, and to discourage players from playing on Legendary in general.
