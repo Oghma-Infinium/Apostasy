@@ -77,8 +77,6 @@ Skills Costs are as follows:
 
 Apostasy uses [Difficulty Global Variable](https://www.nexusmods.com/skyrimspecialedition/mods/120521) allows for some additional tweaks to difficulty settings. A large advantage to using this mod is that difficulty setting will reflect in item and spell tooltips.
 
-Advanced implementation will be explained later.
-
 <Details>
 <summary>Difficulty Sliders</summary>
 
@@ -93,6 +91,60 @@ Advanced implementation will be explained later.
 
 </Details>
 
+Apostasy introduces some additional mechanics based on difficulty. You can read more about these mechanics below.
+
+<Details>
+<summary>Harsher Health Regeneration</summary>
+
+On Adept difficulty and higher, the Harsher Health Regeneration mechanic is introduced. This mechanic reduces your character's natural Health Regeneration by 100%. When you fall below 50% Health, your Health Regeneration is increased by 100%, allowing your Health to naturally regenerate without any additional buffs. Below 25% Health, your Health Regeneration is increased by an additional amount based on the difficulty.
+
+Harsher Health Regeneration is done to make Health Regeneration a more valuable stat and more desirable. All effects that grant Health Regeneration (food, shrines, enchantments, alchemy, perks, etc.) will continue to function as intended.
+
+| Difficulty | Health Regeneration >50% | Health Regeneration <50% | Health Regeneration <25% |
+|     :---:    |     :---:     |     :---:     |      :---:     | 
+| **Novice**    | 100%* |100%* | 100%* | 
+| **Apprentice** | 100%* | 100%* | 100%* |
+| **Adept** | 0% | 100% |  250% | 
+| **Expert** | 0% | 100% | 200% | 
+| **Master** | 0% | 100% | 150% | 
+| **Legendary** | 0% | 0% | 0% | 
+ **On Novice and Apprentice, this mechanic is disabled.*
+
+**Legendary difficulty disables the Fortify Health Regeneration bonuses from falling below 50% and 25% Health.** This is done to ensure Legendary difficulty remains a challenge at all stages of the game, and to discourage players from playing on Legendary in general.
+
+</Details>
+
+<Details>
+<summary>Carry Weight and Encumbrance</summary>
+
+On Novice and Apprentice difficulty, your character's natural Carry Weight is increased by 200, making your base Carry Weight 500.
+
+On Expert difficulty and higher, the new Carry Weight and Encumbrance mechanics are introduced. These mechanics reduce your character's natural Carry Weight by 100, making your base Carry Weight 200. Additionally, when over-encumbered, you take 4 Stamina damage per second.
+
+These changes to carry weight seek to make Carry Weight a more interesting stat, while still allowing people to easily opt out of the system if they decide they do not like it.
+
+| Difficulty | Base Carry Weight | 
+|     :---:    |     :---:     | 
+| **Novice**    | 500 | 
+| **Apprentice** | 500 | 
+| **Adept** | 300 | 
+| **Expert** | 200 | 
+| **Master** | 200 | 
+| **Legendary** | 200 | 
+
+</Details>
+
+#### Attacks of Opportunity
+
+Apostasy introduces a unique Attacks of Opportunity system to the game. This system is designed for the list and can not be found anywhere else. Attacks of Opportunity scale with difficulty and provide advantages to tactical positioning and timing in combat. So how does it work?
+
+When you attack an enemy who is power attacking, drawing a bow, casting a spell, staggered, knocked down, or paralyzed, you will deal 50% more damage and poise damage. When you attack an enemy from behind, you will deal an additional 50% extra damage on top of any other Attack of Opportunity modifier(s) that may be active.
+
+The player is also susceptible to Attacks of Opportunity, however their lethality scales based on difficulty. On Adept difficulty, Attacks of Opportunity deal 25% more damage to the player. On Expert+ difficulties, Attacks of Opportunity deal 50% more damage to the player. On Novice and Apprentice difficulties, the player can not suffer an Attack of Opportunity.
+
+Ward spells protect the user from Attacks of Opportunities (player and any NPC).
+
+Apostasy also introduces a "Massive Target" feature for specific enemy types. Massive Targets take 50% less damage from Attacks of Opportunity on Adept difficulty or lower (they take 25% more damage rather than 50% more damage) and can not be backstabbed. On Expert+ difficulties, Massive Targets can not suffer from Attacks of Opportunity.
 
 ### Quests Changes
 
