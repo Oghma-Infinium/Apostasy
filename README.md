@@ -367,6 +367,8 @@ If you use Windows Defender, it is advised that you set up an Exception for the 
 
 ### Gamepad Keybinds
 
+![](https://raw.githubusercontent.com/Oghma-Infinium/Apostasy/main/images/controlmap.png)
+
 >[!WARNING]
 >Gamepads may need additional setup in order to work as intended. Please refer to the [Configuration](https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/CONFIG.md#gamepad-support) page.
 
