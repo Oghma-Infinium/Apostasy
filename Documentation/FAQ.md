@@ -21,7 +21,10 @@
 A: No, but if you ask me any question on this document, I will refer you back to here.
 
 ### Q: What mod is it that makes favorited items/potions/quest items show on my character?
-A: [Immersive Equipment Displays](https://www.nexusmods.com/skyrimspecialedition/mods/62001). You can open the menu with `Left Shift+Backspace` to customize what you want to show and what you don't want to show. You can also use IED to determine weapon positioning (if you want weapons to be sheathed on back for example).
+A: [Immersive Equipment Displays](https://www.nexusmods.com/skyrimspecialedition/mods/62001). You can open the menu with `Left Shift+Backspace` to customize what you want to show and what you don't want to show.
+
+### Q: How do I reposition my weapons? / Can I have swords on my back?
+A: Open the [Immersive Equipment Displays](https://www.nexusmods.com/skyrimspecialedition/mods/62001) GUI with `Left Shift+Backspace` and reposition your equipment.
 
 ### Q: How do I start the main questline?  
 A: Go to the Helgen Inn and use the dialogue option `"I forgot what it says"` in order to start the intro sequence.
@@ -32,7 +35,7 @@ A: VIGILANT requires the player be level 25, completion of House of Horrors, and
 ### Q: How do I start UNSLAAD?
 A: UNSLAAD requires the completion of Dragonslayer (the final quest of the Main Quest).
 
-### Q: What is the Pilgrim skill / How do I access the Pilgrim skill tree?
+### Q: What is the Pilgrim skill? / How do I access the Pilgrim skill tree?
 A: The Pilgrim skill is added by [Pilgrim - Custom Skills Framework Addon](https://www.nexusmods.com/skyrimspecialedition/mods/93913) and acts as the way to progress the religion mechanic in the list. You can access the skill tree by using the **Pray** power while sneaking.
 
 ### Q: How do I set up the quick wheel?
@@ -44,10 +47,25 @@ A: This is usually caused by an alternate start mod that adds random items to yo
 ### Q: Can I still use the vanilla favorites menu? I do not like the wheel.
 A: If you're on keyboard press `G` to open up the vanilla favorites menu.
 
-### Q: Sex?
-A: No.
+### Q: How many plugins does the list have?
+A: The list has 149* `.esp` and `.esm` plugins, and 2387* light-flagged plugins (`.esl` and `esp-fe` files). 
+ *Last Updated: June 11, 2024.*
+
+### Q: Wil you add [insert mod] to the list?
+A: No, probably not. We'll see.
+
+### Q: Will you add OStim/SexLab to the list?
+A: If you want to commission me to do so, then maybe. Otherwise, no.
 
 ## Known Issues
+
+### HUD / UI Disappears during Helgen Intro!
+Solution(s)
+ 1. This seems to be an issue that will sometimes occur with [Alternate Perspective](https://www.nexusmods.com/skyrimspecialedition/mods/50307/) while doing the Helgen intro. **Restarting your game** will return your HUD / UI to normal.
+
+### Carriage Horse in Solitude is partially in the wall!
+Solution(s)
+ 1. This bug isn't worthy of my time and I have already tried to fix it. For some reason that is beyond my current comprehension, he does not move after being moved in the CK. I will not waste more brain power and time trying to figure out the cause of this very very minor issue.
 
 ### Naked when in Vampire Lord form!
 Solution(s)

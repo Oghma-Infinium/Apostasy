@@ -27,7 +27,10 @@ Before reading this section, I suggest looking over the [load order](https://loa
 
 ### Core Mods
 
- - TBA
+ - [Perk Mod](https://www.youtube.com/watch?v=dQw4w9WgXcQ).
+ - [Race Mod](https://www.youtube.com/watch?v=dQw4w9WgXcQ) and [Standing Stone Mod](https://www.youtube.com/watch?v=dQw4w9WgXcQ).
+ - [Religion Mod](https://www.youtube.com/watch?v=dQw4w9WgXcQ).
+ - 
 
 ### Leveling and Progression
 
@@ -41,16 +44,19 @@ My custom settings are explained below:
 <Details>
 <summary>Static Skill Leveling Settings</summary>
 
- - Gain skill points equal to 5 + (0.5 * playerlevel) for each level up, up to 30 points at level 50.
- - You can only store a maximum of 30 skill points per level, therefore **after level 50, you must spend all your skill points at level up or you will waste some points.**
- - You can increase skills up to 25 times per level (permitting you have enough points).
+ - Gain skill points equal to 10 + (1 * playerlevel) for each level up, up to 50 points per level (this cap will be hit at level 40+).
+ - You can only store a maximum of 50 skill points per level, therefore **after level 40, you must spend all your skill points at level up or you will waste some points.**
+ - You can increase skills up to 25 times per level (permitting you have enough points and the skills are adequately below the current skill cap).
 
-Skills Costs are as follows:
+Skill Point Costs are as follows:
 
- > 0  to 25 : 1  
- > 26 to 50 : 2  
- > 51 to 75 : 4  
- > 76 to 100: 6  
+| Skill Level | Skill Point Cost |  
+|     :---:    |     :---:     |  
+| 0-25  | 1  |  
+| 26-50  | 2  | 
+| 51-75 | 4  | 
+| 76-100 | 6  | 
+
 
 </Details>
 
@@ -75,7 +81,8 @@ Skills Costs are as follows:
 
 ### Difficulty
 
-Apostasy uses [Difficulty Global Variable](https://www.nexusmods.com/skyrimspecialedition/mods/120521) allows for some additional tweaks to difficulty settings. A large advantage to using this mod is that difficulty setting will reflect in item and spell tooltips.
+Rather than Skyrim's vanilla difficulty system of only scaling up or down damage based on difficulty, Apostasy introduces some additional mechanics based on difficulty. You can read more about these mechanics below.
+
 
 <Details>
 <summary>Difficulty Sliders</summary>
@@ -91,8 +98,6 @@ Apostasy uses [Difficulty Global Variable](https://www.nexusmods.com/skyrimspeci
 
 </Details>
 
-Apostasy introduces some additional mechanics based on difficulty. You can read more about these mechanics below.
-
 <Details>
 <summary>Harsher Health Regeneration</summary>
 
@@ -100,7 +105,7 @@ On Adept difficulty and higher, the Harsher Health Regeneration mechanic is intr
 
 Harsher Health Regeneration is done to make Health Regeneration a more valuable stat and more desirable. All effects that grant Health Regeneration (food, shrines, enchantments, alchemy, perks, etc.) will continue to function as intended.
 
-| Difficulty | Health Regeneration >50% | Health Regeneration <50% | Health Regeneration <25% |
+| Difficulty | Base Health Regeneration >50% | Base Health Regeneration <50% | Base Health Regeneration <25% |
 |     :---:    |     :---:     |     :---:     |      :---:     | 
 | **Novice**    | 100%* |100%* | 100%* | 
 | **Apprentice** | 100%* | 100%* | 100%* |
@@ -111,7 +116,7 @@ Harsher Health Regeneration is done to make Health Regeneration a more valuable 
 
  **On Novice and Apprentice, this mechanic is disabled.*
 
-#### **Legendary difficulty disables the Fortify Health Regeneration bonuses from falling below 50% and 25% Health.** This is done to ensure Legendary difficulty remains a challenge at all stages of the game, and to discourage players from playing on Legendary in general.
+#### Legendary difficulty disables the Fortify Health Regeneration bonuses from falling below 50% and 25% Health.w This is done to ensure Legendary difficulty remains a challenge at all stages of the game, and to discourage players from playing on Legendary in general.
 
 </Details>
 
@@ -135,17 +140,32 @@ These changes to carry weight seek to make Carry Weight a more interesting stat,
 
 </Details>
 
+<Details>
+<summary>Poise and Stagger</summary>
+
+On Apprentice and Novice difficulty, the player can not be inflicted with Heavy Stagger, unless facing a Massive Target.
+
+On Novice difficulty, the player gains a 50% resistance to all incoming Poise Damage. This results in the player being very difficult to stagger.
+
+On Legendary difficulty, the player deals 50% less Poise Damage to enemies.
+
+</Details>
+
 #### Attacks of Opportunity
 
 Apostasy introduces a unique Attacks of Opportunity system to the game. This system is designed for the list and can not be found anywhere else. Attacks of Opportunity scale with difficulty and provide advantages to tactical positioning and timing in combat. So how does it work?
 
-When you attack an enemy who is power attacking, drawing a bow, casting a spell, staggered, knocked down, or paralyzed, you will deal 50% more damage and poise damage. When you attack an enemy from behind, you will deal an additional 50% extra damage on top of any other Attack of Opportunity modifier(s) that may be active.
+When you attack an enemy who is power attacking, drawing a bow, casting a spell, staggered, knocked down, or paralyzed, you will deal 50% more damage and poise damage. When you attack an enemy from behind (a backstab), you will deal an additional 50% extra damage on top of any other Attack of Opportunity modifier(s) that may be active.
 
-The player is also susceptible to Attacks of Opportunity, however their lethality scales based on difficulty. On Adept difficulty, Attacks of Opportunity deal 25% more damage to the player. On Expert+ difficulties, Attacks of Opportunity deal 50% more damage to the player. On Novice and Apprentice difficulties, the player can not suffer an Attack of Opportunity.
+The player is also susceptible to Attacks of Opportunity, however their lethality scales based on difficulty. On Adept difficulty, Attacks of Opportunity deal 25% more damage to the player. On Expert+ difficulties, Attacks of Opportunity deal 50% more damage to the player. On Novice and Apprentice difficulties, the player can not suffer an Attack of Opportunity. The player can not be backstabbed.
 
 Ward spells protect the user from Attacks of Opportunities (player and any NPC).
 
+#### Massive Targets
+
 Apostasy also introduces a "Massive Target" feature for specific enemy types. Massive Targets take 50% less damage from Attacks of Opportunity on Adept difficulty or lower (they take 25% more damage rather than 50% more damage) and can not be backstabbed. On Expert+ difficulties, Massive Targets can not suffer from Attacks of Opportunity.
+
+Additionally, Massive Targets have a higher likelihood of inflicting Heavy Staggers.
 
 ### Quests Changes
 
@@ -219,6 +239,7 @@ This section will try to list the new content focused mods added to the list, an
  - [Penitus Oculatus](https://www.nexusmods.com/skyrimspecialedition/mods/21061)
  - [SIRENROOT - Deluge of Deceit](https://www.nexusmods.com/skyrimspecialedition/mods/70917)
  - [Skyrim Extended Cut - Saints and Seducers](https://www.nexusmods.com/skyrimspecialedition/mods/72772)
+ - [Tales of Skyrim - Berserkyr](https://www.nexusmods.com/skyrimspecialedition/mods/103559)
  - [Unslaad](https://www.nexusmods.com/skyrimspecialedition/mods/11789)
  - [VIGILANT](https://www.nexusmods.com/skyrimspecialedition/mods/11849)
 
@@ -227,6 +248,7 @@ This section will try to list the new content focused mods added to the list, an
  - [A Lovely Letter Alternate Routes](https://www.nexusmods.com/skyrimspecialedition/mods/21916)
  - [Blood and Silver - Cidhna Mine Expanded](https://www.nexusmods.com/skyrimspecialedition/mods/20269)
  - [Blood on the Ice Redux](https://www.nexusmods.com/skyrimspecialedition/mods/6126)
+ - [Boethiah's Calling - Alternate Questline](https://www.nexusmods.com/skyrimspecialedition/mods/121499)
  - [Caught Red Handed - Quest Expansion](https://www.nexusmods.com/skyrimspecialedition/mods/65708)
  - [Defeat the Dragon Cult](https://www.nexusmods.com/skyrimspecialedition/mods/86625)
  - [Finding Susanna Alive](https://www.nexusmods.com/skyrimspecialedition/mods/32512)
@@ -236,6 +258,7 @@ This section will try to list the new content focused mods added to the list, an
  - [In the Shadow of the Crown](https://www.nexusmods.com/skyrimspecialedition/mods/79600)
  - [Infiltration - Quest Expansion](https://www.nexusmods.com/skyrimspecialedition/mods/114054)
  - [Jiub's Opus](https://www.nexusmods.com/skyrimspecialedition/mods/17056)
+ - [Mehrunes Dagon's Shrine Unlocked - Pieces of the Past Alternate Ending](https://www.nexusmods.com/skyrimspecialedition/mods/119502)
  - [Muiri's Revenge](https://www.nexusmods.com/skyrimspecialedition/mods/24312)
  - [Nilheim - Misc Quest Expansion](https://www.nexusmods.com/skyrimspecialedition/mods/53792)
  - [Paarthurnax - Quest Expansion](https://www.nexusmods.com/skyrimspecialedition/mods/51711)

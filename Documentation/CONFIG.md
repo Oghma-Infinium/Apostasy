@@ -16,30 +16,47 @@
 ---
 
 - [Optional Addons](#optional-addons)
-  - [Gamepad Support](#gamepad-support)
+  - [Keybinds and Gamepad](#keybinds-and-gamepad)
+    - [Controller and Gamepad Support](#controller-and-gamepad-support)
   - [Performance Optimizations](#performance-optimizations)
   - [Optional Visual Tweaks](#optional-visual-tweaks)
   - [Optional Gameplay Tweaks](#optional-gameplay-tweaks)
   - [Ultrawide Support](#ultrawide-support)
-  - [Keybinds and Gamepad](#keybinds-and-gamepad)
-  - [Changing Resolution](#changing-resolution)
+- [Changing Resolution](#changing-resolution)
   - [Skyrim Upscaler](#skyrim-upscaler)
-  - [In-Game MCM options](#in-game-mcm-options)
-  - [Wheeler](#wheeler)
-    - [Wheel Editing](#wheel-editing)
-      - [Creation](#creation)
-      - [Insertion](#insertion)
-      - [Ordering](#ordering)
-      - [Deletion](#deletion)
+  - [Lossless Scaling](#lossless-scaling)
+- [In-Game MCM options](#in-game-mcm-options)
+- [Wheeler](#wheeler)
+  - [Wheel Editing](#wheel-editing)
+    - [Creation](#creation)
+    - [Insertion](#insertion)
+    - [Ordering](#ordering)
+    - [Deletion](#deletion)
 
 
 # Optional Addons
 
 The following sections detail the **supported** modifications to the list. Any other modifications should be discussed in the `#Apostasy-modifications` channel of the [Waking Dreams](https://discord.gg/4WwqfK5yHg) support server.
 
-## Gamepad Support
+## Keybinds and Gamepad
 
-Gamepad/Controller support for the list.
+This section is going to be short and basic and only cover keybinds that must be changed ***outside of the game***. Please refer the [this](https://ck.uesp.net/wiki/Input_Script) page for the DXScanCodes used by most mods.
+
+ 1. **Dual Wield Blocking**: Open the mod `Apostasy - Dual Block Parry Keybinds`. In the mod open the `DualWieldParryingSKSE.ini` and the `BlockCancel.json` files. **MAKE SURE THE KEYBIND YOU CHANGE TO IN THE `DualWieldParryingSKSE.ini` MATCHES THE KEYBIND FOR `"BlockCancel2"` IN THE `BlockCancel.json`**.
+ 2. **Dodging**: Open the mod `TK Dodge - Settings` and locate the `TK Dodge RE.ini` file.
+
+### Controller and Gamepad Support
+
+Apostasy ships with a premade controller configuration, designed for the list. In order to activate the controller config, please follow the steps below:
+
+ 1. Navigate to the `Keybinds and Gamepad` separator under the Optional Addons section in the **right pane** of MO2.
+ 2. Deactivate the `Apostasy - Default Controlmap` mod.
+ 3. Activate the `Wait Menu Redirected Mod`.
+ 4. Activate the `Apostasy - Controller Configuration` mod.
+ 5. ???
+ 6. Profit!
+
+Please note that by default, the controller config does not support blocking with a weapon+spell. If you want to add this feature then you can change the **Dual Wield Blocking** keybind, however there isn't really an available bind for it.
 
 ## Performance Optimizations
 
@@ -64,7 +81,7 @@ This separator contains a series of visual-only mods that can be easily disabled
  7. `Precision Trail Magic Replacer - Chaos`: Edit of the precision weapon trail for enchanted and some unique weapons. Can be disabled if it does not suit user preferences.
  8. `Precision Trail Magic Replacer - Edit`: Disable if disabling the mod above.
  9. `Precision magic trails`: Disable if disabling the mods above.
- 10. `[Addon] Precision Trail Replacer - Simple`: Replacer for the default Precision weapon trail. 
+ 10. `Precision Trail Replacer - Simple`: Replacer for the default Precision weapon trail. 
  11. `Visualized Critical Hits - MIF`: Adds some additional visual feedback on critical strikes. Can be disabled if it does not suit user preferences.
 
 ## Optional Gameplay Tweaks
@@ -79,14 +96,7 @@ Apostasy offers some mods to provide Ultrawide and Widescreen Support. Under the
 
 Please note that I (aljo) do not own a widescreen monitor. The ultrawide settings and additional mods are what have been said to work based on user input and may not be perfect.
 
-## Keybinds and Gamepad
-
-This section is going to be short and basic and only cover keybinds that must be changed ***outside of the game***. Please refer the [this](https://ck.uesp.net/wiki/Input_Script) page for the DXScanCodes used by most mods.
-
-1. **Dual Wield Blocking**: Open the mod `Apostasy - Dual Block Parry Keybinds`. In the mod open the `DualWieldParryingSKSE.ini` and the `BlockCancel.json` files. **MAKE SURE THE KEYBIND YOU CHANGE TO IN THE `DualWieldParryingSKSE.ini` MATCHES THE KEYBIND FOR `"BlockCancel2"` IN THE `BlockCancel.json`**.
-2. **Dodging**: Open the mod `TK Dodge - Settings` and locate the `TK Dodge RE.ini` file.
-
-## Changing Resolution
+# Changing Resolution
 
 By default, Wabbajack will set the resolution in the list's `Skyrimprefs.ini` to match the native resolution of your monitor. However, Skyrim scales very poorly at resolutions above 1080p (`1920x1080`) and depending on your hardware, it might be difficult to achieve consistent FPS on higher resolutions.
 
@@ -104,34 +114,44 @@ In the `SSEDisplayTweaks.ini` make sure that `Fullscreen = false`, `Borderless =
 
 All other installation concerns for Skyrim Upscaler (DLSS) should be discussed in the modifications channel in the discord.  
 
-## In-Game MCM options
+## Lossless Scaling
+
+[Lossless Scaling](https://store.steampowered.com/app/993090/Lossless_Scaling/) is also an unsupported addition to the list. If you plan on using it, follow the instructions above for Skyrim Upscaler, they should be applicable here as well. 
+
+All other configuration concerns for Lossless Scaling should be discussed in the modifications channel in the discord.
+
+# In-Game MCM options
 
 Most MCMs will come pre-configured, the following is a list of Mod Configuration Menus that I have deemed may be beneficial to play around with as a user.
 
+ 1. `Apostasy`: This is a custom MCM made for the list.
+    > **NSFW Armors Toggle**: Determines whether some lewd-er versions of some armors will be craftable or not. Has no effect on the armors that NPCs wear or the armors that can be looted. (Default: Disabled)
+    > **Killmove Toggle**: Toggles whether or not Killmoves are allowed. (Default: Enabled)
+ 2. `Name`: Pending info 
 
-## Wheeler
+# Wheeler
 
 I am only writing this section because it is commonly asked enough that I feel I need to write it down on the list's documentation to have an easy place to point people. Almost this entire section is copy-pasted from the [Wheeler mod page](https://www.nexusmods.com/skyrimspecialedition/mods/97345).
 
-### Wheel Editing
+## Wheel Editing
 
 Changes to the wheel can be made when you open the wheel in either the inventory or magic menu. When you open the wheel in these two menus, the background will grey out, suggesting that you're now in **edit mode**.
 
-#### Creation
+### Creation
 
 By default, create an empty wheel using the `N` key and an empty slot using the `M` key. You can create as many wheels and as many slots in a single wheel as you'd like.
 
-#### Insertion
+### Insertion
 
 To insert an item or magic into the slot, hover on the item you desire in the inventory, open the wheel, and left-click (right shoulder) on the entry you wish to insert the item into.
 
-#### Ordering
+### Ordering
 
 To change a slot's order in a wheel, press the up/down arrow to swap its position with neighboring slots.
 
 To change a wheel's ordering among all wheels, press the left/right arrow to swap its position with neighboring wheels.
 
-#### Deletion
+### Deletion
 
 To delete an item from a slot, simply right-click on the item you wish to delete.
 
