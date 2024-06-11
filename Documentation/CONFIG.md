@@ -64,7 +64,7 @@ It is suggested that the majority of this section is left untouched unless you a
 
 The mods prefixed as `[Performance]` will be discussed below.
  1. `SSE Display Tweaks - Modified`: This is the version of Display Tweaks that is suggested to be edited for ease of use. Right clicking on the mod --> Information --> Notes provides instructions on the necessary Display Tweaks changes necessary if you plan on using some type of 3rd party FrameGen tool.
- 2. `Faster HDT-SMP - AVX512 Optimization`: This mod contains the AVX512 version of the [Faster HDT-SMP](https://www.nexusmods.com/skyrimspecialedition/mods/57339) `.dll` file compatible with the list. It is ***highly*** suggested that you try out this addon if you have a CPU that supports AVX-512 instruction. If you do not know if your CPU supports AVX-512, then google it or use a tool like HWinfo. **ENABLING THIS MOD WITH AN INCOMPATIBLE CPU WILL CRASH YOUR GAME**.
+ 2. `Faster HDT-SMP - AVX512 Optimization`: This mod contains the AVX512 version of the [Faster HDT-SMP](https://www.nexusmods.com/skyrimspecialedition/mods/57339) `.dll` file compatible with the list. It is ***highly*** suggested that you try out this addon if you have a CPU that supports AVX-512 instruction. If you do not know if your CPU supports AVX-512, then google it or use a tool like HWinfo. **ENABLING THIS MOD WITH AN INCOMPATIBLE CPU WILL EITHER CRASH YOUR GAME OR BREAK ALL SMP**.
  3. `CPU affinity`: To adjust CPU affinity for your setup, click the `Puzzle Piece` button at the top of MO2 and select `Set CPU Affinity`. Example of the options you need to press are provided [here](https://raw.githubusercontent.com/Oghma-Infinium/Vagabond/main/images/cpu%20affinity%20example.png).  
 
        > May give small performance improvement.
@@ -122,12 +122,24 @@ All other configuration concerns for Lossless Scaling should be discussed in the
 
 # In-Game MCM options
 
-Most MCMs will come pre-configured, the following is a list of Mod Configuration Menus that I have deemed may be beneficial to play around with as a user.
+Most MCMs will come pre-configured, the following is a list of Mod Configuration Menus that I have deemed may be beneficial to play around with as a user. Default hotkeys listed are for Keyboard and may differ if using the controller config.
+
+Changing MCM Settings in any MCM that is under the `> Apostasy MCM Hider <` tab is considered a list modification.
 
  1. `Apostasy`: This is a custom MCM made for the list.
     > **NSFW Armors Toggle**: Determines whether some lewd-er versions of some armors will be craftable or not. Has no effect on the armors that NPCs wear or the armors that can be looted. (Default: Disabled)
     > **Killmove Toggle**: Toggles whether or not Killmoves are allowed. (Default: Enabled)
- 2. `Name`: Pending info 
+ 2. `CollisionReset`: Change the keybind for resetting SMP physics (Default: `F10`). 
+ 3. `Compass Controls`: Change the Toggle key for the Compass (Default: `'`).
+ 4. `Dialogue History`: Change the keybind to bring up the Dialogue History menu (Default: `LAlt + Y`).
+ 5. `Dynamic Activation Key`: Change the keybind modifier for Dynamic Activation (Default: `LShift`).
+ 6. `EVG CLAMBER`: Change the EVG Clamber settings (Default: `Balanced`). This isn't recommended to be tampered with but you can.
+ 7. `Horse Whistle Key`: Change the Hotkey for Horse Call (Default: `H`). Optionally add a lesser power to perform the function of the hotkey.
+ 8. `OBody NG`: Change the keybind for the OBody morphs menu (Default: `;`).
+ 9. `QuickLoot EE`: Optionally disable QuickLoot from popping up during combat.
+ 10. `SmoothCam`: Change the SmoothCam Camera preset (Default: `Name`).
+ 11. `Swift Potion`: Change the hotkey for quick Health potion (Default: `F`). Optionally add hotkeys for quick Magicka and Stamina potions.
+ 12. `True Directional Movement`: Change the target lock hotkey (Default: `M3`).
 
 # Wheeler
 

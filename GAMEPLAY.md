@@ -83,7 +83,6 @@ Skill Point Costs are as follows:
 
 Rather than Skyrim's vanilla difficulty system of only scaling up or down damage based on difficulty, Apostasy introduces some additional mechanics based on difficulty. You can read more about these mechanics below.
 
-
 <Details>
 <summary>Difficulty Sliders</summary>
 
@@ -281,7 +280,9 @@ This section will try to list the new content focused mods added to the list, an
  - [Follower Dialogue Expansion - Aela the Huntress](https://www.nexusmods.com/skyrimspecialedition/mods/114801)
  - [Follower Dialogue Expansion - Brelyna Maryon](https://www.nexusmods.com/skyrimspecialedition/mods/113359)
  - [Follower Dialogue Expansion - Erik the Slayer](https://www.nexusmods.com/skyrimspecialedition/mods/116719)
+ - [Follower Dialogue Expansion - Jenassa](https://www.nexusmods.com/skyrimspecialedition/mods/120255)
  - [Follower Dialogue Expansion - Jordis the Sword-Maiden](https://www.nexusmods.com/skyrimspecialedition/mods/117930)
+ - [Follower Dialogue Expansion - Lydia](https://www.nexusmods.com/skyrimspecialedition/mods/119226)
  - [Follower Dialogue Expansion - Mjoll the Lioness](https://www.nexusmods.com/skyrimspecialedition/mods/116025)
  - [Gore - A Companion Mod](https://www.nexusmods.com/skyrimspecialedition/mods/85298)
  - [INDIGO](https://www.nexusmods.com/skyrimspecialedition/mods/88240)
