@@ -17,10 +17,102 @@
 
 # Changelog
 
+- [0.3.1](#031) Release Date: June 12, 2024
 - [0.3.0](#030) Release Date: June 9, 2024
 - [0.2.0](#020) Release Date: June 4, 2024
 - [0.1.1](#011) Release Date: May 30, 2024
 - [0.1.0](#001) Release Date: May 29, 2024
+
+## 0.3.1
+
+Key Info
+
+ - Save-Safe. Just remove and re-get your Standing Stones so they update appropriately.
+ - Revamped Standing Stones.
+ - Im too tired to write the rest of this changelog, just read the notes below.
+
+<Details>
+<summary>Changes</summary>
+
+### Updated
+
+ - Boethiah's Calling - Alternate Questline
+ - Tales of Skyrim - Berserkyr
+ - Tales of Skyrim - Berserkyr Patch Collection
+ - Animated Ice Bergs
+ - Vanilla hair remake
+ - Animated Ice Floes
+ - Revenant Spirits of the Soul Cairn
+ - Falkreath Gravestone Diversity - Base Object Swapper
+ - powerofthree's Tweaks
+ - Alternate Perspective - Alternate Start
+
+### Added
+
+ - Papyrus Ini Manipulator
+ - JS Shout Apart Skeletons SE
+ - Falmer Servant Lines Expansion
+ - Magic Casting Utilities
+ - Shout Recovery Utilities
+ - Safety of Skuldafn - Railing and Small Fixes
+ - Solstheim Exterior Soundscapes
+ - Sonorum Arcana - The Magic Sound Compendium
+ - Sorcerer Combat Animation* (NYI)
+ - QuickLoot EE - Settings Loader
+ - Player Name Randomizer
+ - Player Name Randomizer - Show in UI
+ - Patrons Menu* (NYI)
+
+### Removed
+
+ - Paper UI Sounds for Skyrim
+ - Servitor - Atronach SFX Replacer
+
+</Details>
+
+<Details>
+<summary>Patch Notes</summary>
+
+### Balance
+
+ - Revamped Standing Stones.
+ - Gave the player 25% resistance to incoming Stagger during power attacks.
+ - Increased base poise Health by 50%.
+ - Decreased base poise damage of melee weapons by 50%.
+ - Decreased base poise damage of ranged weapons by 25%.
+ - Removed Tree in front of Embershard Mine that bandits were constantly getting stuck on.
+ - You can no longer jump when you do not have enough Stamina (10).
+ - Did some background adjustments to the damage formula for the Ravage, Devastate, Overwhelm, Rip and Tear, and Carve and Spit perks.
+
+### Bug Fixes
+ 
+ - Fixed One With the Pack (Speech) having an incorrect tooltip based on an earlier design of the perk.
+ - Martyrdom (Heavy Armor) now actually works (previously only worked == 50% Health and not <= 50% Health>). 
+ - Nerfed Martyrdom from 250% Reflect to 200% Reflect.
+ - Untouchable (Light Armor) received the same fix as Martyrdom.
+ - Fixed compile issue that caused the Vigilant Rebalance to be missing from the list.
+ - Removed Rim Lighting from Companion Armor 2.
+ - Fixed inconsistent map marker coloration.
+ - Fixed issue with unknown locations on compass appearing as quest markers.
+ - Improper WeapType sorting in inventory (i.e. Katanas being classified as War Axes) will be fixed in a future version. The issue was addressed with the relevant authors.
+ - Scarves and Mufflers should have gnd and inventory models now. I did not test this fix.
+ - Added vertex coloring to `bridgerowboat02anim.nif` and `bridgerowboat03anim.nif`, hopefully this fixes broken parallax. (Did not test).
+
+### Misc. Changes
+
+ - Added a SkyUI MCM config that *may* improve item positioning in inventory for ultrawide (21:9) users. Let me know if things are better.
+ - Adjusted the shape of the Light Armor and Smithing trees.
+ - Increased Precision Capsule length for first person.
+ - Tweaked Extended Encounters MCM.
+ - Changed sourcing for certain files, should reduce Wabbajack file size.
+ - Added MenuMain to ScriptClassExclusions of PapyrusTweaks.
+ - Swapped to Papyrus version of [Dynamic Activation Key](https://www.nexusmods.com/skyrimspecialedition/mods/96273) since some crashes appeared to be linked to the DLL version.
+ - Added some mods I will implement in the future.
+ - Swapped some tree models.
+ - Travelling Priest gear is now crafted at a forge instead of a tanning rack.
+ - I think I fixed map markers being inconsistently colored.
+
+</Details>
 
 ## 0.3.0
 
