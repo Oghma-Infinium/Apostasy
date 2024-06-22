@@ -21,7 +21,7 @@
 A: No, but if you ask me any question on this document, I will refer you back to here.
 
 ### Q: Can I uncap the FPS?
-A: The list is capped to 61 FPS by default. While [SSE Display Tweaks](https://www.nexusmods.com/skyrimspecialedition/mods/34705) adjusts timing values based on framerate to prevent physics from spazzing out at high framerates, some mods may use havok code that still rely on a ~60 FPS cap to prevent physics-based issues. If you wish to uncap the FPS, then you can do so in the ENB menu.
+A: The list is capped to 61 FPS by default. While [SSE Display Tweaks](https://www.nexusmods.com/skyrimspecialedition/mods/34705) adjusts timing values based on framerate to prevent physics from spazzing out at high framerates, some mods may use havok code that still rely on a ~60 FPS cap to prevent physics-based issues. If you wish to uncap the FPS, then you can do so in the ENB menu **AND** in the `SSEDisplayTweaks.ini` file in the `[Performance] SSE Display Tweaks - Modified` mod.
 
 ### Q: What mod is it that makes favorited items/potions/quest items show on my character?
 A: [Immersive Equipment Displays](https://www.nexusmods.com/skyrimspecialedition/mods/62001). You can open the menu with `Left Shift+Backspace` to customize what you want to show and what you don't want to show.

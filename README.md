@@ -402,12 +402,13 @@ In order to get the best possible response please ensure that:
 
 ### Gamepad Keybinds
 
-![](https://raw.githubusercontent.com/Oghma-Infinium/Apostasy/main/images/controlmap.png)
-
 >[!WARNING]
 >Gamepads may need additional setup in order to work as intended. Please refer to the [Configuration](https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/CONFIG.md#gamepad-support) page.
 
-![](https://raw.githubusercontent.com/Oghma-Infinium/Apostasy/main/images/Gamepad.png)
+![](https://raw.githubusercontent.com/Oghma-Infinium/Apostasy/main/images/controlmap.png)
+
+>[!TIP]
+>You can review default keybinds in game by pressing `F11`!
 
 ## Playing the List
 
