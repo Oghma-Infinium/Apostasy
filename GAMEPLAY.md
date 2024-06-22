@@ -115,7 +115,7 @@ Harsher Health Regeneration is done to make Health Regeneration a more valuable 
 
  **On Novice and Apprentice, this mechanic is disabled.*
 
-#### Legendary difficulty disables the Fortify Health Regeneration bonuses from falling below 50% and 25% Health.w This is done to ensure Legendary difficulty remains a challenge at all stages of the game, and to discourage players from playing on Legendary in general.
+**Legendary difficulty disables the Fortify Health Regeneration bonuses from falling below 50% and 25% Health. This is done to ensure Legendary difficulty remains a challenge at all stages of the game, and to discourage players from playing on Legendary in general.**
 
 </Details>
 
@@ -171,11 +171,14 @@ Additionally, Massive Targets have a higher likelihood of inflicting Heavy Stagg
 Apostasy changes a significant amount of vanilla quests in one way or another in order to offer a more complete roleplaying exprience. The following list is non-exhaustive. Please note that not all MCM Options from Timing is Everything may work as intended in the list.
 
 <Details>
-<summary>DLC Quests</summary>
+<summary>Vanilla Quests</summary>
 
  - [Awakening](https://en.uesp.net/wiki/Skyrim:Awakening) Requires level 20, however this can be started at any point by going to [Dayspring Canyon](https://en.uesp.net/wiki/Skyrim:Dayspring_Canyon).
  - [Hearthfire](https://en.uesp.net/wiki/Skyrim:Hearthfire) Letter Requires level 15.
  - [Dragonborn](https://en.uesp.net/wiki/Skyrim:Dragonborn_(quest)) Requires level 20 and completion of [The Horn of Jurgen Windcaller](https://en.uesp.net/wiki/Skyrim:The_Horn_of_Jurgen_Windcaller).
+ - [A Chance Arrangement](https://en.uesp.net/wiki/Skyrim:A_Chance_Arrangement) Requires the player to have a Sneak Skill >= 25, have picked >=10 pockets, and stolen >=100 items.
+ - [Loud and Clear](https://en.uesp.net/wiki/Skyrim:Loud_and_Clear) Requires the player to complete a minimum of 4 radiant jobs for the Thieves Guild.
+ - [Dampened Spirits](https://en.uesp.net/wiki/Skyrim:Dampened_Spirits) Requires the player to complete a minimum of 6 jobs for the Thieves Guild.
 
 </Details>
 
@@ -216,11 +219,73 @@ Apostasy changes a significant amount of vanilla quests in one way or another in
 <Details>
 <summary>Modded Quests</summary>
 
-   - **Vigilant**: Requires level 25+ and the completion of [Kindred Judgement](https://en.uesp.net/wiki/Skyrim:Kindred_Judgment) and [House of Horrors](https://en.uesp.net/wiki/Skyrim:The_House_of_Horrors).
-   - **Unslaad**: Requires completion of [Dragonslayer](https://en.uesp.net/wiki/Skyrim:Dragonslayer).
+  - **Vigilant**: Requires level 25+ and the completion of [Kindred Judgement](https://en.uesp.net/wiki/Skyrim:Kindred_Judgment) and [House of Horrors](https://en.uesp.net/wiki/Skyrim:The_House_of_Horrors).
+  - **Unslaad**: Requires completion of [Dragonslayer](https://en.uesp.net/wiki/Skyrim:Dragonslayer).
 
 </Details>
 
+### Modded Armors and Weapons
+
+Apostasy adds a significant amount of new Armors and Weapons to the game, all of which have been hand tuned and modified to fit within the balance of the list. While most can be accessed through [Skyrim Outfit System](https://www.nexusmods.com/skyrimspecialedition/mods/42162) if you want to use them purely for cosmetics, many have been re-integrated into the world as potential loot (or equipment that is unique to specific NPCs) and/or has been made obtainable through **Crafting Manuals**. 
+
+Below is an (incomplete) list of new armors and weapons that are added and obtainable by the player:
+
+<Details>
+<summary>New Equipment</summary>
+
+  - [Bone Cultist Armor](https://www.nexusmods.com/skyrimspecialedition/mods/111224): Can be found on Solstheim Bandits and has the same crafting requirements as Bonemold.
+  - [Colovian Prince Set](https://www.nexusmods.com/skyrimspecialedition/mods/79894): See Manuals. Can be found on select NPCs.
+  - [Crown Plate Set](https://www.nexusmods.com/skyrimspecialedition/mods/114751): See Manuals. Can also be found on [Kematu](https://en.uesp.net/wiki/Skyrim:Kematu) and his men.
+  - [Dark Brotherhood Armor SE](https://www.nexusmods.com/skyrimspecialedition/mods/57539): Replacer for Dark Brotherhood Armor.
+  - [Dark Witch Armor](https://www.nexusmods.com/skyrimspecialedition/mods/112260): See Manuals. Worn by [Illia](https://en.uesp.net/wiki/Skyrim:Illia).
+  - [Dwemer Armor SE](https://www.nexusmods.com/skyrimspecialedition/mods/81043): Craftable with Dwemer Smithing.
+  - [Eclipse Mage Outfit](https://www.nexusmods.com/skyrimspecialedition/mods/77244):
+  - [Elmlock Armor and Blade](https://www.nexusmods.com/skyrimspecialedition/mods/105930): 
+  - [Fleet Knight Set](https://www.nexusmods.com/skyrimspecialedition/mods/95009): See Manuals.
+  - [Fluted Armor SE](https://www.nexusmods.com/skyrimspecialedition/mods/106381): Craftable with Ebony Smithing. Can also be found on select NPCs.
+  - [Glasses Pack](https://www.nexusmods.com/skyrimspecialedition/mods/115653): See Manuals.
+  - [Gryphonknight Regalia](https://www.nexusmods.com/skyrimspecialedition/mods/107437): Can be looted off of [Sabine Nytte](https://en.uesp.net/wiki/Skyrim:Sabine_Nytte).
+  - [Illusive Infiltrator Armor](https://www.nexusmods.com/skyrimspecialedition/mods/105659): Craftable with Steel Smithing.
+  - [Infantry Armor SE](https://www.nexusmods.com/skyrimspecialedition/mods/88099): Can be crafted with Steel Smithing. Can also be found on select NPCs.
+  - [Kellan Armor](https://www.nexusmods.com/skyrimspecialedition/mods/68199):
+  - [Kvetchi Mercenary Set](https://www.nexusmods.com/skyrimspecialedition/mods/79226): See Manuals.
+  - [Lunar Guard Armor](https://www.nexusmods.com/skyrimspecialedition/mods/75349): See Manuals.
+  - [MAGECORE](https://www.nexusmods.com/skyrimspecialedition/mods/113540): See Manuals.
+  - [Obi's HeadHunter Armor](https://www.nexusmods.com/skyrimspecialedition/mods/113990): Can be looted from [Captain Hargar](https://en.uesp.net/wiki/Skyrim:Captain_Hargar).
+  - [Orcish Armor Expansion](https://www.nexusmods.com/skyrimspecialedition/mods/110280): Craftable with Orcish Smithing, can also be seen as variant armors for Stronghold Orcs. 
+  - [Rihad Swordsman Set](https://www.nexusmods.com/skyrimspecialedition/mods/120576): See Manuals. Can also be found on [Kematu](https://en.uesp.net/wiki/Skyrim:Kematu) and his men.
+  - [Silver Armor SE](https://www.nexusmods.com/skyrimspecialedition/mods/79088):
+  - [Squire's Plate](https://www.nexusmods.com/skyrimspecialedition/mods/120370): See Manuals.
+  - [Stormhold Warrior Armor](https://www.nexusmods.com/skyrimspecialedition/mods/96559): Can be crafted with Steel Smithing. Variants can also be looted off [Deeja](https://en.uesp.net/wiki/Skyrim:Deeja) and [Jaree-Ra](https://en.uesp.net/wiki/Skyrim:Jaree-Ra).
+  - [Travelling Priest Robes](https://www.nexusmods.com/skyrimspecialedition/mods/118327): Can be found on several Priest-type NPCs and crafted.
+  - [Twilight Princess Armor](https://www.nexusmods.com/skyrimspecialedition/mods/71182): Can be crafted after completion of [Kindred Judgement](https://en.uesp.net/wiki/Skyrim:Kindred_Judgment) with Steel Smithing. Worn by [Serana](https://en.uesp.net/wiki/Skyrim:Serana).
+  - [Vey Alaxon](https://www.nexusmods.com/skyrimspecialedition/mods/104572): Fully integrated into Gilded Elven tier, craftable with Elven Smithing.
+  - [Wayward Knight Set](https://www.nexusmods.com/skyrimspecialedition/mods/112793): See Manuals.
+  - [Wild Witch Outfit](https://www.nexusmods.com/skyrimspecialedition/mods/81085): See Manuals. A variant can also be looted off [The Caller](https://en.uesp.net/wiki/Skyrim:The_Caller).
+  - [Wind Ruler Armor SE](https://www.nexusmods.com/skyrimspecialedition/mods/60842): Can be looted from the [Butcher](https://en.uesp.net/wiki/Skyrim:Butcher) and [Umana](https://en.uesp.net/wiki/Skyrim:Umana). Also found on select NPCs.
+
+</Details>
+
+Crafting Manuals are consumed (like spell tomes) and are not required to be held in inventory in order to craft their respective equipment. Below is a list of Crafting Manuals, their requirements, and where to find them:
+
+<Details>
+<summary>Manuals</summary>
+
+Armors and weapons crafted from manuals may or may not require the equivalent Smithing perk in addition to the manual knowledge requirement.
+
+ - **Armor**
+   - [Lunar Guard](https://www.nexusmods.com/skyrimspecialedition/mods/75349): Purchasable from Blacksmiths with level 80+ Smithing skill.
+ - **Clothes and Jewelry**
+   - [Glasses](https://www.nexusmods.com/skyrimspecialedition/mods/115653): Purchasable from Jewelers and Radiant Raiments. (**FEMALE ONLY**).
+   - [Goam Earrings](https://www.nexusmods.com/skyrimspecialedition/mods/112173): Purchasable from Jewelers and Radiant Raiments. (**FEMALE ONLY, GOAMS ELVEN EARS**).
+   - [Magecore](https://www.nexusmods.com/skyrimspecialedition/mods/113540): Purchasable from Radiant Raiments. (**FEMALE ONLY**, Armored variants can be crafted with Ebony Smithing + Manual). More NSFW/Lewd variants can be toggled in the Apostasy MCM.
+   - [Wild Witch](https://www.nexusmods.com/skyrimspecialedition/mods/81085): Purchasable from Radiant Raiments.
+ - **Armor and Weapons**
+   - **Alik'r Style**: Purchasable from Blacksmiths with level 40+ Smithing skill. (Covers [Crown Plate](https://www.nexusmods.com/skyrimspecialedition/mods/114751) and [Rihad Swordsman](https://www.nexusmods.com/skyrimspecialedition/mods/120576).)
+   - **Bretonic Style**: Purchaseable from Blacksmiths with level 60+ Smithing skill. (Covers [Fleet Knight](https://www.nexusmods.com/skyrimspecialedition/mods/95009), [Gryphonknight](https://www.nexusmods.com/skyrimspecialedition/mods/107437), [Wayward Knight](https://www.nexusmods.com/skyrimspecialedition/mods/112793), [Squire's Plate](https://www.nexusmods.com/skyrimspecialedition/mods/120370), and [Dark Witch Armor](https://www.nexusmods.com/skyrimspecialedition/mods/112260).)
+   - **Cyrodilic Style**: Purchasable from Blacksmiths with level 40+ Smithing skill. (Covers [Colovian Prince](https://www.nexusmods.com/skyrimspecialedition/mods/79894) and [Kvetchi Mercenary](https://www.nexusmods.com/skyrimspecialedition/mods/79226).)
+
+</Details>
 
 ## New Content
 
@@ -290,6 +355,7 @@ This section will try to list the new content focused mods added to the list, an
  - [Katana - Journey in the Shadows](https://www.nexusmods.com/skyrimspecialedition/mods/69622)
  - [Light and Shade](https://www.nexusmods.com/skyrimspecialedition/mods/77993)
  - [Remiel-Custom Voiced Dwemer Specialist and Companion](https://www.nexusmods.com/skyrimspecialedition/mods/51874)
+ - [Serana Dialogue Add-On](https://www.nexusmods.com/skyrimspecialedition/mods/32161)
  - [Song of the Green (Auri Follower)](https://www.nexusmods.com/skyrimspecialedition/mods/11278)
  - [Val Serano - Pirate Custom Voiced Follower and Quest Adventure](https://www.nexusmods.com/skyrimspecialedition/mods/103669)
 

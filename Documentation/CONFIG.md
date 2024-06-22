@@ -69,6 +69,11 @@ The mods prefixed as `[Performance]` will be discussed below.
 
        > May give small performance improvement.
 
+Beyond what I can easily offer, you may want to consider reducing the `iShadowMapResolution` from 1024 to 512 in the `skyrimprefs.ini`.   
+Please **DO NOT** run tools such as Bethini, the ini files have already been configured extensively and many changes made by Bethini are frankly terrible. 
+
+**DISCLAIMER:** I will not provide troubleshooting or support for performance as everyones' PC is different and I can only know for certain how performance is on my own machine. In addition to this, I (aljo) am not some massive computer hardware nerd and I am not qualified to make definitive statements about hardware performance when I have not personally tested it, if that hardware is borderline / similar to the hardware that I **expect** to work best for the list.
+
 ## Optional Visual Tweaks
 
 This separator contains a series of visual-only mods that can be easily disabled/enabled based on user preference. They will be discussed below.
@@ -136,10 +141,14 @@ Changing MCM Settings in any MCM that is under the `> Apostasy MCM Hider <` tab 
  6. `EVG CLAMBER`: Change the EVG Clamber settings (Default: `Balanced`). This isn't recommended to be tampered with but you can.
  7. `Horse Whistle Key`: Change the Hotkey for Horse Call (Default: `H`). Optionally add a lesser power to perform the function of the hotkey.
  8. `OBody NG`: Change the keybind for the OBody morphs menu (Default: `;`).
- 9. `QuickLoot EE`: Optionally disable QuickLoot from popping up during combat.
- 10. `SmoothCam`: Change the SmoothCam Camera preset (Default: `Name`).
- 11. `Swift Potion`: Change the hotkey for quick Health potion (Default: `F`). Optionally add hotkeys for quick Magicka and Stamina potions.
- 12. `True Directional Movement`: Change the target lock hotkey (Default: `M3`).
+ 9. `One Click Power Attack`: Change the keybind for Power Attacks (Default: `V`).
+ 10. `QuickLoot EE`: Optionally disable QuickLoot from popping up during combat.
+ 11. `SmoothCam`: Change the SmoothCam Camera preset (Default: `Apostate Preset`).
+ 12. `Swift Potion`: Change the hotkey for quick potion binds.
+     1.  Restore Health = `F`
+     2.  Restore Stamina = `Shift+F`
+     3.  Restore Magicka = `Ctrl+F`
+ 13. `True Directional Movement`: Change the target lock hotkey (Default: `M3`).
 
 # Wheeler
 

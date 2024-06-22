@@ -49,6 +49,7 @@
   - [Post-Installation and Optional Setup](#post-installation-and-optional-setup)
     - [Game Folder](#game-folder)
     - [Antivirus Exceptions](#antivirus-exceptions)
+    - [Post-Installation Issues and Troubleshooting](#post-installation-issues-and-troubleshooting)
     - [Keyboard Keybinds](#keyboard-keybinds)
     - [Gamepad Keybinds](#gamepad-keybinds)
   - [Playing the List](#playing-the-list)
@@ -60,7 +61,7 @@
 
 ## Introduction
 
-Apostasy is INSERT INTRO.
+Apostasy is a Wabbajack modlist for Skyrim SE that offers a modern, action-oriented combat system, custom tailored gameplay, and a consistent, high-fidelity graphics overhaul. Apostasy aims to deliver a cohesive and refined experience, enhancing both visuals and mechanics.
 
 The full modlist can be viewed [here](https://loadorderlibrary.com/lists/Apostasy).
 
@@ -322,6 +323,7 @@ Google Drive Files:
 - [High Poly Head v1.4 (SE)](https://drive.google.com/uc?id=15_0njBUjHKidNnJPmLXEygzGVWsA3Zbq&export=download)
 - [Dint's BDOR Hairs](https://drive.usercontent.google.com/download?id=1tpY3bDs-LR6rptf8oPUfraKs1CkxJJB3&export=download&authuser=0)
 - [Dint's HairPack 02](https://drive.usercontent.google.com/download?id=1Ts0sQz3hDxhCeS_LUnXJQFuws_qbw9YQ&authuser=0)
+- [Dint's Face Part mod](https://drive.usercontent.google.com/u/0/uc?id=1RQl8ki73fgLnzBZn6EWjneuW4Dk8TUO_&export=download)
 - [Olivier Kenjutsu Battleaxe and Warhammer](https://drive.google.com/file/d/1rX4INfO3ieWp25gPh0NiLPl1ktLoegZ9)
 
 MEGA Files:
@@ -358,6 +360,39 @@ If you use Windows Defender, it is advised that you set up an Exception for the 
     - ModOrganizer.exe (`[Path to Modlist]\ModOrganizer.exe`)
     - Nemesis Unlimited Behavior Engine.exe (`[Path to Modlist]\mods\Project New Reign - Nemesis Unlimited Behavior Engine\Nemesis_Engine\Nemesis Unlimited Behavior Engine.exe`)
     - Synthesis.exe (`[Path to Modlist]\tools\Synthesis\Synthesis.exe`)
+
+</Details>  
+
+### Post-Installation Issues and Troubleshooting
+
+<Details>
+<summary>Game is zoomed into the top left corner!</summary>
+
+Windows Scaling can prevent games from displaying correctly, and will often result in the game appearing "zoomed in". To fix this, find the `SkyrimSE.exe` located in your `[Path to Modlist]\Stock Game` and follow the steps in the images below:
+
+![](https://cdn.discordapp.com/attachments/694254949944655953/847772081030299648/skyrim-scaling.png?ex=66774586&is=6675f406&hm=812e1240d8de4ecc213055242067caddb1df617907c677a426b7f8c23dac4e8b&)
+
+</Details>
+
+<Details>
+<summary>Form 43 Error in MO2. / A DLL plugin has failed to load correctly.</summary>
+
+Your installation did not complete. Rerun Wabbajack and make sure to tick the **Overwrite Installation** box.  
+If the error persists after a reinstall, then delete the `[Path to Modlist]\mods` folder, and rerun Wabbajack again.
+
+</Details>  
+
+<Details>
+<summary>Crashes</summary>
+
+Skyrim is a notoriously buggy game and cramming thousands of mods into it is not gauranteed to always produce the most stable experience possible. Especially in heavier lists where you may be pushing the limitations of your hardware as a result of Skyrim's old and unoptimized rendering pipeline.
+
+If you find yourself crashing, then please share your crashlogs in the appropriate #support channel on the [discord server](https://discord.gg/4WwqfK5yHg).
+
+In order to get the best possible response please ensure that:
+ 1. Your crash is reproducible. 
+ 2. You include all relevant crashlogs (if you do not know where to find them then use the `!crashlog` command in chat).
+ 3. Provide details about the crash (what you were doing, where it took place, if there was an associated quest, etc). Details are necessary in order to quickly diagnose crashes.
 
 </Details>  
 
@@ -422,7 +457,7 @@ Please check the [FAQ](https://github.com/Oghma-Infinium/Apostasy/blob/main/Docu
 ## Credits and Thanks
 
 - _YOU_ for reading this.
-- [Bingus](https://ko-fi.com/beangas) for [Ascensio](https://github.com/Oghma-Infinium/Ascensio), ENB tweaking, asset editing, mod page screenshots, and branding art for Apostasy (Logo, Banner, and Splash).
+- [Bingus](https://ko-fi.com/beangas) for [Ascensio](https://github.com/Oghma-Infinium/Ascensio), ENB tweaking, asset editing, and much, much more.
 - Curly for the original iteration of Ascensio that got me started with my first modlist.
 - [Ylikollikas](https://next.nexusmods.com/profile/Ylikollikas) for a lot, I can not even begin to list what he has contributed.
 - [iAmMe27](https://ko-fi.com/iamme27) for general modding, documentation, and WJ assistance.
@@ -437,5 +472,5 @@ Please check the [FAQ](https://github.com/Oghma-Infinium/Apostasy/blob/main/Docu
 - [Sheson](https://ko-fi.com/sheson) for DynDOLOD.
 - [Styyx](https://github.com/Styyx1) for assisting heavily in creating DLLs for the custom mods made for the list.
 - [Aelarr](https://www.nexusmods.com/skyrim/users/6843757) and Anreme for permissions to use some custom mods from The Owl Archives server.
-- Mgde12, D1Z4STR, 半蔵 内倉, Kepler, Hencoat, Matty, EnragedHamster, Scott, snowpeachcherry, Charlie Kriech, Durgenage, Pacifist Fist, Don Maker, Russell Collins, Oresh, Danimals, Monko, Anehum, Valeria, The Unattested Wombat, Ola Nordman, Regista433, Jaron Scotland, King_Sheogorath, and TheRyge for support on [patreon](https://www.patreon.com/aljoxo).
-- adorion1981, aexilkv, AlphaGhost47, Ananta, Blade, Bubborus, derkaenaz, DevZan, doombot117, E2J, Felivath, FutureWorld, Gous, Gremlin, hedich, Jeremy, JoeyFlow, JollyTheRancher, JXEYES, Kathie Murphy, Lunaros, Maelstrom, Paulo Giovanni, Psylence, rezthe0one on Discord, Roxiie, SaddestNoddles, skylion, Soloist, Steve, Tom Curran, Won Pham, WoWZaton, and Zhijia for their support via [Ko-fi](https://ko-fi.com/aljoxo).
+- Mgde12, D1Z4STR, 半蔵 内倉, Kepler, Hencoat, Matty, EnragedHamster, Scott, snowpeachcherry, Charlie Kriech, Durgenage, Pacifist Fist, Don Maker, Russell Collins, Oresh, Danimals, Monko, Anehum, Valeria, The Unattested Wombat, Ola Nordman, Regista433, Jaron Scotland, King_Sheogorath, TheRyge, and Shakes for support on [patreon](https://www.patreon.com/aljoxo).
+- adorion1981, aexilkv, AlphaGhost47, Ananta, Blade, Bubborus, derkaenaz, DevZan, doombot117, E2J, FalseRealism, Felivath, FutureWorld, Gous, Gremlin, hedich, Jeremy, JoeyFlow, JollyTheRancher, JXEYES, Kathie Murphy, Lunaros, Maelstrom, Paulo Giovanni, Psylence, rezthe0one on Discord, Roxiie, SaddestNoddles, skylion, Soloist, Steve, Tom Curran, Won Pham, WoWZaton, and Zhijia for their support via [Ko-fi](https://ko-fi.com/aljoxo).

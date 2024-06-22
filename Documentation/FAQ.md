@@ -30,7 +30,7 @@ A: [Immersive Equipment Displays](https://www.nexusmods.com/skyrimspecialedition
 A: Open the [Immersive Equipment Displays](https://www.nexusmods.com/skyrimspecialedition/mods/62001) GUI with `Left Shift+Backspace` and reposition your equipment.
 
 ### Q: How do I start the main questline?  
-A: Go to the Helgen Inn and use the dialogue option `"I forgot what it says"` in order to start the intro sequence.
+A: Go to the Helgen Inn, speak to Matlara, and select the dialogue option `"Give me your best room. (X gold) (Start Intro)"` in order to start the intro sequence.
 
 ### Q: I can't find Altano in the Windpeak Inn. / How do I start VIGILANT?  
 A: VIGILANT requires the player be level 25, completion of House of Horrors, and completion of Kindred Judgement (the final quest of Dawnguard DLC). 
@@ -51,8 +51,8 @@ A: This is usually caused by an alternate start mod that adds random items to yo
 A: If you're on keyboard press `G` to open up the vanilla favorites menu.
 
 ### Q: How many plugins does the list have?
-A: The list has 149* `.esp` and `.esm` plugins, and 2387* light-flagged plugins (`.esl` and `esp-fe` files). 
- *Last Updated: June 11, 2024.*
+A: The list has 162* `.esp` and `.esm` plugins, and 2519* light-flagged plugins (`.esl` and `esp-fe` files). 
+ *Last Updated: June 22, 2024.*
 
 ### Q: Wil you add [insert mod] to the list?
 A: No, probably not. We'll see.
@@ -66,6 +66,10 @@ A: If you want to commission me to do so, then maybe. Otherwise, no.
 Solution(s)
  1. This seems to be an issue that will sometimes occur with [Alternate Perspective](https://www.nexusmods.com/skyrimspecialedition/mods/50307/) while doing the Helgen intro. **Restarting your game** will return your HUD / UI to normal.
 
+### Dark Brotherhood abducted me when trying to start the Helgen Intro!
+Solution(s)
+ 1. Don't be a fucking dumbass. Reload a save before starting the intro and make sure that you have been abducted BEFORE trying to start the Helgen Intro. 
+
 ### Carriage Horse in Solitude is partially in the wall!
 Solution(s)
  1. This bug isn't worthy of my time and I have already tried to fix it. For some reason that is beyond my current comprehension, he does not move after being moved in the CK. I will not waste more brain power and time trying to figure out the cause of this very very minor issue.
@@ -73,6 +77,10 @@ Solution(s)
 ### Naked when in Vampire Lord form!
 Solution(s)
  1. Skyrim Outfit System overrides the Armor that is "worn" in Vampire Lord form, but since only the Non-playable armor worn in Vampire Lord form works with Vampire Lord race, the armor that Outfit System visually equips is invisible. Minor issue that is not fixable unless the author of the mod adds some type of smart toggle if you are detected in a VL/WW transformation.
+
+### Not receiving Courier Letter from Dark Brotherhood!
+Solution(s)
+ 1. This appears to happen sometimes but from my testing as long as you sleep in a bed they should still abduct you as intended. Not sure what is causing this as of yet.
 
 ### Being randomly attacked or arrested by NPCs!
 Solution(s)
@@ -82,10 +90,6 @@ Solution(s)
 Solution(s)
  1. The issue is caused by a bad script interaction between Immersive Camera and Sirenroot. You can disable Immersive Camera (and its script patches) in the left hand pane of MO2 for the duration of Sirenroot.
 
-### Crashing when talking to Azura/Peryite/Augur of Dunlain/[Insert Talking Head Activator]!
-Solution(s)
- 1. If you are using the Katana follower mod and you have the quest `Chasing the Current` with the quest stage `Talk to Katana another time`, then talk to Katana to progress to the next stage (`Head to the Drunken Huntsman`) in order to fix the crash.
-
 ### Body type won't change when trying to apply a new body through OBody.
 Solution(s)
  1. This issue should be fixed with versions 4.2.0+ of [OBody NG](https://www.nexusmods.com/skyrimspecialedition/mods/77016), however if you still encounter this issue then you should check the [Troubleshooting Guide](https://www.nexusmods.com/skyrimspecialedition/articles/4868).
@@ -93,3 +97,28 @@ Solution(s)
 ### [Insert Male NPC] looks like he has tits / has a really big chest and arms!
 Solution(s)
  1. Change their OBody preset, do not report this as an issue to me, I'm tired of hearing about it.
+
+### Can't attack with Left Hand in First Person (Dual Wield or Unarmed)!
+Solution(s)
+ 1. I am currently looking for an elegant solution to this issue, but the list is first and foremost focused on third person. If you wish to play a DW or Unarmed-based build in first person, I would suggest rethinking your build or playing a list that is more suitable for this.
+
+## Known Crashes
+
+### Wheeler.dll Crash!
+**Cause**: Wheeler typically crashes for one of two reasons: 
+1. You slotted player-made potions in Wheeler and ran out of them.
+   **Fix**: Do not put player-made potions in Wheeler.
+2. You no longer have an item in your inventory that Wheeler is trying to reference.
+   **Fix**: Open dMenu (Default: `Home`). Navigate to Wheeler Controls --> Reset All Wheels. **This will reset your current Wheeler configuration**.
+
+### Crashing when talking to Azura/Peryite/Augur of Dunlain/[Insert Talking Head Activator]!
+**Cause**: Bug with the [Katana follower](https://www.nexusmods.com/skyrimspecialedition/mods/69622) mod if you are on the quest `Chasing the Current` with the quest stage `Talk to Katana another time`.
+**Fix**: Talk to Katana to progress to the next stage (`Head to the Drunken Huntsman`) in order to fix the crash.
+
+### Consistently crashing in the same cell!
+**Cause**: There are several potential causes of a crash, one of the more common ones being lighting related.
+**Fix**: Post your crashlogs in the [discord](https://discord.gg/4WwqfK5yHg) channel `#apostasy-support`.
+
+### Crashing after loading a save! / Crashing after dying!
+**Cause** Skyrim has a multitude of issues when it comes to loading back game data without restarting the game. There are a few culprits that could be the main driver of these crashes, but I have yet to collect enough information or consistently reproducible crashes to report it to the relevant authors.
+**Fix**: This is one reason that the list includes the [Acheron - Death Alternative](https://www.nexusmods.com/skyrimspecialedition/mods/108159) mod (an attempt to reduce the number of times you will be reloading saves during normal gameplay). Please post logs in in the [discord](https://discord.gg/4WwqfK5yHg) channel `#apostasy-support` if you suffer from these crashes, but realize that I have very little ability to fix them at this current time.
