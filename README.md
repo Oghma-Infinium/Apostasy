@@ -90,9 +90,9 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 Please note that the below numbers are current estimates and the actual may be larger or smaller depending on version.
 
 Downloads: ~150 GB  
-Install: ~180 GB  
+Install: ~190 GB  
 Temp Files: ~40 GB (on OS drive)  
-**TOTAL:** ~330 GB  
+**TOTAL:** ~340 GB  
 
 <Details>
 <summary>Temporary Files</summary>

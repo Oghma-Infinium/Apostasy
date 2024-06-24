@@ -42,7 +42,7 @@ A: UNSLAAD requires the completion of Dragonslayer (the final quest of the Main 
 A: The Pilgrim skill is added by [Pilgrim - Custom Skills Framework Addon](https://www.nexusmods.com/skyrimspecialedition/mods/93913) and acts as the way to progress the religion mechanic in the list. You can access the skill tree by using the **Pray** power while sneaking.
 
 ### Q: How do I set up the quick wheel?
-A: There is extensive documentation on the mod page [here](https://www.nexusmods.com/skyrimspecialedition/mods/97345).
+A: There is extensive documentation on the [mod page](https://www.nexusmods.com/skyrimspecialedition/mods/97345).
 
 ### Q: I can't add a weapon/armor to the wheel.
 A: This is usually caused by an alternate start mod that adds random items to your inventory. This only happens to the set of starting items you have. To fix this issue, simply drop the item onto the ground and pick it again.
@@ -50,11 +50,7 @@ A: This is usually caused by an alternate start mod that adds random items to yo
 ### Q: Can I still use the vanilla favorites menu? I do not like the wheel.
 A: If you're on keyboard press `G` to open up the vanilla favorites menu.
 
-### Q: How many plugins does the list have?
-A: The list has 162* `.esp` and `.esm` plugins, and 2519* light-flagged plugins (`.esl` and `esp-fe` files). 
- *Last Updated: June 22, 2024.*
-
-### Q: Wil you add [insert mod] to the list?
+### Q: Will you add [insert mod] to the list?
 A: No, probably not. We'll see.
 
 ### Q: Will you add OStim/SexLab to the list?

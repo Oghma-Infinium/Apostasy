@@ -16,6 +16,7 @@
 ---
 
 # Changelog
+- [0.4.2](#042) Release Date: June 24, 2024
 - [0.4.1](#041) Release Date: June 22, 2024
 - [0.4.0](#040) Release Date: Not released.
 - [0.3.1](#031) Release Date: June 12, 2024
@@ -23,6 +24,112 @@
 - [0.2.0](#020) Release Date: June 4, 2024
 - [0.1.1](#011) Release Date: May 30, 2024
 - [0.1.0](#001) Release Date: May 29, 2024
+
+## 0.4.2
+
+Key Info
+
+ - Save-safe with previous version (I think). Ignore missing plugin(s), they shouldn't matter.
+ - Added cloaks. Will do more for integration later.
+ - Bug fixes.
+ - Balance Tweaks.
+
+<Details>
+<summary>Changes</summary>
+
+### Updated
+
+ - [Cities of the North Optimized Meshes](https://www.nexusmods.com/skyrimspecialedition/mods/85242)
+ - [Blue Palace Terrace Patch Collection](https://www.nexusmods.com/skyrimspecialedition/mods/107752)
+ - [Bjorn - Fully Voiced Follower](https://www.nexusmods.com/skyrimspecialedition/mods/91652)
+ - [Atlantean Landscape -Complete- Complex Terrain Parallax](https://www.nexusmods.com/skyrimspecialedition/mods/89542)
+ - [Ultimate NPC Dodging](https://www.nexusmods.com/skyrimspecialedition/mods/120738)
+ - [Skyking Signs](https://www.nexusmods.com/skyrimspecialedition/mods/112902)
+ - [Simple Hunting Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/95943)
+ - [Modern first-person animation overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/115525)
+ - [Rihad Swordsman Set](https://www.nexusmods.com/skyrimspecialedition/mods/120576)
+ - [Cities of the North - Dawnstar Patch Collection](https://www.nexusmods.com/skyrimspecialedition/mods/30885)
+
+### Added
+
+ - [Rihad Swordsman 3BA](https://www.nexusmods.com/skyrimspecialedition/mods/122484)
+ - [Follower Dialogue Expansion - Uthgerd the Unbroken](https://www.nexusmods.com/skyrimspecialedition/mods/122487)
+ - [Smooth Random Jump Animation - Rework](https://www.nexusmods.com/skyrimspecialedition/mods/59633)
+ - [Smooth Weapon Jump Animation](https://www.nexusmods.com/skyrimspecialedition/mods/74748)
+ - [Male Argonian Shouts - Revoiced](https://www.nexusmods.com/skyrimspecialedition/mods/44124)
+ - [Untarnished UI - Oxygen Meter 2 Patch](https://www.nexusmods.com/skyrimspecialedition/mods/111978)
+ - [Apostate Camera Tweaks](https://www.nexusmods.com/skyrimspecialedition/mods/122440)
+ - [GORE - Fishing (CC) Patch](https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=444005&nmm=1&game_id=1704)
+ - [MCO-ADXP Rapier moveset](https://www.nexusmods.com/skyrimspecialedition/mods/115295)
+ - [Eastern Brassplate 3BA HDT-SMP](https://www.nexusmods.com/skyrimspecialedition/mods/122488)
+ - [Fahluaan - Character Presets](https://www.nexusmods.com/skyrimspecialedition/mods/96793)
+ - [Just Bite - Sacrilege Dynamic Activation Key Patch](https://www.nexusmods.com/skyrimspecialedition/mods/122597)
+
+</Details>
+
+<Details>
+<summary>Patch Notes</summary>
+
+### Balance
+
+ - Reduced number of dragon souls needed to progress Stormcrown perk tree. Won't take affect on existing save games unless you use the console commands below.
+   - `set MAG_DragonbornNextPerk to 1`
+   - `set MAG_DragonbornRequiredSouls01 to 2`
+   - `set MAG_DragonbornRequiredSouls02 to 3`
+   - `set MAG_DragonbornRequiredSouls03 to 4`
+ - Apprentice Carry Weight reduced to 300 (was 500). Not sure if this would take effect on an existing save-game?
+   - I felt like Apprentice and Novice weren't meaningfully different, so I am aiming to try and rebalance Apprentice a little bit.
+   - Legendary difficulty will be receiving a minor overhaul in some update soon.
+ - Reworked NPC Movesets.
+ - Dark Magic Talisman nerfed by 20%. Now restores 80 Magicka over 10 seconds instead of 100 Magicka over 10 seconds.
+ - Removed some spiders in Bleak Falls Barrow.
+ - Adjusted background speech scaling.
+
+### Bug Fixes
+ 
+ - Fixed some incorrect pathing in landscape texturesets.
+ - Fixed missing textures on fall forest landscapes.
+ - Fixed shader material issue on several ice objects that had parallax.
+ - Should have fixed issue with footstep sounds in first person for some stances.
+ - Redrew landscape near Mara's Eye Pond.
+   - `26 2`
+ - Fixed missing textures on Maro's armor.
+ - Fixed incorrect water cubemap being used in Goldenglow Estate Sewer.
+ - Fixed incorrect water cubemap being used in Soljund's Sinkhole.
+ - Fixed incorrect water cubemap being used in the Red Wave.
+ - Fixed incorrect Acoustic Space in Volkihar Undercroft.
+ - Fixed incorrect Acoustic Space in Volkihar Ruins.
+ - Fixed incorrect Acoustic Space in Fort Dawnguard.
+ - Fixed incorrect Acoustic Space in House of Clan Battle-Born.
+ - Fixed incorrect Acoustic Space in House Gray-Mane.
+ - Fixed incorrect Acoustic Space in Radiant Raiment.
+ - Fixed incorrect Acoustic Space in Elgrim's Elixirs.
+ - Fixed incorrect cell Ownership for the Nightgate Inn.
+ - Fixed incorrect cell Ownership for Hollyfrost Farm.
+ - Fixed incorrect cell Ownership for Hlaalu Farm.
+ - Adjusted floating tree (kinda) near Boethiah's Shrine.
+   - `98E78`
+
+### Misc. Changes
+
+ - Jump Animations.
+ - Reworked NPC Animations.
+   - Separated "Common" and "Boss" NPCs.
+   - Added some folders for certain followers to have unique movesets while using their weapon of choice. I will expand this over time when necessary.
+   - So what is left?
+     - Some more in-depth, faction-specific animations.
+     - Some unique bosses.
+     - Vigilant and Unslaad bosses aren't quite completed yet.
+ - Tweaked Bow Aiming interpolation for default SmoothCam preset.
+ - Gave Umana a set of Armor that wasn't just Steel Plate.
+ - Gave Salma a set of Armor that wasn't just Steel Plate.
+ - Added a new visual for Rallying Standard's buff.
+ - Slightly adjusted the positioning of Widgets so there was more spacing between them and the enchantment bar.
+ - Changed Magicka bar to be a light blue instead of a dark grey to better differentiate it from Stamina.
+   - Old Magicka bar color was `#909090` if you wish to change back.
+ - Actually compiled the script to potentially fix the HUD issues during the intro.
+
+</Details>
 
 ## 0.4.1
 
