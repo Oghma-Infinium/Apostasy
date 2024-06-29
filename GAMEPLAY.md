@@ -28,7 +28,7 @@ Before reading this section, I suggest looking over the [load order](https://loa
 ### Core Mods
 
  - [Perk Mod](https://www.youtube.com/watch?v=dQw4w9WgXcQ).
- - [Race Mod](https://www.youtube.com/watch?v=dQw4w9WgXcQ) and [Standing Stone Mod](https://www.youtube.com/watch?v=dQw4w9WgXcQ).
+ - [Nirn's Chosen](https://www.nexusmods.com/skyrimspecialedition/mods/121427) and [Stones of Sacrifice](https://www.nexusmods.com/skyrimspecialedition/mods/121629) cover the Race and Standing Stones overhauls within the list.
  - [Religion Mod](https://www.youtube.com/watch?v=dQw4w9WgXcQ).
  - 
 
@@ -247,14 +247,14 @@ Below is an (incomplete) list of new armors and weapons that are added and obtai
   - [Gryphonknight Regalia](https://www.nexusmods.com/skyrimspecialedition/mods/107437): Can be looted off of [Sabine Nytte](https://en.uesp.net/wiki/Skyrim:Sabine_Nytte).
   - [Illusive Infiltrator Armor](https://www.nexusmods.com/skyrimspecialedition/mods/105659): Craftable with Steel Smithing.
   - [Infantry Armor SE](https://www.nexusmods.com/skyrimspecialedition/mods/88099): Can be crafted with Steel Smithing. Can also be found on select NPCs.
-  - [Kellan Armor](https://www.nexusmods.com/skyrimspecialedition/mods/68199):
+  - [Kellan Armor](https://www.nexusmods.com/skyrimspecialedition/mods/68199): Craftable with Steel Smithing. Worn by select NPCs. 
   - [Kvetchi Mercenary Set](https://www.nexusmods.com/skyrimspecialedition/mods/79226): See Manuals.
   - [Lunar Guard Armor](https://www.nexusmods.com/skyrimspecialedition/mods/75349): See Manuals.
   - [MAGECORE](https://www.nexusmods.com/skyrimspecialedition/mods/113540): See Manuals.
   - [Obi's HeadHunter Armor](https://www.nexusmods.com/skyrimspecialedition/mods/113990): Can be looted from [Captain Hargar](https://en.uesp.net/wiki/Skyrim:Captain_Hargar).
   - [Orcish Armor Expansion](https://www.nexusmods.com/skyrimspecialedition/mods/110280): Craftable with Orcish Smithing, can also be seen as variant armors for Stronghold Orcs. 
   - [Rihad Swordsman Set](https://www.nexusmods.com/skyrimspecialedition/mods/120576): See Manuals. Can also be found on [Kematu](https://en.uesp.net/wiki/Skyrim:Kematu) and his men.
-  - [Silver Armor SE](https://www.nexusmods.com/skyrimspecialedition/mods/79088):
+  - [Silver Armor SE](https://www.nexusmods.com/skyrimspecialedition/mods/79088): Craftable with Advanced Armors Smithing. Worn by select NPCs. 
   - [Squire's Plate](https://www.nexusmods.com/skyrimspecialedition/mods/120370): See Manuals.
   - [Stormhold Warrior Armor](https://www.nexusmods.com/skyrimspecialedition/mods/96559): Can be crafted with Steel Smithing. Variants can also be looted off [Deeja](https://en.uesp.net/wiki/Skyrim:Deeja) and [Jaree-Ra](https://en.uesp.net/wiki/Skyrim:Jaree-Ra).
   - [Travelling Priest Robes](https://www.nexusmods.com/skyrimspecialedition/mods/118327): Can be found on several Priest-type NPCs and crafted.

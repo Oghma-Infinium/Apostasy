@@ -17,8 +17,6 @@
 
 # Attention
 
-## ! ! ! THIS DOCUMENTATION IS UNFINISHED ! ! !
-
 **Modlist Support: [Waking Dreams](https://discord.gg/4WwqfK5yHg)**
 
 >[!IMPORTANT]
@@ -29,7 +27,6 @@
 
 # Contents
 - [Attention](#attention)
-  - [! ! ! THIS DOCUMENTATION IS UNFINISHED ! ! !](#---this-documentation-is-unfinished---)
 - [Contents](#contents)
   - [Introduction](#introduction)
     - [System Requirements](#system-requirements)

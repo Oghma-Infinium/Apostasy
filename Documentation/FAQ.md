@@ -60,11 +60,19 @@ A: If you want to commission me to do so, then maybe. Otherwise, no.
 
 ### HUD / UI Disappears during Helgen Intro!
 Solution(s)
- 1. This seems to be an issue that will sometimes occur with [Alternate Perspective](https://www.nexusmods.com/skyrimspecialedition/mods/50307/) while doing the Helgen intro. **Restarting your game** will return your HUD / UI to normal.
+ 1. This seems to be an issue that will sometimes occur with [TrueHUD](https://www.nexusmods.com/skyrimspecialedition/mods/62775) when the `SetCartHUD` function is used in papyrus. I have removed this function (as it's not necessary to the functionality of the Helgen Intro with [Alternate Perspective](https://www.nexusmods.com/skyrimspecialedition/mods/50307)), however if it still occurs then **restarting your game** will return your HUD / UI to normal.
+
+### When leveling up skills, new perk nodes do not get highlighted until exiting and re-entering the perk menu!
+Solution(s)
+ 1. This is a bug with advancing skills while inside of an active menu. I won't fix this, it's a minor visual bug, the perks can still be selected even if you don't exit and re-enter menu.
 
 ### Dark Brotherhood abducted me when trying to start the Helgen Intro!
 Solution(s)
- 1. Don't be a fucking dumbass. Reload a save before starting the intro and make sure that you have been abducted BEFORE trying to start the Helgen Intro. 
+ 1. Don't be a dumbass. Reload a save before starting the intro and make sure that you have been abducted BEFORE trying to start the Helgen Intro. 
+
+### Wicked Game Quest (Val Serano) bugged out because of the Dark Brotherhood trying to abduct me!
+Solution(s)
+ 1. See above.
 
 ### Carriage Horse in Solitude is partially in the wall!
 Solution(s)
