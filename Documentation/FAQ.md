@@ -1,4 +1,4 @@
-![](https://raw.githubusercontent.com/Oghma-Infinium/Apostasy/main/images/Banner.webp)
+![](https://raw.githubusercontent.com/Oghma-Infinium/Apostasy/main/images/Banner.png)
 
 <p align="center">
   [ <a href="https://www.nexusmods.com/skyrimspecialedition/mods/118893">Nexus</a> |
