@@ -455,7 +455,7 @@ Please check the [FAQ](https://github.com/Oghma-Infinium/Apostasy/blob/main/Docu
 ## Credits and Thanks
 
 - _YOU_ for reading this.
-- [Bingus](https://ko-fi.com/beangas) for [Ascensio](https://github.com/Oghma-Infinium/Ascensio), ENB tweaking, asset editing, and much, much more.
+- [Bingus](https://next.nexusmods.com/profile/bingusthecatto/about-me) for [Ascensio](https://github.com/Oghma-Infinium/Ascensio), ENB tweaking, asset editing, and much, much more.
 - Curly for the original iteration of Ascensio that got me started with my first modlist.
 - [Ylikollikas](https://next.nexusmods.com/profile/Ylikollikas) for a lot, I can not even begin to list what he has contributed.
 - [iAmMe27](https://ko-fi.com/iamme27) for general modding, documentation, and WJ assistance.
