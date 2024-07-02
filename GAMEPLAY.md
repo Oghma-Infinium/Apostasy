@@ -93,7 +93,9 @@ Rather than Skyrim's vanilla difficulty system of only scaling up or down damage
 | **Adept** | 1.00x |  1.50x | 
 | **Expert** | 0.80x | 2.00x | 
 | **Master** | 0.70x | 2.50x | 
-| **Legendary** | 0.60x | 3.00x | 
+| **Legendary** | 2.50x | 4.00x | 
+
+Additionally, Legendary difficulty makes Sneak Attacks 50% less effective and increases the cost of all spells by 10%.
 
 </Details>
 
@@ -115,8 +117,6 @@ Harsher Health Regeneration is done to make Health Regeneration a more valuable 
 
  **On Novice and Apprentice, this mechanic is disabled.*
 
-**Legendary difficulty disables the Fortify Health Regeneration bonuses from falling below 50% and 25% Health. This is done to ensure Legendary difficulty remains a challenge at all stages of the game, and to discourage players from playing on Legendary in general.**
-
 </Details>
 
 <Details>
@@ -131,7 +131,7 @@ These changes to carry weight seek to make Carry Weight a more interesting stat,
 | Difficulty | Base Carry Weight | 
 |     :---:    |     :---:     | 
 | **Novice**    | 500 | 
-| **Apprentice** | 500 | 
+| **Apprentice** | 300 | 
 | **Adept** | 300 | 
 | **Expert** | 200 | 
 | **Master** | 200 | 
@@ -146,7 +146,7 @@ On Apprentice and Novice difficulty, the player can not be inflicted with Heavy 
 
 On Novice difficulty, the player gains a 50% resistance to all incoming Poise Damage. This results in the player being very difficult to stagger.
 
-On Legendary difficulty, the player deals 50% less Poise Damage to enemies.
+On Legendary difficulty, all targets take 50% more Poise Damage.
 
 </Details>
 

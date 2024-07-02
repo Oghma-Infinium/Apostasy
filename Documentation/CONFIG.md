@@ -66,8 +66,11 @@ The mods prefixed as `[Performance]` will be discussed below.
  1. `SSE Display Tweaks - Modified`: This is the version of Display Tweaks that is suggested to be edited for ease of use. Right clicking on the mod --> Information --> Notes provides instructions on the necessary Display Tweaks changes necessary if you plan on using some type of 3rd party FrameGen tool.
  2. `Faster HDT-SMP - AVX512 Optimization`: This mod contains the AVX512 version of the [Faster HDT-SMP](https://www.nexusmods.com/skyrimspecialedition/mods/57339) `.dll` file compatible with the list. It is ***highly*** suggested that you try out this addon if you have a CPU that supports AVX-512 instruction. If you do not know if your CPU supports AVX-512, then google it or use a tool like HWinfo. **ENABLING THIS MOD WITH AN INCOMPATIBLE CPU WILL EITHER CRASH YOUR GAME OR BREAK ALL SMP**.
  3. `CPU affinity`: To adjust CPU affinity for your setup, click the `Puzzle Piece` button at the top of MO2 and select `Set CPU Affinity`. Example of the options you need to press are provided [here](https://raw.githubusercontent.com/Oghma-Infinium/Vagabond/main/images/cpu%20affinity%20example.png).  
-
        > May give small performance improvement.
+ 4. `Apostasy - Performance DynDOLOD Output`: **Strongly suggested** for PCs that are barely meeting the [system requirements](https://github.com/Oghma-Infinium/Apostasy/blob/main/README.md#system-requirements) of the list or for those who are experiencing performance-related issues. If you plan on swapping to this version of DynDOLOD then read the steps below. **FAILING TO FOLLOW THESE STEPS WILL RESULT IN A CORRUPTED GAME.**
+    1. **If swapping on an existing save game**, Make a [clean save](https://dyndolod.info/Help/Clean-Save) (follow steps 1-4).
+    2. Activate the `[Performance] Apostasy - Performance DynDOLOD Output` mod under the **Perfomance Optimizations** separator in the left pane of MO2.
+    3. Deactivate the `Apostasy - DynDOLOD Output` mod under the **LOD Outputs** separator in the left pane of MO2.
 
 Beyond what I can easily offer, you may want to consider reducing the `iShadowMapResolution` from 1024 to 512 in the `skyrimprefs.ini`.   
 Please **DO NOT** run tools such as Bethini, the ini files have already been configured extensively and many changes made by Bethini are frankly terrible. 
@@ -133,7 +136,7 @@ Changing MCM Settings in any MCM that is under the `> Apostasy MCM Hider <` tab 
 
  1. `Apostasy`: This is a custom MCM made for the list.
     > **NSFW Armors Toggle**: Determines whether some lewd-er versions of some armors will be craftable or not. Has no effect on the armors that NPCs wear or the armors that can be looted. (Default: Disabled)
-    > **Killmove Toggle**: Toggles whether or not Killmoves are allowed. (Default: Enabled)
+    > **Killmove Mode**: Choose between three different styles of Killmoves: Disabled, Vanilla Style, or Cinematic. (Default: Vanilla Style)
  2. `CollisionReset`: Change the keybind for resetting SMP physics (Default: `F10`). 
  3. `Compass Controls`: Change the Toggle key for the Compass (Default: `'`).
  4. `Dialogue History`: Change the keybind to bring up the Dialogue History menu (Default: `LAlt + Y`).

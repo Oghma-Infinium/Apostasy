@@ -1,4 +1,4 @@
-![](https://raw.githubusercontent.com/Oghma-Infinium/Apostasy/main/images/Banner.webp)
+![](https://raw.githubusercontent.com/Oghma-Infinium/Apostasy/main/images/Banner.png)
 
 <p align="center">
   [ <a href="https://www.nexusmods.com/skyrimspecialedition/mods/118893">Nexus</a> |
@@ -16,6 +16,7 @@
 ---
 
 # Changelog
+- [0.5.0](#050) Release Date: 
 - [0.4.2](#042) Release Date: June 24, 2024
 - [0.4.1](#041) Release Date: June 22, 2024
 - [0.4.0](#040) Release Date: Not released.
@@ -24,6 +25,214 @@
 - [0.2.0](#020) Release Date: June 4, 2024
 - [0.1.1](#011) Release Date: May 30, 2024
 - [0.1.0](#001) Release Date: May 29, 2024
+
+## 0.5.0
+
+Key Info
+
+ - Not save-safe.
+ - Likely last major version before public release.
+ - Finalized most Navmesh patching for the moment.
+ - Couple of bigger changes, check changelog.
+ - Included Performance Output for DynDOLOD.
+ - PLEASE PLEASE PLEASE PLEASE give feedback on the new enemy and encounter scaling. It is **extremely** experimental and I would like to know if it is better or worse than previous versions before public release.
+
+<Details>
+<summary>Changes</summary>
+
+### Updated
+
+ - List Outputs
+ - [Eastern Brassplate 3BA HDT-SMP](https://www.nexusmods.com/skyrimspecialedition/mods/122488)
+ - [JK's Guild HQ Interiors Patch Collection](https://www.nexusmods.com/skyrimspecialedition/mods/61416)
+ - [Open Animation Replacer](https://www.nexusmods.com/skyrimspecialedition/mods/92109)
+ - [JK's Interiors Patch Collection](https://www.nexusmods.com/skyrimspecialedition/mods/35910)
+ - [Ryn's Riverwood Patch Collection](https://www.nexusmods.com/skyrimspecialedition/mods/89511)
+ - [The Great City of Winterhold Patch Collection](https://www.nexusmods.com/skyrimspecialedition/mods/74560)
+ - [RedBag's Morthal - Some Useful Patches](https://www.nexusmods.com/skyrimspecialedition/mods/73333)
+ - [Tomato's Complex Landscapes Parallax AIO](https://www.nexusmods.com/skyrimspecialedition/mods/110981)
+ - [Atlantean Landscape -Complete- Complex Terrain Parallax](https://www.nexusmods.com/skyrimspecialedition/mods/89542)
+ - [Windhelm Bridge Revived](https://www.nexusmods.com/skyrimspecialedition/mods/84686)
+ - [aljo's Artificer Patches](https://www.nexusmods.com/skyrimspecialedition/mods/99684)
+ - [City Trees](https://www.nexusmods.com/skyrimspecialedition/mods/35546)
+ - [RedBag's Falkreath - Patch Collection](https://www.nexusmods.com/skyrimspecialedition/mods/84122)
+ - [Remiel-Custom Voiced Dwemer Specialist and Companion](https://www.nexusmods.com/skyrimspecialedition/mods/51874)
+ - [Modlist Maintenance Utility](https://www.nexusmods.com/skyrimspecialedition/mods/117093)
+ - [Rally's Weapon Racks](https://www.nexusmods.com/skyrimspecialedition/mods/82682)
+ - [Terrain Parallax Blending Fix](https://www.nexusmods.com/skyrimspecialedition/mods/88261)
+ - [Better AltTab](https://www.nexusmods.com/skyrimspecialedition/mods/121342)
+ - [Northern Roads Patch Collection](https://www.nexusmods.com/skyrimspecialedition/mods/77386)
+ - [Nightgate Inn Revived](https://www.nexusmods.com/skyrimspecialedition/mods/121244)
+ - [Experience](https://www.nexusmods.com/skyrimspecialedition/mods/17751)
+ - [Elianora's Breezehome Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/2829)
+ - [Random death animation](https://www.nexusmods.com/skyrimspecialedition/mods/93061)
+ - [House of Horrors - Quest Expansion](https://www.nexusmods.com/skyrimspecialedition/mods/57285)
+ - [The Great City of Winterhold Patch Collection](https://www.nexusmods.com/skyrimspecialedition/mods/74560)
+ - [Blue Palace Frescoes Simplified](https://www.nexusmods.com/skyrimspecialedition/mods/70344)
+ - [Menu Zoom](https://www.nexusmods.com/skyrimspecialedition/mods/117402)
+ - [Snazzy Interiors - JK's Palace of the Kings](https://www.nexusmods.com/skyrimspecialedition/mods/110339)
+ - [Snazzy Interiors - Whiterun House Gray-Mane](https://www.nexusmods.com/skyrimspecialedition/mods/91505)
+ - [Snazzy Interiors - Whiterun House Battle-Born](https://www.nexusmods.com/skyrimspecialedition/mods/91121)
+ - [More Informative Console](https://www.nexusmods.com/skyrimspecialedition/mods/19250)
+
+### Added
+
+ - [Rise in the East - Immersive Start - Don't Miss Japhet's Folly](https://www.nexusmods.com/skyrimspecialedition/mods/122371?)
+ - [RedBag's Rorikstead - Enhanced Tiny Fix Patch](https://www.nexusmods.com/skyrimspecialedition/mods/105234)
+ - [The Quaint Hamlet of Soljund's Sinkhole](https://www.nexusmods.com/skyrimspecialedition/mods/122627)
+ - [STB_ResistsWidget](https://www.nexusmods.com/skyrimspecialedition/mods/59880)
+ - [Assorted Vampire Fixes and Tweaks](https://www.nexusmods.com/skyrimspecialedition/mods/120532)
+ - [Obscure's College of Winterhold NPC Stuck in Staircase Fix](https://www.nexusmods.com/skyrimspecialedition/mods/53713)
+ - [No grass in caves](https://www.nexusmods.com/skyrimspecialedition/mods/12431)
+ - [Lost Passages - The Hidden City](https://www.nexusmods.com/skyrimspecialedition/mods/117191)
+ - [Lost Passages - New Dungeons for Skyrim](https://www.nexusmods.com/skyrimspecialedition/mods/106061)
+ - [Unique Matriarch](https://www.nexusmods.com/skyrimspecialedition/mods/109715)
+ - [New Legion - CBBE 3BA](https://www.nexusmods.com/skyrimspecialedition/mods/122841)
+ - [Nirn's Chosen - Enhanced Races and Classes](https://www.nexusmods.com/skyrimspecialedition/mods/121427)
+ - [Stones of Sacrifice - Double Edged Standing Stones](https://www.nexusmods.com/skyrimspecialedition/mods/121629)
+ - [NPCs Names Distributor - Patches for Various Mods](https://www.nexusmods.com/skyrimspecialedition/mods/119090)
+ - [Facial Hair by Khisartin - Standalone](https://www.nexusmods.com/skyrimspecialedition/mods/122879)
+ - [Diseases - I4 icon](https://www.nexusmods.com/skyrimspecialedition/mods/94076)
+ - [Demon of Dream](https://www.nexusmods.com/skyrimspecialedition/mods/118719)
+ - [Foxglove - Auri Replacer - Visual Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/116201)
+ - [DCA - Dragon Combat Animations](https://www.nexusmods.com/skyrimspecialedition/mods/123113)
+ - [Dragon Priest Hood Variants](https://www.nexusmods.com/skyrimspecialedition/mods/123043)
+
+### Removed
+
+ - [MCM Recorder](https://www.nexusmods.com/skyrimspecialedition/mods/61719)
+   - Wasn't being utilized at all.
+ - [Consistency Fix - Coffins For Vampires](https://www.nexusmods.com/skyrimspecialedition/mods/87408)
+   - Superceded.
+ - [Consistency Fix - Vampire Scouts Only Spawn at Night](https://www.nexusmods.com/skyrimspecialedition/mods/78222)
+   - Superceded.
+ - [Wuth Rein - An ancient nordic hideout](https://www.nexusmods.com/skyrimspecialedition/mods/52995)
+   - I got frustrated try to patch 3 mods that all add an entrance to their new cells in THE SAME EXACT SPOT.
+ - [Enchantment Art Extender](https://www.nexusmods.com/skyrimspecialedition/mods/105492) (and [1.5 port](https://www.nexusmods.com/skyrimspecialedition/mods/111444))
+   - Crash Concerns.
+ - [Hand to Hand - An Adamant Addon](https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=470493&nmm=1&game_id=1704)
+   - No longer needed due to change in enemy design philosophy that will be implemented over the next few versions.
+ - [Lawless Simonrim](https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=473981&nmm=1&game_id=1704)
+   - No longer being used due to change in enemy design philosophy.
+ - [Draugr MCO Improved - SimonRim](https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=495228&nmm=1&game_id=1704)
+   - No longer being used due to change in enemy design philosophy.
+ - [Majestic Auri - a visual replacer](https://www.nexusmods.com/skyrimspecialedition/mods/72361)
+   - Swapped replacers.
+ - [Paramount - Magnificent Main Menu](https://www.nexusmods.com/skyrimspecialedition/mods/26672)
+   - List uses custom Main Menu now.
+ - [Tamrielic Grass](https://www.nexusmods.com/skyrimspecialedition/mods/46217) (and [Complex Grass](https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=284326&nmm=1&game_id=1704) files)
+   - Bloated WJ file size, assets weren't great, and was barely utilized.
+ - [HelpExtender](https://www.nexusmods.com/skyrimspecialedition/mods/74376)
+   - Massively slowed down console and had no real use case for average user.
+
+</Details>
+
+<Details>
+<summary>Patch Notes</summary>
+
+### Balance
+
+ - Covered enchanting perks.
+ - Cast Aside (Block) now checks for Stamina instead of Health.
+ - Rallying Standard now increases Health Recovery instead of increasing Armor Rating.
+ - Improved the Stagger from Timed Blocks, after playtesting I felt as though the stagger from Timed Blocks never triggered and it felt bad.
+ - Timed Blocks now increase Blocking power by up to 100% based on Block Skill. (was 50%).
+   - Blocking Power starts at 1.5x power, and increases to 2.0x power @ 100 Block Skill.
+ - Increased Timed Blocking window from 300ms to 330ms. Hopefully this isn't being too generous, but it should greatly improve the feel of Timed Blocking. Please give me feedback on whether or not this makes the mechanic too easy.
+ - Added breakdown recipes for Talismans as a way to refund some Refined Essences if desired.
+   - Standard Talismans refund 5 Refined Essences, empowered Talismans refund 8 Refined Essences.
+ - Completely rebalanced Armor and Armor-tier Scaling.
+   - Some items may have been missed, as is the nature of modders (and Bethesda at times) being incapable of using correct keywords to match items, but 99% of items should be appropriately rescaled.
+ - Changed Auriel's Shield to Light Armor to compensate for the lack of Light Armor shield artifacts.
+ - Fixed buffs that gave % Skill Use to give something actually useful:
+   - Path of Might (Oghma Infinium) now gives +50 Health. (was +20% Skill use to Warrior Skills).
+   - Path of Magic (Oghma Infinium) now gives +50 Magicka. (was +20% Skill use to Mage Skills).
+   - Path of Shadow (Oghma Infinium) now gives +50 Stamina. (was +20% Skill use to Thief Skills).
+   - Tall Papa (Deity) now gives +5/10% Movement Speed. (was +5/10% Skill use to all skills).
+   - Akatosh (Deity) now gives +5/10% Spell Absorb. (was +5/10% Skill use to all skills).
+     - Amulet of Akatosh now gives +5% Spell Absorb. (was +5% Skill use to all skills).
+ - Cloaks added by New Legion are no longer enchantable.
+ - Legendary Difficulty is now "Lethal" Difficulty.
+   - Damage done by player is now 2.5x (was 0.6x)
+   - Damage taken by player is now 4.0x (was 3.0x)
+   - Sneak Attacks are 50% less effective.
+   - Spells cost 10% more Magicka.
+   - All targets take 50% more stagger.
+   - Reverted the change where the player dealt 50% less stagger to all targets on Legendary.
+
+### Bug Fixes
+
+ - Fixed underwater landscape seam near Guardian Stones.
+   - `0 -15`, `0 -14`, `-1 -15`
+ - Fixed Arcane Awakening's incorrect tooltip.
+ - Adjusted the positioning of a Yellow Shrub that was floating near the Whiterun Khajiit Caravan.
+ - Distributed Artificer Dragon Priest staves (I forgot to previously).
+ - Fixed Ring of Erudite to use intended effect.
+ - Fixed a bug that caused some low level enemies to be unable to cast certain spells.
+ - Fixed a bug where playable races (NPCs only, not the player) had higher starting skills than intended.
+ - Fixed Snow Shader on meshes that used Farm Material.
+ - Repainted landscape near Ritual Stone.
+   - `12 0`, `12 -1`
+ - Redid Navmesh between Windhelm Bridge and Khajiit Camp.
+ - Fixed deleted Navmesh in the following plugins:
+   - `Thuldor's Ivarstead - Tweaks and Fixes.esp`
+   - `Strongholds - Dushnikh Yal 2.0.esp`
+     > Removed from plugin as it was forwarding a deleted navmesh from Dawnguard.
+   - `Riverwood Overhaul By BigHead.esp`
+   - `dg04bjornfollower.esp`
+   - `RedBag's Rorikstead.esp`
+   - `RedBag's Rorikstead - Enhanced.esp`
+   - `Cidhna Mine Expanded.esp`
+ - Added proper parallax texture for `RidgedStone02` (thanks to bingus). Heavily reduced/eliminated parallax warping on most Nordic Ruins meshes.
+ - Fixed seams in Riften.
+ - Should have fixed issues with staves being placed on display racks.
+ - (I think) Fixed the weird behavior that was sometimes experienced during stealth gameplay with enemies being overly oblivious to the player's location.
+ - Fixed issue where Animal Companion (Speech) would run the activator prompt on everything that wasn't a Current Follower.
+ - Removed test shaders from some perk effects.
+ - (I think) Fixed the bug where sometimes it was impossible to reanimate actors after some death animations.
+ - (I think) Fixed scene with Thoron at the end of Extended Cut - Saints and Seducers.
+ - Adjusted Embers in Helgen Brazier to reduce clipping.
+   - `C1D95` and `C1D96`
+ - Fixed DirtCliff positioning in `DLC1HunterWorldStart` (Dayspring Canyon).
+   - `02008EB5`
+
+### Misc. Changes
+
+ - Changed fieldgrass02 texture.
+ - Repainted the following cells:
+   - `-11 -22`
+   - `-11 -21`
+   - `-10 -22`
+   - `-10 -21`
+ - Reworked a lot of Valor's backend to be cleaner for future projects.
+ - Removed tree in the middle of road near Dark Brotherhood Sanctuary (Falkreath).
+   - `0x2A08F8~Nature of the Wild Lands.esp`
+ - Changed the Armor, Weapon, and Gold carried by the Silver-Blood Bounty Hunter in Winterhold.
+ - Distortion has a new visual that I think fits better.
+ - Rallying Standard's buff has a new visual to clearly indicate whether or not you are affected by it.
+ - Added Resistance Widgets to UI.
+ - Reduced the number of trees in Solitude.
+ - Renamed "Lover's Song" ability (Standing Stone) to "Lover's Kiss".
+ - ESM flagged the following mods:
+   - `Landscape Fixes For Grass Mods.esp`
+   - `Landscape and Water Fixes - Patch - LFfGM.esp`
+   - `RedBag's Rorikstead.esp`
+   - `RedBag's Rorikstead - Hearthfire Patch.esp`
+   - `RedBag's Rorikstead - Enhanced.esp`
+   - `Northern Roads.esp`
+   - `S3DTrees NextGenerationForests.esp`
+ - Changed tooltips within the list to say "recovers" if they are referencing base regen.
+ - Removed some errant downloads.
+ - Improved Apostasy MCM layout and configuration.
+   - Overhauled the "Killmove Mode" selection.
+ - Heavily reduced trees around Kynesgrove.
+ - Changed Volcanic Tundra Grass.
+ - Changed Rocks01 and Mountains texture.
+ - Changed Fall Forest textures.
+ - Moved message notifications back to default position.
+ - Patched Markarth meshes to use the proper texture paths for mountainous chunks.
+
+</Details>
 
 ## 0.4.2
 
