@@ -16,7 +16,7 @@
 ---
 
 # Changelog
-- [0.5.0](#050) Release Date: 
+- [0.5.0](#050) Release Date: July 2, 2024
 - [0.4.2](#042) Release Date: June 24, 2024
 - [0.4.1](#041) Release Date: June 22, 2024
 - [0.4.0](#040) Release Date: Not released.
