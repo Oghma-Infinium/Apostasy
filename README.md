@@ -328,6 +328,7 @@ MEGA Files:
 
 Patreon Files: (These are free to download)
 - [ESkyrim MCO Installer](https://www.patreon.com/file?h=68233071&i=11449877)
+- [HDT-SMP Sona Armor](https://www.patreon.com/file?h=68902488&i=12781379)
 
 ## Post-Installation and Optional Setup
 
@@ -459,15 +460,16 @@ Please check the [FAQ](https://github.com/Oghma-Infinium/Apostasy/blob/main/Docu
 - Curly for the original iteration of Ascensio that got me started with my first modlist.
 - [Ylikollikas](https://next.nexusmods.com/profile/Ylikollikas) for a lot, I can not even begin to list what he has contributed.
 - [iAmMe27](https://ko-fi.com/iamme27) for general modding, documentation, and WJ assistance.
-- Discord helpers for their time and effort playtesting, providing feedback, and support assistance.
+- The [Waking Dreams](https://discord.gg/4WwqfK5yHg) Helpers for their time and effort playtesting, providing feedback, and support assistance.
+- Those who play tested and provided feedback during beta.
 - [Jolly Co-Operators](https://discord.gg/jolly-coop) and [Cacophony](https://www.patreon.com/cacophony1979) for their wonderful community that inspired me to start modding more.
-- JustThatKing, jdsmith2816, and Total for their feedback and assistance when I started modding.
+- [JustThatKing](https://next.nexusmods.com/profile/JustThatKing/about-me), [jdsmith2816](https://next.nexusmods.com/profile/jdsmith2816/about-me), and [Total](https://github.com/NotTotal) for their feedback and assistance when I started modding.
 - Bethesda Game Studios for Skyrim and the Creation Kit.
 - [ElminsterAU](https://www.patreon.com/ElminsterAU) and the xEdit team for SSEEdit.
 - [Noggog](https://www.nexusmods.com/skyrim/users/862590) for Mutagen and Synthesis.
 - [Halgari](https://www.nexusmods.com/skyrimspecialedition/users/17252164) and the WJ Team for the amazing platform that is Wabbajack.
 - [LivelyDismay](https://github.com/LivelyDismay) and [The Animonculory](https://github.com/The-Animonculory) for their modding guides.
-- [Sheson](https://ko-fi.com/sheson) for DynDOLOD.
+- [Sheson](https://ko-fi.com/sheson) for [DynDOLOD](https://dyndolod.info/) and associated tools.
 - [Styyx](https://github.com/Styyx1) for assisting heavily in creating DLLs for the custom mods made for the list.
 - [Aelarr](https://www.nexusmods.com/skyrim/users/6843757) and Anreme for permissions to use some custom mods from The Owl Archives server.
 - Mgde12, D1Z4STR, 半蔵 内倉, Kepler, Hencoat, Matty, EnragedHamster, Scott, snowpeachcherry, Charlie Kriech, Durgenage, Pacifist Fist, Don Maker, Russell Collins, Oresh, Danimals, Monko, Anehum, Valeria, The Unattested Wombat, Ola Nordman, Regista433, Jaron Scotland, King_Sheogorath, TheRyge, and Shakes for support on [patreon](https://www.patreon.com/aljoxo).

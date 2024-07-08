@@ -27,9 +27,9 @@ Before reading this section, I suggest looking over the [load order](https://loa
 
 ### Core Mods
 
- - [Perk Mod](https://www.youtube.com/watch?v=dQw4w9WgXcQ).
+ - Apostasy uses a custom Perk Overhaul.
  - [Nirn's Chosen](https://www.nexusmods.com/skyrimspecialedition/mods/121427) and [Stones of Sacrifice](https://www.nexusmods.com/skyrimspecialedition/mods/121629) cover the Race and Standing Stones overhauls within the list.
- - [Religion Mod](https://www.youtube.com/watch?v=dQw4w9WgXcQ).
+ - [Pilgrim - A Religion Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/54099) and the [Custom Skills Framework Addon](https://www.nexusmods.com/skyrimspecialedition/mods/93913) flesh out the Religion system for the list.
  - 
 
 ### Leveling and Progression
@@ -95,7 +95,7 @@ Rather than Skyrim's vanilla difficulty system of only scaling up or down damage
 | **Master** | 0.70x | 2.50x | 
 | **Legendary** | 2.50x | 4.00x | 
 
-Additionally, Legendary difficulty makes Sneak Attacks 50% less effective and increases the cost of all spells by 10%.
+Additionally, Legendary difficulty makes Sneak Attacks 50% less effective and increases the cost of all spells by 15%.
 
 </Details>
 
@@ -269,7 +269,7 @@ Below is an (incomplete) list of new armors and weapons that are added and obtai
 Crafting Manuals are consumed (like spell tomes) and are not required to be held in inventory in order to craft their respective equipment. Below is a list of Crafting Manuals, their requirements, and where to find them:
 
 <Details>
-<summary>Manuals</summary>
+<summary>Style Manuals</summary>
 
 Armors and weapons crafted from manuals may or may not require the equivalent Smithing perk in addition to the manual knowledge requirement.
 
@@ -283,6 +283,7 @@ Armors and weapons crafted from manuals may or may not require the equivalent Sm
  - **Armor and Weapons**
    - **Alik'r Style**: Purchasable from Blacksmiths with level 40+ Smithing skill. (Covers [Crown Plate](https://www.nexusmods.com/skyrimspecialedition/mods/114751) and [Rihad Swordsman](https://www.nexusmods.com/skyrimspecialedition/mods/120576).)
    - **Bretonic Style**: Purchaseable from Blacksmiths with level 60+ Smithing skill. (Covers [Fleet Knight](https://www.nexusmods.com/skyrimspecialedition/mods/95009), [Gryphonknight](https://www.nexusmods.com/skyrimspecialedition/mods/107437), [Wayward Knight](https://www.nexusmods.com/skyrimspecialedition/mods/112793), [Squire's Plate](https://www.nexusmods.com/skyrimspecialedition/mods/120370), and [Dark Witch Armor](https://www.nexusmods.com/skyrimspecialedition/mods/112260).)
+     - More NSFW/lewd versions of some sets can be toggled in the Apostasy MCM.
    - **Cyrodilic Style**: Purchasable from Blacksmiths with level 40+ Smithing skill. (Covers [Colovian Prince](https://www.nexusmods.com/skyrimspecialedition/mods/79894) and [Kvetchi Mercenary](https://www.nexusmods.com/skyrimspecialedition/mods/79226).)
 
 </Details>
@@ -321,6 +322,7 @@ This section will try to list the new content focused mods added to the list, an
  - [Improved Companions - Questline Tweaks](https://www.nexusmods.com/skyrimspecialedition/mods/22300)
  - [In the Shadow of the Crown](https://www.nexusmods.com/skyrimspecialedition/mods/79600)
  - [Infiltration - Quest Expansion](https://www.nexusmods.com/skyrimspecialedition/mods/114054)
+ - [Innocence Lost - Quest Expansion](https://www.nexusmods.com/skyrimspecialedition/mods/80974)
  - [Jiub's Opus](https://www.nexusmods.com/skyrimspecialedition/mods/17056)
  - [Mehrunes Dagon's Shrine Unlocked - Pieces of the Past Alternate Ending](https://www.nexusmods.com/skyrimspecialedition/mods/119502)
  - [Muiri's Revenge](https://www.nexusmods.com/skyrimspecialedition/mods/24312)
@@ -331,7 +333,7 @@ This section will try to list the new content focused mods added to the list, an
  - [Simple Fishing Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/103440)
  - [Stones of Barenziah Quest Markers](https://www.nexusmods.com/skyrimspecialedition/mods/684)
  - [The Heart of Dibella - Quest Expansion](https://www.nexusmods.com/skyrimspecialedition/mods/94863)
- - [Innocence Lost - Quest Expansion](https://www.nexusmods.com/skyrimspecialedition/mods/80974)
+ - [The Taste of Death - Quest Addon](https://www.nexusmods.com/skyrimspecialedition/mods/123173)
  - [The Only Cure - Quest Expansion](https://www.nexusmods.com/skyrimspecialedition/mods/57683)
  - [The Whispering Door - Quest Expansion](https://www.nexusmods.com/skyrimspecialedition/mods/76606)
  - [Thieves Guild Alternative Endings](https://www.nexusmods.com/skyrimspecialedition/mods/114558)
