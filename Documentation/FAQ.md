@@ -125,4 +125,4 @@ Solution(s)
 
 ### Crashing after loading a save! / Crashing after dying!
 **Cause** Skyrim has a multitude of issues when it comes to loading back game data without restarting the game. There are a few culprits that could be the main driver of these crashes, but I have yet to collect enough information or consistently reproducible crashes to report it to the relevant authors.
-**Fix**: This is one reason that the list includes the [Acheron - Death Alternative](https://www.nexusmods.com/skyrimspecialedition/mods/108159) mod (an attempt to reduce the number of times you will be reloading saves during normal gameplay). Please post logs in in the [discord](https://discord.gg/4WwqfK5yHg) channel `#apostasy-support` if you suffer from these crashes, but realize that I have very little ability to fix them at this current time.
+Please post logs in in the [discord](https://discord.gg/4WwqfK5yHg) channel `#apostasy-support` if you suffer from these crashes, but realize that I have very little ability to fix them at this current time.
