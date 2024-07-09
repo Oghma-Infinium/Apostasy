@@ -77,12 +77,10 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 
 ![](https://raw.githubusercontent.com/Oghma-Infinium/Apostasy/main/images/perfTarget.PNG)
 
-Please note that the below numbers are current estimates and the actual may be larger or smaller depending on version.
-
 Downloads: ~150 GB  
-Install: ~190 GB  
+Install: ~200 GB  
 Temp Files: ~40 GB (on OS drive)  
-**TOTAL:** ~340 GB  
+**TOTAL:** ~350 GB  
 
 <Details>
 <summary>Temporary Files</summary>
@@ -321,7 +319,8 @@ MEGA Files:
 
 Patreon Files: (These are free to download)
 - [ESkyrim MCO Installer](https://www.patreon.com/file?h=68233071&i=11449877)
-- [HDT-SMP Sona Armor](https://www.patreon.com/file?h=68902488&i=12781379)
+- [HDT-SMP Sona Armor - Female](https://www.patreon.com/file?h=68902488&i=12781379)
+- [HDT-SMP Sona Armor - Male](https://www.patreon.com/file?h=68902488&i=13158956)
 
 ## Post-Installation and Optional Setup
 
