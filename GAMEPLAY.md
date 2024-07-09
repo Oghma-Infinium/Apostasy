@@ -30,9 +30,21 @@ Before reading this section, I suggest looking over the [load order](https://loa
  - Apostasy uses a custom Perk Overhaul.
  - [Nirn's Chosen](https://www.nexusmods.com/skyrimspecialedition/mods/121427) and [Stones of Sacrifice](https://www.nexusmods.com/skyrimspecialedition/mods/121629) cover the Race and Standing Stones overhauls within the list.
  - [Pilgrim - A Religion Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/54099) and the [Custom Skills Framework Addon](https://www.nexusmods.com/skyrimspecialedition/mods/93913) flesh out the Religion system for the list.
- - 
+
+### Combat Foundations
+
+The following mods are considered the "foundations" of the combat and gameplay for Apostasy:
+ - [Stances NG](https://www.nexusmods.com/skyrimspecialedition/mods/117986) provides the ability to swap between multiple stances. By default, stances only contribute to what animations are used, but some perks provide benefits to specific stances!
+   - Default keybinds: `X` for Wolf Stance, `Ctrl+X` for Hawk Stance, `Shift+X` for Bear Stance.
+   - Stances affect first and third person.
+ - [TK Dodge RE](https://www.nexusmods.com/skyrimspecialedition/mods/56956) adds Dodging to the game.
+   - Dodges are based on Armor Type. Heavy Armor gets a shorter step dodge with shortened iframes, Light Armor gets a longer roll dodge with longer iframes.
+   - In First person, Dodges are always roll dodges.
+ - [Maxsu Poise Revise](https://www.nexusmods.com/skyrimspecialedition/mods/117988) and [Modern Stagger Lock](https://github.com/max-su-2019/ModernStaggerLock) implement a Poise system, which has been fine tuned for the list. Poise Health can be seen on the Special Bar of TrueHUD (the yellow bar above Health on player and target widgets).
 
 ### Leveling and Progression
+
+![](https://staticdelivery.nexusmods.com/mods/1704/images/118893/118893-1720520004-1902455222.png)
 
 Apostasy modifies the vanilla leveling experience in a way to reward the player for engaging in the world in sensible ways. While perks can be obtained through leveling, the perks gained from leveling alone are unlikely to be sufficient for sustaining a full character build in late game. Below is a general breakdown of what to expect with the leveling and progression system in Apostasy.
 
@@ -57,7 +69,6 @@ Skill Point Costs are as follows:
 | 51-75 | 4  | 
 | 76-100 | 6  | 
 
-
 </Details>
 
 <Details>
@@ -80,6 +91,8 @@ Skill Point Costs are as follows:
 </Details>
 
 ### Difficulty
+
+![](https://staticdelivery.nexusmods.com/mods/1704/images/118893/118893-1720419196-1191687929.png)
 
 Rather than Skyrim's vanilla difficulty system of only scaling up or down damage based on difficulty, Apostasy introduces some additional mechanics based on difficulty. You can read more about these mechanics below.
 
@@ -226,7 +239,9 @@ Apostasy changes a significant amount of vanilla quests in one way or another in
 
 ### Modded Armors and Weapons
 
-Apostasy adds a significant amount of new Armors and Weapons to the game, all of which have been hand tuned and modified to fit within the balance of the list. While most can be accessed through [Skyrim Outfit System](https://www.nexusmods.com/skyrimspecialedition/mods/42162) if you want to use them purely for cosmetics, many have been re-integrated into the world as potential loot (or equipment that is unique to specific NPCs) and/or has been made obtainable through **Crafting Manuals**. 
+![](https://staticdelivery.nexusmods.com/mods/1704/images/118893/118893-1720514816-1015656824.png)
+
+Apostasy adds a significant amount of new Armors and Weapons to the game, all of which have been hand tuned and modified to fit within the balance of the list. While most can be accessed through [Skyrim Outfit System](https://www.nexusmods.com/skyrimspecialedition/mods/42162) if you want to use them purely for cosmetics, many have been re-integrated into the world as potential loot (or equipment that is unique to specific NPCs) and/or has been made obtainable through **Crafting Motifs**. 
 
 Below is an (incomplete) list of new armors and weapons that are added and obtainable by the player:
 
@@ -234,47 +249,47 @@ Below is an (incomplete) list of new armors and weapons that are added and obtai
 <summary>New Equipment</summary>
 
   - [Bone Cultist Armor](https://www.nexusmods.com/skyrimspecialedition/mods/111224): Can be found on Solstheim Bandits and has the same crafting requirements as Bonemold.
-  - [Colovian Prince Set](https://www.nexusmods.com/skyrimspecialedition/mods/79894): See Manuals. Can be found on select NPCs.
-  - [Crown Plate Set](https://www.nexusmods.com/skyrimspecialedition/mods/114751): See Manuals. Can also be found on [Kematu](https://en.uesp.net/wiki/Skyrim:Kematu) and his men.
+  - [Colovian Prince Set](https://www.nexusmods.com/skyrimspecialedition/mods/79894): See Motifs. Can be found on select NPCs.
+  - [Crown Plate Set](https://www.nexusmods.com/skyrimspecialedition/mods/114751): See Motifs. Can also be found on [Kematu](https://en.uesp.net/wiki/Skyrim:Kematu) and his men.
   - [Dark Brotherhood Armor SE](https://www.nexusmods.com/skyrimspecialedition/mods/57539): Replacer for Dark Brotherhood Armor.
-  - [Dark Witch Armor](https://www.nexusmods.com/skyrimspecialedition/mods/112260): See Manuals. Worn by [Illia](https://en.uesp.net/wiki/Skyrim:Illia).
+  - [Dark Witch Armor](https://www.nexusmods.com/skyrimspecialedition/mods/112260): See Motifs. Worn by [Illia](https://en.uesp.net/wiki/Skyrim:Illia).
   - [Dwemer Armor SE](https://www.nexusmods.com/skyrimspecialedition/mods/81043): Craftable with Dwemer Smithing.
   - [Eclipse Mage Outfit](https://www.nexusmods.com/skyrimspecialedition/mods/77244):
   - [Elmlock Armor and Blade](https://www.nexusmods.com/skyrimspecialedition/mods/105930): 
-  - [Fleet Knight Set](https://www.nexusmods.com/skyrimspecialedition/mods/95009): See Manuals.
+  - [Fleet Knight Set](https://www.nexusmods.com/skyrimspecialedition/mods/95009): See Motifs.
   - [Fluted Armor SE](https://www.nexusmods.com/skyrimspecialedition/mods/106381): Craftable with Ebony Smithing. Can also be found on select NPCs.
-  - [Glasses Pack](https://www.nexusmods.com/skyrimspecialedition/mods/115653): See Manuals.
+  - [Glasses Pack](https://www.nexusmods.com/skyrimspecialedition/mods/115653): See Motifs.
   - [Gryphonknight Regalia](https://www.nexusmods.com/skyrimspecialedition/mods/107437): Can be looted off of [Sabine Nytte](https://en.uesp.net/wiki/Skyrim:Sabine_Nytte).
   - [Illusive Infiltrator Armor](https://www.nexusmods.com/skyrimspecialedition/mods/105659): Craftable with Steel Smithing.
   - [Infantry Armor SE](https://www.nexusmods.com/skyrimspecialedition/mods/88099): Can be crafted with Steel Smithing. Can also be found on select NPCs.
   - [Kellan Armor](https://www.nexusmods.com/skyrimspecialedition/mods/68199): Craftable with Steel Smithing. Worn by select NPCs. 
-  - [Kvetchi Mercenary Set](https://www.nexusmods.com/skyrimspecialedition/mods/79226): See Manuals.
-  - [Lunar Guard Armor](https://www.nexusmods.com/skyrimspecialedition/mods/75349): See Manuals.
-  - [MAGECORE](https://www.nexusmods.com/skyrimspecialedition/mods/113540): See Manuals.
+  - [Kvetchi Mercenary Set](https://www.nexusmods.com/skyrimspecialedition/mods/79226): See Motifs.
+  - [Lunar Guard Armor](https://www.nexusmods.com/skyrimspecialedition/mods/75349): See Motifs.
+  - [MAGECORE](https://www.nexusmods.com/skyrimspecialedition/mods/113540): See Motifs.
   - [Obi's HeadHunter Armor](https://www.nexusmods.com/skyrimspecialedition/mods/113990): Can be looted from [Captain Hargar](https://en.uesp.net/wiki/Skyrim:Captain_Hargar).
   - [Orcish Armor Expansion](https://www.nexusmods.com/skyrimspecialedition/mods/110280): Craftable with Orcish Smithing, can also be seen as variant armors for Stronghold Orcs. 
-  - [Rihad Swordsman Set](https://www.nexusmods.com/skyrimspecialedition/mods/120576): See Manuals. Can also be found on [Kematu](https://en.uesp.net/wiki/Skyrim:Kematu) and his men.
+  - [Rihad Swordsman Set](https://www.nexusmods.com/skyrimspecialedition/mods/120576): See Motifs. Can also be found on [Kematu](https://en.uesp.net/wiki/Skyrim:Kematu) and his men.
   - [Silver Armor SE](https://www.nexusmods.com/skyrimspecialedition/mods/79088): Craftable with Advanced Armors Smithing. Worn by select NPCs. 
-  - [Squire's Plate](https://www.nexusmods.com/skyrimspecialedition/mods/120370): See Manuals.
+  - [Squire's Plate](https://www.nexusmods.com/skyrimspecialedition/mods/120370): See Motifs.
   - [Stormhold Warrior Armor](https://www.nexusmods.com/skyrimspecialedition/mods/96559): Can be crafted with Steel Smithing. Variants can also be looted off [Deeja](https://en.uesp.net/wiki/Skyrim:Deeja) and [Jaree-Ra](https://en.uesp.net/wiki/Skyrim:Jaree-Ra).
   - [Travelling Priest Robes](https://www.nexusmods.com/skyrimspecialedition/mods/118327): Can be found on several Priest-type NPCs and crafted.
   - [Twilight Princess Armor](https://www.nexusmods.com/skyrimspecialedition/mods/71182): Can be crafted after completion of [Kindred Judgement](https://en.uesp.net/wiki/Skyrim:Kindred_Judgment) with Steel Smithing. Worn by [Serana](https://en.uesp.net/wiki/Skyrim:Serana).
   - [Vey Alaxon](https://www.nexusmods.com/skyrimspecialedition/mods/104572): Fully integrated into Gilded Elven tier, craftable with Elven Smithing.
-  - [Wayward Knight Set](https://www.nexusmods.com/skyrimspecialedition/mods/112793): See Manuals.
-  - [Wild Witch Outfit](https://www.nexusmods.com/skyrimspecialedition/mods/81085): See Manuals. A variant can also be looted off [The Caller](https://en.uesp.net/wiki/Skyrim:The_Caller).
+  - [Wayward Knight Set](https://www.nexusmods.com/skyrimspecialedition/mods/112793): See Motifs.
+  - [Wild Witch Outfit](https://www.nexusmods.com/skyrimspecialedition/mods/81085): See Motifs. A variant can also be looted off [The Caller](https://en.uesp.net/wiki/Skyrim:The_Caller).
   - [Wind Ruler Armor SE](https://www.nexusmods.com/skyrimspecialedition/mods/60842): Can be looted from the [Butcher](https://en.uesp.net/wiki/Skyrim:Butcher) and [Umana](https://en.uesp.net/wiki/Skyrim:Umana). Also found on select NPCs.
 
 </Details>
 
-Crafting Manuals are consumed (like spell tomes) and are not required to be held in inventory in order to craft their respective equipment. Below is a list of Crafting Manuals, their requirements, and where to find them:
+Crafting Motifs are consumed (like spell tomes) and are not required to be held in inventory in order to craft their respective equipment. Below is a list of Crafting Motifs, their requirements, and where to find them:
 
 <Details>
-<summary>Style Manuals</summary>
+<summary>Style Motifs</summary>
 
-Armors and weapons crafted from manuals may or may not require the equivalent Smithing perk in addition to the manual knowledge requirement.
+Armors and weapons crafted from Motifs may or may not require the equivalent Smithing perk in addition to the manual knowledge requirement.
 
  - **Armor**
-   - [Lunar Guard](https://www.nexusmods.com/skyrimspecialedition/mods/75349): Purchasable from Blacksmiths with level 80+ Smithing skill.
+   - : Purchasable from Blacksmiths with level 80+ Smithing skill.
  - **Clothes and Jewelry**
    - [Glasses](https://www.nexusmods.com/skyrimspecialedition/mods/115653): Purchasable from Jewelers and Radiant Raiments. (**FEMALE ONLY**).
    - [Goam Earrings](https://www.nexusmods.com/skyrimspecialedition/mods/112173): Purchasable from Jewelers and Radiant Raiments. (**FEMALE ONLY, GOAMS ELVEN EARS**).
@@ -285,10 +300,13 @@ Armors and weapons crafted from manuals may or may not require the equivalent Sm
    - **Bretonic Style**: Purchaseable from Blacksmiths with level 60+ Smithing skill. (Covers [Fleet Knight](https://www.nexusmods.com/skyrimspecialedition/mods/95009), [Gryphonknight](https://www.nexusmods.com/skyrimspecialedition/mods/107437), [Wayward Knight](https://www.nexusmods.com/skyrimspecialedition/mods/112793), [Squire's Plate](https://www.nexusmods.com/skyrimspecialedition/mods/120370), and [Dark Witch Armor](https://www.nexusmods.com/skyrimspecialedition/mods/112260).)
      - More NSFW/lewd versions of some sets can be toggled in the Apostasy MCM.
    - **Cyrodilic Style**: Purchasable from Blacksmiths with level 40+ Smithing skill. (Covers [Colovian Prince](https://www.nexusmods.com/skyrimspecialedition/mods/79894) and [Kvetchi Mercenary](https://www.nexusmods.com/skyrimspecialedition/mods/79226).)
+   - **Khajiit Style**: Purchasable from Blacksmiths with level 80+ Smithing skill. (Covers [Lunar Guard](https://www.nexusmods.com/skyrimspecialedition/mods/75349) and [Moon Monk's Robes](https://www.nexusmods.com/skyrimspecialedition/mods/82495).)
 
 </Details>
 
 ## New Content
+
+![](https://staticdelivery.nexusmods.com/mods/1704/images/118893/118893-1720525985-188255669.png)
 
 This section will try to list the new content focused mods added to the list, and if necessary, describe any major changes to them.
 
@@ -339,6 +357,8 @@ This section will try to list the new content focused mods added to the list, an
  - [Thieves Guild Alternative Endings](https://www.nexusmods.com/skyrimspecialedition/mods/114558)
  - [Thieves Guild Requirements](https://www.nexusmods.com/skyrimspecialedition/mods/33256)
  - [Unmasking Sybille](https://www.nexusmods.com/skyrimspecialedition/mods/109265)
+
+![](https://staticdelivery.nexusmods.com/mods/1704/images/118893/118893-1720499134-1562168666.png)
 
 ### Followers
 
