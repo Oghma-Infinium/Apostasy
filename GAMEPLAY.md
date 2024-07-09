@@ -27,11 +27,15 @@ Before reading this section, I suggest looking over the [load order](https://loa
 
 ### Core Mods
 
+![](https://staticdelivery.nexusmods.com/mods/1704/images/118893/118893-1720413781-25369315.png)
+
  - Apostasy uses a custom Perk Overhaul.
  - [Nirn's Chosen](https://www.nexusmods.com/skyrimspecialedition/mods/121427) and [Stones of Sacrifice](https://www.nexusmods.com/skyrimspecialedition/mods/121629) cover the Race and Standing Stones overhauls within the list.
  - [Pilgrim - A Religion Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/54099) and the [Custom Skills Framework Addon](https://www.nexusmods.com/skyrimspecialedition/mods/93913) flesh out the Religion system for the list.
 
 ### Combat Foundations
+
+![](https://staticdelivery.nexusmods.com/mods/1704/images/118893/118893-1720417609-1017143306.png)
 
 The following mods are considered the "foundations" of the combat and gameplay for Apostasy:
  - [Stances NG](https://www.nexusmods.com/skyrimspecialedition/mods/117986) provides the ability to swap between multiple stances. By default, stances only contribute to what animations are used, but some perks provide benefits to specific stances!
@@ -306,11 +310,11 @@ Armors and weapons crafted from Motifs may or may not require the equivalent Smi
 
 ## New Content
 
-![](https://staticdelivery.nexusmods.com/mods/1704/images/118893/118893-1720525985-188255669.png)
-
 This section will try to list the new content focused mods added to the list, and if necessary, describe any major changes to them.
 
 ### New Quests
+
+![](https://staticdelivery.nexusmods.com/mods/1704/images/118893/118893-1720525985-188255669.png)
 
  - [Artifacts - The Breton Paladin](https://www.nexusmods.com/skyrimspecialedition/mods/16199)
  - [Artifacts - The Ice Blade of the Monarch](https://www.nexusmods.com/skyrimspecialedition/mods/13972)
@@ -327,6 +331,8 @@ This section will try to list the new content focused mods added to the list, an
  - [VIGILANT](https://www.nexusmods.com/skyrimspecialedition/mods/11849)
 
 ### Vanilla Quest Expansions and Edits
+
+![](https://staticdelivery.nexusmods.com/mods/1704/images/118893/118893-1720526384-1494096468.png)
 
  - [A Lovely Letter Alternate Routes](https://www.nexusmods.com/skyrimspecialedition/mods/21916)
  - [Blood and Silver - Cidhna Mine Expanded](https://www.nexusmods.com/skyrimspecialedition/mods/20269)
@@ -358,9 +364,9 @@ This section will try to list the new content focused mods added to the list, an
  - [Thieves Guild Requirements](https://www.nexusmods.com/skyrimspecialedition/mods/33256)
  - [Unmasking Sybille](https://www.nexusmods.com/skyrimspecialedition/mods/109265)
 
-![](https://staticdelivery.nexusmods.com/mods/1704/images/118893/118893-1720499134-1562168666.png)
-
 ### Followers
+
+![](https://staticdelivery.nexusmods.com/mods/1704/images/118893/118893-1720499134-1562168666.png)
 
  - [Bjorn - Fully Voiced Follower](https://www.nexusmods.com/skyrimspecialedition/mods/91652)
  - [Feris - Custom Voiced Female Follower](https://www.nexusmods.com/skyrimspecialedition/mods/90032)
