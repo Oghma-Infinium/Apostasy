@@ -40,7 +40,7 @@ N/A
 
 </details>
 
-# Beta Versions
+## Beta Versions
 
 <details>
 <summary>Beta Versions</summary>
@@ -56,7 +56,7 @@ N/A
 - [0.1.1](#011) Release Date: May 30, 2024
 - [0.1.0](#001) Release Date: May 29, 2024
 
-## 0.6.0
+### 0.6.0
 
 Key Info
 
@@ -73,7 +73,7 @@ Key Info
 <Details>
 <summary>Changes</summary>
 
-### Updated
+#### Updated
 
  - [Snazzy Interiors - JK's Dragonsreach](https://www.nexusmods.com/skyrimspecialedition/mods/110403)
  - [Snazzy Interiors - Windhelm Blacksmith](https://www.nexusmods.com/skyrimspecialedition/mods/94317)
@@ -112,7 +112,7 @@ Key Info
  - [Northern Concept - Northern Roads](https://www.nexusmods.com/skyrimspecialedition/mods/107975)
  - [Chooey's Modular SMP Hairstyles Edit](https://www.nexusmods.com/skyrimspecialedition/mods/110414)
 
-### Added
+#### Added
 
  - [Less wide female draugr shoulders SE](https://www.nexusmods.com/skyrimspecialedition/mods/102446)
  - [Draugrs - New models and textures](https://www.nexusmods.com/skyrimspecialedition/mods/123170)
@@ -166,7 +166,7 @@ Key Info
  - [Skyland Imperial and Nordic Tents](https://www.nexusmods.com/skyrimspecialedition/mods/57002)
  - [Elden Counter](https://www.nexusmods.com/skyrimspecialedition/mods/65579)
 
-### Removed
+#### Removed
 
  - [QuickLoot EE](https://www.nexusmods.com/skyrimspecialedition/mods/69980)
    - Superceded.
@@ -192,7 +192,7 @@ Key Info
 <Details>
 <summary>Patch Notes</summary>
 
-### Balance
+#### Balance
 
  - Reverted experimental deleveling changes from [0.5.0](#050). This will be revisited in a future version.
  - Changed Serpent Stone.
@@ -234,7 +234,7 @@ Key Info
  - Rebalanced Boethiah's Chosen NPCs.
    - You can also no longer loot the majority of their gear. You get enough strong artifacts from doing the Tournament quest.
 
-### Bug Fixes
+#### Bug Fixes
 
  - Fixed Standing Stones not displaying correct icons in magic effect menu.
  - Lord Stone should no longer bug out brawls.
@@ -264,7 +264,7 @@ Key Info
  - No longer using vanilla dirtmound texture, oops.
  - Fixed Missive Boards for the final time. (coping)
 
-### Misc. Changes
+#### Misc. Changes
 
  - Cleaned several unused downloads.
  - Adjusted Cheap Shot's (Archery) tooltip.
@@ -325,7 +325,7 @@ Key Info
 
 </Details>
 
-## 0.5.0
+### 0.5.0
 
 Key Info
 
@@ -339,7 +339,7 @@ Key Info
 <Details>
 <summary>Changes</summary>
 
-### Updated
+#### Updated
 
  - List Outputs
  - [Eastern Brassplate 3BA HDT-SMP](https://www.nexusmods.com/skyrimspecialedition/mods/122488)
@@ -374,7 +374,7 @@ Key Info
  - [Snazzy Interiors - Whiterun House Battle-Born](https://www.nexusmods.com/skyrimspecialedition/mods/91121)
  - [More Informative Console](https://www.nexusmods.com/skyrimspecialedition/mods/19250)
 
-### Added
+#### Added
 
  - [Rise in the East - Immersive Start - Don't Miss Japhet's Folly](https://www.nexusmods.com/skyrimspecialedition/mods/122371?)
  - [RedBag's Rorikstead - Enhanced Tiny Fix Patch](https://www.nexusmods.com/skyrimspecialedition/mods/105234)
@@ -397,7 +397,7 @@ Key Info
  - [DCA - Dragon Combat Animations](https://www.nexusmods.com/skyrimspecialedition/mods/123113)
  - [Dragon Priest Hood Variants](https://www.nexusmods.com/skyrimspecialedition/mods/123043)
 
-### Removed
+#### Removed
 
  - [MCM Recorder](https://www.nexusmods.com/skyrimspecialedition/mods/61719)
    - Wasn't being utilized at all.
@@ -429,7 +429,7 @@ Key Info
 <Details>
 <summary>Patch Notes</summary>
 
-### Balance
+#### Balance
 
  - Covered enchanting perks.
  - Cast Aside (Block) now checks for Stamina instead of Health.
@@ -459,7 +459,7 @@ Key Info
    - All targets take 50% more stagger.
    - Reverted the change where the player dealt 50% less stagger to all targets on Legendary.
 
-### Bug Fixes
+#### Bug Fixes
 
  - Fixed underwater landscape seam near Guardian Stones.
    - `0 -15`, `0 -14`, `-1 -15`
@@ -495,7 +495,7 @@ Key Info
  - Fixed DirtCliff positioning in `DLC1HunterWorldStart` (Dayspring Canyon).
    - `02008EB5`
 
-### Misc. Changes
+#### Misc. Changes
 
  - Changed fieldgrass02 texture.
  - Repainted the following cells:
@@ -533,7 +533,7 @@ Key Info
 
 </Details>
 
-## 0.4.2
+### 0.4.2
 
 Key Info
 
@@ -545,7 +545,7 @@ Key Info
 <Details>
 <summary>Changes</summary>
 
-### Updated
+#### Updated
 
  - [Cities of the North Optimized Meshes](https://www.nexusmods.com/skyrimspecialedition/mods/85242)
  - [Blue Palace Terrace Patch Collection](https://www.nexusmods.com/skyrimspecialedition/mods/107752)
@@ -558,7 +558,7 @@ Key Info
  - [Rihad Swordsman Set](https://www.nexusmods.com/skyrimspecialedition/mods/120576)
  - [Cities of the North - Dawnstar Patch Collection](https://www.nexusmods.com/skyrimspecialedition/mods/30885)
 
-### Added
+#### Added
 
  - [Rihad Swordsman 3BA](https://www.nexusmods.com/skyrimspecialedition/mods/122484)
  - [Follower Dialogue Expansion - Uthgerd the Unbroken](https://www.nexusmods.com/skyrimspecialedition/mods/122487)
@@ -578,7 +578,7 @@ Key Info
 <Details>
 <summary>Patch Notes</summary>
 
-### Balance
+#### Balance
 
  - Reduced number of dragon souls needed to progress Stormcrown perk tree. Won't take affect on existing save games unless you use the console commands below.
    - `set MAG_DragonbornNextPerk to 1`
@@ -593,7 +593,7 @@ Key Info
  - Removed some spiders in Bleak Falls Barrow.
  - Adjusted background speech scaling.
 
-### Bug Fixes
+#### Bug Fixes
  
  - Fixed some incorrect pathing in landscape texturesets.
  - Fixed missing textures on fall forest landscapes.
@@ -618,7 +618,7 @@ Key Info
  - Adjusted floating tree (kinda) near Boethiah's Shrine.
    - `98E78`
 
-### Misc. Changes
+#### Misc. Changes
 
  - Jump Animations.
  - Reworked NPC Animations.
@@ -639,7 +639,7 @@ Key Info
 
 </Details>
 
-## 0.4.1
+### 0.4.1
 
 Key Info
 
@@ -652,7 +652,7 @@ Key Info
 <Details>
 <summary>Changes</summary>
 
-### Updated
+#### Updated
 
  - [Cathedral 3D Mountain Flowers - Base Object Swapper](https://www.nexusmods.com/skyrimspecialedition/mods/60756)
  - [Snowy Carts for Snowy Regions](https://www.nexusmods.com/skyrimspecialedition/mods/111575)
@@ -669,7 +669,7 @@ Key Info
  - [GG's Complex Silverware](https://www.nexusmods.com/skyrimspecialedition/mods/121232)
  - [DynDOLOD DLL NG](https://www.nexusmods.com/skyrimspecialedition/mods/97720)
 
-### Added
+#### Added
 
  - [Seranade - A(nother) Serana Replacer](https://www.nexusmods.com/skyrimspecialedition/mods/112513)
  - [Setting on Sulphur](https://www.nexusmods.com/skyrimspecialedition/mods/86906)
@@ -728,7 +728,7 @@ Key Info
  - [Widget Mod - Legacy Settings Loader](https://www.nexusmods.com/skyrimspecialedition/mods/55629)
  - [Elden Ring HUD](https://www.nexusmods.com/skyrimspecialedition/mods/65855)
 
-### Removed
+#### Removed
 
  - [HD Remastered Landscapes - Complex Terrain Parallax](https://www.nexusmods.com/skyrimspecialedition/mods/94835)
    - Stopped using MM/ML.
@@ -770,7 +770,7 @@ Key Info
 <Details>
 <summary>Patch Notes</summary>
 
-### Balance
+#### Balance
 
  - Removed Uncommon Taste, Olava's Token, Wedding Dress, Wedding Sandals, Wedding Wreath, Emperor's Robes, Muiri's Ring, and Gilded Wristguards from the reward chest after completing the Penitus Oculatus questline.
  - Increased Companions radiant requirements to progress questline.
@@ -780,7 +780,7 @@ Key Info
  - Juggernaut (Heavy Armor) and Specialist (Light Armor) nerfed to +50/100 Armor Rating (was +100/200).
  - Adjusted background Armor scaling.
 
-### Bug Fixes
+#### Bug Fixes
  
  - Dark Brotherhood Remnant will no longer spawn in the wrong Morthal Inn. (Not tested, should work).
  - Killing Cicero via the Penitus Oculatus questline or in the Dawnstar Sanctuary should now appropriately reward his hat.
@@ -794,7 +794,7 @@ Key Info
  - Fixed subsurface scattering mismatch on male genitals.
  - Fixed a floating Lantern on the Dainty Sload.
 
-### Misc. Changes
+#### Misc. Changes
 
  - Made a custom replacer for Serana based off of [Serana Re-imagined](https://www.nexusmods.com/skyrimspecialedition/mods/43430) and using the Hair from [Seranade - A(nother) Serana Replacer](https://www.nexusmods.com/skyrimspecialedition/mods/112513).
  - So much work done on landscapes and mountains...complete overhaul of a lot of environmental textures and assets.
@@ -817,7 +817,7 @@ Key Info
 
 </Details>
 
-## 0.4.0
+### 0.4.0
 
 Key Info
 
@@ -828,7 +828,7 @@ Key Info
 <Details>
 <summary>Changes</summary>
 
-### Updated
+#### Updated
 
  - [Solstheim Exterior Soundscapes](https://www.nexusmods.com/skyrimspecialedition/mods/121361)
  - [Mehrunes Dagon's Shrine Unlocked - Pieces of the Past Alternate Ending](https://www.nexusmods.com/skyrimspecialedition/mods/119502)
@@ -856,7 +856,7 @@ Key Info
  - [Animated Ice Floes](https://www.nexusmods.com/skyrimspecialedition/mods/90634)
  - [JS Dwarven Oil SE](https://www.nexusmods.com/skyrimspecialedition/mods/66770)
 
-### Added
+#### Added
 
  - [Beast Race Bodypaints SE](https://www.nexusmods.com/skyrimspecialedition/mods/20446)
  - [Skyrim Outfit System SE Revived - Beast Race Disabler](https://www.nexusmods.com/skyrimspecialedition/mods/105841)
@@ -907,7 +907,7 @@ Key Info
  - [Hotkey Reminder](https://www.nexusmods.com/skyrimspecialedition/mods/115853)
  - [aljo's Sorcerer Patches](https://www.nexusmods.com/skyrimspecialedition/mods/95219)
 
-### Removed
+#### Removed
 
  - [Improved Alternate Conversation Camera](https://www.nexusmods.com/skyrimspecialedition/mods/68210)
    - Buggy.
@@ -932,7 +932,7 @@ Key Info
 <Details>
 <summary>Patch Notes</summary>
 
-### Balance
+#### Balance
 
  - Redesigned the Alteration perk tree.
  - Nerfed Mimic level scaling.
@@ -950,7 +950,7 @@ Key Info
  - Tier 1 Talismans now require 8 refined essences to create (was 10).
  - Tier 2 Talismans now require 10 refined essences to create, in addition to their previous requirements.
 
-### Bug Fixes
+#### Bug Fixes
  
  - Fixed Atronach Stone's tooltip.
  - Disabled two vanilla road chunks near Solitude and Dragon Bridge that were missed by Northern Roads.
@@ -998,7 +998,7 @@ Key Info
  - Missive Boards should now be properly swapped with their regional variants.
    - Reverted Base Object Swapper to [version 2.6.1](https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=421727&nmm=1&game_id=1704).
 
-### Misc. Changes
+#### Misc. Changes
 
  - Removed Fleet Knight Variants test chest.
  - Reverted NotWL's change to `TreeDriftWood01` as it looked out of place in many areas.
@@ -1022,7 +1022,7 @@ Key Info
 
 </Details>
 
-## 0.3.1
+### 0.3.1
 
 Key Info
 
@@ -1033,7 +1033,7 @@ Key Info
 <Details>
 <summary>Changes</summary>
 
-### Updated
+#### Updated
 
  - Boethiah's Calling - Alternate Questline
  - Tales of Skyrim - Berserkyr
@@ -1046,7 +1046,7 @@ Key Info
  - powerofthree's Tweaks
  - Alternate Perspective - Alternate Start
 
-### Added
+#### Added
 
  - Papyrus Ini Manipulator
  - JS Shout Apart Skeletons SE
@@ -1062,7 +1062,7 @@ Key Info
  - Player Name Randomizer - Show in UI
  - Patrons Menu* (NYI)
 
-### Removed
+#### Removed
 
  - Paper UI Sounds for Skyrim
  - Servitor - Atronach SFX Replacer
@@ -1072,7 +1072,7 @@ Key Info
 <Details>
 <summary>Patch Notes</summary>
 
-### Balance
+#### Balance
 
  - Revamped Standing Stones.
  - Gave the player 25% resistance to incoming Stagger during power attacks.
@@ -1083,7 +1083,7 @@ Key Info
  - You can no longer jump when you do not have enough Stamina (10).
  - Did some background adjustments to the damage formula for the Ravage, Devastate, Overwhelm, Rip and Tear, and Carve and Spit perks.
 
-### Bug Fixes
+#### Bug Fixes
  
  - Fixed One With the Pack (Speech) having an incorrect tooltip based on an earlier design of the perk.
  - Martyrdom (Heavy Armor) now actually works (previously only worked == 50% Health and not <= 50% Health>). 
@@ -1097,7 +1097,7 @@ Key Info
  - Scarves and Mufflers should have gnd and inventory models now. ~~I did not test this fix.~~ Fix confirmed by Anehum.
  - Added vertex coloring to `bridgerowboat02anim.nif` and `bridgerowboat03anim.nif`, hopefully this fixes broken parallax. ~~(Did not test).~~ Fix confirmed by Anehum.
 
-### Misc. Changes
+#### Misc. Changes
 
  - Added a SkyUI MCM config that *may* improve item positioning in inventory for ultrawide (21:9) users. Let me know if things are better.
  - Adjusted the shape of the Light Armor and Smithing trees.
@@ -1113,7 +1113,7 @@ Key Info
 
 </Details>
 
-## 0.3.0
+### 0.3.0
 
 Key Info
 
@@ -1135,7 +1135,7 @@ Key Info
 <Details>
 <summary>Changes</summary>
 
-### Updated
+#### Updated
 
  - Fleet Knight Set
  - Stances NG
@@ -1160,7 +1160,7 @@ Key Info
  - Bodyslide output
  - CDN Output
 
-### Added
+#### Added
 
  - Vanilla Eating Animation Fixes
  - Immersive Carcass Carrying
@@ -1198,7 +1198,7 @@ Key Info
 <Details>
 <summary>Patch Notes</summary>
 
-### Balance
+#### Balance
 
  - Alchemist now increases potion and poison strength by 50/100%. (was 25/50%).
  - Solvency now increases poison strength by 25%. (was 50%).
@@ -1235,7 +1235,7 @@ Key Info
  - Argonians now increase Armor Rating by 100 instead of 50% Faster Health Regeneration. This change was made primarily due to the Heal Rate buff being too strong but also too weak due to the Health Scaling difficulty changes.
  - Increased enemy density.
 
-### Bug Fixes
+#### Bug Fixes
 
  - `bingus hates spiders.esp` no longer incorrectly masters The Contest CC. (Thanks Mgde12).
  - Fixed mipmaps on several grass types. Thinner grasses should no longer visually disappear at a distance.
@@ -1256,7 +1256,7 @@ Key Info
  - Fixed rogue master on arachnophobia addon.
  - Adjusted positioning on Gourmet Tables in The Frozen Hearth, Braidwood Inn, and Windpeak Inn.
 
-### Misc. Changes
+#### Misc. Changes
 
  - Disabled Movement during unpaused menus. May change in the future.
  - Preconfigured IED.
@@ -1290,7 +1290,7 @@ Key Info
 
 </Details>
 
-## 0.2.0
+### 0.2.0
 
 Key Info
 
@@ -1307,7 +1307,7 @@ Key Info
 <Details>
 <summary>Changes</summary>
 
-### Updated
+#### Updated
 
  - Grab And Throw
  - Static Mesh Improvement Mod Improvement Mod
@@ -1333,7 +1333,7 @@ Key Info
  - Dragon War - A Dragon Overhaul
  - Bjorn - Fully Voiced Follower
 
-### Added
+#### Added
 
  - Crafting Camera Fix
  - EVG CLAMBER - Slope Animations
@@ -1368,7 +1368,7 @@ Key Info
  - Remove Ash Pebbles
  - GG's Temple of Kynareth
 
-### Removed
+#### Removed
 
  - Bows Don't Creak SE - Bow Draw Sound Replacement ISC Edition
    - Redundant
@@ -1383,11 +1383,11 @@ Key Info
 <Details>
 <summary>Patch Notes</summary>
 
-### Balance
+#### Balance
 
  - None.
 
-### Bug Fixes
+#### Bug Fixes
 
  - Fixed Stance issue for Player.
  - Fixed alchemy scaling for Restore Health/Magicka/Stamina potions.
@@ -1410,7 +1410,7 @@ Key Info
  - Should have fixed invalid font issue with some apostrophes (blame Google Docs).
  - Silver necklace should now be silver. (I don't know if this was actually a bug but it appears to be silver in my game so idk.)
 
-### Misc. Changes
+#### Misc. Changes
 
  - Re-organized Audio section of MO2.
  - Re-organized the User Interface section of MO2.
@@ -1461,7 +1461,7 @@ Key Info
 
 </Details>
 
-## 0.1.1
+### 0.1.1
 
 Key Info
 
@@ -1478,21 +1478,21 @@ Key Info
 <Details>
 <summary>Changes</summary>
 
-### Updated
+#### Updated
 
  - Dragon War - A Dragon Overhaul
  - Lurking Menace - A Mimic Mod
  - Follower Dialogue Expansion - Jenassa
  - Open Animation Replacer - Detection Plugin
 
-### Added
+#### Added
 
  - Amon - SK Fix All in One
  - Maxsu Poise Revise
  - SpellSword Moveset
  - Precision Trail Replacer - Simple
 
-### Removed
+#### Removed
 
  - Precision Default Weapon Trail Replacer - Smoother and Elden Ring Style
 
@@ -1501,13 +1501,13 @@ Key Info
 <Details>
 <summary>Patch Notes</summary>
 
-### Balance
+#### Balance
 
  - Changed Restore-type Potions to restore over 4 seconds (instead of instant), this should allow Potions to still feel good when being used while allowing them to still scale with Potion Duration effects.
  - Mimics should now spawn less and should spawn more intelligently based on location.
    - Mimics may be nerfed in the future depending on feedback.
 
-### Bug Fixes
+#### Bug Fixes
 
  - Fixed alpha blending issue with blood decals.
  - Rebuilt NPC combat folders to fix t-posing issues when enemies wielded certain weapon types and combos.
@@ -1522,7 +1522,7 @@ Key Info
    - Repainted that entire cell and neighboring cells as well.
  - Removed incorrect alpha property on `rockpilel03moss.nif`. (Thanks ylik)
 
-### Misc. Changes
+#### Misc. Changes
 
  - Disabled Auto-Potion system (Health potions can still be quick accessed with the `F` key).
  - Swapped SmoothCam shoulder Toggle to `M5` since it was conflicting with the Crouch bind (`C`).
@@ -1531,7 +1531,7 @@ Key Info
 
 </Details>
 
-## 0.1.0
+### 0.1.0
 
 Key Info
 
