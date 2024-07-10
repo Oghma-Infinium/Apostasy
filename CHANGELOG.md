@@ -29,14 +29,34 @@ Key Info
 <Details>
 <summary>Changes</summary>
 
-N/A
+### Updated
+
+ - N/A
+
+### Added
+
+ - N/A
+
+### Removed
+
+ - N/A
 
 </details>
 
 <Details>
 <summary>Patch Notes</summary>
 
-N/A
+### Balance
+
+ - N/A
+
+### Bug Fixes
+
+ - N/A
+
+### Misc. Changes
+
+ - N/A
 
 </details>
 
