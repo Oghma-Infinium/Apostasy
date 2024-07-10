@@ -15,16 +15,315 @@
 
 ---
 
-# Changelog
+# Table of Contents
+
+ - [1.0.0](#100) Release Date: July 11, 2024
+ - [Beta Versions](#beta-versions)
+
+## 1.0.0
+
+Key Info
+
+ - Initial Public Release.
+
+<Details>
+<summary>Changes</summary>
+
+N/A
+
+</details>
+
+<Details>
+<summary>Patch Notes</summary>
+
+N/A
+
+</details>
+
+# Beta Versions
+
+<details>
+<summary>Beta Versions</summary>
+
+- [0.6.0](#060) Release Date: Unreleased.
 - [0.5.0](#050) Release Date: July 2, 2024
 - [0.4.2](#042) Release Date: June 24, 2024
 - [0.4.1](#041) Release Date: June 22, 2024
-- [0.4.0](#040) Release Date: Not released.
+- [0.4.0](#040) Release Date: Unreleased.
 - [0.3.1](#031) Release Date: June 12, 2024
 - [0.3.0](#030) Release Date: June 9, 2024
 - [0.2.0](#020) Release Date: June 4, 2024
 - [0.1.1](#011) Release Date: May 30, 2024
 - [0.1.0](#001) Release Date: May 29, 2024
+
+## 0.6.0
+
+Key Info
+
+ - This update was unreleased. Kept here for sake of notekeeping.
+ - Removed delevel experiment from last version.
+ - Implemented ENB Skyscattering effect.
+ - Reworked Destruction tree a little.
+ - Reworked Restoration tree and Auriel Deity a little.
+ - Restructured Armor trees.
+ - EVLaS is enabled by default now.
+ - Finalized Encounter Zone tweaks. 
+ - Should have ironed out the last of any visual nitpicks (or at least most of them).
+
+<Details>
+<summary>Changes</summary>
+
+### Updated
+
+ - [Snazzy Interiors - JK's Dragonsreach](https://www.nexusmods.com/skyrimspecialedition/mods/110403)
+ - [Snazzy Interiors - Windhelm Blacksmith](https://www.nexusmods.com/skyrimspecialedition/mods/94317)
+ - [Snazzy Interiors - Windhelm Viola Giordano's House](https://www.nexusmods.com/skyrimspecialedition/mods/108261)
+ - [Snazzy Interiors - Vittoria Vici's House](https://www.nexusmods.com/skyrimspecialedition/mods/100475)
+ - [Snazzy Honningbrew Meadery](https://www.nexusmods.com/skyrimspecialedition/mods/120534)
+ - [Snazzy Interiors - Windhelm House of Clan Cruel-Sea](https://www.nexusmods.com/skyrimspecialedition/mods/93850)
+ - [Snazzy Interiors - Windhelm House of Clan Shattershield](https://www.nexusmods.com/skyrimspecialedition/mods/93043)
+ - [Snazzy Interiors - Markarth Endon's House](https://www.nexusmods.com/skyrimspecialedition/mods/107634)
+ - [Snazzy Interiors - Markarth Nepos' House](https://www.nexusmods.com/skyrimspecialedition/mods/94628)
+ - [Snazzy Interiors - Riften Black-Briar Manor](https://www.nexusmods.com/skyrimspecialedition/mods/92068)
+ - [Snazzy Interiors - Markarth Treasury House](https://www.nexusmods.com/skyrimspecialedition/mods/94318)
+ - [Snazzy Interiors - Solitude Bryling's House](https://www.nexusmods.com/skyrimspecialedition/mods/95803)
+ - [Snazzy Interiors - Solitude Erikur's House](https://www.nexusmods.com/skyrimspecialedition/mods/96339)
+ - [Snazzy Interiors Patch Collection](https://www.nexusmods.com/skyrimspecialedition/mods/91604)
+ - [Photo Mode](https://www.nexusmods.com/skyrimspecialedition/mods/91701)
+ - [Mu Skeleton Editor](https://www.nexusmods.com/skyrimspecialedition/mods/91563)
+ - [Feris - Custom Voiced Female Follower](https://www.nexusmods.com/skyrimspecialedition/mods/90032)
+ - [Oblivion Interaction Icons](https://www.nexusmods.com/skyrimspecialedition/mods/52743)
+ - [Riding Animation Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/102881)
+ - [QuickLoot EE - Settings Loader](https://www.nexusmods.com/skyrimspecialedition/mods/70672)
+ - [JK's Guild HQ Interiors Patch Collection](https://www.nexusmods.com/skyrimspecialedition/mods/61416)
+ - [Flute Animation Fix](https://www.nexusmods.com/skyrimspecialedition/mods/69609)
+ - [Nirn's Chosen - Enhanced Races and Classes](https://www.nexusmods.com/skyrimspecialedition/mods/121427)
+ - [Stones of Sacrifice - Double Edged Standing Stones](https://www.nexusmods.com/skyrimspecialedition/mods/121629)
+ - [Follower Dialogue Expansion - Lydia](https://www.nexusmods.com/skyrimspecialedition/mods/119226)
+ - [Favor Jobs Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/40145)
+ - [Cities of the North Optimized Meshes](https://www.nexusmods.com/skyrimspecialedition/mods/85242)
+ - [Open Animation Replacer](https://www.nexusmods.com/skyrimspecialedition/mods/92109)
+ - [Gore - A Companion Mod](https://www.nexusmods.com/skyrimspecialedition/mods/85298)
+ - [Lux Orbis - Patch Hub](https://www.nexusmods.com/skyrimspecialedition/mods/114169)
+ - [Nightgate Inn Revived](https://www.nexusmods.com/skyrimspecialedition/mods/121244)
+ - [Simple Hunting Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/95943)
+ - [Base Object Swapper](https://www.nexusmods.com/skyrimspecialedition/mods/60805)
+ - [Snowy Ships for Snowy Regions](https://www.nexusmods.com/skyrimspecialedition/mods/111827)
+ - [Northern Concept - Northern Roads](https://www.nexusmods.com/skyrimspecialedition/mods/107975)
+ - [Chooey's Modular SMP Hairstyles Edit](https://www.nexusmods.com/skyrimspecialedition/mods/110414)
+
+### Added
+
+ - [Less wide female draugr shoulders SE](https://www.nexusmods.com/skyrimspecialedition/mods/102446)
+ - [Draugrs - New models and textures](https://www.nexusmods.com/skyrimspecialedition/mods/123170)
+ - [Draugrs - My patches - SE by Xtudo](https://www.nexusmods.com/skyrimspecialedition/mods/123225)
+ - [The Taste of Death - Quest Addon](https://www.nexusmods.com/skyrimspecialedition/mods/123173)
+ - [Vigilant Paper Map for FWMF by Limon](https://www.nexusmods.com/skyrimspecialedition/mods/123407)
+ - [QuickLootIE - A QuickLoot EE Fork](https://www.nexusmods.com/skyrimspecialedition/mods/120075)
+ - [Untarnished UI - QuickLootIE Patch](https://www.nexusmods.com/skyrimspecialedition/mods/123475)
+ - [TGC Winterhold - No ForceGreet](https://www.nexusmods.com/skyrimspecialedition/mods/123346)
+ - [Ascend - Hidden Peaks of Skyrim](https://www.nexusmods.com/skyrimspecialedition/mods/120802)
+ - [Sirene Wispmother - A SIRENROOT Replacer](https://www.nexusmods.com/skyrimspecialedition/mods/123252)
+ - Sforzinda's Destinations
+ - [Sforzinda's Destinations Patch Collection](https://www.nexusmods.com/skyrimspecialedition/mods/96505)
+ - [Dungeon Quests are not Miscellaneous](https://www.nexusmods.com/skyrimspecialedition/mods/123559)
+ - [More to do in the Soul Cairn](https://www.nexusmods.com/skyrimspecialedition/mods/115962)
+ - [Arclight](https://www.nexusmods.com/skyrimspecialedition/mods/90405)
+ - [Flames of Coldharbour](https://www.nexusmods.com/skyrimspecialedition/mods/85425)
+ - [Natura](https://www.nexusmods.com/skyrimspecialedition/mods/77826)
+ - [Desecration](https://www.nexusmods.com/skyrimspecialedition/mods/90832)
+ - [Dareni's Spells - Merchants](https://www.nexusmods.com/skyrimspecialedition/mods/109762)
+ - [Ascension](https://www.nexusmods.com/skyrimspecialedition/mods/89223)
+ - [Rune Perk Fix - Adamant](https://www.nexusmods.com/skyrimspecialedition/mods/83381)
+ - [Eld-beri II - Full Particle Light lantern mod](https://www.nexusmods.com/skyrimspecialedition/mods/107803)
+ - [NL_MCM - A Modular MCM Framework](https://www.nexusmods.com/skyrimspecialedition/mods/49127)
+ - [The Great Settlement of Kolskeggr Mine](https://www.nexusmods.com/skyrimspecialedition/mods/64265)
+ - [Kolskeggr TGC Addon - Environs Patch](https://www.nexusmods.com/skyrimspecialedition/mods/91432)
+ - [Inner Sanctum - Snow Elf Ruins Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/122088)
+ - [JK's Dark Brotherhood Sanctuaries](https://www.nexusmods.com/skyrimspecialedition/mods/121950)
+ - [DLC2 Miraak BossFightScript Fix](https://www.nexusmods.com/skyrimspecialedition/mods/123327)
+ - [Hokoron - Enemy Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/89212)
+ - [Say No To Calcelmo](https://www.nexusmods.com/skyrimspecialedition/mods/69991)
+ - [Calcelmo Has Standards](https://www.nexusmods.com/skyrimspecialedition/mods/26503)
+ - [Dawnguard - Tweaks and Enhancements](https://www.nexusmods.com/skyrimspecialedition/mods/53364)
+ - [College of Winterhold Fee Tuition](https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=516981&nmm=1&game_id=1704)
+ - [Description Framework for Headhunter](https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=447509&nmm=1&game_id=1704)
+ - [Yngvild - A Buried Past](https://www.nexusmods.com/skyrimspecialedition/mods/123385)
+ - [HDT-SMP Sona Armor](https://www.patreon.com/file?h=68902488&i=12781379)
+ - [Scattered Object Solution](https://www.nexusmods.com/skyrimspecialedition/mods/92978)
+ - [Solitude farmhouses rework](https://www.nexusmods.com/skyrimspecialedition/mods/74334)
+ - [Glorious Guldun Rock - A Giant Camp Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/123786)
+ - [Maormer Seascale Set](https://www.nexusmods.com/skyrimspecialedition/mods/91506)
+ - [Maormer Seascale Set - HIMBO Refit](https://www.nexusmods.com/skyrimspecialedition/mods/91583)
+ - [Maormer Seascale Set - My Patches SE by Xtudo](https://www.nexusmods.com/skyrimspecialedition/mods/91576)
+ - [Lunar Guard Arsenal - Battleaxe](https://www.nexusmods.com/skyrimspecialedition/mods/79097)
+ - [Kanjs - Lunar Guard and Halberd Fix only meshes](https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=429394&nmm=1&game_id=1704)
+ - [Moon Monk's Robes](https://www.nexusmods.com/skyrimspecialedition/mods/82495)
+ - [Moon Monk 3BA Bodyslide](https://www.nexusmods.com/skyrimspecialedition/mods/86802)
+ - [Moon Monk's Robes HIMBO](https://www.nexusmods.com/skyrimspecialedition/mods/82829)
+ - [Akaviri History - Lore-Friendly Additions and Tweaks](https://www.nexusmods.com/skyrimspecialedition/mods/76804)
+ - [Utenlands Nordic Tents - Replacer and Campfire Addon](https://www.nexusmods.com/skyrimspecialedition/mods/121203)
+ - [Skyland Imperial and Nordic Tents](https://www.nexusmods.com/skyrimspecialedition/mods/57002)
+ - [Elden Counter](https://www.nexusmods.com/skyrimspecialedition/mods/65579)
+
+### Removed
+
+ - [QuickLoot EE](https://www.nexusmods.com/skyrimspecialedition/mods/69980)
+   - Superceded.
+ - [Paper Coldharbour Map for VIGILANT (FWMF)](https://www.nexusmods.com/skyrimspecialedition/mods/59967)
+   - Superceded.
+ - [Update for Coldharbour Paper Map for FWMF](https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=355838&nmm=1&game_id=1704)
+   - Redundant.
+ - [Relationship Change Notifications](https://www.nexusmods.com/skyrimspecialedition/mods/34670) and [Relationship Change Notifications Rewrite](https://www.nexusmods.com/skyrimspecialedition/mods/75038)
+   - People complained about it, I agreed with the criticisms.
+ - [Spaghetti's Faction Halls - Dark Brotherhood](https://www.nexusmods.com/skyrimspecialedition/mods/98675)
+   - Replaced.
+ - [Splendid Mechanized Dwemer Door from GDOS - Golden Dwemer Pipeworks Redone Patch](https://www.nexusmods.com/skyrimspecialedition/mods/107793)
+   - Swapped Dwemer door meshes.
+ - [Alternate Obscuring Names for NPCs Names Distributor](https://www.nexusmods.com/skyrimspecialedition/mods/120735)
+   - People hated the Obscured names feature lol.
+ - [NPCs Names Distributor - Patches for Various Mods](https://www.nexusmods.com/skyrimspecialedition/mods/119090)
+   - Unneeded.
+ - [Twitching Plates Fix](https://www.nexusmods.com/skyrimspecialedition/mods/64728)
+   - Caused some visual bugs with motion vectors on Rudy's meshes.
+
+</Details>
+
+<Details>
+<summary>Patch Notes</summary>
+
+### Balance
+
+ - Reverted experimental deleveling changes from [0.5.0](#050). This will be revisited in a future version.
+ - Changed Serpent Stone.
+   - **NEW**: You move 20% faster while sneaking and you reduce the Poison Resistance of all nearby enemies by 50%. However, you take 3 Poison Damage per second while in combat.
+   - **OLD**: You reduce the base Stamina and Magicka Regeneration of all nearby enemies by 50%, but your own Stamina and Magicka Regenerate 50% slower while in combat.
+ - Changed Overdose (Alchemy).
+   - **NEW**: Your attacks against Poisoned targets deal additional Poison damage to all nearby enemies.
+   - **OLD**: Poisoned targets take 25% more weapon and spell damage.
+ - Steady Hand (Archery) now reduces the amount of slow received while zooming based on missing Stamina (lower Stamina = weaker slow time effect).
+ - Ranger Rank 2 (Archery) now increases movement speed while wielding a crossbow.
+ - Merciless Rank 2 (Sneak) now requires 70 Sneak (was 60).
+ - Supply and Demand Rank 2 (Speech) now requires 70 Speech (was 60).
+ - Animal Companion Rank 2 (Speech) moved to One with the Pack Rank 1.
+ - One with the Pack Rank 1 moved to Rank 2, requires 80 Speech.
+ - Dire Command (Speech) now requires 90 Speech (was 80).
+ - Martyrdom (Heavy Armor) now reflects 100% of damage (was 200%).
+ - Changed Marksman (Archery).
+   - **NEW**: Bows and Crossbows deal up to 50/100% more damage, increasing on consecutive hits.
+   - **OLD**: Bows and Crossbows deal 25/50% more damage.
+ - Removed Eagle Eye (Archery), replaced with First Strike.
+   - **NEW**: Bows and crossbows are guaranteed to critically strike against targets who have not been show within the last 15/10 seconds.
+   - **OLD**: Bows and crossbows are 10/20% more likely to deal critical damage.
+ - Removed Grim Focus (Archery), replaced with Piercing Shot.
+   - **NEW**: Bows and crossbows apply Gaping Wounds, dealing /significant bleeding damage over 10 seconds.
+   - **OLD**: Bows and crossbows deal more/even more critical damage.
+ - Infernal Armor no longer scales with Rallying Standard.
+ - Improved the detection on Rallying Standard so it should better apply to Player Teammates/Followers.
+ - Several changes to the Destruction tree I do not feel like writing down. Mostly forwarding previously made edits.
+ - Several changes to the Restoration tree and Sun Spells I do not feel like writing down. Mostly forwarding previously made edits.
+ - Redesigned Elemental Fury.
+ - Juggernaut (Heavy Armor) and Specialist (Light Armor) are now one rank perks.
+ - Legendary difficulty's modifiers are now appropriately applied.
+ - Tweaked all* Encounter Zones to have a "ceiling", this will serve as the stop-gap until I have the proper time to start work on deleveling enemies *properly* again.
+ - Windrunner (Light Armor) now requires 70 skill (was 60).
+ - Endurance (Light Armor) now requires 60 skill (was 70).
+ - Rescaled Armor and Shields slightly (hopefully for the last time).
+   - Full set of Daedric Armor should provide 500 AR. Shield will provide +150. (Numbers taken with full perks)
+   - Full set of Dragonscale Armor should provide 400 AR. Shield will provide +100. (Numbers taken with full perks)
+ - Rebalanced Boethiah's Chosen NPCs.
+   - You can also no longer loot the majority of their gear. You get enough strong artifacts from doing the Tournament quest.
+
+### Bug Fixes
+
+ - Fixed Standing Stones not displaying correct icons in magic effect menu.
+ - Lord Stone should no longer bug out brawls.
+ - Added a fail safe to Beast Master (Archery) so that the perk could only trigger with the Player as the perk holder.
+ - Fixed Eagle Eye being attainable at skill level 20 instead of 30.
+ - Enchanting and Alteration perks should now be properly reset when using Black Book: Waking Dreams' reward (not that anyone was doing this).
+ - Crops in Riverwood should now have appropriate ownership.
+ - Crops at Mixwater Mill should now have appropriate ownership.
+ - Fixed landscape seam near Blind Cliff Cave.
+   - `-35 5` and `-36 5`
+ - Fixed landscape seam outside of Riverwood.
+   - `6 -12` and `5 -12`
+ - Adjusted positioning of a rock near Blind Cliff Cave. 
+   - `8FD74`
+ - Redid the entirety of Riverwood's Navmesh. Should be a massive improvement to FPS in this area.
+ - Removed some clipping clutter in Riverwood.
+ - Adjusted some floating plants near Riverwood.
+ - Burden-type effects should no longer imply that they affect Attack Speed.
+ - Fixed the Matriarch (Hag's End Hagraven).
+ - Load Screens should now display proper racial information.
+ - Removed Survival Mode Improved's SWF files. (Fixed Inventory card issues)
+ - Fixed a variety of landscaping issues with the Winterhold Docks area.
+ - Fixed issue with Solitude manhole cover.
+   - `smanhole.nif`
+ - Fixed some food items which were erroneously reverted to vanilla state.
+ - Fixed Deathbrand and Saviors Hide which were erroneously reverted to vanilla state.
+ - No longer using vanilla dirtmound texture, oops.
+ - Fixed Missive Boards for the final time. (coping)
+
+### Misc. Changes
+
+ - Cleaned several unused downloads.
+ - Adjusted Cheap Shot's (Archery) tooltip.
+ - Adjusted Pocket Sand's (Archery) tootlip.
+ - Adjusted Rallying Standard's (Heavy Armor) tooltip.
+ - Adjusted Infernal Armor's (Heavy Armor) tooltip.
+ - Adjusted tooltips on basically every Enchanting perk.
+ - Atar and Silver-Blood Mercenaries at Karthwasten should now wear Silver Armor.
+ - Reverted Remiel's default outfit.
+ - Capitalized "Poise" in Hyper Armor's (Two-Handed) tooltip.
+ - Changed `commonbed01` and `commonbeddouble01` mesh.
+ - Restructured Heavy and Light Armor trees.
+ - College of Winterhold now has a small entry fee. (wow guys it's just like real life!)
+ - ESL'd several mods.
+   - Did not compact:
+     - `High Poly Head.esm`
+     - `STB_ResistsWidget.esp`
+     - `Subtler Nirnroot.esp`
+     - `WadeInWater.esp`
+     - `High Poly Head Vampire Fix.esp`
+     - `Collygon - Niohoggr Warpaints.esp`
+     - `Sheps_Tattoo_Collection.esp`
+     - `Sheps_Male_Tattoo_Collection.esp`
+     - `BRB_BeastRaceBodypaints.esp`
+     - `DeadlySpellImpacts.esp`
+     - `Rudy Nordic Pottery SSE.esp`
+     - `PraedysElderScrollSoulCairnFix.esp`
+     - `Setting on Sulphur.esp`
+     - `BlendedRoads.esp`
+     - `UniqueBarbas.esp`
+     - `RSChildren.esp`
+     - `CollegeEntry.esp`
+     - `CompanionsTweaks.esp`
+     - `LovelyLetter.esp`
+   - Compacted:
+     - `NoGrassINCaves.esp`
+     - `Indigo.esp`
+ - Changed Dwemer door meshes because GDOS's doors were too crushed.
+ - Adjusted Cubemap intensity.
+ - Gave Auri new armor.
+ - Added Horse Statue to Whiterun. :>
+ - Removed some flora that was in the middle of the road to Solitude.
+ - Removed a boat that was clipping into the wall near Katla's Farm.
+ - Fixed Crop Ownership at Katla's Farm.
+ - Removed NPC Name Obscurity.
+ - Changed around Katana and DaiKatana animations.
+ - Tweaked physics slightly.
+ - Repainted and relandscaped the entire area between Guldun Rock and Valtheim Towers.
+ - Gave [Haldyn](https://en.uesp.net/wiki/Skyrim:Haldyn) unique armor.
+ - Revamped Khajiit Caravan outfits.
+ - Renamed Crafting Manuals to Crafting Motifs.
+ - Removed Lunar Guard Crafting Manual. Created `Crafting Motif: Khajiit Style`.
+ - Distortion's (Alteration) enhanced Dodge is now 8-way. (Thanks Ylik)
+ - Repainted Whiterun Outskirts.
+ - Improved Deliverance perk functionality. (Thanks Ylik)
+ - Swapped wood plank texture in Whiterun.
+ - Removed free gear and spells from start room containers.
+
+</Details>
 
 ## 0.5.0
 
@@ -1238,3 +1537,5 @@ Key Info
 
  - Initial Release.
  - Closed Beta.
+
+</details>
