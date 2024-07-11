@@ -77,7 +77,7 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 ![](https://raw.githubusercontent.com/Oghma-Infinium/Apostasy/main/images/perfTarget.PNG)
 
 Downloads: ~150 GB  
-Install: ~190 GB (The size listed on the Wabbajack Gallery is **wrong**, it does not properly account of the size saved by compressing files during the installation.)
+Install: ~190 GB (The size listed on the Wabbajack Gallery is **wrong**, it does not properly account of the size saved by compressing files during the installation.)  
 Temp Files: ~40 GB (on OS drive)  
 **TOTAL:** ~350 GB
 
