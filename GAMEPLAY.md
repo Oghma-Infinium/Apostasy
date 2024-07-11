@@ -15,6 +15,23 @@
 
 ---
 
+- [Initial Setup](#initial-setup)
+- [Basics](#basics)
+  - [Core Overhauls](#core-overhauls)
+  - [Combat Foundations](#combat-foundations)
+  - [Leveling and Progression](#leveling-and-progression)
+    - [Changes to leveling](#changes-to-leveling)
+    - [Perks](#perks)
+  - [Difficulty](#difficulty)
+    - [New Mechanics](#new-mechanics)
+  - [Quests Changes](#quests-changes)
+  - [Modded Armors and Weapons](#modded-armors-and-weapons)
+- [New Content](#new-content)
+  - [New Quests](#new-quests)
+  - [Vanilla Quest Expansions and Edits](#vanilla-quest-expansions-and-edits)
+  - [Followers](#followers)
+  - [Player Homes](#player-homes)
+
 ## Initial Setup
 
 Before reading this guide, please follow the [Installation Guide](https://github.com/Oghma-Infinium/Apostasy/blob/main/README.md) as it will answer the vast majority of technical questions related to getting the list setup and running. Be sure to check out the [Configuration](https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/CONFIG.md) page to learn more about the optional tweaks and addons and MCM options.
@@ -25,26 +42,26 @@ This section will cover the absolute basics of the list. I suggest reading, or s
 
 Before reading this section, I suggest looking over the [load order](https://loadorderlibrary.com/lists/Apostasy) and [keybinds](https://github.com/Oghma-Infinium/Apostasy/blob/main/images/Keybinds.png).
 
-### Core Mods
+### Core Overhauls
 
-![](https://staticdelivery.nexusmods.com/mods/1704/images/118893/118893-1720413781-25369315.png)
+![](https://raw.githubusercontent.com/Oghma-Infinium/Apostasy/main/images/GameplayHeader.png)
 
- - Apostasy uses a custom Perk Overhaul.
+ - Apostasy uses a custom Perk Overhaul for all Warrior and Thief skills and Custom-made perks for Alteration and Enchanting. The rest of the perks are covered by a custom mashup and overhaul of other perk mods.
  - [Nirn's Chosen](https://www.nexusmods.com/skyrimspecialedition/mods/121427) and [Stones of Sacrifice](https://www.nexusmods.com/skyrimspecialedition/mods/121629) cover the Race and Standing Stones overhauls within the list.
  - [Pilgrim - A Religion Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/54099) and the [Custom Skills Framework Addon](https://www.nexusmods.com/skyrimspecialedition/mods/93913) flesh out the Religion system for the list.
 
 ### Combat Foundations
 
-![](https://staticdelivery.nexusmods.com/mods/1704/images/118893/118893-1720417609-1017143306.png)
+![](https://staticdelivery.nexusmods.com/mods/1704/images/118893/118893-1720691484-471070989.png)
 
 The following mods are considered the "foundations" of the combat and gameplay for Apostasy:
  - [Stances NG](https://www.nexusmods.com/skyrimspecialedition/mods/117986) provides the ability to swap between multiple stances. By default, stances only contribute to what animations are used, but some perks provide benefits to specific stances!
    - Default keybinds: `X` for Wolf Stance, `Ctrl+X` for Hawk Stance, `Shift+X` for Bear Stance.
    - Stances affect first and third person.
  - [TK Dodge RE](https://www.nexusmods.com/skyrimspecialedition/mods/56956) adds Dodging to the game.
-   - Dodges are based on Armor Type. Heavy Armor gets a shorter step dodge with shortened iframes, Light Armor gets a longer roll dodge with longer iframes.
+   - Dodges are based on Armor Type. Heavy Armor and Cloth users gets a shorter step dodge with shortened iframes, Light Armor gets a longer roll dodge with longer iframes.
    - In First person, Dodges are always roll dodges.
- - [Maxsu Poise Revise](https://www.nexusmods.com/skyrimspecialedition/mods/117988) and [Modern Stagger Lock](https://github.com/max-su-2019/ModernStaggerLock) implement a Poise system, which has been fine tuned for the list. Poise Health can be seen on the Special Bar of TrueHUD (the yellow bar above Health on player and target widgets).
+ - [Maxsu Poise Revise](https://www.nexusmods.com/skyrimspecialedition/mods/117988) and [Modern Stagger Lock](https://github.com/max-su-2019/ModernStaggerLock) implement a Poise system, which has been fine tuned for the list. Poise Health can be seen on the Special Bar of TrueHUD (the yellow bar above Health on player and target widgets). The Poise system is discussed in more depth in the [New Mechanics](#new-mechanics) section.
 
 ### Leveling and Progression
 
@@ -91,6 +108,65 @@ Skill Point Costs are as follows:
 | 20 | 73  | 
 | 25 | 86  |
 | 30 | 100 | 
+
+</Details>
+
+#### Perks
+
+Apostasy takes a mixed approach to the acquisition of perks and skills. Providing the player with 60 Perks from level 1-50 (no perks are granted from leveling after level 50) and up to an additional 34 perks from Quests.
+
+<Details>
+<summary>Additional Perk Sources</summary>
+
+The following is a list of the additional perk sources in Apostasy.
+
+**Main Quest** (8 perks total)
+
+ - [Bleak Falls Barrow](https://en.uesp.net/wiki/Skyrim:Bleak_Falls_Barrow_(quest))
+ - [Dragon Rising](https://en.uesp.net/wiki/Skyrim:Dragon_Rising)
+ - [The Horn of Jurgen Windcaller](https://en.uesp.net/wiki/Skyrim:The_Horn_of_Jurgen_Windcaller)
+ - [Diplomatic Immunity](https://en.uesp.net/wiki/Skyrim:Diplomatic_Immunity)
+ - [Alduin's Wall](https://en.uesp.net/wiki/Skyrim:Alduin%27s_Wall)
+ - [Elder Knowledge](https://en.uesp.net/wiki/Skyrim:Elder_Knowledge)
+ - [The Fallen](https://en.uesp.net/wiki/Skyrim:The_Fallen)
+ - [Dragonslayer](https://en.uesp.net/wiki/Skyrim:Dragonslayer)
+
+**Guilds** (12 perks total)
+
+ - [The Silver Hand](https://en.uesp.net/wiki/Skyrim:The_Silver_Hand)
+ - [Glory of the Dead](https://en.uesp.net/wiki/Skyrim:Glory_of_the_Dead)
+ - [Revealing the Unseen](https://en.uesp.net/wiki/Skyrim:Revealing_the_Unseen)
+ - [The Eye of Magnus](https://en.uesp.net/wiki/Skyrim:The_Eye_of_Magnus)
+ - [Darkness Returns](https://en.uesp.net/wiki/Skyrim:Darkness_Returns)
+ - [Under New Management](https://en.uesp.net/wiki/Skyrim:Under_New_Management)
+ - [Bound Until Death](https://en.uesp.net/wiki/Skyrim:Bound_Until_Death)
+ - [Hail Sithis!](https://en.uesp.net/wiki/Skyrim:Hail_Sithis!)
+ - [Destroy the Dark Brotherhood!](https://en.uesp.net/wiki/Skyrim:Destroy_the_Dark_Brotherhood!)
+ - [Tending the Flames](https://en.uesp.net/wiki/Skyrim:Tending_the_Flames)
+ - Battle for Whiterun ([Imperial](https://en.uesp.net/wiki/Skyrim:Battle_for_Whiterun_(Imperial)) / [Stormcloak](https://en.uesp.net/wiki/Skyrim:Battle_for_Whiterun_(Stormcloaks)))
+ - [Liberation of Skyrim](https://en.uesp.net/wiki/Skyrim:Liberation_of_Skyrim) / [Reunification of Skyrim](https://en.uesp.net/wiki/Skyrim:Reunification_of_Skyrim)
+
+**Side Quests** (6 perks total)
+
+ - [Kyne's Sacred Trials](https://en.uesp.net/wiki/Skyrim:Kyne%27s_Sacred_Trials)
+ - [The Blessings of Nature](https://en.uesp.net/wiki/Skyrim:The_Blessings_of_Nature)
+ - [Blood on the Ice](https://en.uesp.net/wiki/Skyrim:Blood_on_the_Ice)
+ - [The Book of Love](https://en.uesp.net/wiki/Skyrim:The_Book_of_Love)
+ - [The Heart of Dibella](https://en.uesp.net/wiki/Skyrim:The_Heart_of_Dibella)
+ - [No One Escapes Cidhna Mine](https://en.uesp.net/wiki/Skyrim:No_One_Escapes_Cidhna_Mine)
+
+**DLC Quests** (6 perks total)
+
+ - [Beyond Death](https://en.uesp.net/wiki/Skyrim:Beyond_Death)
+ - [Kindred Judgment](https://en.uesp.net/wiki/Skyrim:Kindred_Judgment)
+ - [Lost to the Ages](https://en.uesp.net/wiki/Skyrim:Lost_to_the_Ages)
+ - [The Temple of Miraak](https://en.uesp.net/wiki/Skyrim:The_Temple_of_Miraak)
+ - [The Path of Knowledge](https://en.uesp.net/wiki/Skyrim:The_Path_of_Knowledge)
+ - [At the Summit of Apocrypha](https://en.uesp.net/wiki/Skyrim:At_the_Summit_of_Apocrypha)
+
+**Other Sources** (2 perks total)
+
+ - [Oghma Infinium](https://elderscrolls.fandom.com/wiki/Oghma_Infinium_(Skyrim))
 
 </Details>
 
@@ -156,6 +232,10 @@ These changes to carry weight seek to make Carry Weight a more interesting stat,
 
 </Details>
 
+#### New Mechanics
+
+Apostasy overhauls or adds additional mechanics, reminiscent of modern Action RPGs to further enhance the gameplay. Check out the sections below to learn more!
+
 <Details>
 <summary>Poise and Stagger</summary>
 
@@ -167,7 +247,8 @@ On Legendary difficulty, all targets take 50% more Poise Damage.
 
 </Details>
 
-#### Attacks of Opportunity
+<Details>
+<summary>Attacks of Opportunity</summary>
 
 Apostasy introduces a unique Attacks of Opportunity system to the game. This system is designed for the list and can not be found anywhere else. Attacks of Opportunity scale with difficulty and provide advantages to tactical positioning and timing in combat. So how does it work?
 
@@ -177,11 +258,16 @@ The player is also susceptible to Attacks of Opportunity, however their lethalit
 
 Ward spells protect the user from Attacks of Opportunities (player and any NPC).
 
-#### Massive Targets
+</Details>
+
+<Details>
+<summary>Massive Targets</summary>
 
 Apostasy also introduces a "Massive Target" feature for specific enemy types. Massive Targets take 50% less damage from Attacks of Opportunity on Adept difficulty or lower (they take 25% more damage rather than 50% more damage) and can not be backstabbed. On Expert+ difficulties, Massive Targets can not suffer from Attacks of Opportunity.
 
 Additionally, Massive Targets have a higher likelihood of inflicting Heavy Staggers.
+
+</Details>
 
 ### Quests Changes
 
@@ -388,6 +474,8 @@ This section will try to list the new content focused mods added to the list, an
  - [Val Serano - Pirate Custom Voiced Follower and Quest Adventure](https://www.nexusmods.com/skyrimspecialedition/mods/103669)
 
 ### Player Homes
+
+![](https://staticdelivery.nexusmods.com/mods/1704/images/118893/118893-1720691342-1079637258.png)
 
  - [Elianora's Breezehome Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/2829)
  - [Mirele Bismath Reborn](https://www.nexusmods.com/skyrimspecialedition/mods/93817)

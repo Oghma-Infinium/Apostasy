@@ -95,6 +95,7 @@ Key Info
  - Should have ironed out the last of any visual nitpicks (or at least most of them).
  - Did the majority of work for Vigilant and Unslaad boss movesets.
  - Changes to dodging rules.
+ - Changes to Flesh Spell functionality. Depending on how this change is received, I will be extending these changes to all "buff"-type spells.
  - Disabled Archive Parsing in MO2 ini as it will vastly improve MO2 VFS speeds and most users have no use for it.
 
 <Details>
@@ -180,6 +181,7 @@ Key Info
  - [Description Framework for Headhunter](https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=447509&nmm=1&game_id=1704)
  - [Yngvild - A Buried Past](https://www.nexusmods.com/skyrimspecialedition/mods/123385)
  - [HDT-SMP Sona Armor](https://www.patreon.com/file?h=68902488&i=12781379)
+ - [HIMBO - Fuse00 Armor Sona](https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=519861&nmm=1&game_id=1704)
  - [Scattered Object Solution](https://www.nexusmods.com/skyrimspecialedition/mods/92978)
  - [Solitude farmhouses rework](https://www.nexusmods.com/skyrimspecialedition/mods/74334)
  - [Glorious Guldun Rock - A Giant Camp Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/123786)
@@ -268,6 +270,8 @@ Key Info
  - Rebalanced Boethiah's Chosen NPCs.
    - You can also no longer loot the majority of their gear. You get enough strong artifacts from doing the Tournament quest.
  - Black Market (Speech) now requires 60 skill (was 40).
+ - Flesh Spells now cast with Ritual Animation (much, much shorter cast time).
+   - To compensate for lack of dual casting, base duration was increased to 5 minutes and costs were increased by 10-30%. (cost of Oakflesh was not increased)
 
 #### Bug Fixes
 
@@ -301,6 +305,12 @@ Key Info
  - Black Market can now be taken at the proper time and level instead of being erroneously locked behind the wrong perk.
  - Experience patched modded races.
  - Increased Experience required per level.
+ - Fixed FleshFX visuals for Armor Spells not being properly utilized.
+ - Fixed Master Assassin (Sneak) not being obtainable with the correct perk requirements.
+ - Fixed Focused Strike (One-Handed) being obtainable too early due to incorrect perk requirements.
+ - Fixed Defensive Maneuvers (Block) being obtainable too early due to incorrect perk requirements.
+ - Removed test shaders from Arcane Awakening.
+ - Fixed Arcane Awakening buff applying even while wearing an armored chest.
 
 #### Misc. Changes
 
@@ -357,6 +367,7 @@ Key Info
  - Removed Lunar Guard Crafting Manual. Created `Crafting Motif: Khajiit Style`.
  - Distortion's (Alteration) enhanced Dodge is now 8-way. (Thanks Ylik)
  - Repainted Whiterun Outskirts.
+   - `4, 4` and surrounding cells, I lost track of all the IDs.
  - Improved Deliverance perk functionality. (Thanks Ylik)
  - Swapped wood plank texture in Whiterun.
  - Removed free gear and spells from start room containers.
@@ -369,6 +380,14 @@ Key Info
  - Ebony Warrior has a unique moveset.
  - Mercer Frey has a unique moveset.
  - Cloth now uses the same step dodge as Heavy Armor. Roll dodging is reserved for Light Armor.
+ - Added perk **Streak** (Alteration).
+   - While under the effects of an armor spell, your dodges deal Shock damage to nearby enemies.
+   - Requires 70 Alteration and **Distortion** perk.
+ - Renamed One with the Pack (Speech) to Bond With Nature.
+ - Improved Distortion VFX again.
+ - Improved shape of Block and Archery tree.
+ - Adjusted Frost Lens FX.
+ - Greatly improved the visuals of Labyrinthian Road.
 
 </Details>
 
