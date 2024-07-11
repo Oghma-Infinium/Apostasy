@@ -72,7 +72,7 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 
 >[!CAUTION]
 >An SSD is required to the play the list.   
->Only Windows 10 or 11 operating systems are supported. Windows LTSC, special variants, lightened editions or any other modified variant **WILL NOT WORK.** Lunix installations also **WILL NOT WORK**.
+>Only Windows 10 or 11 operating systems are supported. Windows LTSC, special variants, lightened editions or any other modified variant **WILL NOT WORK.** Linux installations also **WILL NOT WORK**.
 
 ![](https://raw.githubusercontent.com/Oghma-Infinium/Apostasy/main/images/perfTarget.PNG)
 
