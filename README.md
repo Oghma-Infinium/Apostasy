@@ -407,16 +407,17 @@ In order to get the best possible response please ensure that:
 ### Starting the Game
 
  1. Head over to your modlist installation folder (e.g. `C:\Apostasy`), locate an executable named `ModOrganizer.exe`, and launch it.
- 2. Launch the "Play" Executable in MO2.
+    > First launch of Mod Organizer 2 may take several minutes due to GitHub repository downloads. Please be patient.
+ 3. Launch the "Play" Executable in MO2.
     > The game may take several minutes to load on your first launch. Please be patient and at no point should you click the `Unlock` button in MO2.
- 3. Click "New Game".
- 4. Create your character.
- 5. Wait about a minute or so before leaving the start room for the game to fully initialize and MCM Recorder to finish processing.
+ 4. Click "New Game".
+ 5. Create your character.
+ 6. Wait about a minute or so before leaving the start room for the game to fully initialize and MCM Recorder to finish processing.
     > The MCM Recorder should start automatically and will pop-up a message box when finished.
- 6. **(OPTIONAL)** Refer to the MCM options listed on the [Configuration](https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/CONFIG.md#in-game-mcm-options) to adjust your settings.
- 7. Talk to the dragon to choose your start.
+ 7. **(OPTIONAL)** Refer to the MCM options listed on the [Configuration](https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/CONFIG.md#in-game-mcm-options) to adjust your settings.
+ 8. Talk to the dragon to choose your start.
     > If no start is chosen then you will have a default start in the Helgen Inn.
- 8. Leave the room.
+ 9. Leave the room.
 
 ## Updating the modlist
 
