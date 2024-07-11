@@ -64,6 +64,7 @@ Key Info
 <details>
 <summary>Beta Versions</summary>
 
+- [0.6.1](#061) Release Date: Unreleased.
 - [0.6.0](#060) Release Date: Unreleased.
 - [0.5.0](#050) Release Date: July 2, 2024
 - [0.4.2](#042) Release Date: June 24, 2024
@@ -74,6 +75,54 @@ Key Info
 - [0.2.0](#020) Release Date: June 4, 2024
 - [0.1.1](#011) Release Date: May 30, 2024
 - [0.1.0](#001) Release Date: May 29, 2024
+
+## 0.6.1
+
+Key Info
+
+ - Last minute tweaks before 1.0.
+ - Enabled NeverNude by default.
+ - Added Stance-based locomotion.
+ - Updated a few mods that updated right before I planned to release.
+
+<Details>
+<summary>Changes</summary>
+
+### Updated
+
+ - [NPCs React To Invisibility](https://www.nexusmods.com/skyrimspecialedition/mods/91480)
+ - [Experience](https://www.nexusmods.com/skyrimspecialedition/mods/17751)
+
+### Added
+
+ - [Nordic Combat Locomotions Re standalone](https://www.nexusmods.com/skyrimspecialedition/mods/83700)
+ - [Skuldafn Paper Map for FWMF by Limon](https://www.nexusmods.com/skyrimspecialedition/mods/123990)
+ - [Wood Chopping Camera Glitch Fix](https://www.nexusmods.com/skyrimspecialedition/mods/123984)
+
+### Removed
+
+ - [Skuldafn Paper Map for FWMF](https://www.nexusmods.com/skyrimspecialedition/mods/73489) and [Update for Skuldafn Paper Map for FWMF](https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=355840&nmm=1&game_id=1704)
+   - Superceded.
+
+</details>
+
+<Details>
+<summary>Patch Notes</summary>
+
+### Balance
+
+ - N/A
+
+### Bug Fixes
+
+ - N/A
+
+### Misc. Changes
+
+ - Stance locomotion.
+
+</details>
+
 
 ### 0.6.0
 
