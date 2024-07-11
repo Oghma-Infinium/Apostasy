@@ -50,6 +50,9 @@ A: This is usually caused by an alternate start mod that adds random items to yo
 ### Q: Can I still use the vanilla favorites menu? I do not like the wheel.
 A: If you're on keyboard press `G` to open up the vanilla favorites menu.
 
+### Q: Can I add/remove [insert mod] to the list?
+A: Yes, but if you have to ask, no. Also adding or removing a mod would void any official support.
+
 ### Q: Will you add [insert mod] to the list?
 A: No, probably not. We'll see.
 

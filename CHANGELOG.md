@@ -81,14 +81,21 @@ Key Info
 Key Info
 
  - This update was unreleased. Kept here for sake of notekeeping.
+ - ESL'd several plugins.
  - Removed delevel experiment from last version.
- - Implemented ENB Skyscattering effect.
+ - Implemented and Tweaked ENB Skyscattering effect.
  - Reworked Destruction tree a little.
  - Reworked Restoration tree and Auriel Deity a little.
+ - Some misc. perk changes.
  - Restructured Armor trees.
+ - Changes to crafting manuals.
+ - Distribution of new outfits for Khajiit Caravanners.
  - EVLaS is enabled by default now.
  - Finalized Encounter Zone tweaks. 
  - Should have ironed out the last of any visual nitpicks (or at least most of them).
+ - Did the majority of work for Vigilant and Unslaad boss movesets.
+ - Changes to dodging rules.
+ - Disabled Archive Parsing in MO2 ini as it will vastly improve MO2 VFS speeds and most users have no use for it.
 
 <Details>
 <summary>Changes</summary>
@@ -120,6 +127,7 @@ Key Info
  - [Nirn's Chosen - Enhanced Races and Classes](https://www.nexusmods.com/skyrimspecialedition/mods/121427)
  - [Stones of Sacrifice - Double Edged Standing Stones](https://www.nexusmods.com/skyrimspecialedition/mods/121629)
  - [Follower Dialogue Expansion - Lydia](https://www.nexusmods.com/skyrimspecialedition/mods/119226)
+ - [Follower Dialogue Expansion - Brelyna Maryon](https://www.nexusmods.com/skyrimspecialedition/mods/113359)
  - [Favor Jobs Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/40145)
  - [Cities of the North Optimized Meshes](https://www.nexusmods.com/skyrimspecialedition/mods/85242)
  - [Open Animation Replacer](https://www.nexusmods.com/skyrimspecialedition/mods/92109)
@@ -131,6 +139,8 @@ Key Info
  - [Snowy Ships for Snowy Regions](https://www.nexusmods.com/skyrimspecialedition/mods/111827)
  - [Northern Concept - Northern Roads](https://www.nexusmods.com/skyrimspecialedition/mods/107975)
  - [Chooey's Modular SMP Hairstyles Edit](https://www.nexusmods.com/skyrimspecialedition/mods/110414)
+ - [Grab And Throw](https://www.nexusmods.com/skyrimspecialedition/mods/120460)
+ - [DynDOLOD DLL NG](https://www.nexusmods.com/skyrimspecialedition/mods/97720)
 
 #### Added
 
@@ -185,6 +195,8 @@ Key Info
  - [Utenlands Nordic Tents - Replacer and Campfire Addon](https://www.nexusmods.com/skyrimspecialedition/mods/121203)
  - [Skyland Imperial and Nordic Tents](https://www.nexusmods.com/skyrimspecialedition/mods/57002)
  - [Elden Counter](https://www.nexusmods.com/skyrimspecialedition/mods/65579)
+ - [Cryptic Cradlecrush Rock - A Giant Camp Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/123901)
+ - Several Animation mods I was too lazy to document.
 
 #### Removed
 
@@ -206,6 +218,8 @@ Key Info
    - Unneeded.
  - [Twitching Plates Fix](https://www.nexusmods.com/skyrimspecialedition/mods/64728)
    - Caused some visual bugs with motion vectors on Rudy's meshes.
+ - [Dave's UFHD Stonewalls for SLO - Stonewalls](https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=96546&nmm=1&game_id=1704)
+   - Didn't match well.
 
 </Details>
 
@@ -253,6 +267,7 @@ Key Info
    - Full set of Dragonscale Armor should provide 400 AR. Shield will provide +100. (Numbers taken with full perks)
  - Rebalanced Boethiah's Chosen NPCs.
    - You can also no longer loot the majority of their gear. You get enough strong artifacts from doing the Tournament quest.
+ - Black Market (Speech) now requires 60 skill (was 40).
 
 #### Bug Fixes
 
@@ -283,6 +298,9 @@ Key Info
  - Fixed Deathbrand and Saviors Hide which were erroneously reverted to vanilla state.
  - No longer using vanilla dirtmound texture, oops.
  - Fixed Missive Boards for the final time. (coping)
+ - Black Market can now be taken at the proper time and level instead of being erroneously locked behind the wrong perk.
+ - Experience patched modded races.
+ - Increased Experience required per level.
 
 #### Misc. Changes
 
@@ -342,6 +360,15 @@ Key Info
  - Improved Deliverance perk functionality. (Thanks Ylik)
  - Swapped wood plank texture in Whiterun.
  - Removed free gear and spells from start room containers.
+ - Adjusted Stone Wall textures. (Thanks bingus)
+ - Removed goblins at [Cradlecrush Rock](https://elderscrolls.fandom.com/wiki/Cradlecrush_Rock) due to mod conflict.
+ - Optimized performance LOD.
+ - Added Grass LODs **FOR TUNDRA ONLY** to standard LOD output.
+ - Another minor tweak to Volcanic Tundra grass.
+ - Did 70% of the work for Vigilant bosses. Unslaad bosses are also somewhat finished (needs a look over for Unslaad update bosses).
+ - Ebony Warrior has a unique moveset.
+ - Mercer Frey has a unique moveset.
+ - Cloth now uses the same step dodge as Heavy Armor. Roll dodging is reserved for Light Armor.
 
 </Details>
 
