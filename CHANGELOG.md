@@ -19,6 +19,46 @@
  - [1.0.0](#100) Release Date: July 11, 2024
  - [Beta Versions](#beta-versions)
 
+## 1.0.1
+
+Key Info
+
+ - Quick recompile to address a request from another author.
+
+<Details>
+<summary>Changes</summary>
+
+### Updated
+
+ - [Experience](https://www.nexusmods.com/skyrimspecialedition/mods/17751)
+
+### Added
+
+ - N/A
+
+### Removed
+
+ - [Seranade - A(nother) Serana Replacer](https://www.nexusmods.com/skyrimspecialedition/mods/112513)
+
+</details>
+
+<Details>
+<summary>Patch Notes</summary>
+
+### Balance
+
+ - N/A
+
+### Bug Fixes
+
+ - N/A
+
+### Misc. Changes
+
+ - Changed Serana's hair at request of the author of the previously used hair asset.
+
+</details>
+
 ## 1.0.0
 
 Key Info
