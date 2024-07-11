@@ -115,9 +115,11 @@ After: `Resolution=2560x1440`
 
 ## Skyrim Upscaler
 
-While [Skyrim Upscaler](https://www.nexusmods.com/skyrimspecialedition/mods/80343) is an unsupported addition, it is asked about often enough that I felt I should put this here. In order to make sure your Upscaler works, you must change some lines in the `SSEDisplayTweaks.ini`.  
+While [Skyrim Upscaler](https://www.nexusmods.com/skyrimspecialedition/mods/80343) is an unsupported addition, it is asked about often enough that I felt I should put this here. In order to make sure your Upscaler works, you must change some lines in the `SSEDisplayTweaks.ini` located in the `[Performance] SSE Display Tweaks - Modified` mod.
 
-In the `SSEDisplayTweaks.ini` make sure that `Fullscreen = false`, `Borderless = true`, and `BorderlessUpscale = false` under the `[Render]` section.  
+In the `SSEDisplayTweaks.ini` make sure that `Fullscreen = false` (line 39), `Borderless = true` (line 48), and `BorderlessUpscale = false` (line 58) under the `[Render]` section.  
+
+Additionally, if you intend on using the FrameGen features of the newer [Skyrim Upscaler](https://www.nexusmods.com/skyrimspecialedition/mods/80343) builds, go in the `SSEDisplayTweaks.ini` and set `FramerateLimit` (line 206) equal to **half** of your monitor's refresh rate.
 
 All other installation concerns for Skyrim Upscaler (DLSS) should be discussed in the modifications channel in the discord.  
 
