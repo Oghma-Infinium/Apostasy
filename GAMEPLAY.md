@@ -328,7 +328,7 @@ Apostasy changes a significant amount of vanilla quests in one way or another in
 
 ### Modded Armors and Weapons
 
-![](https://staticdelivery.nexusmods.com/mods/1704/images/118893/118893-1720514816-1015656824.png)
+![](https://staticdelivery.nexusmods.com/mods/1704/images/118893/118893-1720811383-481712445.png)
 
 Apostasy adds a significant amount of new Armors and Weapons to the game, all of which have been hand tuned and modified to fit within the balance of the list. While most can be accessed through [Skyrim Outfit System](https://www.nexusmods.com/skyrimspecialedition/mods/42162) if you want to use them purely for cosmetics, many have been re-integrated into the world as potential loot (or equipment that is unique to specific NPCs) and/or has been made obtainable through **Crafting Motifs**. 
 

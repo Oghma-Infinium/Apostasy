@@ -108,13 +108,11 @@ These steps are only required for installing the Modlist for the first time. Add
 
 #### Installing Microsoft Visual C++ Redistribution Package
 
- 1. Install [Visual C++ x64](https://aka.ms/vs/17/release/vc_redist.x64.exe), [.Net Runtime 8.X.X desktop x64](https://dotnet.microsoft.com/en-us/download/dotnet/8.0), and [.Net 6.0 Runtime desktop x64](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-6.0.30-windows-x64-installer).
+ 1. Install [Visual C++ x64](https://aka.ms/vs/17/release/vc_redist.x64.exe).
+ 2. Install [.Net Runtime 8.X.X desktop x64](https://dotnet.microsoft.com/en-us/download/dotnet/8.0).
+ 3. Install [.Net 6.0 Runtime desktop x64](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-6.0.30-windows-x64-installer).
 >[!CAUTION] 
 If you already have Visual C++ installed, please make sure you install it again and use the repair option to get the latest version of the redistributables.
-
- 2. Change Skyrim so it does not [automatically update](https://help.steampowered.com/en/faqs/view/71AB-698D-57EB-178C#disable).
- 3. Right click on Skyrim SE and click on properties, untick the `Enable Steam Overlay while in-game.`
- 4. You also need to start the games to the main menu in order to download all the creations. **DO NOT SKIP THIS STEP, IF YOU DO SO WABBAJACK WILL FAIL**
 
 #### Pagefile and crash prevention
 
@@ -171,6 +169,10 @@ Changing the shader cache size:
 
 >[!IMPORTANT]
 >If you have your Steam Library in Program Files, read [this article](https://github.com/LostDragonist/steam-library-setup-tool/wiki/Usage-Guide) by LostDragonist. Locations such as Desktop, Documents, Downloads, OneDrive, etc. *will* cause issues with installing and playing the list.
+
+ 1. Change Skyrim so it does not [automatically update](https://help.steampowered.com/en/faqs/view/71AB-698D-57EB-178C#disable).
+ 2. Right click on Skyrim SE and click on properties, untick the `Enable Steam Overlay while in-game.`
+ 3. You also need to start the games to the main menu in order to download all the creations. **DO NOT SKIP THIS STEP, IF YOU DO SO WABBAJACK WILL FAIL**
 
 #### Game Language
 
@@ -376,7 +378,14 @@ If the error persists after a reinstall, then delete the `[Path to Modlist]\mods
 </Details>  
 
 <Details>
-<summary>Crashes</summary>
+<summary>Crashing on Startup</summary>
+
+Report it in the `#apostasy-support` channel of the [discord](https://discord.gg/4WwqfK5yHg). There are several reasons why this might happen, and 99.9% of them are a corrupt installation.
+
+</Details>  
+
+<Details>
+<summary>Crashes During Gameplay</summary>
 
 Skyrim is a notoriously buggy game and cramming thousands of mods into it is not gauranteed to always produce the most stable experience possible. Especially in heavier lists where you may be pushing the limitations of your hardware as a result of Skyrim's old and unoptimized rendering pipeline.
 
@@ -482,5 +491,5 @@ Please check the [FAQ](https://github.com/Oghma-Infinium/Apostasy/blob/main/Docu
 - [Sheson](https://ko-fi.com/sheson) for [DynDOLOD](https://dyndolod.info/) and associated tools.
 - [Styyx](https://github.com/Styyx1) for assisting heavily in creating DLLs for the custom mods made for the list.
 - [Aelarr](https://www.nexusmods.com/skyrim/users/6843757) and Anreme for permissions to use some custom mods from The Owl Archives server.
-- Mgde12, D1Z4STR, 半蔵 内倉, Kepler, Hencoat, Matty, EnragedHamster, Scott, snowpeachcherry, Charlie Kriech, Durgenage, Pacifist Fist, Don Maker, Russell Collins, Oresh, Danimals, Monko, Anehum, Valeria, The Unattested Wombat, Ola Nordman, Regista433, Jaron Scotland, King_Sheogorath, TheRyge, and Shakes for support on [patreon](https://www.patreon.com/aljoxo).
-- adorion1981, aexilkv, AlphaGhost47, Ananta, Blade, Bubborus, derkaenaz, DevZan, doombot117, E2J, FalseRealism, Felivath, FutureWorld, Gous, Gremlin, hedich, Jeremy, JoeyFlow, JollyTheRancher, JXEYES, Kathie Murphy, Lunaros, Maelstrom, Mike, Paulo Giovanni, Psylence, rezthe0one on Discord, Roxiie, SaddestNoddles, skylion, Soloist, Steve, Tom Curran, Won Pham, WoWZaton, Zhijia, and zidan for their support via [Ko-fi](https://ko-fi.com/aljoxo).
+- Mgde12, D1Z4STR, 半蔵 内倉, Kepler, Hencoat, Matty, EnragedHamster, Scott, snowpeachcherry, Charlie Kriech, Durgenage, Pacifist Fist, Don Maker, Russell Collins, Oresh, Danimals, Monko, Anehum, Valeria, The Unattested Wombat, Ola Nordman, Regista433, Jaron Scotland, King_Sheogorath, TheRyge, Shakes, and highchae for support on [patreon](https://www.patreon.com/aljoxo).
+- adorion1981, aexilkv, AlphaGhost47, Ananta, Blade, Bubborus, derkaenaz, DevZan, doombot117, E2J, FalseRealism, Felivath, FutureWorld, Gous, Gremlin, hedich, Jeremy, JoeyFlow, JollyTheRancher, JXEYES, kanpeki, Kathie Murphy, Lunaros, Maelstrom, Mike, Paulo Giovanni, Psylence, rezthe0one on Discord, Roxiie, SaddestNoddles, skylion, Soloist, Steve, Tom Curran, Won Pham, WoWZaton, Zhijia, and zidan for their support via [Ko-fi](https://ko-fi.com/aljoxo).

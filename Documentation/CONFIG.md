@@ -139,6 +139,7 @@ Changing MCM Settings in any MCM that is under the `> Apostasy MCM Hider <` tab 
  1. `Apostasy`: This is a custom MCM made for the list.
     > **NSFW Armors Toggle**: Determines whether some lewd-er versions of some armors will be craftable or not. Has no effect on the armors that NPCs wear or the armors that can be looted. (Default: Disabled)
     > **Killmove Mode**: Choose between three different styles of Killmoves: Disabled, Vanilla Style, or Cinematic. (Default: Vanilla Style)
+    > **Skin Animals**: Determines whether [Simple Hunting Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/95943) skins animals. (Default: Disabled)
  2. `CollisionReset`: Change the keybind for resetting SMP physics (Default: `F10`). 
  3. `Compass Controls`: Change the Toggle key for the Compass (Default: `'`).
  4. `Dialogue History`: Change the keybind to bring up the Dialogue History menu (Default: `LAlt + Y`).

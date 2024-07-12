@@ -108,6 +108,10 @@ Solution(s)
 Solution(s)
  1. I am currently looking for an elegant solution to this issue, but the list is first and foremost focused on third person. If you wish to play a DW or Unarmed-based build in first person, I would suggest rethinking your build or playing a list that is more suitable for this.
 
+### Widgets overlap TrueHUD Attributes Widget!
+Solution(s)
+ 1. Seems to be a rare bug and it's fixed on game restart, not sure of cause.
+
 ## Known Crashes
 
 ### Wheeler.dll Crash!

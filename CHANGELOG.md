@@ -16,10 +16,89 @@
 
 # Table of Contents
 
+ - [1.0.3](#103) Release Date: July 12, 2024
  - [1.0.2](#102) Release Date: July 12, 2024
  - [1.0.1](#101) Release Date: July 11, 2024
  - [1.0.0](#100) Release Date: July 11, 2024
  - [Beta Versions](#beta-versions)
+
+## 1.0.3
+
+Key Info
+
+ - Save-Safe.
+ - Should have noticeably improved baseline performance for most people. Make sure to set your CPU Affinity (instructions [here](https://github.com/Oghma-Infinium/Apostasy/blob/main/README.md#skyrim-priority-and-setting-cpu-affinity)).
+ - Added an MCM option to `Apostasy MCM` to disable skinned animals.
+ - Time skip when skinning animals is now a survival feature (disabled outside of survival.)
+   - Change may not take full effect on existing save game.
+ - ENB Tweaks.
+ - Changes to Novice Concentration spells.
+ - Minor tweak to controller config.
+
+<Details>
+<summary>Changes</summary>
+
+### Updated
+
+ - [Nirn's Chosen - Enhanced Races and Classes](https://www.nexusmods.com/skyrimspecialedition/mods/121427)
+ - [Destroy The Dark Brotherhood - Quest Expansion](https://www.nexusmods.com/skyrimspecialedition/mods/118229?)
+ - [Ultimate NPC Dodging](https://www.nexusmods.com/skyrimspecialedition/mods/120738)
+ - [Caught Red Handed - Quest Expansion](https://www.nexusmods.com/skyrimspecialedition/mods/65708)
+
+### Added
+
+ - [Creatures : Preview](https://www.distaranimation.com/mods/creatures)
+ - [Fixed Meshes for Rugnarok](https://www.nexusmods.com/skyrimspecialedition/mods/123987)
+ - [Edryu's Widget](https://www.nexusmods.com/skyrimspecialedition/mods/75443)
+ - [iWant Widgets](https://www.nexusmods.com/skyrimspecialedition/mods/36457)
+ - [Novice Bolt Spells](https://www.nexusmods.com/skyrimspecialedition/mods/95077)
+ - [Face Sculptor Expanded - Growl Patch](https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=469988&nmm=1&game_id=1704)
+
+### Removed
+
+ - N/A
+
+</details>
+
+<Details>
+<summary>Patch Notes</summary>
+
+### Balance
+
+ - Novice concentration spells (only the spells, staves are unaffected) should now be replaced with bolt variants. This should make early game feel less miserable to play as a melee character fighting mages and should weaken novice mages as concentration spells are frankly too strong.
+
+### Bug Fixes
+
+ - Implemented a script fix for the Class script. Thank you to @ForsakenJing for providing a detailed explanation on the issue and a fix.
+ - Relandscaped area outside of Folgunthur to fix a gap in between the Mountains.
+   - `13 -22`
+ - Implemented a ~~temporary~~ fix for **FreeformRiften11b** (A Strong Nord Woman) so Svana wouldn't give you the quest endlessly. (Thanks Jay for fixing this so quickly!)
+   - ~~The quest still "fails" on completion, meaning you gain a net +0 Experience, I will try to fix this further in the future if the issue turns out to be with Apostasy and not the mod that adds the quest.~~
+ - NPCs shouldn't try to dodge your attacks when they can't detect you.
+ - Removed dicks from Nevernude.
+ - Hid a debug magic effect that was shown in UI.
+
+### Misc. Changes
+
+ - Replaced Dual Mace and Dual Axe Bear Stance animations. Old animations had bad annotations and I didn't think the animation itself felt good enough to warrant fixing.
+ - Set `Validate Screenshot Location` in `po3_Tweaks.ini` from `true` to `false`, it seems some people were experiencing CTDs on first load with this setting enabled.
+ - Disabled CPU Affinity by default as incorrectly configured Affinity provided worse performance than no Affinity, and Wabbajack could only ship with my personal setup. Read the instructions are also present in the [Configuration Guide](https://github.com/Oghma-Infinium/apostasy/blob/main/Documentation/CONFIG.md#performance-optimizations) or the [ReadMe](https://github.com/Oghma-Infinium/Apostasy/blob/main/README.md#skyrim-priority-and-setting-cpu-affinity) to set up CPU Affinity.
+ - Rebuilt **2** BSA(s).
+ - Improved Sabre Cat and Bear animations because I was bothered about it.
+ - Added new widget setup for current equipped.
+ - Disabled MoreHUD's information widget in the bottom right corner. It was mostly redundant with other widgets.
+ - Unhid DynDOLOD MCM, it was not intended to be hidden by default.
+ - Tweaked specularity/glossiness on `fxrapidsrocks01.nif`.
+ - Increased the interior brightness of certain ENB Weather Configs:
+   - `!_SKYRIM_Fog.ini`, `!_SKYRIM_Clear_and_Cloudy_FIXED_WEATHERS.ini`, `!_SKYRIM_StormRain.ini`, `!_SKYRIM_Clear.ini`, `!_SKYRIM_Cloudy.ini`, `!_SKYRIM_OvercastRain.ini`, `!_SKYRIM_Locations.ini`
+ - Added more location IDs to the ENB `weatherlist.ini`:
+   - `D64B0`, `7F00`, `53b6`, `53d1`, `3df4`, `d64d4`, `d64d5`, `d64b1`, `53bd`, `53be`, `53c7`
+ - Set Crash Log Tools (MO2 plugin) to offline mode.
+ - Controller tweaks:
+   - Edit to OCPA Settings to mirror some changes made for keyboard meant to fix a bug.
+   - Tweak to TDM MCM for controllers. Target lock key no longer resets camera when there is no target in range.
+
+</details>
 
 ## 1.0.2
 
