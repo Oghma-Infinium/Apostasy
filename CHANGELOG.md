@@ -16,8 +16,57 @@
 
 # Table of Contents
 
+ - [1.0.2](#102) Release Date: July 12, 2024
+ - [1.0.1](#101) Release Date: July 11, 2024
  - [1.0.0](#100) Release Date: July 11, 2024
  - [Beta Versions](#beta-versions)
+
+## 1.0.2
+
+Key Info
+
+ - Some quick fixes.
+ - Added instructions to the ReadMe for setting up CPU Affinity. These instructions are also present in the [Configuration Guide](https://github.com/Oghma-Infinium/apostasy/blob/main/Documentation/CONFIG.md#performance-optimizations), however they are important enough that they are now mirrored in the main ReadMe.
+
+<Details>
+<summary>Changes</summary>
+
+### Updated
+
+ - [Nirn's Chosen - Enhanced Races and Classes](https://www.nexusmods.com/skyrimspecialedition/mods/121427)
+
+### Added
+
+ - N/A
+
+### Removed
+
+ - N/A
+
+</details>
+
+<Details>
+<summary>Patch Notes</summary>
+
+### Balance
+
+ - N/A
+
+### Bug Fixes
+
+ - Katana's Bear Stance will now use the intended animation rather than using the same animation as Sword's Bear Stance (typo in folder name).
+ - Moved Travelling Priest Robes from Tanning Rack to Forge for crafting (most already were moved but some were missed). 
+ - Fixed typo in Monk's Class description.
+ - Changed Custom Window icon to use Apostasy's Icon instead of Ascensio's (I don't know how I forgot to do this until now).
+ - Repainted area near Skybound Underhang to fix some minor landscape seams.
+   - `5 -15`, `4 -15`, `3 -15`
+
+### Misc. Changes
+
+ - [Mihail Skeletons](https://www.nexusmods.com/skyrimspecialedition/mods/34368) now use the same animations as [Awoken Draugr](https://www.nexusmods.com/skyrimspecialedition/mods/77569) for more stylistic consistency and enemy diversity.
+ - Changed the `disableSMPHairWhenWigEquipped` in hdtSMP64's `configs.xml` from `true` to `false` for better compatibility with Skyrim Outfit System. **Warning** this might hurt performance if you have SMP Hair on your character ***and*** equip an SMP wig (I do not know why you would do this however).
+
+</details>
 
 ## 1.0.1
 

@@ -49,6 +49,7 @@
     - [Keyboard Keybinds](#keyboard-keybinds)
     - [Gamepad Keybinds](#gamepad-keybinds)
   - [Playing the List](#playing-the-list)
+    - [Skyrim Priority and Setting CPU Affinity](#skyrim-priority-and-setting-cpu-affinity)
     - [Starting the Game](#starting-the-game)
   - [Updating the modlist](#updating-the-modlist)
   - [Removing the Modlist](#removing-the-modlist)
@@ -404,6 +405,17 @@ In order to get the best possible response please ensure that:
 >[!TIP]
 >Before starting the list, read over the [Configuration](https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/CONFIG.md), [FAQ](https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/FAQ.md), and [Gameplay](https://github.com/Oghma-Infinium/Apostasy/blob/main/GAMEPLAY.md) pages.
 
+### Skyrim Priority and Setting CPU Affinity
+
+This section is also covered in the [Configuration Guide](https://github.com/Oghma-Infinium/apostasy/blob/main/Documentation/CONFIG.md#performance-optimizations). [Skyrim Priority](https://www.nexusmods.com/skyrimspecialedition/mods/50129) is a mod that can greatly improve performance, improving FPS and preventing stutters by optimizing Skyrim's CPU Priority and Core Affinity. [CPU Affinity](https://www.nexusmods.com/skyrimspecialedition/mods/94636) is a Mod Organizer 2 plugin that automates the manual setup of [Skyrim Priority](https://www.nexusmods.com/skyrimspecialedition/mods/50129). However, when improperly configured it can lead to worse performance than if it had not been present.
+
+Due to Wabbajack limitations, the mod is preconfigured for my own system and must be manually adjusted on the end-user's system. In order to do this follow the instructions below
+ 1. Click the `Puzzle Piece` button at the top of MO2 and select `Set CPU Affinity`.
+
+![](https://raw.githubusercontent.com/Oghma-Infinium/Vagabond/main/images/cpu%20affinity%20example.png)  
+
+ 2. That's it, it's really that simple. **Please Please Please** do this before launching the game.
+
 ### Starting the Game
 
  1. Head over to your modlist installation folder (e.g. `C:\Apostasy`), locate an executable named `ModOrganizer.exe`, and launch it.
@@ -465,4 +477,4 @@ Please check the [FAQ](https://github.com/Oghma-Infinium/Apostasy/blob/main/Docu
 - [Styyx](https://github.com/Styyx1) for assisting heavily in creating DLLs for the custom mods made for the list.
 - [Aelarr](https://www.nexusmods.com/skyrim/users/6843757) and Anreme for permissions to use some custom mods from The Owl Archives server.
 - Mgde12, D1Z4STR, 半蔵 内倉, Kepler, Hencoat, Matty, EnragedHamster, Scott, snowpeachcherry, Charlie Kriech, Durgenage, Pacifist Fist, Don Maker, Russell Collins, Oresh, Danimals, Monko, Anehum, Valeria, The Unattested Wombat, Ola Nordman, Regista433, Jaron Scotland, King_Sheogorath, TheRyge, and Shakes for support on [patreon](https://www.patreon.com/aljoxo).
-- adorion1981, aexilkv, AlphaGhost47, Ananta, Blade, Bubborus, derkaenaz, DevZan, doombot117, E2J, FalseRealism, Felivath, FutureWorld, Gous, Gremlin, hedich, Jeremy, JoeyFlow, JollyTheRancher, JXEYES, Kathie Murphy, Lunaros, Maelstrom, Mike, Paulo Giovanni, Psylence, rezthe0one on Discord, Roxiie, SaddestNoddles, skylion, Soloist, Steve, Tom Curran, Won Pham, WoWZaton, and Zhijia for their support via [Ko-fi](https://ko-fi.com/aljoxo).
+- adorion1981, aexilkv, AlphaGhost47, Ananta, Blade, Bubborus, derkaenaz, DevZan, doombot117, E2J, FalseRealism, Felivath, FutureWorld, Gous, Gremlin, hedich, Jeremy, JoeyFlow, JollyTheRancher, JXEYES, Kathie Murphy, Lunaros, Maelstrom, Mike, Paulo Giovanni, Psylence, rezthe0one on Discord, Roxiie, SaddestNoddles, skylion, Soloist, Steve, Tom Curran, Won Pham, WoWZaton, Zhijia, and zidan for their support via [Ko-fi](https://ko-fi.com/aljoxo).

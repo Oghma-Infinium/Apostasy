@@ -480,4 +480,3 @@ This section will try to list the new content focused mods added to the list, an
  - [Mirele Bismath Reborn](https://www.nexusmods.com/skyrimspecialedition/mods/93817)
  - [Ruska - Riften Player Home](https://www.nexusmods.com/skyrimspecialedition/mods/16177)
  - [Tel Jerdein - Telvanni Sorcerer Tower](https://www.nexusmods.com/skyrimspecialedition/mods/33539)
- - [Wuth Rein - An ancient nordic hideout](https://www.nexusmods.com/skyrimspecialedition/mods/52995)
