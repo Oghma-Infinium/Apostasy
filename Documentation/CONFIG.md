@@ -64,10 +64,8 @@ It is suggested that the majority of this section is left untouched unless you a
 The mods prefixed as `[Performance]` will be discussed below.
  1. `SSE Display Tweaks - Modified`: This is the version of Display Tweaks that is suggested to be edited for ease of use. Right clicking on the mod --> Information --> Notes provides instructions on the necessary Display Tweaks changes necessary if you plan on using some type of 3rd party FrameGen tool.
  2. `Faster HDT-SMP - AVX512 Optimization`: This mod contains the AVX512 version of the [Faster HDT-SMP](https://www.nexusmods.com/skyrimspecialedition/mods/57339) `.dll` file compatible with the list. It is ***highly*** suggested that you try out this addon if you have a CPU that supports AVX-512 instruction. If you do not know if your CPU supports AVX-512, then google it or use a tool like HWinfo. **ENABLING THIS MOD WITH AN INCOMPATIBLE CPU WILL EITHER CRASH YOUR GAME OR BREAK ALL SMP**.
- 3. `CPU affinity`:
-    - To adjust CPU affinity for your setup, click the `Puzzle Piece` button at the top of MO2 and select `Set CPU Affinity` and press ok on the pop-up box. This disables affinity set for my personal system.
-    - Then, click `Set CPU Affinity` **again** and press ok on the pop-up box. This will enable affinity with correct value for your CPU.
-    - Example of the options you need to press are provided [here](https://raw.githubusercontent.com/Oghma-Infinium/Vagabond/main/images/cpu%20affinity%20example.png).  
+ 3. `CPU affinity`: To adjust CPU affinity for your setup, click the `Puzzle Piece` button at the top of MO2 and select `Set CPU Affinity` and press ok on the pop-up box.
+       > Example of the options you need to press are provided [here](https://raw.githubusercontent.com/Oghma-Infinium/Vagabond/main/images/cpu%20affinity%20example.png).  
        > May give small performance improvement.
  4. `Apostasy - Performance DynDOLOD Output`: **Strongly suggested** for PCs that are barely meeting the [system requirements](https://github.com/Oghma-Infinium/Apostasy/blob/main/README.md#system-requirements) of the list or for those who are experiencing performance-related issues. If you plan on swapping to this version of DynDOLOD then read the steps below. **FAILING TO FOLLOW THESE STEPS WILL RESULT IN A CORRUPTED GAME.**
     1. **If swapping on an existing save game**, Make a [clean save](https://dyndolod.info/Help/Clean-Save) (follow steps 1-4).
