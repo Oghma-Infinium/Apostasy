@@ -413,12 +413,11 @@ In order to get the best possible response please ensure that:
 This section is also covered in the [Configuration Guide](https://github.com/Oghma-Infinium/apostasy/blob/main/Documentation/CONFIG.md#performance-optimizations). [Skyrim Priority](https://www.nexusmods.com/skyrimspecialedition/mods/50129) is a mod that can greatly improve performance, improving FPS and preventing stutters by optimizing Skyrim's CPU Priority and Core Affinity. [CPU Affinity](https://www.nexusmods.com/skyrimspecialedition/mods/94636) is a Mod Organizer 2 plugin that automates the manual setup of [Skyrim Priority](https://www.nexusmods.com/skyrimspecialedition/mods/50129). However, when improperly configured it can lead to worse performance than if it had not been present.
 
 Due to Wabbajack limitations, the mod is preconfigured for my own system and must be manually adjusted on the end-user's system. In order to do this follow the instructions below
- 1. Click the `Puzzle Piece` button at the top of MO2 and select `Set CPU Affinity` and press ok on the pop-up box. This will disable affinity.
- 2. Click `Set CPU Affinity` **again** and press ok on the pop-up box. This will enable affinity with correct value for your CPU.
+ 1. Click the `Puzzle Piece` button at the top of MO2 and select `Set CPU Affinity` and press ok on the pop-up box.
 
 ![](https://raw.githubusercontent.com/Oghma-Infinium/Vagabond/main/images/cpu%20affinity%20example.png)  
 
- 3. That's it, it's really that simple. **Please Please Please** do this before launching the game.
+ 2. That's it, it's really that simple. **Please Please Please** do this before launching the game.
 
 ### Starting the Game
 
