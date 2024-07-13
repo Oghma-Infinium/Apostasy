@@ -365,7 +365,7 @@ If you use Windows Defender, it is advised that you set up an Exception for the 
 
 Windows Scaling can prevent games from displaying correctly, and will often result in the game appearing "zoomed in". To fix this, find the `SkyrimSE.exe` located in your `[Path to Modlist]\Stock Game` and follow the steps in the images below:
 
-![](https://cdn.discordapp.com/attachments/694254949944655953/847772081030299648/skyrim-scaling.png?ex=66774586&is=6675f406&hm=812e1240d8de4ecc213055242067caddb1df617907c677a426b7f8c23dac4e8b&)
+![](https://raw.githubusercontent.com/Oghma-Infinium/Apostasy/main/images/skyrim-scaling.png)
 
 </Details>
 
@@ -491,5 +491,5 @@ Please check the [FAQ](https://github.com/Oghma-Infinium/Apostasy/blob/main/Docu
 - [Sheson](https://ko-fi.com/sheson) for [DynDOLOD](https://dyndolod.info/) and associated tools.
 - [Styyx](https://github.com/Styyx1) for assisting heavily in creating DLLs for the custom mods made for the list.
 - [Aelarr](https://www.nexusmods.com/skyrim/users/6843757) and Anreme for permissions to use some custom mods from The Owl Archives server.
-- Mgde12, D1Z4STR, 半蔵 内倉, Kepler, Hencoat, Matty, EnragedHamster, Scott, snowpeachcherry, Charlie Kriech, Durgenage, Pacifist Fist, Don Maker, Russell Collins, Oresh, Danimals, Monko, Anehum, Valeria, The Unattested Wombat, Ola Nordman, Regista433, Jaron Scotland, King_Sheogorath, TheRyge, Shakes, and highchae for support on [patreon](https://www.patreon.com/aljoxo).
-- adorion1981, aexilkv, AlphaGhost47, Ananta, Blade, Bubborus, derkaenaz, DevZan, doombot117, E2J, FalseRealism, Felivath, FutureWorld, Gous, Gremlin, hedich, Jeremy, JoeyFlow, JollyTheRancher, JXEYES, kanpeki, Kathie Murphy, Lunaros, Maelstrom, Mike, Paulo Giovanni, Psylence, rezthe0one on Discord, Roxiie, SaddestNoddles, skylion, Soloist, Steve, Tom Curran, Won Pham, WoWZaton, Zhijia, and zidan for their support via [Ko-fi](https://ko-fi.com/aljoxo).
+- Mgde12, D1Z4STR, 半蔵 内倉, Kepler, Hencoat, Matty, EnragedHamster, Scott, snowpeachcherry, Charlie Kriech, Durgenage, Pacifist Fist, Don Maker, Russell Collins, Oresh, Danimals, Monko, Anehum, Valeria, The Unattested Wombat, Ola Nordman, Regista433, Jaron Scotland, King_Sheogorath, TheRyge, Shakes, highchae, and Robbie for support on [patreon](https://www.patreon.com/aljoxo).
+- adorion1981, aexilkv, AlphaGhost47, Ananta, Blade, BlueBeagle, Bubborus, derkaenaz, DevZan, doombot117, E2J, FalseRealism, Felivath, FutureWorld, Gous, Gremlin, hedich, Jeremy, JoeyFlow, JollyTheRancher, JXEYES, kanpeki, Kathie Murphy, Lunaros, Maelstrom, Mike, Paulo Giovanni, Psylence, rezthe0one on Discord, Roxiie, SaddestNoddles, skylion, Soloist, Steve, Tom Curran, Won Pham, WoWZaton, Zhijia, and zidan for their support via [Ko-fi](https://ko-fi.com/aljoxo).
