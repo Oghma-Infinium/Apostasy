@@ -201,13 +201,13 @@ Changing MCM Settings in any MCM that is under the `> Apostasy MCM Hider <` tab 
 
 </Details>
 
- 14.  `Swift Potion`: Change the hotkey for quick potion binds.
-     1. Restore Health = `F`
-     2. Restore Stamina = `Shift+F`
-     3. Restore Magicka = `Ctrl+F`
+ 14.  `Swift Potion`: Change the hotkey for quick potion binds.  
+     - Restore Health = `F`  
+     - Restore Stamina = `Shift+F`  
+     - Restore Magicka = `Ctrl+F`  
  15.  `True Directional Movement`: Change the target lock hotkey (Default: `M3`).
- 16.  `Widget Mod`: Enable/Disable or reposition the miscellaneous widgets (the ones **below** the Health, Magicka, and Stamina bars).
-     1. Please note that only the widgets used are appropriately skinned for the UI, so enabling additional widgets may be undesirable.
+ 16.  `Widget Mod`: Enable/Disable or reposition the miscellaneous widgets (the ones **below** the Health, Magicka, and Stamina bars).  
+     - Please note that only the widgets used are appropriately skinned for the UI, so enabling additional widgets may be undesirable.
   
 <Details>
 <summary>Widget Mod Settings</summary>
