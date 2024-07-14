@@ -16,11 +16,104 @@
 
 # Table of Contents
 
+ - [1.0.4](#104) Release Date: July 14, 2024
  - [1.0.3](#103) Release Date: July 12, 2024
  - [1.0.2](#102) Release Date: July 12, 2024
  - [1.0.1](#101) Release Date: July 11, 2024
  - [1.0.0](#100) Release Date: July 11, 2024
  - [Beta Versions](#beta-versions)
+
+## 1.0.4
+
+Key Info
+
+ - Save-Safe.
+   - Unless you are a Werewolf... probably.
+ - Fixed critical Werewolf issue.
+ - Tweaks to novice bolt spells (again).
+ - Some animation changes to a few player stances.
+ - Minor restructuring to the [Gameplay Guide](https://github.com/Oghma-Infinium/Apostasy/blob/main/GAMEPLAY.md).
+ - Included some files that were missing for proper 21:9 Support.
+ - Reworked First Strike (Archery).
+ - Added some more details to the MCM section of the [Config page](https://github.com/Oghma-Infinium/apostasy/blob/main/Documentation/CONFIG.md#in-game-mcm-options)
+ - Edited the Target FPS of some files as it was erroneously set to 71 instead of 61, causing some visuals to always be Min'd as the FPS was unattainable with base Framecap. 
+   - For those who increase their FPS limit or uncap through ENB, you can read more on the [Config page](https://github.com/Oghma-Infinium/apostasy/blob/main/Documentation/CONFIG.md#changing-fps-limit) about which `.ini` files should be edited.
+
+<Details>
+<summary>Changes</summary>
+
+### Updated
+
+ - [Elianora's Breezehome Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/2829)
+ - [Nirn's Chosen - Enhanced Races and Classes](https://www.nexusmods.com/skyrimspecialedition/mods/121427)
+ - [Arm Movement Animations](https://www.nexusmods.com/skyrimspecialedition/mods/62849)
+ - [NPC Animation Remix](https://www.nexusmods.com/skyrimspecialedition/mods/63471)
+ - [Ultimate NPC Dodging](https://www.nexusmods.com/skyrimspecialedition/mods/120738)
+ - [Follower Dialogue Expansion - Lydia](https://www.nexusmods.com/skyrimspecialedition/mods/119226)
+ - [Bjorn - Fully Voiced Follower](https://www.nexusmods.com/skyrimspecialedition/mods/91652)
+
+### Added
+
+ - [Hellblade battle Sword animation_MCO](https://www.nexusmods.com/skyrimspecialedition/mods/123232)
+ - [Elden RIM x DS3 Mashup I Dual wield katana moveset](https://www.nexusmods.com/skyrimspecialedition/mods/112165)
+ - [Purification Blades MCO Dual Wield Animations](https://www.nexusmods.com/skyrimspecialedition/mods/88401)
+
+### Removed
+
+ - N/A
+
+</details>
+
+<Details>
+<summary>Patch Notes</summary>
+
+### Balance
+
+ - Increased the cost of Novice Bolt Spells by 10%. 
+   - I made a minor balancing mistake by not accounting for the benefits of FF vs Conc spells.
+ - Nerfed Elven Light Armor to be tier 2 gear, equivalent to Scaled Armor. (was tier 3)
+   - Elven Light Armor shows up much earlier in loot than full Elven.
+ - Disabled Draugr Taunt Animations.
+ - Renamed and Reworked First Strike (Archery).
+   - Perk renamed to Overdraw.
+   - **NEW**: Bows and crossbows have up to a 50/100% chance to critical strike, increasing on consecutive hits.
+   - **OLD**: Bows and crossbows are guaranteed to critically strike against targets who have not been shot within the last 15/10 seconds.
+   - Why did you make these changes? 
+     - Previous implementation had an issue with the way Skyrim calculates Orders of Operations. 
+     - Previous implementation also had a bug due to incorrect `OR` operator.
+     - I will reimplement the previous iteration once a perk entry I requested a long time ago is implemented.
+
+### Bug Fixes
+
+ - Fixed issue where having more than 100 base Magicka or Stamina would cause reverting out of Werewolf Form to make you have absurdly low Magicka.
+   - This also came with the removal of Growl's Magicka to Stamina transfer when entering Werewolf form. Sorry this is a bug with the original mod that there was no solution to besides "lightening script load" when this didn't seem to be an issue. 
+   - I am not confident if this fix will work on an existing save game.
+ - Unarmed now properly scales with the Hand to Hand skill.
+   - This change may not take effect on existing saves due to a way the game handles updating Abilities mid-game.
+   - I have added in a failsafe that *should* make it work though.
+ - Reverted the version of Feris the list uses as recent updates broke her.
+ - Fixed Monk Attenuation causing brawls to become unintentionally hostile.
+ - Fixed Stone Toss having an instant cast time.
+ - Properly covered Left and Right hand variants of novice concentration spells that were missed in the last update.
+ - Removed some 32-bit animations that may have caused crashing. 
+   - These animations were used by an UNSLAAD boss, I promise they will not affect 99.9999999% of you in any way.
+ - Fixed KS SMP Hair Collision.
+ - Timed Blocking should now work in God Mode. 
+ - Normal Attack Stamina Consumption should no longer apply in God Mode.
+ - Fixed LOD Transition issue with WRStables Wood Wals. (Thanks biggie for pointing this out to me)
+ - Actually saved the MoreHUD config so the widget on the bottom right was gone like I said it should have been last update.
+
+### Misc. Changes
+
+ - Rebuilt **1** BSA(s).
+ - New animations for Hawk and Wolf Stances of Dual Katana.
+ - New animations for Bear Stance of Single-wield Katana.
+   - Current Bear Stance was too similar to one of the Sword movesets and it felt wrong.
+ - Included missing 21:9 Support for TrueHUD.
+ - Repositioned the Equipped widget for a 1440p screen, it was originally positioned for a 4K screen. Should work better on 1080p now.
+ - Adjusted Target FPS of some config files as they were incorrectly set to 71 instead of 61.
+
+</details>
 
 ## 1.0.3
 
@@ -244,7 +337,7 @@ Key Info
 - [0.1.1](#011) Release Date: May 30, 2024
 - [0.1.0](#001) Release Date: May 29, 2024
 
-## 0.6.1
+### 0.6.1
 
 Key Info
 

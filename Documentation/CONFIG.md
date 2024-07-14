@@ -21,6 +21,7 @@
   - [Optional Visual Tweaks](#optional-visual-tweaks)
   - [Optional Gameplay Tweaks](#optional-gameplay-tweaks)
   - [Ultrawide Support](#ultrawide-support)
+- [Changing FPS Limit](#changing-fps-limit)
 - [Changing Resolution](#changing-resolution)
   - [Skyrim Upscaler](#skyrim-upscaler)
   - [Lossless Scaling](#lossless-scaling)
@@ -35,7 +36,7 @@
 
 # Optional Addons
 
-The following sections detail the **supported** modifications to the list. Any other modifications should be discussed in the `#Apostasy-modifications` channel of the [Waking Dreams](https://discord.gg/4WwqfK5yHg) support server.
+The following sections detail the **supported** modifications to the list. Any other modifications should be discussed in the `#Apostasy-modified` channel of the [Waking Dreams](https://discord.gg/4WwqfK5yHg) support server.
 
 ## Keybinds and Gamepad
 
@@ -103,6 +104,26 @@ This separator contains a series of gameplay-related tweaks that should be enabl
 Apostasy offers some mods to provide Ultrawide and Widescreen Support. Under the **Ultrawide Support** Separator in MO2 you will find some mods that you will want to activate if you are playing on Ultrawide or Widescreen resolutions (21:9 or 32:9).
 
 Please note that I (aljo) do not own a widescreen monitor. The ultrawide settings and additional mods are what have been said to work based on user input and may not be perfect.
+
+# Changing FPS Limit
+
+By default, Apostasy is capped to 61 FPS and has several settings that will target 61 FPS. If you wish to increase your FPS Limit then **while out of game** you must make changes to the following `.ini` files in order to not experience increased stuttering while at your new FPS cap. After tweaking these `.ini` files, you can uncap FPS or change the FPS cap in the in-game ENB GUI (`Shift+Enter` to open).
+
+<Details>
+<summary>Shadow Boost</summary>
+
+ 1. Open the `Shadow Boost` mod under the `Performance Optimizations` separator.
+ 2. Under the `[Settings]` Header, edit `fTargetFPS = 61.000000` (line 2) to your new Target FPS.
+
+</Details>
+
+<Details>
+<summary>SSE FPS Stabilizer</summary>
+
+ 1. Open the `SSE FPS Stabilizer` mod under the `Performance Optimizations` separator.
+ 2. Under the `[Settings]` Header, edit `TargetFps = 61` (line 13) to your new Target FPS.
+
+</Details>
 
 # Changing Resolution
 

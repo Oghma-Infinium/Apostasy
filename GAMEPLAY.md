@@ -15,16 +15,16 @@
 ---
 
 - [Initial Setup](#initial-setup)
-- [Basics](#basics)
+- [Overview](#overview)
   - [Core Overhauls](#core-overhauls)
   - [Combat Foundations](#combat-foundations)
-  - [Leveling and Progression](#leveling-and-progression)
-    - [Changes to leveling](#changes-to-leveling)
-    - [Perks](#perks)
-  - [Difficulty](#difficulty)
-    - [New Mechanics](#new-mechanics)
-  - [Quests Changes](#quests-changes)
-  - [Modded Armors and Weapons](#modded-armors-and-weapons)
+- [Leveling and Progression](#leveling-and-progression)
+  - [Changes to leveling](#changes-to-leveling)
+  - [Perks](#perks)
+- [Difficulty](#difficulty)
+  - [New Mechanics](#new-mechanics)
+- [Quests Changes](#quests-changes)
+- [New Armors and Weapons](#new-armors-and-weapons)
 - [New Content](#new-content)
   - [New Quests](#new-quests)
   - [Vanilla Quest Expansions and Edits](#vanilla-quest-expansions-and-edits)
@@ -35,7 +35,7 @@
 
 Before reading this guide, please follow the [Installation Guide](https://github.com/Oghma-Infinium/Apostasy/blob/main/README.md) as it will answer the vast majority of technical questions related to getting the list setup and running. Be sure to check out the [Configuration](https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/CONFIG.md) page to learn more about the optional tweaks and addons and MCM options.
 
-## Basics
+## Overview
 
 This section will cover the absolute basics of the list. I suggest reading, or skimming all of the linked mod pages in this section if you are unfamiliar with the preceding mods.
 
@@ -62,13 +62,13 @@ The following mods are considered the "foundations" of the combat and gameplay f
    - In First person, Dodges are always roll dodges.
  - [Maxsu Poise Revise](https://www.nexusmods.com/skyrimspecialedition/mods/117988) and [Modern Stagger Lock](https://github.com/max-su-2019/ModernStaggerLock) implement a Poise system, which has been fine tuned for the list. Poise Health can be seen on the Special Bar of TrueHUD (the yellow bar above Health on player and target widgets). The Poise system is discussed in more depth in the [New Mechanics](#new-mechanics) section.
 
-### Leveling and Progression
+## Leveling and Progression
 
 ![](https://staticdelivery.nexusmods.com/mods/1704/images/118893/118893-1720520004-1902455222.png)
 
 Apostasy modifies the vanilla leveling experience in a way to reward the player for engaging in the world in sensible ways. While perks can be obtained through leveling, the perks gained from leveling alone are unlikely to be sufficient for sustaining a full character build in late game. Below is a general breakdown of what to expect with the leveling and progression system in Apostasy.
 
-#### Changes to leveling
+### Changes to leveling
 
 Apostasy uses [Experience](https://www.nexusmods.com/skyrimspecialedition/mods/17751) and [Static Skill Leveling Rewritten](https://www.nexusmods.com/skyrimspecialedition/mods/89940) to handle leveling and progression.
 
@@ -110,7 +110,7 @@ Skill Point Costs are as follows:
 
 </Details>
 
-#### Perks
+### Perks
 
 Apostasy takes a mixed approach to the acquisition of perks and skills. Providing the player with 60 Perks from level 1-50 (no perks are granted from leveling after level 50) and up to an additional 34 perks from Quests.
 
@@ -169,7 +169,7 @@ The following is a list of the additional perk sources in Apostasy.
 
 </Details>
 
-### Difficulty
+## Difficulty
 
 ![](https://staticdelivery.nexusmods.com/mods/1704/images/118893/118893-1720419196-1191687929.png)
 
@@ -231,7 +231,7 @@ These changes to carry weight seek to make Carry Weight a more interesting stat,
 
 </Details>
 
-#### New Mechanics
+### New Mechanics
 
 Apostasy overhauls or adds additional mechanics, reminiscent of modern Action RPGs to further enhance the gameplay. Check out the sections below to learn more!
 
@@ -268,7 +268,7 @@ Additionally, Massive Targets have a higher likelihood of inflicting Heavy Stagg
 
 </Details>
 
-### Quests Changes
+## Quests Changes
 
 Apostasy changes a significant amount of vanilla quests in one way or another in order to offer a more complete roleplaying exprience. The following list is non-exhaustive. Please note that not all MCM Options from Timing is Everything may work as intended in the list.
 
@@ -326,7 +326,7 @@ Apostasy changes a significant amount of vanilla quests in one way or another in
 
 </Details>
 
-### Modded Armors and Weapons
+## New Armors and Weapons
 
 ![](https://staticdelivery.nexusmods.com/mods/1704/images/118893/118893-1720811383-481712445.png)
 
