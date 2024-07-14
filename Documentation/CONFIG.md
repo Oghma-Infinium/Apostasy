@@ -144,17 +144,67 @@ Changing MCM Settings in any MCM that is under the `> Apostasy MCM Hider <` tab 
  3. `Compass Controls`: Change the Toggle key for the Compass (Default: `'`).
  4. `Dialogue History`: Change the keybind to bring up the Dialogue History menu (Default: `LAlt + Y`).
  5. `Dynamic Activation Key`: Change the keybind modifier for Dynamic Activation (Default: `LShift`).
- 6. `EVG CLAMBER`: Change the EVG Clamber settings (Default: `Balanced`). This isn't recommended to be tampered with but you can.
- 7. `Horse Whistle Key`: Change the Hotkey for Horse Call (Default: `H`). Optionally add a lesser power to perform the function of the hotkey.
- 8. `OBody NG`: Change the keybind for the OBody morphs menu (Default: `;`).
- 9. `One Click Power Attack`: Change the keybind for Power Attacks (Default: `V`).
- 10. `QuickLoot EE`: Optionally disable QuickLoot from popping up during combat.
- 11. `SmoothCam`: Change the SmoothCam Camera preset (Default: `Apostate Preset`).
- 12. `Swift Potion`: Change the hotkey for quick potion binds.
-     1.  Restore Health = `F`
-     2.  Restore Stamina = `Shift+F`
-     3.  Restore Magicka = `Ctrl+F`
- 13. `True Directional Movement`: Change the target lock hotkey (Default: `M3`).
+ 6. `Edryu's Widget`: Enable/Disable or reposition the equipment widgets (the ones **above** the Health, Magicka, and Stamina bars). By default, Edryu's is configured for 1440p, dropdown below has recommended settings for other 16:9 resolutions.
+
+<Details>
+<summary>Edryu's Widget Settings</summary>
+
+**1080p:**
+
+![](https://raw.githubusercontent.com/Oghma-Infinium/Apostasy/main/images/MCM%20Configs/EDRYU1080p.png)
+
+**1440p:**
+
+![](https://raw.githubusercontent.com/Oghma-Infinium/Apostasy/main/images/MCM%20Configs/EDRYU1440p.png)
+
+**4k:**
+
+![]https://raw.githubusercontent.com/Oghma-Infinium/Apostasy/main/images/MCM%20Configs/EDRYU4K.png
+
+</Details>
+
+ 7. `EVG CLAMBER`: Change the EVG Clamber settings (Default: `Balanced`). This isn't recommended to be tampered with but you can.
+ 8. `Horse Whistle Key`: Change the Hotkey for Horse Call (Default: `H`). Optionally add a lesser power to perform the function of the hotkey.
+ 9.  `OBody NG`: Change the keybind for the OBody morphs menu (Default: `;`).
+ 10. `One Click Power Attack`: Change the keybind for Power Attacks (Default: `V`).
+ 11. `QuickLoot EE`: Optionally disable QuickLoot from popping up during combat.
+ 12. `SmoothCam`: Change the SmoothCam Camera preset (Default: `Apostate Preset`).
+ 13. `STB_ResistsWidget`: Enable/Disable or reposition the resist widgets (the ones to the **left** of the Health, Magicka, and Stamina bars).
+
+<Details>
+<summary>STB_ResistsWidget Settings</summary>
+
+**16:9**
+
+![](https://raw.githubusercontent.com/Oghma-Infinium/Apostasy/main/images/MCM%20Configs/ResistWidgets.png)
+
+</Details>
+
+ 14.  `Swift Potion`: Change the hotkey for quick potion binds.
+     1. Restore Health = `F`
+     2. Restore Stamina = `Shift+F`
+     3. Restore Magicka = `Ctrl+F`
+ 15.  `True Directional Movement`: Change the target lock hotkey (Default: `M3`).
+ 16.  `Widget Mod`: Enable/Disable or reposition the miscellaneous widgets (the ones **below** the Health, Magicka, and Stamina bars).
+     1. Please note that only the widgets used are appropriately skinned for the UI, so enabling additional widgets may be undesirable.
+  
+<Details>
+<summary>Widget Mod Settings</summary>
+
+**16:9**
+
+![](https://raw.githubusercontent.com/Oghma-Infinium/Apostasy/main/images/MCM%20Configs/WidgetMod1-1.png)  
+![](https://raw.githubusercontent.com/Oghma-Infinium/Apostasy/main/images/MCM%20Configs/WidgetMod1-2.png)  
+![](https://raw.githubusercontent.com/Oghma-Infinium/Apostasy/main/images/MCM%20Configs/WidgetMod1-3.png)  
+![](https://raw.githubusercontent.com/Oghma-Infinium/Apostasy/main/images/MCM%20Configs/WidgetMod1-4.png)  
+![](https://raw.githubusercontent.com/Oghma-Infinium/Apostasy/main/images/MCM%20Configs/WidgetMod2-1.png)  
+![](https://raw.githubusercontent.com/Oghma-Infinium/Apostasy/main/images/MCM%20Configs/WidgetMod2-2.png)  
+
+**21:9**
+
+May need Tweaks
+
+</Details>
 
 # Wheeler
 
