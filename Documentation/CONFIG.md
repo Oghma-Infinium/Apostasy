@@ -43,7 +43,7 @@ The following sections detail the **supported** modifications to the list. Any o
 This section is going to be short and basic and only cover keybinds that must be changed ***outside of the game***. Please refer the [this](https://ck.uesp.net/wiki/Input_Script) page for the DXScanCodes used by most mods.
 
  1. **Dual Wield Blocking**: Open the mod `Apostasy - Dual Block Parry Keybinds`. In the mod open the `DualWieldParryingSKSE.ini` and the `BlockCancel.json` files. **MAKE SURE THE KEYBIND YOU CHANGE TO IN THE `DualWieldParryingSKSE.ini` MATCHES THE KEYBIND FOR `"BlockCancel2"` IN THE `BlockCancel.json`**.
- 2. **Dodging**: Open the mod `TK Dodge - Settings` and locate the `TK Dodge RE.ini` file.
+ 2. **Dodging**: Open the mod `Apostasy - Dodge Keybind` and locate the `TK Dodge RE.ini` file.
 
 ### Controller and Gamepad Support
 
