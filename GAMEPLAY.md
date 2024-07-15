@@ -60,6 +60,8 @@ The following mods are considered the "foundations" of the combat and gameplay f
  - [TK Dodge RE](https://www.nexusmods.com/skyrimspecialedition/mods/56956) adds Dodging to the game.
    - Dodges are based on Armor Type. Heavy Armor and Cloth users gets a shorter step dodge with shortened iframes, Light Armor gets a longer roll dodge with longer iframes.
    - In First person, Dodges are always roll dodges.
+ - The list has custom Timed Block mechanic. Enter block just before enemy hit for increased block efficiency with a chance to stagger the attacker.
+   - The Block skill tree has multiple perks to upgrade Timed Block with additional effects.
  - [Maxsu Poise Revise](https://www.nexusmods.com/skyrimspecialedition/mods/117988) and [Modern Stagger Lock](https://github.com/max-su-2019/ModernStaggerLock) implement a Poise system, which has been fine tuned for the list. Poise Health can be seen on the Special Bar of TrueHUD (the yellow bar above Health on player and target widgets). The Poise system is discussed in more depth in the [New Mechanics](#new-mechanics) section.
 
 ## Leveling and Progression
