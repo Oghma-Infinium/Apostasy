@@ -180,7 +180,7 @@ Changing MCM Settings in any MCM that is under the `> Apostasy MCM Hider <` tab 
 
 **4k:**
 
-![]https://raw.githubusercontent.com/Oghma-Infinium/Apostasy/main/images/MCM%20Configs/EDRYU4K.png
+![](https://raw.githubusercontent.com/Oghma-Infinium/Apostasy/main/images/MCM%20Configs/EDRYU4K.png)
 
 </Details>
 
