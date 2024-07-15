@@ -16,12 +16,97 @@
 
 # Table of Contents
 
- - [1.0.4](#104) Release Date: July 14, 2024
+ - [1.0.5](#105) Release Date: July 14, 2024
+ - [1.0.4](#104) Release Date: July 13, 2024
  - [1.0.3](#103) Release Date: July 12, 2024
  - [1.0.2](#102) Release Date: July 12, 2024
  - [1.0.1](#101) Release Date: July 11, 2024
  - [1.0.0](#100) Release Date: July 11, 2024
  - [Beta Versions](#beta-versions)
+
+## 1.0.5
+
+Key Info
+
+ - Save-Safe.
+ - Potential "fix" for one of the load crashes.
+ - Missing plugins should be safely ignorable.
+ - Few perk changes.
+
+<Details>
+<summary>Changes</summary>
+
+### Updated
+
+ - [Fixed Meshes for Rugnarok](https://www.nexusmods.com/skyrimspecialedition/mods/123987)
+ - [Gore - A Companion Mod](https://www.nexusmods.com/skyrimspecialedition/mods/85298)
+ - [Particle Patch](https://www.nexusmods.com/skyrimspecialedition/mods/65720)
+ - [The Taste of Death - Quest Addon](https://www.nexusmods.com/skyrimspecialedition/mods/123173)
+
+### Added
+
+ - [Orcish Lanterns for Orc Strongholds - Largashbur](https://www.nexusmods.com/skyrimspecialedition/mods/124201)
+ - [zxlice's ultimate potion animation - ZUPA](https://www.nexusmods.com/skyrimspecialedition/mods/45182)
+ - [ElSopa Potions Redone - Zxlices Ultimate potion animation patch](https://www.nexusmods.com/skyrimspecialedition/mods/80929)
+
+### Removed
+
+ - [Toggle Dialogue Camera](https://www.nexusmods.com/skyrimspecialedition/mods/97280)
+   - Mod was redundant as [Switch Camera During Dialogue](https://www.nexusmods.com/skyrimspecialedition/mods/95269) was already in the list. Thanks to @Lightsourced for bringing this to my attention.
+ - [Ultimate Animated Potions NG](https://www.nexusmods.com/skyrimspecialedition/mods/97674)
+   - Crashes.
+ - [Ultimate Animated Potions NG - ElSopa - Potions Redone patch](https://www.nexusmods.com/skyrimspecialedition/mods/97891)
+   - Unused.
+
+</details>
+
+<Details>
+<summary>Patch Notes</summary>
+
+### Balance
+
+ - Changes to Corrupted Catalyst (One-Handed).
+   - Now a 2 rank perk unlocked at 60/90 skill. (was a 1 rank perk unlocked at 90 skill).
+   - **NEW**: Attacks with a One-Handed weapon deal additional damage / and can proc additional effects based on the damage-dealing spell in your off-hand.
+   - **OLD**: Attacks with a One-Handed weapon deal additional damage based on the damage-dealing spell in your off-hand.
+   - People really liked the concept of the perk but it was locked behind a high level gate. While giving this 2 ranks slightly throws off the balance established with Dual Wield and One-and-None, I think it's fine cause the perk is cool.
+   - Also added an ICD to Catalyst so it couldn't double proc off of double hit power attacks as it felt unbalanced.
+ - Minor changes to Overwhelming Rage (One-Handed).
+   - **NEW**: While dual wielding, consecutive attacks against the same target deal up to 50% more damage.
+   - **OLD**: While dual wielding in combat, attacks with One-Handed weapons build up rage, increasing your damage by 5% for 30 seconds, stacking up to 50%.
+   - Main change here is that it is now per target rather than a global damage boost.
+ - Tweaked BlockHit knockback.
+ - Fed buffs now grant Poise Resistance. (was Experience%)
+ - Reduced the amount of Poise damage arrows and bolts deal by ~40%.
+ - Dished out Poise damage resistance to non humanoid enemies because they were too easy to stagger lock a lot of the time.
+   - Currently between 20-50% resistance based on enemy type and level, will be likely tweaked in future based on feedback.
+ - Actually implemented the target cap changes I meant to include updates ago.
+   - 1H and Unarmed can strike up to 3 targets.
+   - 2H can strike up to 5 targets.
+
+### Bug Fixes
+
+ - Removed some road chunks near Ivarstead added by the Kaidan mod that were previously missed.
+ - Fixed the second Dicks problem (Male nudity was broken after I had previously fixed Male nudity for NeverNude).
+ - Fixed Talismans' Crafting Menu category being improperly read.
+ - Fixed UAP load crash by removing the mod. Will likely add it back when the author updates it.
+ - Fixed issue where some bandits would improperly spawn with Silver Armor.
+ - Fixed an oversight where "Fed" buffs where they still gave Experience.
+ - Removed an erroneous "%" from Oghma Infinium's "Path of. . ." tooltips.
+ - Actually applied the Poise Resistance that was intended for Novice difficulty.
+ - Fixed an issue where Massive Targets were not being distributed the proper controller effect.
+
+### Misc. Changes
+
+ - Rebuilt **2** BSA(s).
+ - Built **2** new BSA(s).
+   - BSA'd Cathedral Grass assets as they were ~2gb of loose files that weren't being overwritten.
+   - BSA'd [Orcish Lanterns for Orc Strongholds - Largashbur](https://www.nexusmods.com/skyrimspecialedition/mods/124201).
+ - Rebuilt Nemesis Output.
+ - Made new facegen for the travelling merchants because they looked low quality compared to other NPCs in the list.
+ - Reworded some Poise-related tooltip because they bothered me.
+
+</details>
 
 ## 1.0.4
 

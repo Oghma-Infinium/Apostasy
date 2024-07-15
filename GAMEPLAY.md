@@ -240,7 +240,7 @@ Apostasy overhauls or adds additional mechanics, reminiscent of modern Action RP
 
 On Apprentice and Novice difficulty, the player can not be inflicted with Heavy Stagger, unless facing a Massive Target.
 
-On Novice difficulty, the player gains a 50% resistance to all incoming Poise Damage. This results in the player being very difficult to stagger.
+On Novice difficulty, incoming Poise Damage is halved for the player. This results in the player being very difficult to stagger.
 
 On Legendary difficulty, all targets take 50% more Poise Damage.
 

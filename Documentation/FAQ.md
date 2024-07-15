@@ -116,19 +116,19 @@ Solution(s)
 
 ### Wheeler.dll Crash!
 **Cause**: Wheeler typically crashes for one of two reasons: 
-1. You slotted player-made potions in Wheeler and ran out of them.
-   **Fix**: Do not put player-made potions in Wheeler.
-2. You no longer have an item in your inventory that Wheeler is trying to reference.
+1. You slotted player-made potions in Wheeler and ran out of them.  
+   **Fix**: Do not put player-made potions in Wheeler.  
+2. You no longer have an item in your inventory that Wheeler is trying to reference.  
    **Fix**: Open dMenu (Default: `Home`). Navigate to Wheeler Controls --> Reset All Wheels. **This will reset your current Wheeler configuration**.
 
 ### Crashing when talking to Azura/Peryite/Augur of Dunlain/[Insert Talking Head Activator]!
-**Cause**: Bug with the [Katana follower](https://www.nexusmods.com/skyrimspecialedition/mods/69622) mod if you are on the quest `Chasing the Current` with the quest stage `Talk to Katana another time`.
+**Cause**: Bug with the [Katana follower](https://www.nexusmods.com/skyrimspecialedition/mods/69622) mod if you are on the quest `Chasing the Current` with the quest stage `Talk to Katana another time`.  
 **Fix**: Talk to Katana to progress to the next stage (`Head to the Drunken Huntsman`) in order to fix the crash.
 
 ### Consistently crashing in the same cell!
-**Cause**: There are several potential causes of a crash, one of the more common ones being lighting related.
+**Cause**: There are several potential causes of a crash, one of the more common ones being lighting related.  
 **Fix**: Post your crashlogs in the [discord](https://discord.gg/4WwqfK5yHg) channel `#apostasy-support`.
 
 ### Crashing after loading a save! / Crashing after dying!
-**Cause** Skyrim has a multitude of issues when it comes to loading back game data without restarting the game. There are a few culprits that could be the main driver of these crashes, but I have yet to collect enough information or consistently reproducible crashes to report it to the relevant authors.
+**Cause** Skyrim has a multitude of issues when it comes to loading back game data without restarting the game. There are a few culprits that could be the main driver of these crashes, but I have yet to collect enough information or consistently reproducible crashes to report it to the relevant authors.  
 **Fix**: Please post logs in in the [discord](https://discord.gg/4WwqfK5yHg) channel `#apostasy-support` if you suffer from these crashes, but realize that I have very little ability to fix them at this current time.
