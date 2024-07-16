@@ -16,6 +16,7 @@
 
 # Table of Contents
 
+ - [1.0.6](#106) Release Date: 
  - [1.0.5](#105) Release Date: July 14, 2024
  - [1.0.4](#104) Release Date: July 13, 2024
  - [1.0.3](#103) Release Date: July 12, 2024
@@ -23,6 +24,78 @@
  - [1.0.1](#101) Release Date: July 11, 2024
  - [1.0.0](#100) Release Date: July 11, 2024
  - [Beta Versions](#beta-versions)
+
+## 1.0.6
+
+Key Info
+
+ - Save-Safe.
+ - Missing plugins can be safely ignored.
+
+<Details>
+<summary>Changes</summary>
+
+### Updated
+
+ - [Northern Concept - Northern Roads](https://www.nexusmods.com/skyrimspecialedition/mods/107975)
+ - [Stones of Sacrifice - Double Edged Standing Stones](https://www.nexusmods.com/skyrimspecialedition/mods/121629)
+ - [Particle Patch](https://www.nexusmods.com/skyrimspecialedition/mods/65720)
+ - [Feris - Custom Voiced Female Follower](https://www.nexusmods.com/skyrimspecialedition/mods/90032)
+ - [Nirn's Chosen - Enhanced Races and Classes](https://www.nexusmods.com/skyrimspecialedition/mods/121427)
+
+### Added
+
+ - 
+
+### Removed
+
+ - 
+
+</details>
+
+<Details>
+<summary>Patch Notes</summary>
+
+### Balance
+
+ - Initiative (Light Armor) now had a 5 second internal cooldown (was 10).
+ - Removed iframes from Deliverance (Block).
+
+### Bug Fixes
+
+ - Resonance perk will now properly multiply weapon enchantment cost by 0.50 instead of by 250.
+ - Fixed recipes for Tiger Pelt Cloak and Snow Tiger Pelt Cloak.
+ - Fixed Name in UI for Elemental Fury.
+ - Fixed Elemental Fury VFX not being applied properly to all weapon types.
+ - Fixed Serpent Stone making it impossible to sleep or wait.
+   - If using the Serpent Stone, before updating make sure to remove the stone and then re-add it or the effect may not update properly.
+ - Fixed a bug where Edgerunner (Light Armor) was not properly giving the player immunity to Slow Time's slow down effect.
+   - This should greatly improve the feel of the perk.
+ - Fixed a bug where Edgerunner (Light Armor) was lasting longer than stated.
+ - Fixed missing Parallax on some Imperial dungeon meshes.
+ - Fixed typo in Dark Elf race description.
+ - Removed parallax from `mineecepillar*.nif` due to warping.
+ - Removed `Constant` flag from PCSmithingXXX globals.
+   - This will allow Crafting Motifs to properly show in merchant inventories.
+   - If you already had a high enough skill for a set of manuals to show up, you may need to increase the Smithing skill again before it occurs due to the way the SkillIncrease node works.
+ - Added the Crafting Manual keyword to the `VendorItemsBlacksmith` whitelist.
+   - This should *definitely* fix the Crafting Motifs not showing up as intended.
+ - Fixed the incorrect globals being utilized on most Crafting Motifs' level lists.
+   - Ok they're definitely fixed now. Beta testers must've gotten lucky RNG pulls.
+
+### Misc. Changes
+
+ - Rebuilt **1** BSA(s).
+ - Built **1** new BSA(s).
+ - Fire, Frost, Shock, and Sun Cloaks are all less visually obtrusive now.
+ - Slight tweaks to controller config.
+ - Twaeked Compass position in the 21:9 Ultrawide config. Thanks to @echo.root for this change.
+ - Changed swaps for `NorTentSmall` and `NorTentSmallSnow`.
+ - Added parallax to some additional mountain and mountaintrim meshes.
+ - Removed finger snap sound effect that occured on weapon equip with a spell in the left hand and weapon in the right hand.
+ - Added texture sets to Solitude assets used in Winterhold to improve visual consistency.
+
+</details>
 
 ## 1.0.5
 

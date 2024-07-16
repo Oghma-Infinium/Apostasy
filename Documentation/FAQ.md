@@ -112,6 +112,10 @@ Solution(s)
 Solution(s)
  1. Seems to be a rare bug and it's fixed on game restart, not sure of cause.
 
+### Stuck in slow motion!
+Solution(s)
+ 1. Bug with Wheeler, just reopen and close the wheel.
+
 ## Known Crashes
 
 ### Wheeler.dll Crash!
