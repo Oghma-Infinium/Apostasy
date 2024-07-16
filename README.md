@@ -196,7 +196,9 @@ Installing Creation Club Content:
  1. Navigate to your Skyrim SE's Steam data folder. (example: `D:\SteamLibrary\steamapps\common\Skyrim Special Edition\data`).
  2. Within your data folder, delete *both* the `ccbgssse037-curios.bsa` and `ccbgssse037-curios.esl` files.
  3. Launch Skyrim SE through Steam and click the `Creations` button on the main menu.
- 4. Press `O` on your keyboard to open the options menu and click `Download all owned Creation Club content` (The Rare Curios CC should now be installing).
+ 4. Press `O` on your keyboard to open the options menu and click `Download all owned Creation Club content` (The Rare Curios CC should now be installing).  
+>[!CAUTION]
+>DO NOT ALT-TAB DURING THE DOWNLOADS PROCESS, it will cause the downloads to fail and you will have to do it again.  
  5. Exit out of the Creations menu, say yes to Bethesda's load order shit, and exit the game.
  6. **VERY IMPORTANT**, from this step onwards, **DO NOT** verify your game files unless told to as it will revert the "correct" file hashes to the ones that are included in the base-game install.
 
