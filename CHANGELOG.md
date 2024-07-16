@@ -31,7 +31,7 @@
 Key Info
 
  - Save-Safe.
- - Quick hotfit for some missing NR textures.
+ - Quick hotfix for some missing NR textures.
 
 <Details>
 <summary>Changes</summary>
