@@ -31,6 +31,7 @@ Key Info
 
  - Save-Safe.
  - Missing plugins can be safely ignored.
+ - Bug fixes and stuff.
 
 <Details>
 <summary>Changes</summary>
@@ -45,11 +46,11 @@ Key Info
 
 ### Added
 
- - 
+ - N/A
 
 ### Removed
 
- - 
+ - N/A
 
 </details>
 
