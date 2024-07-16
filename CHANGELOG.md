@@ -16,6 +16,7 @@
 
 # Table of Contents
 
+ - [1.0.7](#107) Release Date: July 16, 2024
  - [1.0.6](#106) Release Date: July 15, 2024
  - [1.0.5](#105) Release Date: July 14, 2024
  - [1.0.4](#104) Release Date: July 13, 2024
@@ -24,6 +25,48 @@
  - [1.0.1](#101) Release Date: July 11, 2024
  - [1.0.0](#100) Release Date: July 11, 2024
  - [Beta Versions](#beta-versions)
+
+## 1.0.7
+
+Key Info
+
+ - Save-Safe.
+ - Quick hotfit for some missing NR textures.
+
+<Details>
+<summary>Changes</summary>
+
+### Updated
+
+ - [Humanoid Dragon Priests](https://www.nexusmods.com/skyrimspecialedition/mods/122320)
+
+### Added
+
+ - N/A
+
+### Removed
+
+ - N/A
+
+</details>
+
+<Details>
+<summary>Patch Notes</summary>
+
+### Balance
+
+ - N/A
+
+### Bug Fixes
+
+ - Fixed missing NR textures.
+
+### Misc. Changes
+
+ - Rebuilt **1** BSA(s).
+ - Built **0** new BSA(s).
+
+</details>
 
 ## 1.0.6
 
