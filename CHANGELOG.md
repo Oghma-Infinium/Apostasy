@@ -16,6 +16,7 @@
 
 # Table of Contents
 
+ - [1.0.8](#108) Release Date: July 16, 2024
  - [1.0.7](#107) Release Date: July 16, 2024
  - [1.0.6](#106) Release Date: July 15, 2024
  - [1.0.5](#105) Release Date: July 14, 2024
@@ -25,6 +26,89 @@
  - [1.0.1](#101) Release Date: July 11, 2024
  - [1.0.0](#100) Release Date: July 11, 2024
  - [Beta Versions](#beta-versions)
+
+## 1.0.8
+
+Key Info
+
+ - Save-Safe.
+ - Maybe fixed some texture issues depending on if Wabbajack corrupts them again.
+ - Fixed issues with Breton Paladin quest.
+ - Fixed Vampiric Ring.
+ - Tweaked some meshes.
+ - ENB Tweaks.
+ - Controller Tweaks.
+
+<Details>
+<summary>Changes</summary>
+
+### Updated
+
+ - [Drengin's Solitude Patch Collection](https://www.nexusmods.com/skyrimspecialedition/mods/104668)
+ - [JK's Guild HQ Interiors Patch Collection](https://www.nexusmods.com/skyrimspecialedition/mods/61416)
+ - [Stones of Sacrifice - Double Edged Standing Stones](https://www.nexusmods.com/skyrimspecialedition/mods/121629)
+ - [Arm Movement Animations](https://www.nexusmods.com/skyrimspecialedition/mods/62849)
+ - [Mehrunes Dagon's Shrine Unlocked - Pieces of the Past Alternate Ending](https://www.nexusmods.com/skyrimspecialedition/mods/119502)
+ - [JK's Blue Palace Terrace](https://www.nexusmods.com/skyrimspecialedition/mods/75965)
+ - [Mysterious Mementos - Assorted Artifact Rebalances](https://www.nexusmods.com/skyrimspecialedition/mods/118342)
+
+### Added
+
+ - [Draugrs New Model - Dragon Priest](https://www.nexusmods.com/skyrimspecialedition/mods/123902)
+ - [Additional Skyland Parallax](https://www.nexusmods.com/skyrimspecialedition/mods/117791)
+
+### Removed
+
+ - N/A
+
+</details>
+
+<Details>
+<summary>Patch Notes</summary>
+
+### Balance
+
+ - Tweaks to sneak detection formula.
+   - If it's too hard now I don't care.
+
+### Bug Fixes
+
+ - Fixed Survival Rested buffs giving the incorrect buff.
+ - Fixed issue with Serpent Stone causing some NPCs to spam spell absorb vfx.
+ - Hopefully fixed the corruption issue that some textures were having.
+   - These textures include the ones used by Adrianne's outfit, some dresses worn by Solitude women, and a few others.
+ - Fixed roombounds issue in Temple of Divines when entering Paladin's Crypt (Breton Paladin quest).
+ - Fixed uh... several issues in the Breton Paladin quest that I caused by erroneously disabling some activators that definitely should not have been disabled... [hahaha.... oops](https://tenor.com/view/ehe-anime-gif-anime-girl-teehee-gif-27178660).
+ - Vampiric Ring is no longer completely useless!
+
+### Misc. Changes
+
+ - Rebuilt **5** BSA(s).
+ - Built **0** new BSA(s).
+ - Added parallax to `mountaintrimslab`.
+ - Redownscaled some grass assets due to previous downscale creating a black edge around some textures.
+ - Actually included the less obtrusive cloak tweaks that were mentioned in [1.0.6](#106).
+ - Added parallax to some assets used by The Great City of Shor's Stone.
+ - Added parallax to some landscape assets that were missing it.
+ - Updated IED config.
+   - Forwarded some missing node changes to Male Actors that were only affecting Female Actors by default.
+   - Changed Quiver from Quiver Chesko to Quiver Left-Hip Bolt as this fixes the majority of clipping issues that occurred with the previous node positioning. Thanks to @echo.root for bringing this fix   to my attention.
+ - Added receive shadows flag to hanging moss.
+ - More controller tweaks.
+   - Should have properly binded Dynamic Activation Key. (was bound before but in the wrong ini so it wasn't taking effect)
+   - Enabled stick bounce fix for TDM.
+ - ENB Tweaks:
+   - Adjusted Amon ENB's `[ComplexParticleLight]` values to fix weird lighting with Eld-Beri lanterns
+   - Adjusted Amon ENB's interior lighting for Dragonsreach, the Blue Palace, and Dwarven Ruins
+   - Completely redid the Soul Cairn and Apocrypha weather
+     - `!_Purple_DLC_soulcairn.ini`
+     - `!_Purple_DLC_soulcairn.ini`
+   - Added new location IDs to Amon ENB's weatherlist.ini
+     - `D9CE69` 
+ - Added parallax to Apocrypha and Sky Haven Temple tilesets.
+ - Theo is now more true to life.
+
+</details>
 
 ## 1.0.7
 
