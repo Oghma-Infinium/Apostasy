@@ -136,3 +136,15 @@ Solution(s)
 ### Crashing after loading a save! / Crashing after dying!
 **Cause** Skyrim has a multitude of issues when it comes to loading back game data without restarting the game. There are a few culprits that could be the main driver of these crashes, but I have yet to collect enough information or consistently reproducible crashes to report it to the relevant authors.  
 **Fix**: Please post logs in in the [discord](https://discord.gg/4WwqfK5yHg) channel `#apostasy-support` if you suffer from these crashes, but realize that I have very little ability to fix them at this current time.
+
+**Experimental fix for crash on load (after dying, after fast travel, from a carriage ride, or just reloading a save game)**
+<Details>
+
+  
+  1.  Navigate to `[Your Apostasy Install Location}\profiles\Apostasy\SkyrimPrefs.ini`  
+  2.  Change `uLargeRefLODGridSize =9`  
+  3.  to `uLargeRefLODGridSize =5`  
+  4.  save changes (CTRL+ S)  
+
+This will reduce quality of some large objects at far away distance. **The difference is very minor you're unlikely to even notice it.** Might improve performance as well.
+</Details>
