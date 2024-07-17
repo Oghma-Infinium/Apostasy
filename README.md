@@ -400,6 +400,22 @@ In order to get the best possible response please ensure that:
 
 </Details>  
 
+<Details>
+<summary>Crashes When Loading Saves</summary>
+
+This issue is caused by Large Reference Workarounds done by [DynDOLOD NG](https://www.nexusmods.com/skyrimspecialedition/mods/97720) Due to importance of the mod, it cannot be removed from the list.
+
+**Temporary experimental fix for save loading crashes:**
+
+  1.  Navigate to `[Your Apostasy Install Location}\profiles\Apostasy\SkyrimPrefs.ini`  
+  2.  Change `uLargeRefLODGridSize =9`  
+  3.  to `uLargeRefLODGridSize =5`  
+  4.  save changes (CTRL+ S)  
+
+This will reduce quality of some large objects at far away distance. **The difference is very minor you're unlikely to even notice it.** Might improve performance as well.
+
+</Details> 
+
 ### Keyboard Keybinds
 
 ![](https://raw.githubusercontent.com/Oghma-Infinium/Apostasy/main/images/Keybinds.png)
