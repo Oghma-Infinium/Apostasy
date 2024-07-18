@@ -16,6 +16,7 @@
 
 # Table of Contents
 
+ - [1.0.10](#1010) Release Date: July 18, 2024
  - [1.0.9](#109) Release Date: July 17, 2024
  - [1.0.8](#108) Release Date: July 16, 2024
  - [1.0.7](#107) Release Date: July 16, 2024
@@ -27,6 +28,57 @@
  - [1.0.1](#101) Release Date: July 11, 2024
  - [1.0.0](#100) Release Date: July 11, 2024
  - [Beta Versions](#beta-versions)
+
+
+## 1.0.10
+
+Key Info
+
+ - Save-Safe.
+ - Uh I made a mistake with the last version, download this one.
+
+<Details>
+<summary>Changes</summary>
+
+### Updated
+
+ - N/A
+
+### Added
+
+ - N/A
+
+### Removed
+
+ - N/A
+
+</details>
+
+<Details>
+<summary>Patch Notes</summary>
+
+### Balance
+
+ - Tweaked Warrior's Wrath (bonus reward from Eris).
+   - **NEW**: You deal 10% more Poise damage.
+   - **OLD**: You resist 50% of all incoming stagger (functionally the same as resisting 50% of incoming Poise damage).
+
+### Bug Fixes
+
+ - Fixed one of the MoreHUD widget overlaying another widget in the bottom left.
+   - Sorry I meant to include this last update but forgot until I was halfway through the compile.
+ - Reverted the fix to Khajiit racials from last update because it kinda broke other shit and I was too tired to properly test my fix (sorry).
+   - If you are playing a Khajiit and you want to fix it, you should be able to use the following 2 console commands:
+     - player.removespell AA01E
+     - player.addspell AA01E
+ - Fixed Respawn on a chest in Harbinger's room.
+ - Fixed clipping furniture and food items in Understone Keep.
+
+### Misc. Changes
+
+ - Some optimizations to a few Whiterun meshes. Thanks ra2phoenix for these.
+
+</details>
 
 ## 1.0.9
 
