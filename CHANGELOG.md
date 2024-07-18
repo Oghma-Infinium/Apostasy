@@ -16,6 +16,7 @@
 
 # Table of Contents
 
+ - [1.0.9](#109) Release Date: July 17, 2024
  - [1.0.8](#108) Release Date: July 16, 2024
  - [1.0.7](#107) Release Date: July 16, 2024
  - [1.0.6](#106) Release Date: July 15, 2024
@@ -26,6 +27,76 @@
  - [1.0.1](#101) Release Date: July 11, 2024
  - [1.0.0](#100) Release Date: July 11, 2024
  - [Beta Versions](#beta-versions)
+
+## 1.0.9
+
+Key Info
+
+ - Save-Safe.
+ - I'm too tired to write some highlights, please just read the patch notes.
+
+<Details>
+<summary>Changes</summary>
+
+### Updated
+
+ - [Snazzy Interiors - Markarth Endon's House](https://www.nexusmods.com/skyrimspecialedition/mods/107634)
+ - [Female Player Animations (OAR)](https://www.nexusmods.com/skyrimspecialedition/mods/85073)
+ - [Male Player Animations (OAR)](https://www.nexusmods.com/skyrimspecialedition/mods/89225)
+ - [Nirn's Chosen - Enhanced Races and Classes](https://www.nexusmods.com/skyrimspecialedition/mods/121427)
+
+### Added
+
+ - [Lightning VFX Edit](https://www.nexusmods.com/skyrimspecialedition/mods/124520)
+ - [Gryphonknight Regalia - Breton Noble Armor HDT-SMP - HIMBO Conversion](https://www.nexusmods.com/skyrimspecialedition/mods/124543)
+ - [Draugrs - SE by Xtudo - Playable Draugr - MCO](https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=522158&nmm=1&game_id=1704)
+ - [Disable Turn Animation SE I AE](https://www.nexusmods.com/skyrimspecialedition/mods/78106)
+
+### Removed
+
+ - N/A
+
+</details>
+
+<Details>
+<summary>Patch Notes</summary>
+
+### Balance
+
+ - Gift of Gab now gives 10% better prices instead of being useless.
+ - Dragon of the North (Stormcrown) changed.
+   - **NEW**: You resist 10% of incoming Poise damage, and take 10% less damage while staggered.
+   - **OLD**: You resist 50% of incoming stagger. (Functionally identical to resisting 50% of incoming Poise damage)
+ - Increased the chance for the player break the poise of Archers while they are drawing a bow.
+ - Actors now deal 50% less poise damage when they have less than 5 Stamina. 
+   - Current implementation only nerfed damage dealt.
+ - Perk changes for martial skills.
+   - Rip and Tear, Devastate, and Brutal Fighter (Two-Handed) now require 70 skill (was 60).
+   - Ravage, Carve and Spit, and Furious Fighter (One-Handed) now require 70 skill (was 60).
+   - Overwhelming Rage (One-Handed) now requires 80 skill (was 60).
+   - Enraged Fighter renamed to Pressure Fighter (Hand to Hand).
+   - Pressure Fighter renamed to Debilitating Strikes (Hand to Hand).
+   - Debilitating Strikes, Overwhelm, and Pressure Fighter (Hand to Hand) now require 70 skill (was 60).
+   - Brace (Hand to Hand) now a 2 rank perk @ 60/90 skill (was 1 rank perk @ 70).
+
+### Bug Fixes
+
+ - Fixed 2 darkface bugs for some Dawnguard NPCs.
+ - Added failsafe for Krahvalok to hopefully fix issue where it wasn't absorbing souls consistently.
+ - Fixed Arcane Awakening's (Alteration) tooltip to properly reflect the fact that it requires robes.
+ - Fixed typo in Nimble Finger's (Security) script which caused the perk to not work as intended.
+ - Added filtering to Draconic Power's (Talisman) script so it only restored attribute on shouting and not every spell cast.
+ - Fixed issue with Khajiit movement speed bonus not being applied.
+   - Should apply to existing save games.
+
+### Misc. Changes
+
+ - Adjusted Mage Armor's tooltip to make it more clear that the Poise Resistance was only given while armor spells were active.
+ - Changed Stonewall texture.
+ - Animated Ivy on Stonewalls.
+ - Removed debug message when changing into and out of Beast forms.
+
+</details>
 
 ## 1.0.8
 
@@ -102,7 +173,7 @@ Key Info
    - Adjusted Amon ENB's interior lighting for Dragonsreach, the Blue Palace, and Dwarven Ruins
    - Completely redid the Soul Cairn and Apocrypha weather
      - `!_Purple_DLC_soulcairn.ini`
-     - `!_Purple_DLC_soulcairn.ini`
+     - `!_Green_DLC_apocrypha.ini`
    - Added new location IDs to Amon ENB's weatherlist.ini
      - `D9CE69` 
  - Added parallax to Apocrypha and Sky Haven Temple tilesets.
