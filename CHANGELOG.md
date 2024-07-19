@@ -16,6 +16,7 @@
 
 # Table of Contents
 
+ - [1.0.11](#1011) Release Date: July 19, 2024
  - [1.0.10](#1010) Release Date: July 18, 2024
  - [1.0.9](#109) Release Date: July 17, 2024
  - [1.0.8](#108) Release Date: July 16, 2024
@@ -29,6 +30,83 @@
  - [1.0.0](#100) Release Date: July 11, 2024
  - [Beta Versions](#beta-versions)
 
+## 1.0.11
+
+Key Info
+
+ - Save-Safe.
+ - Read patch notes.
+
+<Details>
+<summary>Changes</summary>
+
+### Updated
+
+ - [Orcish Lanterns for Orc Strongholds](https://www.nexusmods.com/skyrimspecialedition/mods/124201)
+ - [Lightning VFX Edit](https://www.nexusmods.com/skyrimspecialedition/mods/124520)
+ - [Stones of Sacrifice - Double Edged Standing Stones](https://www.nexusmods.com/skyrimspecialedition/mods/121629)
+
+### Added
+
+ - [HDT SMP fluffy beast race tail replacer](https://www.nexusmods.com/skyrimspecialedition/mods/91811)
+ - [Custom Races - Patch Collection](https://www.nexusmods.com/skyrimspecialedition/mods/91712)
+ - [Vibrant weapons - Fire Frost Shock](https://www.nexusmods.com/skyrimspecialedition/mods/40087)
+   - Needed for assets.
+ - [Stave Church of Skyrim](https://www.nexusmods.com/skyrimspecialedition/mods/44480)
+   - Needed for assets.
+
+### Removed
+
+ - [Horse Behaviour Improvements](https://www.nexusmods.com/skyrimspecialedition/mods/113535)
+
+</details>
+
+<Details>
+<summary>Patch Notes</summary>
+
+### Balance
+
+ - Doom Winds (Two-Handed) now requires 60 skill (was 70).
+   - This was intended to be in last update, but I forgot.
+ - Hyper Armor (Two-Handed) now requires 80 skill (was 60).
+   - Again, this change was intended for last update, but I forgot.
+ - Bloodthirst (One-Handed) can now proc once every 15 seconds (was 30).
+ - Buffed Katana Bear Stance.
+   - Increased attack speed by ~25%.
+   - Increased range of motion on normal attacks and first power attack.
+ - Nerfed movement speed while casting by ~33%.
+ - Adjusted Archer equipment score values.
+
+### Bug Fixes
+
+ - Fixed QuickLoot's Animal Looting MCM option not working.
+ - Hall of the Dead and Brother Verulus rumors should not longer occur before the minimum level to start [The Taste of Death](https://en.uesp.net/wiki/Skyrim:The_Taste_of_Death).
+ - Scribe (Enchanting) rank 2 now requires 70 skill.
+   - Erroneously required 30 skill.
+ - Fixed Atronach Stone's description to properly clarify "in combat" portion of the debuff.
+ - Fixed incorrect material flag on `reachbridge02.nif`.
+ - Disabled floating Beehive in Whiterun Tundra.
+   - `0010A2B0`
+ - Created missing environmental maps for `CaveBaseGround01` and `MineFloorDirt01`.
+ - Added missing parallax (subfolder) texture for `MineFloorDirt01`.
+   - Fixes issue in Karthspire Redoubt and potentially some other places.
+ - Removed parallax from `rocktundraland03.nif` due to bad parallax warp.
+ - Should have fixed every* issue with Feris. Thank you a lot to [annakins](https://next.nexusmods.com/profile/theannagarcia/about-me?gameId=1704) for compiling basically all of these fixes and echo for testing and troubleshooting.
+ - Fixed Lod's private letter not being in the proper cell.
+   - I am literally the greatest modlist author of all time for this one.
+
+### Misc. Changes
+
+ - Rebuilt **3** BSA(s).
+ - Removed `woodwalkway01_p.dds`.
+ - All orcish strongholds now use the unique Orcish lanterns instead of the Dark Elf ones.
+ - Disabled QuickLoot for Animals. Should improve compatibility for carrying animals feature of SHO.
+   - In general, fixed the MCM setting not working.
+ - Decreased the aggro radius of mudcrabs, they will now only attack you if you basically step on them.
+ - Updated some Mysticism assets to use Kitty's new VFX.
+ - Downgraded Female and Male Player Animation mods due to some oddities with newer versions.
+
+</details>
 
 ## 1.0.10
 
