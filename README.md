@@ -472,7 +472,7 @@ This will reduce the quality of certain large objects at far away distances, how
 
     1. Click the `Puzzle Piece` button at the top of MO2 and select `Set CPU Affinity` and press `OK` on the pop-up box.
   
-    ![](https://raw.githubusercontent.com/Oghma-Infinium/Vagabond/main/images/cpu%20affinity%20example.png)  
+        ![](https://raw.githubusercontent.com/Oghma-Infinium/Vagabond/main/images/cpu%20affinity%20example.png)  
 
     2. That's it, it's really that simple. **Please, please, please** do this before launching the game and whenever you update the modlist!
 
