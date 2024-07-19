@@ -1,3 +1,4 @@
+
 ![](https://raw.githubusercontent.com/Oghma-Infinium/Apostasy/main/images/Banner.png)
 
 <p align="center">
@@ -8,13 +9,11 @@
   <a href="https://loadorderlibrary.com/lists/Apostasy">Modlist</a> |
   <a href="https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/FAQ.md">FAQ</a> |
   <a href="https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/CONFIG.md">Configuration</a> |
-  <a href="https://ko-fi.com/aljoxo">Ko-fi</a> | 
+  <a href="https://ko-fi.com/aljoxo">Ko-fi</a> |
   <a href="https://www.patreon.com/aljoxo">Patreon</a> ]
 </p>
 
 ---
-
-# Attention
 
 **Modlist Support: [Waking Dreams](https://discord.gg/4WwqfK5yHg)**
 
@@ -25,18 +24,18 @@
 >You must update Skyrim to the latest version (1.6.1170) on Steam to install this list.
 
 # Contents
-- [Attention](#attention)
+
 - [Contents](#contents)
   - [Introduction](#introduction)
     - [System Requirements](#system-requirements)
   - [Installation](#installation)
     - [Pre-Installation](#pre-installation)
-      - [Installing Microsoft Visual C++ Redistribution Package](#installing-microsoft-visual-c-redistribution-package)
-      - [Pagefile and crash prevention](#pagefile-and-crash-prevention)
-      - [Setting Shader Cache Size](#setting-shader-cache-size)
+      - [Installing Microsoft Visual C++ and .NET](#installing-microsoft-visual-c-and-net)
+      - [Pagefile and Crash Prevention](#pagefile-and-crash-prevention)
+      - [Setting Shader Cache Size (NVIDIA Users Only)](#setting-shader-cache-size-nvidia-users-only)
       - [Steam Setup](#steam-setup)
-      - [Game Language](#game-language)
-      - [Installing Creation Club Content](#installing-creation-club-content)
+      - [Changing the Game Language](#changing-the-game-language)
+      - [Installing Rare Curios Files](#installing-rare-curios-files)
     - [Wabbajack Installation](#wabbajack-installation)
       - [Installing Wabbajack](#installing-wabbajack)
       - [Downloading and Installing Apostasy](#downloading-and-installing-apostasy)
@@ -49,7 +48,6 @@
     - [Keyboard Keybinds](#keyboard-keybinds)
     - [Gamepad Keybinds](#gamepad-keybinds)
   - [Playing the List](#playing-the-list)
-    - [Skyrim Priority and Setting CPU Affinity](#skyrim-priority-and-setting-cpu-affinity)
     - [Starting the Game](#starting-the-game)
   - [Updating the modlist](#updating-the-modlist)
   - [Removing the Modlist](#removing-the-modlist)
@@ -60,30 +58,38 @@
 
 Apostasy is a Wabbajack modlist for Skyrim SE that offers a modern, action-oriented combat system, custom tailored gameplay, and a consistent, high-fidelity graphics overhaul. Apostasy aims to deliver a cohesive and refined experience, enhancing both visuals and mechanics.
 
-The full modlist can be viewed [here](https://loadorderlibrary.com/lists/Apostasy).
+A full list of the mods used in this modlist can be viewed [here](https://loadorderlibrary.com/lists/Apostasy).
 
-You can find a summary of all relevant changes on the [Gameplay Guide](https://github.com/Oghma-Infinium/Apostasy/blob/main/GAMEPLAY.md).
+You can find a summary of all relevant gameplay changes on the [Gameplay Guide](https://github.com/Oghma-Infinium/Apostasy/blob/main/GAMEPLAY.md) as well.
 
-This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+
+[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
+[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
 
 ### System Requirements
 
->[!NOTE]
->The listed specs are the best idea of a baseline that I can provide at the current moment, based on feedback I have gotten from testers and my own experiences. In the future this will be updated depending on feedback received. Your PC may run the list better or worse due a variety of reasons, I will not provide troubleshooting or support for hardware related issues.
+The listed specs are the best idea of a baseline that I can provide at the current moment, based on feedback I have gotten from testers and my own experiences. In the future this will be updated depending on feedback received. Your PC may run the list better or worse due a variety of reasons, **I will not provide troubleshooting or support for hardware related issues.**
 
->[!CAUTION]
->An SSD is required to the play the list.   
->Only Windows 10 or 11 operating systems are supported. Windows LTSC, special variants, lightened editions or any other modified variant **WILL NOT WORK.** Linux installations also **WILL NOT WORK**.
+>[!WARNING]
+>
+>- An SSD is **required** to the play the modlist.
+>- Only Windows 10 or 11 operating systems are supported. Windows LTSC, special variants, lightened editions or any other modified variant **WILL NOT WORK.** Linux installations also **WILL NOT WORK**.
 
 ![](https://raw.githubusercontent.com/Oghma-Infinium/Apostasy/main/images/perfTarget.PNG)
 
-Downloads: ~150 GB  
-Install: ~190 GB (The size listed on the Wabbajack Gallery is **wrong**, it does not properly account of the size saved by compressing files during the installation.)  
-Temp Files: ~40 GB (on OS drive)  
-**TOTAL:** ~350 GB
+Downloads Size: ~181 GB  
+Install Size: ~242 GB  
+Temporary Files: ~40 GB (on OS drive)  
+**TOTAL:** ~423 GB  
+
+> The **Install Size** listed on the Wabbajack Gallery is **wrong** and does not properly account of the size saved by compressing files during the installation.
 
 <Details>
-<summary>Temporary Files</summary>
+<summary>Info on Temporary Files</summary>
 
 Wabbajack typically requires around 30-40 GB of space on your main OS drive for temporary and working files during the installation, this space is not counted towards the total install space of the list for sake of this guide, however Wabbajack roughly accounts for it in the UI.
 
@@ -104,43 +110,45 @@ Installing Apostasy is relatively easy and, if you have Nexus Premium, will be a
 
 ### Pre-Installation
 
-These steps are only required for installing the Modlist for the first time. Additionally, many of these steps may be covered in other modlist installs, for new users I suggest reading through here regardless.
+These steps are only required for installing the modlist for the first time. Additionally, many of these steps may be covered in other modlist installs, for new users I suggest reading through here regardless.
 
-#### Installing Microsoft Visual C++ Redistribution Package
+#### Installing Microsoft Visual C++ and .NET
 
  1. Install [Visual C++ x64](https://aka.ms/vs/17/release/vc_redist.x64.exe).
- 2. Install [.Net Runtime 8.X.X desktop x64](https://dotnet.microsoft.com/en-us/download/dotnet/8.0).
- 3. Install [.Net 6.0 Runtime desktop x64](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-6.0.30-windows-x64-installer).
->[!CAUTION] 
-If you already have Visual C++ installed, please make sure you install it again and use the repair option to get the latest version of the redistributables.
-
-#### Pagefile and crash prevention
+ 2. Install [.NET Runtime 8.X.X Desktop x64](https://dotnet.microsoft.com/en-us/download/dotnet/8.0).
+ 3. Install [.NET 6.0 Runtime Desktop x64](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-6.0.30-windows-x64-installer).
 
 >[!WARNING]
->Larger Skyrim modlists require a significant amount of memory, running out of memory **will** result in crashes and other potential issues. Due to Apostasy's size and number of files required to be handled for the list, this step is **NOT** optional, I do not care how much RAM or VRAM you have, please do this step.
+>If you already have Visual C++ installed, please make sure you install it again and use the `Repair` option to get the latest version of the redistributables. **Do NOT skip this step or MO2 and the game may fail to launch.**
 
-Setting up a pagefile:
+#### Pagefile and Crash Prevention
 
- 1. Press `Win Key + R`.
- 2. Type `sysdm.cpl ,3` and hit `ENTER`.
- 3. Navigate to *Performance* and click the box `Settings...`.
- 4. Click the *Advanced* tab at the top.
- 5. Under *Virtual Memory* click the box `Change...`.
- 6. **Uncheck** *Automatically manage* if it is checked.
- 7. Select your disk drive, ideally your fastest solid state drive.
- 8. Click `Custom size:`.
- 9. In the box next to `Initial Size (MB)` type `40960`.
- 10. In the box next to `Maximum Size (MB)` type `40960`.
+>[!WARNING]
+>Larger Skyrim modlists require a significant amount of memory, running out of memory **will** result in crashes and other potential issues. Due to Apostasy's size and number of files, this step is **NOT** optional. I do not care how much RAM or VRAM you have, please do this step.
+
+**To set up a Pagefile:**
+
+ 1. Press `Win Key + R`
+ 2. Type `sysdm.cpl ,3` and hit `ENTER`
+ 3. Navigate to **Performance** and click the box `Settings...`
+ 4. Click the **Advanced** tab at the top
+ 5. Under **Virtual Memory** click the box `Change...`
+ 6. Uncheck `Automatically Manage` if it is checked
+ 7. Select your disk drive, ideally your fastest solid state drive
+ 8. Click `Custom Size:`
+ 9. In the box next to **Initial Size (MB)**, type `40960`
+ 10. In the box next to **Maximum Size (MB)**, type `40960`
  11. Click `Set`.
  12. Click `OK`.
  13. Click `Apply`.
  14. Click `OK`.
- 15. **Restart your computer**.
-  
+ 15. **Restart your PC**.
+
+>[!TIP]
 > Your pagefile does not need to be on the same drive as your Wabbajack install or Steam install.
 
 <Details>
-<summary>BONUS READING: Why do we need a pagefile?</summary>
+<summary>Bonus Reading: Why do we need a Pagefile?</summary>
 
 Skyrim is a very old game (originally released in 2011) that is built on the [Creation Engine](https://en.wikipedia.org/wiki/Creation_Engine), a engine based off of the [Gamebryo](https://en.wikipedia.org/wiki/Gamebryo) engine that was originally used for Morrowind (released in 2002).
 
@@ -150,135 +158,151 @@ But why is this? Skyrim appears to use system memory in very unexpected ways, fo
 
 </Details>
 
-#### Setting Shader Cache Size
+#### Setting Shader Cache Size (NVIDIA Users Only)
 
->[!WARNING]
->For Nvidia users, it is also recommended to boost the size of the shader cache. These settings have been shown to improve stability, while it may not be entirely necessary, it is still recommended.
+>[!IMPORTANT]
+>For NVIDIA users, it is recommended to boost the size of the shader cache. These settings have been shown to improve stability, while it may not be entirely necessary, it is still recommended.
 
-Changing the shader cache size:
+**To do this:**
 
- 1. Right-click on your desktop and select `NVIDIA Control Panel`,.
- 2. Navigate and click on `Manage 3D settings`. It is the 2nd one to the top.
- 3. Scroll down in Global Settings until you see **Shader Cache Size**.
- 4. Double Click **Driver Default** to the right of Shader Cache Size and select **10 GB**
- 5. Click `Apply` in the bottom right hand corner. 
- 6. You may exit out of the application.
+- Right-click on your desktop and select `NVIDIA Control Panel`
+- Navigate and click `Manage 3D Settings`
+- Scroll down the **Global Settings** tab until you see **Shader Cache Size**
+- Double-click `Driver Default` to the right of **Shader Cache Size** and select `10 GB`
+- Click `Apply` in the bottom right hand corner
+- Exit out of the application
 ![](https://raw.githubusercontent.com/iAmMe27/Tahrovin/main/img/ShaderCache.png)
 
 #### Steam Setup
 
->[!IMPORTANT]
+>[!WARNING]
 >If you have your Steam Library in Program Files, read [this article](https://github.com/LostDragonist/steam-library-setup-tool/wiki/Usage-Guide) by LostDragonist. Locations such as Desktop, Documents, Downloads, OneDrive, etc. *will* cause issues with installing and playing the list.
 
  1. Change Skyrim so it does not [automatically update](https://help.steampowered.com/en/faqs/view/71AB-698D-57EB-178C#disable).
  2. Right click on Skyrim SE and click on properties, untick the `Enable Steam Overlay while in-game.`
- 3. You also need to start the games to the main menu in order to download all the creations. **DO NOT SKIP THIS STEP, IF YOU DO SO WABBAJACK WILL FAIL**
+ 3. Please ensure you follow the steps outlined in the [Installing Rare Curios Files](#installing-rare-curios-files) section. **DO NOT SKIP THIS STEP OR YOUR INSTALL WILL FAIL.**
 
-#### Game Language
-
->[!WARNING]
->The English Steam version of Skyrim is the only supported version. I understand that this may be frustrating for non-English speaking users or users with the GOG/Bethesda.net versions, but due to the core file differences between the different versions, I am only able to support one game version.
-
-Setting the Game Language:
-
- 1. Right click on your Skyrim in Steam.
- 2. Click `Properties`.
- 3. Click `Language`.
- 4. Set the Language to `English`.
-
-#### Installing Creation Club Content
+#### Changing the Game Language
 
 >[!WARNING]
->Due to some issues with the 1.6.1130 update and onwards, Steam now ships Skyrim with its own version of some CC files. However these files do not have the same hashes as the files that are downloaded from the in-game Creation Club menu for AE users. In order to work around this issue and make the list as accessible as possible, the list is compiled using the file hashes from the in-game CC downloads.
+>**The English Steam version of Skyrim SE is the only supported version.**
 
-Installing Creation Club Content:
+I understand that this may be frustrating for non-English speaking users or users with the GOG/Bethesda.net versions, but due to the core file differences between the different versions, I am only able to support one game version.
 
- 1. Navigate to your Skyrim SE's Steam data folder. (example: `D:\SteamLibrary\steamapps\common\Skyrim Special Edition\data`).
- 2. Within your data folder, delete *both* the `ccbgssse037-curios.bsa` and `ccbgssse037-curios.esl` files.
- 3. Launch Skyrim SE through Steam and click the `Creations` button on the main menu.
- 4. Press `O` on your keyboard to open the options menu and click `Download all owned Creation Club content` (The Rare Curios CC should now be installing).  
->[!CAUTION]
->DO NOT ALT-TAB DURING THE DOWNLOADS PROCESS, it will cause the downloads to fail and you will have to do it again.  
- 5. Exit out of the Creations menu, say yes to Bethesda's load order shit, and exit the game.
- 6. **VERY IMPORTANT**, from this step onwards, **DO NOT** verify your game files unless told to as it will revert the "correct" file hashes to the ones that are included in the base-game install.
+To change your Skyrim SE's language:
+
+ 1. Right click on Skyrim SE in Steam
+ 2. Click `Properties`
+ 3. Click `Language`
+ 4. Set the Language to `English`
+
+#### Installing Rare Curios Files
+>
+>[!WARNING]
+> ***Do NOT skip this step or your install may fail!***
+
+From the 1.6.1130 update and onwards, Steam now ships Skyrim with its own version of the free CC files. However these files do not have the same hashes as the files that are downloaded from the in-game Creation Club menu for AE users. In order to work around this issue and make the list as accessible as possible, the list is compiled using the file hashes from the in-game CC downloads.
+
+To download Bethesda's version of Rare Curios:
+
+- Navigate to your Skyrim SE's Steam Data folder
+  - i.e. `D:\SteamLibrary\steamapps\common\Skyrim Special Edition\data`
+- Delete *both* Rare Curios files:
+  - `ccbgssse037-curios.bsa`
+  - `ccbgssse037-curios.esl`
+- Launch Skyrim SE from Steam and select **Creations** at the main menu
+- Select **Search** at the bottom and search for `Rare Curios`
+- Select the card titled `Rare Curios` and press **Download**
+- Once it is done, accept Bethesda's load order message and exit the game
+
+![](https://cdn.discordapp.com/attachments/1008055818782003421/1263168806054920283/Rare_Curios.png?ex=669a929f&is=6699411f&hm=9441dc9f4f9e95a4ac3e890de860d406884be4b88dc8e8d8309a2ff3f93830b9&)
+
+>[!IMPORTANT]
+>
+>- **DO NOT** Alt+Tab during this process or it will fail to properly download these files
+>- **DO NOT** verify your game files after doing the steps above as it will revert the "correct" file hashes for the Rare Curios files
 
 ### Wabbajack Installation
 
 #### Installing Wabbajack
 
-Once you have completed pre-installation, download the [latest version of Wabbajack](https://github.com/wabbajack-tools/wabbajack/releases) on this github and place it in a folder such as `C:\Wabbajack`. **DO NOT place it in Program Files, User folders (such as Desktop, Documents, Downloads, OneDrive, etc.), in your Skyrim's Steam folder, or in any folders related to the modlist itself (the downloads or install folder).**. I recommend placing it on an SSD as it will work quicker on there.
+Once you have completed the pre-installation section, follow these steps to install Wabbajack:
+
+1. Create an empty folder named `Wabbajack` on the root of your drive, such as `C:\Wabbajack` for example.
+    > - **DO NOT place it in Program Files, User folders (such as Desktop, Documents, Downloads, OneDrive, etc.), in your Skyrim's Steam folder, or in any folders related to the modlist itself (the downloads or install folder).**
+    > - The `Wabbajack` folder does not need to be on an SSD, but it makes installing faster. You can set this location to be on an HDD for the sake of saving space.
+
+2. Download the [latest version of Wabbajack](https://github.com/wabbajack-tools/wabbajack/releases/latest/download/Wabbajack.exe) and place the `Wabbajack.exe` file inside the Wabbajack folder you created in Step 1.
+
+3. Double-click the `Wabbajack.exe` file that is now inside your Wabbajack folder to set up the program.
 
 >[!IMPORTANT]
->The list requires Wabbajack version **3.6.1.0 or later**, installing on older versions of Wabbajack will prevent the installation from being completed.
+>The list requires Wabbajack version **3.6.1.0 or later**. Installing the modlist on older versions of Wabbajack will prevent the installation from being completed.
 
 #### Downloading and Installing Apostasy
 
 >[!CAUTION]
->A legal copy of Skyrim Special Edition is required. Pirated copies of the game will cause the installation to fail and even if you manage to somehow get around Wabbajack's built-in piracy prevention measures, SKSE does not work with the cracked exes.  
-**Buy the game.**
+>**A legal copy of Skyrim Special Edition is required.** Pirated copies of the game will cause the installation to fail and even if you manage to somehow get around Wabbajack's built-in piracy prevention measures, SKSE does not work with the cracked exes.  
 
-Downloading and installing Apostasy can take a while depending on your internet connection and computer. To install Apostasy, complete the following steps.
+Downloading and installing Apostasy can take a while depending on your internet connection, PC specs, and if you have Nexus Premium. Without Premium, you will need to manually click the **Slow Download** button for each mod.
+
+To install Apostasy, complete the following steps.
 
  1. Open Wabbajack and click `Browse Modlists`
- 2. Press the download button on Apostasy and wait for it to download.
- 3. Set the installation folder to be somewhere like `C:\Games\Apostasy` or `C:\Apostasy`. **DO NOT place it in the Wabbajack root folder, Program Files, User folders (such as Desktop, Documents, Downloads, etc.), or in your Skyrim's Steam folder**
-    > The download location does not need to be on a SSD, but it makes installing faster.
- 1. Press the play button to begin.
- 2. Turn on your favorite show or a nice long video essay Wabbajack does its thing. Alternatively read through this readme again.
- 3. If the installation is successful, then rejoice and move onto [post installation](#post-installation-and-optional-setup). If the installation is unsuccessful, follow what is below or join the [discord server](https://discord.gg/4WwqfK5yHg) for support.
+ 2. Tick on the `Show Unofficial Lists` box and pick the **Skyrim Special Edition** option from the game filter drop-down box (or use the search bar to find the modlist)
+ 3. Press the download arrow on the Apostasy UI card and wait for it to download
+ 4. Set the `Modlist Installation Location` to a folder such as `C:\Apostasy`.
+    > - **DO NOT place it in Program Files, User folders (such as Desktop, Documents, Downloads, OneDrive, etc.), or in your Skyrim's Steam folder**
+    > - The `Resource Download Location` does not need to be on an SSD, but it makes installing faster. You can set this location to an HDD for the sake of saving space.
+ 5. Press the play arrow to begin.
+ 6. Turn on your favorite show or a nice long video essay as Wabbajack does its thing. Alternatively read through this readme again.
+ 7. If the installation is successful, then rejoice and move onto [post installation](#post-installation-and-optional-setup). If the installation is unsuccessful, follow the tips below or the [discord server](https://discord.gg/4WwqfK5yHg) for support.
 
 ### Problems with installation
 
 It is possible that you may encounter an error with Wabbajack when installing. Some common issues are listed below.
 
 <Details>
-<summary>Trouble downloading a specific file:</summary>
+<summary>I'm having trouble downloading Non-Nexus files or specific files!</summary>
 
-Big files can fail to download due to connection issues. You can either run wabbajack again or download the file manually. If you decide to manually download it, make sure to place it in the same place as the other downloads. 
+Big files can fail to download due to connection issues or website issues. You can either run Wabbajack again or download the missing file manually. If you decide to manually download the file, make sure to place the file(s) inside the folder you set as the `Resource Download Location`.
 
-> This issue can also occur with files sources from Google Drive, MEGA, Patreon, and other sites. If you are failing on a non-nexus file, then read the [Problematic Files](#problematic-files) section.
-
-</Details>
-
-<Details>
-<summary>X is not a whitelisted download:</summary>
-
-This may happen when I update the modlist. Please check if there is a new update or wait until you see a release ping.  
+This issue can also occur with files sources from Google Drive, MEGA, Patreon, and other sites. If you are failing on a non-nexus file, then read the [Problematic Files](#problematic-files) section.
 
 </Details>
 
 <Details>
-<summary>Wabbajack could not find my game folder:</summary>
+<summary>Wabbajack couldn't find my game folder!</summary>
 
 Either buy the game or re-read the [Pre-Installation](#pre-installation) section.  
 
 </Details>  
 
 <Details>
-<summary>Antivirus reports a virus:</summary>
+<summary>My antivirus reports a virus with the program or modlist!</summary>
 
 Windows 10/11 may automatically quarantine a key file which is needed for Mod Organizer. You can fix this by [adding an exclusion for Mod Organizer in windows defender](#antivirus-exceptions).  
 
 </Details>
 
 <Details>
-<summary>Unable to download Data_ccXXXXX - *.bsa or *.esp:</summary>
+<summary>Unable to download 'Data_ccbgssse037-curios': </summary>
 
-This error means that there is an issue where Wabbajack is unable to hash your Creation Club Content. If you have followed the steps outlined under [Pre-Installation](#installing-creation-club-content), are not on a pirated copy of the game, and have verified your steam files, then it is very likely that Wabbajack or Bethesda has messed up the hashing for these files. If this is the case, please wait for it to be resolved before continuing to download the list.  
+Please make sure you are following the steps outlined in the [Installing Rare Curios Files](#installing-rare-curios-files) section
 
 </Details>  
 
 <Details>
 <summary>Unable to download Skyrim_Default.ini:</summary>
 
-This error means you failed to follow the readme. Go back to the [game language](#game-language) section and set your game language to English.  
+This error means you failed to follow this Readme. Go back and follow the steps outlines in the [Changing the Game Language](#changing-the-game-language) section
 
 </Details>  
 
 <Details>
 <summary>Sanity check error extracting file:</summary>
 
-Wabbajack will sometimes have issues extracting some files if they use special characters. If you encounter this issue in a wabbajack log, please try the steps down below:
+Wabbajack will sometimes have issues extracting files if they use special characters. If you encounter this issue in a Wabbajack log, please try the steps down below:
 
  1. Press `Win Key + R`.
  2. Type `intl.cpl` and hit `ENTER`.
@@ -286,16 +310,14 @@ Wabbajack will sometimes have issues extracting some files if they use special c
  4. Change the *Current system locale:* to `English (United Kingdom)`.
  5. **Uncheck** `Beta: Use Unicode UTF-8 for worldwide language support`
  6. Click `OK`
- 7. **Restart your computer** and rerun the Wabbajack installer.
-
-> It is suggested to have a program installed on your PC that can open `.json` files, like [Notepad++](https://notepad-plus-plus.org/) or [Visual Studio Code](https://code.visualstudio.com/).  
+ 7. **Restart your PC** and rerun the Wabbajack installer.
 
 </Details>  
 
 <Details>
-<summary>Wabbajack Crashing during the installation:</summary>
+<summary>Wabbajack is crashing during the installation!</summary>
 
-If you find yourself struggling to run Wabbajack without it crashing, freezing up, or blue-screening your PC, please try lowering Wabbajack's resource usage using these steps:
+If you find yourself struggling to run Wabbajack without it crashing, freezing up, or blue-screening your PC, please try lowering Wabbajack's resource usage with these steps:
 
  1. Open Wabbajack.
  2. Click the gear icon in the top-right corner of the Wabbajack window.
@@ -304,17 +326,17 @@ If you find yourself struggling to run Wabbajack without it crashing, freezing u
  5. Press `Ctrl+S` on your keyboard to save the file.
  6. Open Wabbajack and continue the installation process.
 
-> It is suggested to have a program installed on your PC that can open `.json` files, like [Notepad++](https://notepad-plus-plus.org/) or [Visual Studio Code](https://code.visualstudio.com/).  
+>[!TIP]
+> It is suggested to have a program installed on your PC that can open `.json` files, like [Notepad++](https://notepad-plus-plus.org/) or [Visual Studio Code](https://code.visualstudio.com/)
 
 </Details>  
 
 #### Problematic Files
 
->[!NOTE]
->Wabbajack frequently has trouble downloading mods hosted on sites other than Nexus. These files are listed below for your convenience.  
->You will need to manually download these files and place them in the `Resource Download Location` that is made in the [Downloading and Installing Apostasy](#downloading-and-installing-apostasy) section.
+Wabbajack frequently has trouble downloading mods hosted on sites other than Nexus. These files are listed below for your convenience. You will need to manually download these files and place them in the `Resource Download Location` that is made in the [Downloading and Installing Apostasy](#downloading-and-installing-apostasy) section.
 
 Google Drive Files:
+
 - [High Poly Head v1.4 (SE)](https://drive.google.com/uc?id=15_0njBUjHKidNnJPmLXEygzGVWsA3Zbq&export=download)
 - [Dint's BDOR Hairs](https://drive.usercontent.google.com/download?id=1tpY3bDs-LR6rptf8oPUfraKs1CkxJJB3&export=download&authuser=0)
 - [Dint's HairPack 02](https://drive.usercontent.google.com/download?id=1Ts0sQz3hDxhCeS_LUnXJQFuws_qbw9YQ&authuser=0)
@@ -322,9 +344,11 @@ Google Drive Files:
 - [Olivier Kenjutsu Battleaxe and Warhammer](https://drive.google.com/file/d/1rX4INfO3ieWp25gPh0NiLPl1ktLoegZ9)
 
 MEGA Files:
+
 - [High Poly Head - EFA - Male Eyebrow fix](https://mega.nz/file/WZt0BDCL#JNUTn_5P2sEPuHm3znSdrrqN28tPnxvmVzeFOw67FAU)
 
 Patreon Files: (These are free to download)
+
 - [ESkyrim MCO Installer](https://www.patreon.com/file?h=68233071&i=11449877)
 - [HDT-SMP Sona Armor - Female](https://www.patreon.com/file?h=68902488&i=12781379)
 - [HDT-SMP Sona Armor - Male](https://www.patreon.com/file?h=68902488&i=13158956)
@@ -337,10 +361,10 @@ Apostasy uses a Wabbajack feature called Stock Game to keep your Skyrim installa
 
 ### Antivirus Exceptions
 
->[!CAUTION]
+>[!WARNING]
 >Antivirus programs are notorious for false flagging [MO2's Virtual File System](https://stepmodifications.org/wiki/Guide:Mod_Organizer/Advanced), which can and will cause crashes and other problems. Antivirus programs like BitDefender, Norton, and Webroot are especially aggressive, and you will very likely need to fully remove them from your PC in order to actually launch the game through MO2. It is 2024, Windows Defender and being smart online is more than adequate to protect yourself from malicious software.
 
-If you use Windows Defender, it is advised that you set up an Exception for the modlist.
+If you use Windows Defender, it is advised that you set up an exception for the modlist.
 
 <Details>
 <summary>Setting up Windows Defender Exceptions:</summary>
@@ -374,8 +398,7 @@ Windows Scaling can prevent games from displaying correctly, and will often resu
 <Details>
 <summary>Form 43 Error in MO2. / A DLL plugin has failed to load correctly.</summary>
 
-Your installation did not complete. Rerun Wabbajack and make sure to tick the **Overwrite Installation** box.  
-If the error persists after a reinstall, then delete the `[Path to Modlist]\mods` folder, and rerun Wabbajack again.
+Your installation did not complete. Rerun Wabbajack and make sure to tick the **Overwrite Installation** box. If the error persists after a reinstall, then delete the `[Path to Modlist]\mods` folder, and rerun Wabbajack again.
 
 </Details>  
 
@@ -387,14 +410,15 @@ Report it in the `#apostasy-support` channel of the [discord](https://discord.gg
 </Details>  
 
 <Details>
-<summary>Crashes During Gameplay</summary>
+<summary>Crashes during Gameplay</summary>
 
 Skyrim is a notoriously buggy game and cramming thousands of mods into it is not gauranteed to always produce the most stable experience possible. Especially in heavier lists where you may be pushing the limitations of your hardware as a result of Skyrim's old and unoptimized rendering pipeline.
 
 If you find yourself crashing, then please share your crashlogs in the appropriate #support channel on the [discord server](https://discord.gg/4WwqfK5yHg).
 
 In order to get the best possible response please ensure that:
- 1. Your crash is reproducible. 
+
+ 1. Your crash is reproducible.
  2. You include all relevant crashlogs (if you do not know where to find them then use the `!crashlog` command in chat).
  3. Provide details about the crash (what you were doing, where it took place, if there was an associated quest, etc). Details are necessary in order to quickly diagnose crashes.
 
@@ -403,18 +427,16 @@ In order to get the best possible response please ensure that:
 <Details>
 <summary>Crashes When Loading Saves</summary>
 
-This issue is caused by Large Reference Workarounds done by [DynDOLOD NG](https://www.nexusmods.com/skyrimspecialedition/mods/97720) Due to importance of the mod, it cannot be removed from the list.
+This issue is caused by Large Reference Workarounds done by [DynDOLOD NG](https://www.nexusmods.com/skyrimspecialedition/mods/97720) Due to importance of the mod, it cannot be removed from the modlist.
 
-**Temporary experimental fix for save loading crashes:**
+Follow the steps below for a temporary experimental fix to prevent these crashes:
+  1. Navigate to `[Your Apostasy Install Location}\profiles\Apostasy\SkyrimPrefs.ini`  
+  2. Change `uLargeRefLODGridSize =9` to `uLargeRefLODGridSize =5`  
+  3. Press `Ctrl+S` on your keyboard to save your changes
 
-  1.  Navigate to `[Your Apostasy Install Location}\profiles\Apostasy\SkyrimPrefs.ini`  
-  2.  Change `uLargeRefLODGridSize =9`  
-  3.  to `uLargeRefLODGridSize =5`  
-  4.  save changes (CTRL+ S)  
+This will reduce the quality of certain large objects at far away distances, however the difference is **very minor** and you will be unlikely to even notice it. Changing these settings may even improve performance.
 
-This will reduce quality of some large objects at far away distance. **The difference is very minor you're unlikely to even notice it.** Might improve performance as well.
-
-</Details> 
+</Details>
 
 ### Keyboard Keybinds
 
@@ -432,65 +454,66 @@ This will reduce quality of some large objects at far away distance. **The diffe
 
 ## Playing the List
 
->[!TIP]
->Before starting the list, read over the [Configuration](https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/CONFIG.md), [FAQ](https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/FAQ.md), and [Gameplay](https://github.com/Oghma-Infinium/Apostasy/blob/main/GAMEPLAY.md) pages.
-
-### Skyrim Priority and Setting CPU Affinity
-
-This section is also covered in the [Configuration Guide](https://github.com/Oghma-Infinium/apostasy/blob/main/Documentation/CONFIG.md#performance-optimizations). [Skyrim Priority](https://www.nexusmods.com/skyrimspecialedition/mods/50129) is a mod that can greatly improve performance, improving FPS and preventing stutters by optimizing Skyrim's CPU Priority and Core Affinity. [CPU Affinity](https://www.nexusmods.com/skyrimspecialedition/mods/94636) is a Mod Organizer 2 plugin that automates the manual setup of [Skyrim Priority](https://www.nexusmods.com/skyrimspecialedition/mods/50129). However, when improperly configured it can lead to worse performance than if it had not been present.
-
-Due to Wabbajack limitations, the mod must be manually adjusted on the end-user's system. In order to do this follow the instructions below
- 1. Click the `Puzzle Piece` button at the top of MO2 and select `Set CPU Affinity` and press ok on the pop-up box.
-
-![](https://raw.githubusercontent.com/Oghma-Infinium/Vagabond/main/images/cpu%20affinity%20example.png)  
-
- 2. That's it, it's really that simple. **Please Please Please** do this before launching the game.
-
->[!TIP]
->Affinity must me setup again every time you update the list.
+>[!WARNING]
+>Before starting the list, read over the [Configuration](https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/CONFIG.md), [FAQ](https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/FAQ.md), and [Gameplay](https://github.com/Oghma-Infinium/Apostasy/blob/main/GAMEPLAY.md) pages!
 
 ### Starting the Game
 
- 1. Head over to your modlist installation folder (e.g. `C:\Apostasy`), locate an executable named `ModOrganizer.exe`, and launch it.
-    > First launch of Mod Organizer 2 may take several minutes due to GitHub repository downloads. Please be patient.
- 3. Launch the "Play" Executable in MO2.
-    > The game may take several minutes to load on your first launch. Please be patient and at no point should you click the `Unlock` button in MO2.
- 4. Click "New Game".
- 5. Create your character.
- 6. **(OPTIONAL)** Refer to the MCM options listed on the [Configuration](https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/CONFIG.md#in-game-mcm-options) to adjust your settings.
- 7. Talk to the dragon to choose your start.
-    > If no start is chosen then you will have a default start in the Helgen Inn.
- 8. Leave the room.
+ 1. Head over to your modlist installation folder (e.g. `C:\Apostasy`), locate an executable named `ModOrganizer.exe`, and launch it. Your first launch of Mod Organizer 2 may take several minutes due to GitHub repository downloads, so please be patient.
+ 2. Set up your CPU Affinity by following the instructions below!
+    <Details>
+    <summary>Setting CPU Affinity</summary>
+    This section is also covered in the [Configuration Guide](https://github.com/Oghma-Infinium/apostasy/blob/main/Documentation/CONFIG.md#performance-optimizations). 
+
+    [Skyrim Priority](https://www.nexusmods.com/skyrimspecialedition/mods/50129) is a mod that can greatly improve performance, improving FPS and preventing stutters by optimizing Skyrim's CPU Priority and Core Affinity. [CPU Affinity](https://www.nexusmods.com/skyrimspecialedition/mods/94636) is a Mod Organizer 2 plugin that automates the manual setup of [Skyrim Priority](https://www.nexusmods.com/skyrimspecialedition/mods/50129). However, when improperly configured it can lead to worse performance than if it had not been present.
+
+    Due to Wabbajack limitations, the mod must be manually adjusted on the end-user's system. In order to do this follow the instructions below:
+
+    1. Click the `Puzzle Piece` button at the top of MO2 and select `Set CPU Affinity` and press `OK` on the pop-up box.
+  
+    ![](https://raw.githubusercontent.com/Oghma-Infinium/Vagabond/main/images/cpu%20affinity%20example.png)  
+
+    2. That's it, it's really that simple. **Please, please, please** do this before launching the game and whenever you update the modlist!
+
+    </Details>
+
+ 3. Launch the "Play" Executable in MO2. The game may take several minutes to load on your first launch. Please be patient and **DO NOT** click the `Unlock` button on the MO2 prompt.
+ 4. Select the **New Game** button.
+ 5. Create your character!
+ 6. **(OPTIONAL)** Refer to the different MCM options listed on the [Configuration](https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/CONFIG.md#in-game-mcm-options) to adjust any MCM settings you'd like.
+ 7. Pick your class and talk to the little Dragon sitting on a lantern. If no specified start is chosen, then you will have the default start in the Helgen Inn.
+ 8. Simply open the door next to him and step into the black void gazing at you
 
 ## Updating the modlist
 
 Versioning for the list will adhere to the following format: `MAJOR.MINOR.PATCH`.
- - `MAJOR`: Any release with a number change here will be considered a major update as at least 1 area of the list was massively overhauled. These updates with **NEVER** be save safe.
- - `MINOR`: Any release with a number change here will be considered a minor update, these updates will usually not be save safe, unless otherwise specified.
- - `PATCH`: Any release with a number change here will be considered a patch, these updates should be save safe and will be used primarily for bugfixes.
- - In some rare cases you may see a fourth slot be used, which I will refer to as `HOTFIX`. These list "updates" will be used if the list needs to be recompiled for any reason. There will be no changes in these "updates" as they are purely for maintenance.
-Updating is like installing the list. Simply make sure your paths are the same and tick the `overwrite existing modlist` button. **Note**: Any mods you have added will be deleted when updating. To make sure that Wabbajack does not delete your added mods upon updating, prefix your mods with `[NoDelete]`.
+
+- `MAJOR`: Any release with a number change here will be considered a major update as at least 1 area of the list was massively overhauled. These updates with **NEVER** be save safe.
+- `MINOR`: Any release with a number change here will be considered a minor update, these updates will usually not be save safe, unless otherwise specified.
+- `PATCH`: Any release with a number change here will be considered a patch, these updates should be save safe and will be used primarily for bugfixes.
+- In some rare cases you may see a fourth slot be used, which I will refer to as `HOTFIX`. These list "updates" will be used if the list needs to be recompiled for any reason. There will be no changes in these "updates" as they are purely for maintenance.
+
+Updating is like installing the list. Simply make sure your paths are the same and tick the `overwrite installation` button. Please keep in mind any mods you have added will be deleted when updating. To make sure that Wabbajack does not delete your added mods upon updating, prefix your mods with `[NoDelete]`.
 
 >[!IMPORTANT]
 >Saves can be continued across **Save-Safe** updates. Updates will be indicated whether or not they are **Save-Safe** on the [Changelog](https://github.com/Oghma-Infinium/Apostasy/blob/main/CHANGELOG.md). It is suggested that you backup your saves before updating if you plan on continuing them.
 
 >[!TIP]
->RaceMenu presets can be placed in the `[NoDelete] RaceMenu Presets` mod under the `Stock List [NoDelete]'s` Seperator of MO2 if you want to ensure they are saved after an update.
+>RaceMenu presets can be placed in the `[NoDelete] RaceMenu Presets` mod under the `Stock List [NoDelete]'s` separator of MO2 if you want to ensure they are saved after an update.
 
 ## Removing the Modlist
-Simply delete the folder. Congratulations, you have uninstalled Apostasy.
+
+Simply delete the Apostasy folder. Congratulations, you have uninstalled Apostasy.
 
 ## Issues
 
-Please check the [FAQ](https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/FAQ.md) first if you have any issues. 
+Please check the [FAQ](https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/FAQ.md) first if you have any issues.
 
 >[!TIP]
->If you encounter any bugs or issues while playing the list, the [Waking Dreams](https://discord.gg/4WwqfK5yHg) support server is preferred and will have the fastest turn around time for support.  Alternatively, you can leave an issue report on the Github [Issues Page](https://github.com/Oghma-Infinium/Apostasy/issues) or leave a bug report on the [Nexus Page](https://www.nexusmods.com/skyrimspecialedition/mods/118893?tab=bugs)
-
-
+>If you encounter any bugs or issues while playing the list, the [Waking Dreams](https://discord.gg/4WwqfK5yHg) support server is preferred and will have the fastest turn around time for support.  Alternatively, you can leave an issue report on the Github [Issues Page](https://github.com/Oghma-Infinium/Apostasy/issues).
 ## Credits and Thanks
 
-- _YOU_ for reading this.
+- *YOU* for reading this.
 - [Bingus](https://next.nexusmods.com/profile/bingusthecatto/about-me) for [Ascensio](https://github.com/Oghma-Infinium/Ascensio), ENB tweaking, asset editing, and much, much more.
 - Curly for the original iteration of Ascensio that got me started with my first modlist.
 - [Ylikollikas](https://next.nexusmods.com/profile/Ylikollikas) for a lot, I can not even begin to list what he has contributed.
