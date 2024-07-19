@@ -455,12 +455,12 @@ This will reduce the quality of certain large objects at far away distances, how
 ## Playing the List
 
 >[!WARNING]
->Before starting the list, read over the [Configuration](https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/CONFIG.md), [FAQ](https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/FAQ.md), and [Gameplay](https://github.com/Oghma-Infinium/Apostasy/blob/main/GAMEPLAY.md) pages!
+>Before starting the list, read over the [Configuration](https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/CONFIG.md), [FAQ](https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/FAQ.md), and [Gameplay](https://github.com/Oghma-Infinium/Apostasy/blob/main/GAMEPLAY.md) pages.
 
 ### Starting the Game
 
  1. Head over to your modlist installation folder (e.g. `C:\Apostasy`), locate an executable named `ModOrganizer.exe`, and launch it. Your first launch of Mod Organizer 2 may take several minutes due to GitHub repository downloads, so please be patient.
- 2. Set up your CPU Affinity by following the instructions below!
+ 2. Set up your CPU Affinity by following the instructions below. Please do not skip this step
     <Details>
     <summary>Setting CPU Affinity</summary>
     
@@ -474,16 +474,16 @@ This will reduce the quality of certain large objects at far away distances, how
   
         ![](https://raw.githubusercontent.com/Oghma-Infinium/Vagabond/main/images/cpu%20affinity%20example.png)  
 
-    2. That's it, it's really that simple. **Please, please, please** do this before launching the game and whenever you update the modlist!
+    2. That's it, it's really that simple. **Please, please, please** do this before launching the game and whenever you update the modlist.
 
     </Details>
 
  3. Launch the "Play" Executable in MO2. The game may take several minutes to load on your first launch. Please be patient and **DO NOT** click the `Unlock` button on the MO2 prompt.
  4. Select the **New Game** button.
- 5. Create your character!
+ 5. Create your lovely character.
  6. **(OPTIONAL)** Refer to the different MCM options listed on the [Configuration](https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/CONFIG.md#in-game-mcm-options) to adjust any MCM settings you'd like.
  7. Pick your class and talk to the little Dragon sitting on a lantern. If no specified start is chosen, then you will have the default start in the Helgen Inn.
- 8. Simply open the door next to him and step into the black void gazing at you
+ 8. Simply open the door next to him and step into the black void gazing at you :)
 
 ## Updating the modlist
 
