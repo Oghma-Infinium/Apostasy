@@ -105,6 +105,8 @@ Apostasy offers some mods to provide Ultrawide and Widescreen Support. Under the
 
 Please note that I (aljo) do not own a widescreen monitor. The ultrawide settings and additional mods are what have been said to work based on user input and may not be perfect.
 
+Ultrawide testing was done by TheRyge (21:9), Mgde12 (21:9), echo (21:9), and Kannon (32:9). If anyone would like to contribute to improvements for Ultrawide support, please reach out.
+
 # Changing FPS Limit
 
 By default, Apostasy is capped to 61 FPS and has several settings that will target 61 FPS. If you wish to increase your FPS Limit then **while out of game** you must make changes to the following `.ini` files in order to not experience increased stuttering while at your new FPS cap. After tweaking these `.ini` files, you can uncap FPS or change the FPS cap in the in-game ENB GUI (`Shift+Enter` to open).

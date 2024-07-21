@@ -16,6 +16,7 @@
 
 # Table of Contents
 
+ - [1.0.12](#1012) Release Date: July 20, 2024
  - [1.0.11](#1011) Release Date: July 19, 2024
  - [1.0.10](#1010) Release Date: July 18, 2024
  - [1.0.9](#109) Release Date: July 17, 2024
@@ -29,6 +30,93 @@
  - [1.0.1](#101) Release Date: July 11, 2024
  - [1.0.0](#100) Release Date: July 11, 2024
  - [Beta Versions](#beta-versions)
+
+## 1.0.12
+
+Key Info
+
+ - Save-Safe.
+ - Overhaul for Timed Block implementation.
+   - Should be significantly better than previous implementation but has a few minor bugs which will hopefully be addressed next version.
+ - Minor balancing.
+ - Crash fix for Forbidden Legend quest.
+
+<Details>
+<summary>Changes</summary>
+
+### Updated
+
+ - [Apostasy - Menu Assets](https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=522837&nmm=1&game_id=1704)
+ - [Daedric Armors and Weapons Retexture SE](https://www.nexusmods.com/skyrimspecialedition/mods/84151)
+ - [Follower Dialogue Expansion - Jenassa](https://www.nexusmods.com/skyrimspecialedition/mods/120255)
+ - [Just Bite - Dynamic Activation Key Patch For Vampire Mods](https://www.nexusmods.com/skyrimspecialedition/mods/122597)
+ - [Embers XD](https://www.nexusmods.com/skyrimspecialedition/mods/37085)
+ - [Dynamic Sprint Stop](https://www.nexusmods.com/skyrimspecialedition/mods/107057)
+ - Valor's DLL
+ - [Snazzy Interiors - JK's Dragonsreach](https://www.nexusmods.com/skyrimspecialedition/mods/110403)
+
+### Added
+
+ - [Snazzy Silver Inkwells - GGs Complex Silverware](https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=523087&nmm=1&game_id=1704)
+ - [Precision Riekling spear](https://www.nexusmods.com/skyrimspecialedition/mods/124750)
+ - [Dynamic Interface Patcher - DIP](https://www.nexusmods.com/skyrimspecialedition/mods/96891)
+ - [RaceMenu - Untarnished UI - DIP Patch](https://www.nexusmods.com/skyrimspecialedition/mods/97347)
+ - [UIExtensions Ultrawide Patch](https://www.nexusmods.com/skyrimspecialedition/mods/114218)
+
+### Removed
+
+ - N/A
+
+</details>
+
+<Details>
+<summary>Patch Notes</summary>
+
+### Balance
+
+ - Weapon tier rebalance.
+   - Broke weapons into 5 tiers (based on Smithing perks) the same way Armor had been done since 1.0.
+   - This is a minor shakeup to balance, the main place this will be noticeable is the change to Orcish and Dwarven tiering because Vanilla made Orcish/Dwarven Weapons and Armors reversed in their progression (Orcish Armor was stronger but Weapons were weaker than Dwarven equivalents).
+ - Tweaked Boss Human Battleaxe and Warhammer animations.
+   - Adjusted WeaponSwing and HitFrame annotations to improve hitbox timings.
+ - Player now deals 20% less Poise damage while dual wielding.
+   - This change was made to somewhat compensate for the speed and strength of dual wield playstyles relative to others.
+ - NPCs now deal 20% less Poison spell damage to the Player.
+   - This change was made to compensate for how strong Poison felt vs the player.
+   - While the numbers were fine on paper, the DoT nature of poison made it feel incredibly unfun to play against and due to the stacking nature of most DoTs, Poison enemies felt overly oppressive.
+ - Increased drop rate of Thief Stone boons.
+ - Decreased value of Thief Stone boons.
+
+### Bug Fixes
+
+ - Fixed missing charge on Viper's Fang (Nazir's Scimitar).
+ - Adjusted Feris' combat style so she would actually dual wield (which seems to be intended by the author due to her having two daggers).
+ - Fixed error in Black Market's (Speech) tooltip that suggested that stolen goods could only be traded with merchants who you had already invested in.
+ - Fixed issue where Streak (Alteration) was unintentionally scaling with certain Shock-based Destruction perks.
+ - Adjusted floating clutter around Dawnstar Docks.
+ - Adjusted floating clutter and lanterns on the Dainty Sload.
+ - Adjusted Pine Tree in Haarfingar that had an extended base and was clipping.
+   - `06352F`
+ - Fixed a landscape seam near Dragon Bridge / Shrine of Kynareth.
+   - `-25 22` `-24 22`
+ - Hopefully fixed a texture corruption by Wabbajack for some grass.
+   - This issue caused grass to appear as though it was floating.
+   - This change may have a **very minor** affect on performance in some areas if you were previously VRAM limited.
+ - Fixed a crash that made Gauldur Amulet quest unfinishable.
+ - Fixed bad occlusion in Dragonsreach Jarl's Quarters.
+ - Temporary fix for Rugs being incorrectly sized.
+
+### Misc. Changes
+
+ - Rebuilt **3** BSA(s).
+ - Removed some unused files that were still sticking around from earlier versions of beta testing and some files that were not important for end-user.
+ - Cleaned up backend of Apostasy's main "controller" plugin.
+ - Resolved a permission issue with some UI patches.
+ - Overhauled the Timed Block Implementation.
+ - Simplified Ultrawide Support Addons into "21 9 UI Support" and "32 9 UI Support" to reduce the number of mods that needed to be enabled/disabled.
+ - Added preliminary 32:9 support. Thanks to @kannon555 for testing and doing 90% of the work.
+
+</details>
 
 ## 1.0.11
 
