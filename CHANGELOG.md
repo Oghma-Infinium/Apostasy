@@ -107,6 +107,7 @@ Key Info
  - New Indigo and Gore dialogue interactions!
  - Renamed Goam's Earrings Style Motif to "Earrings" as it now offers more styles.
  - Changed Handwritten font.
+ - Changed OAR priority so spellsword moveset draw didn't override draw animations if you change IED node for swords.
 
 </details>
 
