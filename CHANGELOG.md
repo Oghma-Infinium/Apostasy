@@ -16,6 +16,7 @@
 
 # Table of Contents
 
+ - [1.0.14](#1014) Release Date: July 23, 2024
  - [1.0.13](#1013) Release Date: July 23, 2024
  - [1.0.12](#1012) Release Date: July 20, 2024
  - [1.0.11](#1011) Release Date: July 19, 2024
@@ -31,6 +32,49 @@
  - [1.0.1](#101) Release Date: July 11, 2024
  - [1.0.0](#100) Release Date: July 11, 2024
  - [Beta Versions](#beta-versions)
+
+## 1.0.14
+
+Key Info
+
+ - Save-Safe.
+ - I fucking love compiling three times in a day.
+ - Literally just fixing my scuffed font config file and updating two mods that I had downloaded right after last compile.
+
+<Details>
+<summary>Changes</summary>
+
+### Updated
+
+ - [No Grass In Objects](https://www.nexusmods.com/skyrimspecialedition/mods/42161)
+ - [Lightning VFX Edit](https://www.nexusmods.com/skyrimspecialedition/mods/124520)
+
+### Added
+
+ - N/A
+
+### Removed
+
+ - N/A
+
+</details>
+
+<Details>
+<summary>Patch Notes</summary>
+
+### Balance
+
+ - N/A
+
+### Bug Fixes
+
+ - Fixed Font Config File.
+
+### Misc. Changes
+
+ - N/A
+
+</details>
 
 ## 1.0.13
 
