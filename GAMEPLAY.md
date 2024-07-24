@@ -216,7 +216,7 @@ Harsher Health Regeneration is done to make Health Regeneration a more valuable 
 <Details>
 <summary>Carry Weight and Encumbrance</summary>
 
-On Novice and Apprentice difficulty, your character's natural Carry Weight is increased by 200, making your base Carry Weight 500.
+On Novice difficulty, your character's natural Carry Weight is increased by 200, making your base Carry Weight 500.
 
 On Expert difficulty and higher, the new Carry Weight and Encumbrance mechanics are introduced. These mechanics reduce your character's natural Carry Weight by 100, making your base Carry Weight 200. Additionally, when over-encumbered, you take 4 Stamina damage per second.
 
@@ -383,7 +383,8 @@ Armors and weapons crafted from Motifs may or may not require the equivalent Smi
    - : Purchasable from Blacksmiths with level 80+ Smithing skill.
  - **Clothes and Jewelry**
    - [Glasses](https://www.nexusmods.com/skyrimspecialedition/mods/115653): Purchasable from Jewelers and Radiant Raiments. (**FEMALE ONLY**).
-   - [Goam Earrings](https://www.nexusmods.com/skyrimspecialedition/mods/112173): Purchasable from Jewelers and Radiant Raiments. (**FEMALE ONLY, GOAMS ELVEN EARS**).
+   - **Earrings**: Purchasable from Jewelers and Radiant Raiments. (Covers [Goam's Earrings](https://www.nexusmods.com/skyrimspecialedition/mods/112173) and [Pierced Ears - Earrings SE](https://www.nexusmods.com/skyrimspecialedition/mods/13571).)
+     - WARNING: Earrings and Ear meshes are complicated and they may not align perfectly. Please keep in mind that the meshes are designed for specific ear shapes and I will not try to make it so they accomodate more shapes.
    - [Magecore](https://www.nexusmods.com/skyrimspecialedition/mods/113540): Purchasable from Radiant Raiments. (**FEMALE ONLY**, Armored variants can be crafted with Ebony Smithing + Manual). More NSFW/Lewd variants can be toggled in the Apostasy MCM.
    - [Wild Witch](https://www.nexusmods.com/skyrimspecialedition/mods/81085): Purchasable from Radiant Raiments.
  - **Armor and Weapons**

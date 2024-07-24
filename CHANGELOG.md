@@ -16,6 +16,7 @@
 
 # Table of Contents
 
+ - [1.0.13](#1013) Release Date: July 23, 2024
  - [1.0.12](#1012) Release Date: July 20, 2024
  - [1.0.11](#1011) Release Date: July 19, 2024
  - [1.0.10](#1010) Release Date: July 18, 2024
@@ -30,6 +31,84 @@
  - [1.0.1](#101) Release Date: July 11, 2024
  - [1.0.0](#100) Release Date: July 11, 2024
  - [Beta Versions](#beta-versions)
+
+## 1.0.13
+
+Key Info
+
+ - Save-Safe.
+ - I hope the deteriorating state of my changelog is a good indication.
+ - I am freeing myself from the tyranny of version 1.0. This should be the last save-safe update, barring some insane bug I feel compelled to fix.
+   - I have no release date for 1.1, but hopefully I can get it out before I have to move at the end of the month (honestly unlikely).
+
+<Details>
+<summary>Changes</summary>
+
+### Updated
+
+ - [Feris - Custom Voiced Female Follower](https://www.nexusmods.com/skyrimspecialedition/mods/90032)
+ - [Snazzy Interiors - Markarth Endon's House](https://www.nexusmods.com/skyrimspecialedition/mods/107634)
+ - [Fixed Meshes for Rugnarok](https://www.nexusmods.com/skyrimspecialedition/mods/123987)
+ - [WIDeadBodyCleanupScript Crash Fix](https://www.nexusmods.com/skyrimspecialedition/mods/62413)
+ - [Dynamic Sprint Stop](https://www.nexusmods.com/skyrimspecialedition/mods/107057)
+ - [Crash Logger SSE AE VR - PDB support](https://www.nexusmods.com/skyrimspecialedition/mods/59818)
+ - [Immersive Equipment Displays - Extra Skeleton Nodes](https://www.nexusmods.com/skyrimspecialedition/mods/92244)
+ - [Experience  ](https://www.nexusmods.com/skyrimspecialedition/mods/17751)
+ - [Civil War Lines Expansion](https://www.nexusmods.com/skyrimspecialedition/mods/77566)
+ - [Nightgate Inn Revived - Patches and Addons](https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=524195&nmm=1&game_id=1704)
+ - [RedBag's Falkreath - Patch Collection](https://www.nexusmods.com/skyrimspecialedition/mods/84122)
+
+### Added
+
+ - [precision mudcrab(Random)](https://www.nexusmods.com/skyrimspecialedition/mods/124819)
+ - [Simple Block Sparks- Script Free](https://www.nexusmods.com/skyrimspecialedition/mods/58927)
+ - [Lunar guard armor HDT SMP beast tail Patch](https://www.nexusmods.com/skyrimspecialedition/mods/100152)
+ - [Pierced Ears - Earrings SE](https://www.nexusmods.com/skyrimspecialedition/mods/13571)
+
+### Removed
+
+ - N/A
+
+</details>
+
+<Details>
+<summary>Patch Notes</summary>
+
+### Balance
+
+ - Novice difficulty now has a bonus detection modifier.
+   - Translated: Sneaking is easier on Novice.
+ - Threw new numbers at the wall in an attempt to fix sneak detection being overtuned in previous updates.
+   - Note: this is likely the last time I will attempt to balance Sneak. I hate balancing Sneak.
+ - Archers should now pull out daggers at close range instead of continuing to snipe you from point blank.
+ - NPCs should block now.
+   - This might introduce vanilla perma block issues again, I will attempt to reimplement my perma block fix at a later date.
+
+### Bug Fixes
+
+ - Removed cooking pot from Sleeping Giant Inn due to pathfinding issues.
+ - Gave NPCs the Dual Wield stagger nerf that the player was given last update, oops.
+ - Fixed (most) animation issues with Hawk Stance + Shield in first person.
+ - Fixed (some) animation issues with Katana in first person.
+   - idk man I'm tired and don't care.
+ - Elder Scroll scene at Throat of the World should no longer softlock.
+   - From my testing the Apostasy MCM killmove settings should still work fine, but please let me know if I managed to break them with this fix.
+ - Fixed a few minor seams outside of Whiterun.
+   - I was half asleep when doing this so I don't remember which cells it was.
+ - Fixed floating Lux clutter at some former Daedric Shrine locations.
+ - Removed Winterhold Hermaeus Mora Shrine Map Marker as the Shrine was moved.
+ - Lunar Guard Armor will now appropriately react to tail physics.
+ - Fixed accessibility concerns over the trap door for the Mercenaries ship in Remiel's quest mod.
+ - "Fixed" Ancient Nord Shield texture set.
+
+### Misc. Changes
+
+ - Rebuilt **idk i wasn't counting** BSA(s).
+ - New Indigo and Gore dialogue interactions!
+ - Renamed Goam's Earrings Style Motif to "Earrings" as it now offers more styles.
+ - Changed Handwritten font.
+
+</details>
 
 ## 1.0.12
 

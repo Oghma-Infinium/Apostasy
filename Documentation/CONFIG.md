@@ -42,8 +42,14 @@ The following sections detail the **supported** modifications to the list. Any o
 
 This section is going to be short and basic and only cover keybinds that must be changed ***outside of the game***. Please refer the [this](https://ck.uesp.net/wiki/Input_Script) page for the DXScanCodes used by most mods.
 
- 1. **Dual Wield Blocking**: Open the mod `Apostasy - Dual Block Parry Keybinds`. In the mod open the `DualWieldParryingSKSE.ini` and the `BlockCancel.json` files. **MAKE SURE THE KEYBIND YOU CHANGE TO IN THE `DualWieldParryingSKSE.ini` MATCHES THE KEYBIND FOR `"BlockCancel2"` IN THE `BlockCancel.json`**.
- 2. **Dodging**: Open the mod `Apostasy - Dodge Keybind` and locate the `TK Dodge RE.ini` file.
+ - **Dual Wield Blocking**: 
+   - Open the mod `Apostasy - Dual Block Parry Keybinds`. 
+   - In the mod open the `DualWieldParryingSKSE.ini` and the `BlockCancel.json` files and change the keybind(s). 
+     - **MAKE SURE THE KEYBIND YOU CHANGE TO IN THE `DualWieldParryingSKSE.ini` MATCHES THE KEYBIND FOR `"BlockCancel2"` IN THE `BlockCancel.json`**.
+   - **In game**, edit the dual block keybind in the `Valor Perks` MCM, or dual block will not be able to trigger timed blocks.
+ - **Dodging**: 
+   - Open the mod `Apostasy - Dodge Keybind`.
+   - Locate the `TK Dodge RE.ini` file and change the keybind(s).
 
 ### Controller and Gamepad Support
 
@@ -208,7 +214,8 @@ Changing MCM Settings in any MCM that is under the `> Apostasy MCM Hider <` tab 
      - Restore Stamina = `Shift+F`  
      - Restore Magicka = `Ctrl+F`  
  15.  `True Directional Movement`: Change the target lock hotkey (Default: `M3`).
- 16.  `Widget Mod`: Enable/Disable or reposition the miscellaneous widgets (the ones **below** the Health, Magicka, and Stamina bars).  
+ 16.  `Valor Perks`: Change Dual Wield Block key here if you changed it previously.
+ 17.  `Widget Mod`: Enable/Disable or reposition the miscellaneous widgets (the ones **below** the Health, Magicka, and Stamina bars).  
      - Please note that only the widgets used are appropriately skinned for the UI, so enabling additional widgets may be undesirable.
   
 <Details>
