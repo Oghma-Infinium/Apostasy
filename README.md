@@ -81,10 +81,10 @@ The listed specs are the best idea of a baseline that I can provide at the curre
 
 ![](https://raw.githubusercontent.com/Oghma-Infinium/Apostasy/main/images/perfTarget.PNG)
 
-Downloads Size: ~181 GB  
-Install Size: ~242 GB  
+Downloads Size: ~160 GB  
+Install Size: ~190 GB  
 Temporary Files: ~40 GB (on OS drive)  
-**TOTAL:** ~423 GB  
+**TOTAL:** ~350 GB  
 
 > The **Install Size** listed on the Wabbajack Gallery is **wrong** and does not properly account of the size saved by compressing files during the installation.
 
