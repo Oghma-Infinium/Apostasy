@@ -14,6 +14,44 @@
 
 ---
 
+# Contents
+
+- [Contents](#contents)
+  - [FAQ](#faq)
+    - [Q: Do I have to read this?](#q-do-i-have-to-read-this)
+    - [Q: Can I uncap the FPS?](#q-can-i-uncap-the-fps)
+    - [Q: What mod is it that makes favorited items/potions/quest items show on my character?](#q-what-mod-is-it-that-makes-favorited-itemspotionsquest-items-show-on-my-character)
+    - [Q: How do I reposition my weapons? / Can I have swords on my back?](#q-how-do-i-reposition-my-weapons--can-i-have-swords-on-my-back)
+    - [Q: How do I start the main questline?](#q-how-do-i-start-the-main-questline)
+    - [Q: I can't find Altano in the Windpeak Inn. / How do I start VIGILANT?](#q-i-cant-find-altano-in-the-windpeak-inn--how-do-i-start-vigilant)
+    - [Q: How do I start UNSLAAD?](#q-how-do-i-start-unslaad)
+    - [Q: What is the Pilgrim skill? / How do I access the Pilgrim skill tree?](#q-what-is-the-pilgrim-skill--how-do-i-access-the-pilgrim-skill-tree)
+    - [Q: How do I set up the quick wheel?](#q-how-do-i-set-up-the-quick-wheel)
+    - [Q: I can't add a weapon/armor to the wheel.](#q-i-cant-add-a-weaponarmor-to-the-wheel)
+    - [Q: Can I still use the vanilla favorites menu? I do not like the wheel.](#q-can-i-still-use-the-vanilla-favorites-menu-i-do-not-like-the-wheel)
+    - [Q: Can I add/remove \[insert mod\] to the list?](#q-can-i-addremove-insert-mod-to-the-list)
+    - [Q: Will you add \[insert mod\] to the list?](#q-will-you-add-insert-mod-to-the-list)
+    - [Q: Will you add OStim/SexLab to the list?](#q-will-you-add-ostimsexlab-to-the-list)
+  - [Known Issues](#known-issues)
+    - [HUD / UI Disappears during Helgen Intro!](#hud--ui-disappears-during-helgen-intro)
+    - [When leveling up skills, new perk nodes do not get highlighted until exiting and re-entering the perk menu!](#when-leveling-up-skills-new-perk-nodes-do-not-get-highlighted-until-exiting-and-re-entering-the-perk-menu)
+    - [Dark Brotherhood abducted me when trying to start the Helgen Intro!](#dark-brotherhood-abducted-me-when-trying-to-start-the-helgen-intro)
+    - [Wicked Game Quest (Val Serano) bugged out because of the Dark Brotherhood trying to abduct me!](#wicked-game-quest-val-serano-bugged-out-because-of-the-dark-brotherhood-trying-to-abduct-me)
+    - [Carriage Horse in Solitude is partially in the wall!](#carriage-horse-in-solitude-is-partially-in-the-wall)
+    - [Not receiving Courier Letter from Dark Brotherhood!](#not-receiving-courier-letter-from-dark-brotherhood)
+    - [Being randomly attacked or arrested by NPCs!](#being-randomly-attacked-or-arrested-by-npcs)
+    - [Body type won't change when trying to apply a new body through OBody.](#body-type-wont-change-when-trying-to-apply-a-new-body-through-obody)
+    - [\[Insert Male NPC\] looks like he has tits / has a really big chest and arms!](#insert-male-npc-looks-like-he-has-tits--has-a-really-big-chest-and-arms)
+    - [Can't attack with Left Hand in First Person (Dual Wield or Unarmed)!](#cant-attack-with-left-hand-in-first-person-dual-wield-or-unarmed)
+    - [Widgets overlap TrueHUD Attributes Widget!](#widgets-overlap-truehud-attributes-widget)
+    - [Stuck in slow motion!](#stuck-in-slow-motion)
+  - [Known Crashes](#known-crashes)
+    - [Wheeler.dll Crash!](#wheelerdll-crash)
+    - [Crashing when talking to Azura/Peryite/Augur of Dunlain/\[Insert Talking Head Activator\]!](#crashing-when-talking-to-azuraperyiteaugur-of-dunlaininsert-talking-head-activator)
+    - [Consistently crashing in the same cell!](#consistently-crashing-in-the-same-cell)
+    - [Crashing after loading a save! / Crashing after dying!](#crashing-after-loading-a-save--crashing-after-dying)
+      - [Experimental fix for crash on load (after dying, after fast travel, from a carriage ride, or just reloading a save game)](#experimental-fix-for-crash-on-load-after-dying-after-fast-travel-from-a-carriage-ride-or-just-reloading-a-save-game)
+
 ## FAQ
 
 ### Q: Do I have to read this?
@@ -80,10 +118,6 @@ Solution(s)
 Solution(s)
  1. This bug isn't worthy of my time and I have already tried to fix it. For some reason that is beyond my current comprehension, he does not move after being moved in the CK. I will not waste more brain power and time trying to figure out the cause of this very very minor issue.
 
-### Naked when in Vampire Lord form!
-Solution(s)
- 1. Skyrim Outfit System overrides the Armor that is "worn" in Vampire Lord form, but since only the Non-playable armor worn in Vampire Lord form works with Vampire Lord race, the armor that Outfit System visually equips is invisible. Minor issue that is not fixable unless the author of the mod adds some type of smart toggle if you are detected in a VL/WW transformation.
-
 ### Not receiving Courier Letter from Dark Brotherhood!
 Solution(s)
  1. This appears to happen sometimes but from my testing as long as you sleep in a bed they should still abduct you as intended. Not sure what is causing this as of yet.
@@ -91,10 +125,6 @@ Solution(s)
 ### Being randomly attacked or arrested by NPCs!
 Solution(s)
  1. open the console, select one of the NPCs, and type `paycrimegold 0 0`
-
-### Having issues controlling NPCs in Sirenroot!
-Solution(s)
- 1. The issue is caused by a bad script interaction between Immersive Camera and Sirenroot. You can disable Immersive Camera (and its script patches) in the left hand pane of MO2 for the duration of Sirenroot.
 
 ### Body type won't change when trying to apply a new body through OBody.
 Solution(s)
@@ -137,14 +167,14 @@ Solution(s)
 **Cause** Skyrim has a multitude of issues when it comes to loading back game data without restarting the game. There are a few culprits that could be the main driver of these crashes, but I have yet to collect enough information or consistently reproducible crashes to report it to the relevant authors.  
 **Fix**: Please post logs in in the [discord](https://discord.gg/4WwqfK5yHg) channel `#apostasy-support` if you suffer from these crashes, but realize that I have very little ability to fix them at this current time.
 
-**Experimental fix for crash on load (after dying, after fast travel, from a carriage ride, or just reloading a save game)**
+#### Experimental fix for crash on load (after dying, after fast travel, from a carriage ride, or just reloading a save game)
 <Details>
 
   
-  1.  Navigate to `[Your Apostasy Install Location}\profiles\Apostasy\SkyrimPrefs.ini`  
+  1.  Navigate to `[Your Apostasy Install Location]\profiles\Apostasy\SkyrimPrefs.ini`  
   2.  Change `uLargeRefLODGridSize =9`  
   3.  to `uLargeRefLODGridSize =5`  
-  4.  save changes (CTRL+ S)  
+  4.  save changes (CTRL+S)  
 
 This will reduce quality of some large objects at far away distance. **The difference is very minor you're unlikely to even notice it.** Might improve performance as well.
 </Details>
