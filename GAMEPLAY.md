@@ -455,7 +455,7 @@ This section will try to list the new content focused mods added to the list, an
 
 ### Followers
 
-![](https://staticdelivery.nexusmods.com/mods/1704/images/118893/118893-1720499134-1562168666.png)
+![](https://staticdelivery.nexusmods.com/mods/1704/images/118893/118893-1724960630-647828967.png)
 
  - [Feris - Custom Voiced Female Follower](https://www.nexusmods.com/skyrimspecialedition/mods/90032)
  - [Follower Dialogue Expansion - Aela the Huntress](https://www.nexusmods.com/skyrimspecialedition/mods/114801)
