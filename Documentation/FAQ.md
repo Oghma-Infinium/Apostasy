@@ -8,6 +8,7 @@
   <a href="https://loadorderlibrary.com/lists/Apostasy">Modlist</a> |
   FAQ |
   <a href="https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/CONFIG.md">Configuration</a> |
+  <a href="https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/ADDONS.md">ADDONS</a> |
   <a href="https://ko-fi.com/aljoxo">Ko-fi</a> | 
   <a href="https://www.patreon.com/aljoxo">Patreon</a> ]
 </p>
@@ -48,7 +49,6 @@
   - [Known Crashes](#known-crashes)
     - [Wheeler.dll Crash!](#wheelerdll-crash)
     - [Crashing when talking to Azura/Peryite/Augur of Dunlain/\[Insert Talking Head Activator\]!](#crashing-when-talking-to-azuraperyiteaugur-of-dunlaininsert-talking-head-activator)
-    - [Consistently crashing in the same cell!](#consistently-crashing-in-the-same-cell)
     - [Crashing after loading a save! / Crashing after dying!](#crashing-after-loading-a-save--crashing-after-dying)
       - [Experimental fix for crash on load (after dying, after fast travel, from a carriage ride, or just reloading a save game)](#experimental-fix-for-crash-on-load-after-dying-after-fast-travel-from-a-carriage-ride-or-just-reloading-a-save-game)
 
@@ -158,10 +158,6 @@ Solution(s)
 ### Crashing when talking to Azura/Peryite/Augur of Dunlain/[Insert Talking Head Activator]!
 **Cause**: Bug with the [Katana follower](https://www.nexusmods.com/skyrimspecialedition/mods/69622) mod if you are on the quest `Chasing the Current` with the quest stage `Talk to Katana another time`.  
 **Fix**: Talk to Katana to progress to the next stage (`Head to the Drunken Huntsman`) in order to fix the crash.
-
-### Consistently crashing in the same cell!
-**Cause**: There are several potential causes of a crash, one of the more common ones being lighting related.  
-**Fix**: Post your crashlogs in the [discord](https://discord.gg/4WwqfK5yHg) channel `#apostasy-support`.
 
 ### Crashing after loading a save! / Crashing after dying!
 **Cause** Skyrim has a multitude of issues when it comes to loading back game data without restarting the game. There are a few culprits that could be the main driver of these crashes, but I have yet to collect enough information or consistently reproducible crashes to report it to the relevant authors.  

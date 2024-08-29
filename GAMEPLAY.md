@@ -8,6 +8,7 @@
   <a href="https://loadorderlibrary.com/lists/Apostasy">Modlist</a> |
   <a href="https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/FAQ.md">FAQ</a> |
   <a href="https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/CONFIG.md">Configuration</a> |
+  <a href="https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/ADDONS.md">ADDONS</a> |
   <a href="https://ko-fi.com/aljoxo">Ko-fi</a> | 
   <a href="https://www.patreon.com/aljoxo">Patreon</a> ]
 </p>
@@ -62,7 +63,7 @@ The following mods are considered the "foundations" of the combat and gameplay f
    - In First person, Dodges are always roll dodges.
  - The list has custom Timed Block mechanic. Enter block just before enemy hit for increased block efficiency with a chance to stagger the attacker.
    - The Block skill tree has multiple perks to upgrade Timed Block with additional effects.
- - [Maxsu Poise Revise](https://www.nexusmods.com/skyrimspecialedition/mods/117988) and [Modern Stagger Lock](https://github.com/max-su-2019/ModernStaggerLock) implement a Poise system, which has been fine tuned for the list. Poise Health can be seen on the Special Bar of TrueHUD (the yellow bar above Health on player and target widgets). The Poise system is discussed in more depth in the [New Mechanics](#new-mechanics) section.
+ - [Maxsu Poise](https://github.com/max-su-2019/MaxsuPoise/blob/master/docs/en/Mechanics%20Manual.md) and [Modern Stagger Lock](https://github.com/max-su-2019/ModernStaggerLock) implement a Poise system, which has been fine tuned for the list. Poise Health can be seen on the Special Bar of TrueHUD (the yellow bar above Health on player and target widgets). The Poise system is discussed in more depth in the [New Mechanics](#new-mechanics) section.
 
 ## Leveling and Progression
 
@@ -182,14 +183,14 @@ Rather than Skyrim's vanilla difficulty system of only scaling up or down damage
 
 | Difficulty | Damage Done | Damage Taken |
 |     :---:    |     :---:     |     :---:     | 
-| **Novice**    | 1.50x | 1.00x | 
-| **Apprentice** | 1.25x | 1.25x |
-| **Adept** | 1.00x |  1.50x | 
-| **Expert** | 0.80x | 2.00x | 
-| **Master** | 0.70x | 2.50x | 
-| **Legendary** | 2.50x | 4.00x | 
+| **Novice**    | 1.50x | 0.5x | 
+| **Apprentice** | 1.25x | 0.75x | 
+| **Adept** | 1.00x |  1.00x | 
+| **Expert** | 1.00x | 1.50x | 
+| **Master** | 0.75x | 2.00x | 
+| **Legendary** | 0.75x | 2.00x | 
 
-Additionally, Legendary difficulty makes Sneak Attacks 50% less effective and increases the cost of all spells by 15%.
+Additionally, on Legendary difficulty your spells cost 10% more Magicka, you receive 25% more Poise damage, and your Sneak Attacks are 50% less effective.
 
 </Details>
 
@@ -202,12 +203,12 @@ Harsher Health Regeneration is done to make Health Regeneration a more valuable 
 
 | Difficulty | Base Health Regeneration >50% | Base Health Regeneration <50% | Base Health Regeneration <25% |
 |     :---:    |     :---:     |     :---:     |      :---:     | 
-| **Novice**    | 100%* |100%* | 100%* | 
+| **Novice**    | 100%* | 100%* | 100%* | 
 | **Apprentice** | 100%* | 100%* | 100%* |
-| **Adept** | 0% | 100% |  250% | 
+| **Adept** | 0% | 100% |  200% | 
 | **Expert** | 0% | 100% | 200% | 
-| **Master** | 0% | 100% | 150% | 
-| **Legendary** | 0% | 0% | 0% | 
+| **Master** | 0% | 100% | 100% | 
+| **Legendary** | 0% | 100% | 100% | 
 
  **On Novice and Apprentice, this mechanic is disabled.*
 
@@ -216,7 +217,7 @@ Harsher Health Regeneration is done to make Health Regeneration a more valuable 
 <Details>
 <summary>Carry Weight and Encumbrance</summary>
 
-On Novice difficulty, your character's natural Carry Weight is increased by 200, making your base Carry Weight 500.
+On Novice difficulty, your character's natural Carry Weight is increased by 100, making your base Carry Weight 400.
 
 On Expert difficulty and higher, the new Carry Weight and Encumbrance mechanics are introduced. These mechanics reduce your character's natural Carry Weight by 100, making your base Carry Weight 200. Additionally, when over-encumbered, you take 4 Stamina damage per second.
 
@@ -224,7 +225,7 @@ These changes to carry weight seek to make Carry Weight a more interesting stat,
 
 | Difficulty | Base Carry Weight | 
 |     :---:    |     :---:     | 
-| **Novice**    | 500 | 
+| **Novice**    | 400 | 
 | **Apprentice** | 300 | 
 | **Adept** | 300 | 
 | **Expert** | 200 | 
@@ -242,9 +243,7 @@ Apostasy overhauls or adds additional mechanics, reminiscent of modern Action RP
 
 On Apprentice and Novice difficulty, the player can not be inflicted with Heavy Stagger, unless facing a Massive Target.
 
-On Novice difficulty, incoming Poise Damage is halved for the player. This results in the player being very difficult to stagger.
-
-On Legendary difficulty, all targets take 50% more Poise Damage.
+On Novice difficulty, incoming Poise damage is reduced by 20% for the player. This results in the player being much more difficult to stagger.
 
 </Details>
 
@@ -253,7 +252,7 @@ On Legendary difficulty, all targets take 50% more Poise Damage.
 
 Apostasy introduces a unique Attacks of Opportunity system to the game. This system is designed for the list and can not be found anywhere else. Attacks of Opportunity scale with difficulty and provide advantages to tactical positioning and timing in combat. So how does it work?
 
-When you attack an enemy who is power attacking, drawing a bow, casting a spell, staggered, knocked down, or paralyzed, you will deal 50% more damage and poise damage. When you attack an enemy from behind (a backstab), you will deal an additional 50% extra damage on top of any other Attack of Opportunity modifier(s) that may be active.
+When you attack an enemy who is power attacking, drawing a bow, casting a spell, staggered, knocked down, or paralyzed, you will deal 50% more damage and Poise damage. When you attack an enemy from behind (a backstab), you will deal an additional 50% extra damage on top of any other Attack of Opportunity modifier(s) that may be active.
 
 The player is also susceptible to Attacks of Opportunity, however their lethality scales based on difficulty. On Adept difficulty, Attacks of Opportunity deal 25% more damage to the player. On Expert+ difficulties, Attacks of Opportunity deal 50% more damage to the player. On Novice and Apprentice difficulties, the player can not suffer an Attack of Opportunity. The player can not be backstabbed.
 
@@ -272,7 +271,7 @@ Additionally, Massive Targets have a higher likelihood of inflicting Heavy Stagg
 
 ## Quests Changes
 
-Apostasy changes a significant amount of vanilla quests in one way or another in order to offer a more complete roleplaying exprience. The following list is non-exhaustive. Please note that not all MCM Options from Timing is Everything may work as intended in the list.
+Apostasy changes a significant amount of vanilla quests in one way or another in order to offer a more complete roleplaying exprience. The following list is non-exhaustive.
 
 <Details>
 <summary>Vanilla Quests</summary>
@@ -280,7 +279,7 @@ Apostasy changes a significant amount of vanilla quests in one way or another in
  - [Awakening](https://en.uesp.net/wiki/Skyrim:Awakening) Requires level 20, however this can be started at any point by going to [Dayspring Canyon](https://en.uesp.net/wiki/Skyrim:Dayspring_Canyon).
  - [Hearthfire](https://en.uesp.net/wiki/Skyrim:Hearthfire) Letter Requires level 15.
  - [Dragonborn](https://en.uesp.net/wiki/Skyrim:Dragonborn_(quest)) Requires level 30 and completion of [The Horn of Jurgen Windcaller](https://en.uesp.net/wiki/Skyrim:The_Horn_of_Jurgen_Windcaller).
- - [A Chance Arrangement](https://en.uesp.net/wiki/Skyrim:A_Chance_Arrangement) Requires the player to have a Sneak Skill >= 25, have picked >=10 pockets, and stolen >=100 items.
+ - [A Chance Arrangement](https://en.uesp.net/wiki/Skyrim:A_Chance_Arrangement) Requires the player to have a Sneak Skill >=25, have picked >=10 pockets, and stolen >=100 items.
  - [Loud and Clear](https://en.uesp.net/wiki/Skyrim:Loud_and_Clear) Requires the player to complete a minimum of 4 radiant jobs for the Thieves Guild.
  - [Dampened Spirits](https://en.uesp.net/wiki/Skyrim:Dampened_Spirits) Requires the player to complete a minimum of 6 jobs for the Thieves Guild.
 
@@ -292,6 +291,7 @@ Apostasy changes a significant amount of vanilla quests in one way or another in
   - **Level 15+**
     - [Dungeon Delving](https://en.uesp.net/wiki/Skyrim:Dungeon_Delving_(Jarl_-_Hagravens))
     - [Kill the Giant](https://en.uesp.net/wiki/Skyrim:Kill_the_Giant_(Jarl))
+    - [Missing in Action](https://en.uesp.net/wiki/Skyrim:Missing_In_Action)
     - [The Forsworn Conspiracy](https://en.uesp.net/wiki/Skyrim:The_Forsworn_Conspiracy)
   - **Level 20+**
     - [A Night To Remember](https://en.uesp.net/wiki/Skyrim:A_Night_To_Remember)
@@ -417,6 +417,7 @@ This section will try to list the new content focused mods added to the list, an
  - [Tales of Skyrim - Berserkyr](https://www.nexusmods.com/skyrimspecialedition/mods/103559)
  - [Unslaad](https://www.nexusmods.com/skyrimspecialedition/mods/11789)
  - [VIGILANT](https://www.nexusmods.com/skyrimspecialedition/mods/11849)
+ - [Wyrmstooth](https://www.nexusmods.com/skyrimspecialedition/mods/45565)
 
 ### Vanilla Quest Expansions and Edits
 
@@ -456,7 +457,6 @@ This section will try to list the new content focused mods added to the list, an
 
 ![](https://staticdelivery.nexusmods.com/mods/1704/images/118893/118893-1720499134-1562168666.png)
 
- - [Bjorn - Fully Voiced Follower](https://www.nexusmods.com/skyrimspecialedition/mods/91652)
  - [Feris - Custom Voiced Female Follower](https://www.nexusmods.com/skyrimspecialedition/mods/90032)
  - [Follower Dialogue Expansion - Aela the Huntress](https://www.nexusmods.com/skyrimspecialedition/mods/114801)
  - [Follower Dialogue Expansion - Brelyna Maryon](https://www.nexusmods.com/skyrimspecialedition/mods/113359)
@@ -469,11 +469,12 @@ This section will try to list the new content focused mods added to the list, an
  - [INDIGO](https://www.nexusmods.com/skyrimspecialedition/mods/88240)
  - [Kaidan 2](https://www.nexusmods.com/skyrimspecialedition/mods/19075)
  - [Katana - Journey in the Shadows](https://www.nexusmods.com/skyrimspecialedition/mods/69622)
- - [Light and Shade](https://www.nexusmods.com/skyrimspecialedition/mods/77993)
+ - [Khajiit Will Follow](https://www.nexusmods.com/skyrimspecialedition/mods/2227)
  - [Remiel-Custom Voiced Dwemer Specialist and Companion](https://www.nexusmods.com/skyrimspecialedition/mods/51874)
  - [Serana Dialogue Add-On](https://www.nexusmods.com/skyrimspecialedition/mods/32161)
  - [Song of the Green (Auri Follower)](https://www.nexusmods.com/skyrimspecialedition/mods/11278)
  - [Val Serano - Pirate Custom Voiced Follower and Quest Adventure](https://www.nexusmods.com/skyrimspecialedition/mods/103669)
+ - [Xelzaz - Custom Fully Voiced Argonian Telvanni Follower](https://www.nexusmods.com/skyrimspecialedition/mods/62893)
 
 ### Player Homes
 
@@ -481,5 +482,4 @@ This section will try to list the new content focused mods added to the list, an
 
  - [Elianora's Breezehome Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/2829)
  - [Mirele Bismath Reborn](https://www.nexusmods.com/skyrimspecialedition/mods/93817)
- - [Ruska - Riften Player Home](https://www.nexusmods.com/skyrimspecialedition/mods/16177)
  - [Tel Jerdein - Telvanni Sorcerer Tower](https://www.nexusmods.com/skyrimspecialedition/mods/33539)

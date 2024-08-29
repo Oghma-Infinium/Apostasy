@@ -8,13 +8,480 @@
   <a href="https://loadorderlibrary.com/lists/Apostasy">Modlist</a> |
   <a href="https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/FAQ.md">FAQ</a> |
   <a href="https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/CONFIG.md">Configuration</a> |
-  <a href="https://ko-fi.com/aljoxo">Ko-fi</a> |
+  <a href="https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/ADDONS.md">ADDONS</a> |
+  <a href="https://ko-fi.com/aljoxo">Ko-fi</a> | 
   <a href="https://www.patreon.com/aljoxo">Patreon</a> ]
 </p>
 
 ---
 
 # Table of Contents
+
+ - [1.1.0](#110) Release Date: August 29, 2024
+ - [1.0.X Versions](#10x-versions)
+ - [Beta Versions](#beta-versions)
+
+## 1.1.0
+
+Key Info
+
+ - Not Save-Safe. Do not continue existing saves on this update, seriously.
+ - Updated Mod Organizer 2 to version **2.5.2**.
+ - Reworked Talismans.
+ - Tuning pass on several perks.
+ - Buffs to timed blocking and nerfs to dodge.
+ - Fixed Poise reduction benefits and poise damage bonuses not working at all.
+   - The tradeoff is that the TrueHUD Special Bar no longer works for tracking the target's Poise Health, this will be fixed in a future update.
+ - Nerfed follower effectiveness and added additional scaling for followers based on difficulty.
+ - Did a revamp of all difficulty modifiers and mechanics. Read more [here](https://github.com/Oghma-Infinium/apostasy/blob/main/GAMEPLAY.md#difficulty).
+ - Nerfed the Health of many enemy types by ~20%.
+ - NPCs should block more, slowing down the flow of combat.
+   - The tradeoff is that this has reintroduced the possibility to encounter permablocking enemies. The game is terrible sorry.
+
+<Details>
+<summary>Changes</summary>
+
+### Updated
+
+ - [Atlantean Landscape](https://www.nexusmods.com/skyrimspecialedition/mods/89542)
+ - [SB - Better Blending Helgen Mud](https://www.nexusmods.com/skyrimspecialedition/mods/90261)
+ - [Yngvild - A Buried Past - FuzzBeed's Dungeons](https://www.nexusmods.com/skyrimspecialedition/mods/123385)
+ - [Nirn's Chosen - Enhanced Races and Classes](https://www.nexusmods.com/skyrimspecialedition/mods/121427)
+ - [powerofthree's Papyrus Extender](https://www.nexusmods.com/skyrimspecialedition/mods/22854)
+ - [Mod Organizer 2](https://www.nexusmods.com/skyrimspecialedition/mods/6194)
+   - [LOOT Warning Checker MO2 Plugin](https://www.nexusmods.com/site/mods/323)
+ - [Water for ENB](https://www.nexusmods.com/skyrimspecialedition/mods/37061)
+ - [Northern Roads Patch Collection](https://www.nexusmods.com/skyrimspecialedition/mods/77386?)
+ - [Environs - Kolskeggr](https://www.nexusmods.com/skyrimspecialedition/mods/78477)
+ - [Dwemer Automatons - Golden Dwemer Pipeworks Redone Patch](https://www.nexusmods.com/skyrimspecialedition/mods/87692)
+ - [Overlooked Dungeon Objects Retextures](https://www.nexusmods.com/skyrimspecialedition/mods/66418?)
+ - [powerofthree's Tweaks](https://www.nexusmods.com/skyrimspecialedition/mods/51073)
+ - [Base Object Swapper](https://www.nexusmods.com/skyrimspecialedition/mods/60805)
+ - [Photo Mode](https://www.nexusmods.com/skyrimspecialedition/mods/91701)
+ - [Skeuomorphism of Skyrim - Immersive Plaque Reading Interface](https://www.nexusmods.com/skyrimspecialedition/mods/119849)
+ - [Assorted mesh fixes](https://www.nexusmods.com/skyrimspecialedition/mods/32117)
+ - [Gore - A Companion Mod](https://www.nexusmods.com/skyrimspecialedition/mods/85298)
+ - [Follower Dialogue Expansion - Brelyna Maryon](https://www.nexusmods.com/skyrimspecialedition/mods/113359)
+ - [MAGECORE - hdt SMP (CBBE 3BA)](https://www.nexusmods.com/skyrimspecialedition/mods/113540)
+ - [Fixed Meshes for Rugnarok](https://www.nexusmods.com/skyrimspecialedition/mods/123987)
+ - [Dragon War - A Dragon Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/51310)
+ - [DynDOLOD 3 Alpha](https://www.nexusmods.com/skyrimspecialedition/mods/68518)
+ - [DynDOLOD Resources SE 3](https://www.nexusmods.com/skyrimspecialedition/mods/52897)
+ - [DynDOLOD DLL NG](https://www.nexusmods.com/skyrimspecialedition/mods/97720?)
+ - [goblins and riekrs (se-ae) - GDPR](https://www.nexusmods.com/skyrimspecialedition/mods/95254)
+ - [Dynamic Interface Patcher - DIP](https://www.nexusmods.com/skyrimspecialedition/mods/96891)
+ - [Feris - Custom Voiced Female Follower](https://www.nexusmods.com/skyrimspecialedition/mods/90032)
+ - [Orc Settlements Enhanced](https://www.nexusmods.com/skyrimspecialedition/mods/28566)
+ - [City Trees](https://www.nexusmods.com/skyrimspecialedition/mods/35546?)
+ - [Snazzy Diverse Carriages - Base Object Swapper](https://www.nexusmods.com/skyrimspecialedition/mods/112041)
+ - [RedBag's Rorikstead - Some Useful Patches](https://www.nexusmods.com/skyrimspecialedition/mods/64187)
+ - [Natural Waterfalls](https://www.nexusmods.com/skyrimspecialedition/mods/87261)
+ - [Simple Beheading - NG](https://www.nexusmods.com/skyrimspecialedition/mods/117172)
+ - [Ultimate NPC Dodging](https://www.nexusmods.com/skyrimspecialedition/mods/120738)
+ - [Elianora's Breezehome Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/2829)
+ - [Misc Apothecary Patches](https://www.nexusmods.com/skyrimspecialedition/mods/79641)
+ - [Comprehensive Attack Rate Patch - SKSE](https://www.nexusmods.com/skyrimspecialedition/mods/89042)
+ - [Alchemy Station Variants - Base Object Swapper](https://www.nexusmods.com/skyrimspecialedition/mods/92768)
+ - [Nirn's Chosen - Enhanced Races and Classes](https://www.nexusmods.com/skyrimspecialedition/mods/121427)
+ - [Environs - The Greenwood Shack](https://www.nexusmods.com/skyrimspecialedition/mods/73732)
+ - [Environs - The Ruined Tundra Farmhouse](https://www.nexusmods.com/skyrimspecialedition/mods/72981)
+ - [Markarth Fixed AF - Golden Dwemer Pipeworks Redone FULL Patch](https://www.nexusmods.com/skyrimspecialedition/mods/85536)
+ - [Serious Civil War Consequences for Jarl Balgruuf](https://www.nexusmods.com/skyrimspecialedition/mods/81554)
+ - [CBBE 3BA Vanilla Outfits Redone](https://www.nexusmods.com/skyrimspecialedition/mods/109194)
+ - [Lightning VFX Edit](https://www.nexusmods.com/skyrimspecialedition/mods/124520)
+ - [Novice Bolt Spells](https://www.nexusmods.com/skyrimspecialedition/mods/95077)
+ - [Skip Time Wound Scene](https://www.nexusmods.com/skyrimspecialedition/mods/125858?)
+ - [Stances NG](https://www.nexusmods.com/skyrimspecialedition/mods/117986)
+ - [Dynamic Sprint](https://www.nexusmods.com/skyrimspecialedition/mods/95561)
+ - [Player Character Gestures (OAR)](https://www.nexusmods.com/skyrimspecialedition/mods/106955)
+ - [Cathedral - 3D Landscapes and Grass Library](https://www.nexusmods.com/skyrimspecialedition/mods/80687)
+ - [QuickLoot IE - A QuickLoot EE Fork](https://www.nexusmods.com/skyrimspecialedition/mods/120075)
+ - [Untarnished UI - QuickLoot IE Patch](https://www.nexusmods.com/skyrimspecialedition/mods/123475)
+ - [Navigator - Navmesh Fixes](https://www.nexusmods.com/skyrimspecialedition/mods/52641)
+ - [Environs - Hroggar's House](https://www.nexusmods.com/skyrimspecialedition/mods/83457)
+ - [Simplicity of Snow](https://www.nexusmods.com/skyrimspecialedition/mods/56235)
+ - [Follower Dialogue Expansion - Aela the Huntress](https://www.nexusmods.com/skyrimspecialedition/mods/114801)
+ - [Blackreach Eerie Ambience](https://www.nexusmods.com/skyrimspecialedition/mods/112114)
+ - [Overlay Collection](https://www.nexusmods.com/skyrimspecialedition/mods/120581)
+ - [DEEJMASTER's Mini Mods Tweaks and Fixes](https://www.nexusmods.com/skyrimspecialedition/mods/98023)
+ - [Belethor's Sister - Quest](https://www.nexusmods.com/skyrimspecialedition/mods/92381)
+ - [Wash That Blood Off 2](https://www.nexusmods.com/skyrimspecialedition/mods/62358)
+ - [Particle Lights for ENB - Falmer Drips](https://www.nexusmods.com/skyrimspecialedition/mods/64457?)
+ - [Embers XD](https://www.nexusmods.com/skyrimspecialedition/mods/37085)
+ - [After the Civil War - Siege Damage Repairs](https://www.nexusmods.com/skyrimspecialedition/mods/20668)
+ - [Rally's Upper Furniture](https://www.nexusmods.com/skyrimspecialedition/mods/112256)
+ - [Deadly Spell Impacts](https://www.nexusmods.com/skyrimspecialedition/mods/12939)
+ - [Offset Movement Animation - Nemesis - Modders Resource](https://www.nexusmods.com/skyrimspecialedition/mods/110408)
+ - [Sonders Keyword Distribution Resources](https://www.nexusmods.com/skyrimspecialedition/mods/93995)
+ - [Northern Roads - Patches Compendium](https://www.nexusmods.com/skyrimspecialedition/mods/77893)
+ - [Better Third Person Selection - BTPS](https://www.nexusmods.com/skyrimspecialedition/mods/64339)
+ - [Static Mesh Improvement Mod Improvement Mod](https://www.nexusmods.com/skyrimspecialedition/mods/55543)
+ - [JK's Radiant Raiment](https://www.nexusmods.com/skyrimspecialedition/mods/44858)
+ - [JK's Sky Haven Temple](https://www.nexusmods.com/skyrimspecialedition/mods/63039)
+ - [I4 Weapon Icons Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/106432)
+ - [Environs - Abandoned Abodes](https://www.nexusmods.com/skyrimspecialedition/mods/82410)
+ - [Serana Dialogue Add-On](https://www.nexusmods.com/skyrimspecialedition/mods/32161)
+ - [Utenlands Nordic Tents - Replacer and Campfire Addon](https://www.nexusmods.com/skyrimspecialedition/mods/121203?)
+ - [Iron Armors and Weapons Retexture SE](https://www.nexusmods.com/skyrimspecialedition/mods/84978?)
+ - [Snazzy Interiors Patch Collection](https://www.nexusmods.com/skyrimspecialedition/mods/91604)
+ - [Security Overhaul SKSE - Lock Variations](https://www.nexusmods.com/skyrimspecialedition/mods/58224)
+ - [Security Overhaul SKSE - Regional Locks - Golden Dwemer Pipeworks Redone Patch](https://www.nexusmods.com/skyrimspecialedition/mods/113900)
+ - [Security Overhaul SKSE - Lock Variations - Golden Dwemer Pipeworks Redone Patch](https://www.nexusmods.com/skyrimspecialedition/mods/113901)
+ - [Vanilla Hair Remake Unlocked - Extended character options - High Poly Head - Expressive Facegen Morphs - patches](https://www.nexusmods.com/skyrimspecialedition/mods/117861)
+ - [JK's Blue Palace Terrace](https://www.nexusmods.com/skyrimspecialedition/mods/75965)
+ - [Sconces of Solitude - Unique Solitude Braziers - Base Object Swapper](https://www.nexusmods.com/skyrimspecialedition/mods/118210)
+ - [The Heart of Dibella - Quest Expansion](https://www.nexusmods.com/skyrimspecialedition/mods/94863)
+ - [The Only Cure - Quest Expansion](https://www.nexusmods.com/skyrimspecialedition/mods/57683)
+ - [NPCs React To Invisibility](https://www.nexusmods.com/skyrimspecialedition/mods/91480)
+ - [Infiltration - Quest Expansion](https://www.nexusmods.com/skyrimspecialedition/mods/114054)
+ - [Simple Hunting Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/95943)
+ - [Ultimate NPC Dodging](https://www.nexusmods.com/skyrimspecialedition/mods/120738)
+ - [Dragon Hunting - Quest Rewards and Alchemy Ingredients](https://www.nexusmods.com/skyrimspecialedition/mods/99193)
+ - [Sonders Keyword Distribution Resources](https://www.nexusmods.com/skyrimspecialedition/mods/93995)
+ - [Daedric Shrines - All in One](https://www.nexusmods.com/skyrimspecialedition/mods/78772)
+ - [Daedric Shrines - All in One - My Patches by Xtudo](https://www.nexusmods.com/skyrimspecialedition/mods/78809)
+ - [The Taste of Death - Quest Addon](https://www.nexusmods.com/skyrimspecialedition/mods/123173)
+
+### Added
+
+ - [Dismembering Framework](https://www.nexusmods.com/skyrimspecialedition/mods/126203)
+   - [DF - Official Humanoid Asset Pack](https://www.nexusmods.com/skyrimspecialedition/mods/126327)
+   - [Dismembering Framework - Creature Asset Pack - My patches by Xtudo](https://www.nexusmods.com/skyrimspecialedition/mods/126608)
+   - [Dismembering Framework - Humanoid Asset Pack - Golden Dwemer Pipeworks Redone Patch](https://www.nexusmods.com/skyrimspecialedition/mods/126731)
+ - [Wyrmstooth](https://www.nexusmods.com/skyrimspecialedition/mods/45565)
+   - [Daedric Shrines AIO by Xtudo - Wyrmstooth](https://www.nexusmods.com/skyrimspecialedition/mods/78809?tab=files&file_id=506870&nmm=1)
+   - [Metallurgy - Wyrmstooth](https://www.nexusmods.com/skyrimspecialedition/mods/124223?tab=files&file_id=520803&nmm=1)
+   - [Missives - Wyrmstooth Patch](https://www.nexusmods.com/skyrimspecialedition/mods/26788?tab=files&file_id=323061&nmm=1)
+   - [Wyrmstooth - Assorted Patches](https://www.nexusmods.com/skyrimspecialedition/mods/99102)
+   - [Wyrmstooth - Icy Mesh Remaster - Tweak](https://www.nexusmods.com/skyrimspecialedition/mods/102307)
+   - [Wyrmstooth - Skeleton Replacer HD Consistency Patch](https://www.nexusmods.com/skyrimspecialedition/mods/102304)
+   - [Wyrmstooth - Unique Weapons Reforged](https://www.nexusmods.com/skyrimspecialedition/mods/92848)
+   - [Wyrmstooth CBBE 3BA and HIMBO Patch](https://www.nexusmods.com/skyrimspecialedition/mods/105850)
+   - [Wyrmstooth - Settings Loader](https://www.nexusmods.com/skyrimspecialedition/mods/56504)
+   - [Wyrmstooth Paper Map for FWMF by Limon](https://www.nexusmods.com/skyrimspecialedition/mods/124686)
+   - [Wyrmslayer - Wyrmstooth Rebalance](https://www.nexusmods.com/skyrimspecialedition/mods/125115)
+   - [Apothecary - Wyrmstooth Patch](https://www.nexusmods.com/skyrimspecialedition/mods/52130)
+   - [GoT HotD Dragons - Wyrmstooth replacer](https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=355007&nmm=1&game_id=1704)
+   - [Wyrmstooth - Rare Curios Ingredients Patch](https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=246259&nmm=1&game_id=1704)
+   - [NAT-ENB - WYRMSTOOTH patch](https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=395021&nmm=1&game_id=1704)
+ - [GKB Waves For Various Mods](https://www.nexusmods.com/skyrimspecialedition/mods/124742)
+ - [QAPP - Patches FOMOD](https://www.nexusmods.com/skyrimspecialedition/mods/33081?tab=files&file_id=486934&nmm=1)
+ - [Xelzaz - Custom Fully Voiced Argonian Telvanni Follower](https://www.nexusmods.com/skyrimspecialedition/mods/62893)
+   - [Follower Distance Tweaks - Xelzaz](https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=430175&nmm=1&game_id=1704)
+   - [Xelzaz Armor for HIMBO](https://www.nexusmods.com/skyrimspecialedition/mods/124892)
+   - [Xelzaz' Telvanni Spellsword Armor Enhanced](https://www.nexusmods.com/skyrimspecialedition/mods/88253)
+ - [Northern God Armor SE](https://www.nexusmods.com/skyrimspecialedition/mods/63772)
+   - [Northern God Armor - My patches - SE-AE by Xtudo](https://www.nexusmods.com/skyrimspecialedition/mods/64349)
+   - [Northern God armor HIMBO refit](https://www.nexusmods.com/skyrimspecialedition/mods/92585)
+ - [Yaldabaoth Armor](https://www.nexusmods.com/skyrimspecialedition/mods/104528)
+   - [HDT-SMP Yaldabaoth Armor Patch](https://www.nexusmods.com/skyrimspecialedition/mods/104782)
+   - [Yaldabaoth 3BA HDT-SMP](https://www.nexusmods.com/skyrimspecialedition/mods/106548)
+   - [Yaldabaoth Armor HDT-SMP HIMBO Refit](https://www.nexusmods.com/skyrimspecialedition/mods/126192)
+ - [HDT-SMP Fluted Armor HIMBO Refit](https://www.nexusmods.com/skyrimspecialedition/mods/125169)
+ - [Eastern Brassplate Set - HIMBO Refit](https://www.nexusmods.com/skyrimspecialedition/mods/125983)
+ - [Missing in Action Delayed](https://www.nexusmods.com/skyrimspecialedition/mods/67893)
+ - [Terrific Talking Stone - FuzzBeed's Giant Camps](https://www.nexusmods.com/skyrimspecialedition/mods/123943)
+ - [Beautiful Broken Limb Camp - FuzzBeed's Giant Camps](https://www.nexusmods.com/skyrimspecialedition/mods/124570)
+ - [Boreal Blizzard Rest - FuzzBeed's Giant Camps](https://www.nexusmods.com/skyrimspecialedition/mods/125213)
+ - [Stoic Steamcrag Camp - FuzzBeed's Giant Camps](https://www.nexusmods.com/skyrimspecialedition/mods/125314)
+ - [Volatile Valthume - FuzzBeed's Dungeons](https://www.nexusmods.com/skyrimspecialedition/mods/124587)
+ - [Dreadful Dead Men's Respite - FuzzBeed's Dungeons](https://www.nexusmods.com/skyrimspecialedition/mods/124869)
+ - [Hamvir Dustman - FuzzBeed's Dungeons](https://www.nexusmods.com/skyrimspecialedition/mods/125019)
+ - [Stupendous Stonehill Bluff - FuzzBeed's Giant Camps](https://www.nexusmods.com/skyrimspecialedition/mods/125161)
+ - [Ferocious Fallowstone Cave - FuzzBeed's Giant Camps](https://www.nexusmods.com/skyrimspecialedition/mods/127072)
+ - [Remiel-Custom Voiced Follower Enhancement](https://www.nexusmods.com/skyrimspecialedition/mods/125107)
+ - [Val Soprano - A Val Cuirass Replacer](https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=522891&nmm=1&game_id=1704)
+ - [Crystal Mudcrabs](https://www.nexusmods.com/skyrimspecialedition/mods/52981)
+ - [Bring Meeko To Lod](https://www.nexusmods.com/skyrimspecialedition/mods/25246)
+   - [Best Friend patch - RedBag's Falkreath](https://www.nexusmods.com/skyrimspecialedition/mods/111243)
+ - [Gore x Vigilant](https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=524878&nmm=1&game_id=1704)
+   - [Follower Distance Tweaks - Gore - Vigilant](https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=449065&nmm=1&game_id=1704)
+ - [Khajiit Will Follow](https://www.nexusmods.com/skyrimspecialedition/mods/2227)
+   - [KWF - Vigilant](https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=517727&nmm=1&game_id=1704)
+   - [KWF - Immersive Start](https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=417071&nmm=1&game_id=1704)
+   - [Khajiit will follow CC Fishing fix](https://www.nexusmods.com/skyrimspecialedition/mods/125097)
+   - [Khajiit Will Follow - Immersive Cut](https://www.nexusmods.com/skyrimspecialedition/mods/112459)
+   - [Project ja-Kha'jay - Khajiit Will Follow Addon](https://www.nexusmods.com/skyrimspecialedition/mods/90022)
+ - [Swiftly Order Squad - Follower Commands UI](https://www.nexusmods.com/skyrimspecialedition/mods/63259)
+   - [Swiftly Order Squad Icon Replacements](https://www.nexusmods.com/skyrimspecialedition/mods/63763)
+ - [Settling of Squad - Set Follower Home](https://www.nexusmods.com/skyrimspecialedition/mods/125471)
+ - [Show Follower Carry Weight](https://www.nexusmods.com/skyrimspecialedition/mods/99878)
+ - [Scared of Shootings - NPCs react to aiming bows](https://www.nexusmods.com/skyrimspecialedition/mods/105622)
+ - [Vigilant - Exclusive Gildergreen](https://www.nexusmods.com/skyrimspecialedition/mods/124861)
+ - [TK Dodge RE Addon](https://www.nexusmods.com/skyrimspecialedition/mods/125238)
+ - [Ivy - Whiterun Well Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/125955)
+ - [Windhelm Castle Hall Floor Fix](https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=528202&nmm=1&game_id=1704)
+ - [automaton mesh improvements](https://www.nexusmods.com/skyrimspecialedition/mods/105160)
+   - [automaton mesh improvements - GDPR](https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=525196&nmm=1&game_id=1704)
+   - [automaton mesh improvements - Forgemaster - GDPR](https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=528247&nmm=1&game_id=1704)
+ - [Skip Time Wound Scene](https://www.nexusmods.com/skyrimspecialedition/mods/125858)
+ - [Draugrs - SE by Xtudo - Ancient Vampire parts](https://www.nexusmods.com/skyrimspecialedition/mods/123225?tab=files&file_id=527639&nmm=1)
+ - [Draugrs - SE by Xtudo - Mihail Undead Snow Elf](https://www.nexusmods.com/skyrimspecialedition/mods/123225?tab=files&file_id=526606&nmm=1)
+ - [Serval Khajiit RaceMenu Overlays](https://www.nexusmods.com/skyrimspecialedition/mods/125297)
+ - [Weapon Styles for IED (CPR)](https://www.nexusmods.com/skyrimspecialedition/mods/125740)
+ - [Vey Alaxon - HIMBO Refit](https://www.nexusmods.com/skyrimspecialedition/mods/125048?)
+ - [Edmond's Nature Series - BIRDS](https://www.nexusmods.com/skyrimspecialedition/mods/123068)
+   - [Edmond's Nature Series - BIRDS - My optimized textures SE by Xtudo](https://www.nexusmods.com/skyrimspecialedition/mods/123210)
+ - [Simple Degradation - A Durability Mod](https://www.nexusmods.com/skyrimspecialedition/mods/74790)
+ - [Highlander Armor](https://www.patreon.com/file?h=79874952&i=13365775)
+   - [Fuse00 - Highlander Armor 3BA SMP](https://www.nexusmods.com/skyrimspecialedition/mods/119913)
+   - [Fuse00 Armor Highlander - HIMBO](https://www.nexusmods.com/skyrimspecialedition/mods/103689)
+ - [Bardledorf's Nail Overlays](https://www.nexusmods.com/skyrimspecialedition/mods/126211)
+ - [Weapon Switch Animation Fix - Behavior Patch Version](https://www.nexusmods.com/skyrimspecialedition/mods/125415)
+ - [Some JK Mods and Golden Dwemer Pipeworks Redone Patch](https://www.nexusmods.com/skyrimspecialedition/mods/126295)
+ - [Markarth Outskirts - Golden Dwemer Pipeworks Redone Patch](https://www.nexusmods.com/skyrimspecialedition/mods/126324)
+ - [Diverse Cairn Banners - Base Object Swapper](https://www.nexusmods.com/skyrimspecialedition/mods/126513)
+ - [Frigid Frostmere Crypt - FuzzBeed's Dungeons](https://www.nexusmods.com/skyrimspecialedition/mods/126429)
+ - [Artificer - Xavbio Yngol's Armor - CBBE 3BA](https://www.nexusmods.com/skyrimspecialedition/mods/126639)
+ - [Producers of Skyrim - Farmers Miners Fishermen Are Vendors](https://www.nexusmods.com/skyrimspecialedition/mods/61123)
+ - [Riding Animation Overhaul - RAO (OAR - DAR)](https://www.nexusmods.com/skyrimspecialedition/mods/102881)
+ - [Redbelly Mine Fix (For Real This Time)](https://www.nexusmods.com/skyrimspecialedition/mods/106323)
+ - [Skyfall's Fortified Morthal](https://www.nexusmods.com/skyrimspecialedition/mods/126871)
+   - [Fortified Morthal - Patch Collection](https://www.nexusmods.com/skyrimspecialedition/mods/126697)
+   - [Fortified Morthal - Missives Patch](https://www.nexusmods.com/skyrimspecialedition/mods/127076)
+ - [Apostate Feris Replacer](https://www.nexusmods.com/skyrimspecialedition/mods/127064)
+ - [No Crime Teleport - Voice Consistency Fix](https://www.nexusmods.com/skyrimspecialedition/mods/70336)
+ - [Snazzy Interiors - Morthal Falion's House](https://www.nexusmods.com/skyrimspecialedition/mods/106938)
+ - [Watchman's Whiterun Hold - Secondary Locations](https://www.nexusmods.com/skyrimspecialedition/mods/125444)
+ - [Security Overhaul SKSE - Extra Locks - 11 New Locks](https://www.nexusmods.com/skyrimspecialedition/mods/126119)
+ - [Snazzy Interiors - Karthwasten Hall](https://www.nexusmods.com/skyrimspecialedition/mods/126770)
+ - [Dawnguard Guard VA Fix](https://www.nexusmods.com/skyrimspecialedition/mods/127360)
+ - [Sanguis - Dialogue History Patch](https://www.nexusmods.com/skyrimspecialedition/mods/127416)
+ - [Katariah Ship Stairs Fix](https://www.nexusmods.com/skyrimspecialedition/mods/127434)
+ - [No Console Spam](https://www.nexusmods.com/skyrimspecialedition/mods/119246)
+ - [Simple Werewolf Favourite Howls Menu](https://www.nexusmods.com/skyrimspecialedition/mods/35736)
+ - [The Red-Eyed Warrior - A Kaidan NPC Replacer](https://www.nexusmods.com/skyrimspecialedition/mods/125951)
+ - [Relentless](https://www.nexusmods.com/skyrimspecialedition/mods/114022)
+ - [Subjective AI Overhaul Tweaks](https://www.nexusmods.com/skyrimspecialedition/mods/118220)
+ - [DynDOLOD - Settings Loader](https://www.nexusmods.com/skyrimspecialedition/mods/95193)
+
+### Removed
+
+ - [Light and Shade SE](https://www.nexusmods.com/skyrimspecialedition/mods/77993)
+   - Eris has a unique character design and some interesting dialogue, but she felt out of place compared to some other followers.
+ - [Eris - Armor Rebalance](https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=404973&nmm=1&game_id=1704)
+   - Unneeded.
+ - [Eris - Perk Tweaks](https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=405229&nmm=1&game_id=1704)
+   - Unneeded.
+ - [Blood on the Ice Redux SE](https://www.nexusmods.com/skyrimspecialedition/mods/6126)
+   - Buggy.
+ - [Blood on the Ice Redux - Re-Voiced](https://www.nexusmods.com/skyrimspecialedition/mods/87340) + [Blood on the Ice Redux - Voiced ESP-FE](https://www.nexusmods.com/skyrimspecialedition/mods/54417)
+   - Unneeded.
+ - [Ruska - Riften Player Home](https://www.nexusmods.com/skyrimspecialedition/mods/16177) + Associated patches
+   - Many people reported shadowscene crashes with this player home.
+ - [Iconic's Falmer Rosetta Stone](https://www.nexusmods.com/skyrimspecialedition/mods/75782)
+   - Better option available.
+ - [Rally's Jurgen Windcaller Tomb](https://www.nexusmods.com/skyrimspecialedition/mods/28800)
+   - Better option available.
+ - [Dawnguard - Tweaks and Enhancements](https://www.nexusmods.com/skyrimspecialedition/mods/53364)
+   - Buggy for some people and complained about constantly.
+ - [Vampire Feeding Tweaks](https://www.nexusmods.com/skyrimspecialedition/mods/47225)
+   - I don't think this mod really offered any features that were not already being covered in [Sacrilege](https://www.nexusmods.com/skyrimspecialedition/mods/42408).
+ - [Bjorn - Custom Follower and Quests](https://www.nexusmods.com/skyrimspecialedition/mods/91652) + [Bjorn - A visual replacer](https://www.nexusmods.com/skyrimspecialedition/mods/97130) + [Follower Distance Tweaks - Bjorn](https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=487163&nmm=1&game_id=1704) + [Strongholds - Narzulbur - Bjorn Patch](https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=472535&nmm=1&game_id=1704) + Associated patches
+   - Decided the AI voicing bothered me and he was not used much based on user feedback.
+ - [Simple Beheading - NG](https://www.nexusmods.com/skyrimspecialedition/mods/117172)
+   - Redundant with [Dismembering Framework](https://www.nexusmods.com/skyrimspecialedition/mods/126203).
+ - [RedBag's Morthal](https://www.nexusmods.com/skyrimspecialedition/mods/34530) + [RedBag's Morthal - Some Useful Patches](https://www.nexusmods.com/skyrimspecialedition/mods/73333) + [Redbag's Morthal Fixes](https://www.nexusmods.com/skyrimspecialedition/mods/56189) + [Redbag's Morthal - Additions and Fixes by Gardion](https://www.nexusmods.com/skyrimspecialedition/mods/116577) + [Redbag's Morthal Fixes - Patch Compilation](https://www.nexusmods.com/skyrimspecialedition/mods/71725) + Custom Patches
+   - Decided to switch up Morthal to something less drastic.
+ - [QuickLoot EE - Settings Loader](https://www.nexusmods.com/skyrimspecialedition/mods/70672)
+   - Redundant.
+ - [Hayd's High-Poly Feris](https://www.nexusmods.com/skyrimspecialedition/mods/108187)
+   - Changed replacers.
+ - [Favor Quests Separated](https://www.nexusmods.com/skyrimspecialedition/mods/73903) + Custom Patches
+   - Attempt to fix a bug.
+ - [KR2's Kaidan NPC Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/103472)
+   - Changed replacer for Kaidan NPCs (not including Kaidan himself).
+
+</details>
+
+<Details>
+<summary>Patch Notes</summary>
+
+### Balance
+
+ - Silver Armor is now appropriately tiered.
+ - Can no longer loot weapons from Boethiah's Chosen.
+   - You were not intended to loot these and the questline already provides ample rewards so I think the additional loot is wholly unnecessary.
+ - Increased base cost of Dodge from 30 to 40.
+   - Dodging was much stronger than basically any alternative and this nerf was frankly necessary to restore some balance.
+ - Dodging now costs 50% more Stamina while Staggered.
+ - Reworked Acrobat (Light Armor).
+   - **NEW**: While wearing a Light Armor chest piece, Dodging costs 25% less Stamina.
+   - **OLD**: While wearing a Light Armor chest piece, initiating a dodge before being struck by an attack briefly slows time by 20% and restores 20 Stamina.
+ - Tweaked Edgerunner (Light Armor).
+   - **NEW**: While wearing a Light Armor chest piece, successful dodges briefly slow time.
+   - **OLD**: While wearing a Light Armor chest piece, successful dodges slow time by 50% for 5 seconds.
+ - Adjusted speed of Warhammer Wolf Stance.
+ - Spears should now be more common and less of a pain to find.
+ - Reduced the number of lootable plants added to major cities like Whiterun.
+   - This is both a balance change and an aesthetic change.
+ - Changes to the following combat styles:
+   - `csCWSoldierMelee`
+   - `csCWSoldierMissile`
+   - `csDelphine`
+   - `csDraugr02Boss`
+   - `csDraugrMagicAllowDual`
+   - `csDraugrMeleeLvl...`
+   - `csDraugrMissile`
+   - `csDraugrTank`
+   - `csFalmerMelee1H`
+   - `csFalmerMeleeBoss`
+   - `csForswornBossMagic`
+   - `csForswornMissile`
+   - `csHumanBerserkerLvl1`
+   - `csHumanMeleeLvl...`
+   - `csHumanMissile`
+   - `csHumanTankLvl1`
+ - Adjusted Min, Med, and Max block times.
+ - Added tempering degradation.
+ - Tava's Sword and Greatsword are no longer useless.
+   - **NEW**: Your critical chance is increased by 10%.
+   - **OLD**: Swings 20% faster than a normal sword/greatsword.
+ - Rebalanced Dragon Priests.
+ - Rebalanced Unrelenting Force.
+ - Reduced Doom Winds (Two-Handed) area by 20%.
+ - Doom Winds (Two-Handed) should no longer affect Player Teammates.
+ - Monk Class changes.
+   - Attenuation now does 15 base damage (was 10).
+   - Attenuation now properly scales >100% resistance value(s).
+   - Attenuation no longer scales negatively below 0% resistance value(s).
+   - Attenuation's base proc chance is now 10% (was 25%).
+   - Attenuation's proc chance now scales with resistance value(s).
+ - Rebalanced undead snow elves in Forgotten Vale.
+ - Follower changes.
+   - Capped all Followers at level 50.
+   - Followers are now scaled additionally with difficulty.
+ - Reworked Talismans.
+   - Basically every Talisman was reworked, and some were reworked beyond recognition.
+   - New Talismans:
+     - **Draconic Power**: You have a 10% chance to absorb the Magicka from incoming spells. / Shouting restores Health, Magicka, and Stamina.
+     - **Burning Resolve**: Your Fire Resistance is increased by 50%. / When you fall below 25% Health, you erupt in flames. This effect can only occur once every 10 minutes.
+     - **Proliferating Chill**: Your Frost Resistance is increased by 50%. / Successful Timed Blocks have a chance to freeze nearby enemies.
+     - **Overflowing Current**: Your Shock Resistance is increased by 50%. / Being struck by a spell silences the attacker for 10 seconds. This effect can only occur once every 15 seconds per target.
+     - **Eternal Hunt**: Your Poison Resistance is increased by 50%. / Dodging leaves behind a poison cloud that deals Poison damage to enemies inside.
+     - **Lashing Thorns**: Your Armor Rating is increased by 100. / Being struck by a melee hit causes the target to bleed for 10 seconds.
+     - **Engine Guardian**: Your Health is increased by 50. / When you enter combat, summon a Dwarven Spider to your side.
+     - **Dark Magic**: Your Magicka is increased by 50. / Slaying nearby enemies restores Magicka.
+     - **Veil of Blades**: Your Stamina is increased by 50. / Slaying an enemy in melee range while sneaking grants invisibility for 5 seconds.
+ - Deliverance (Block) now lasts for 2 seconds after a successful timed block (was 3).
+ - Removed Apprentice spells from Pilgrim Vendor lists.
+ - Attack Speed Changes.
+   - Due to Attack Speed not really working and some items being missed in 1.0 release, the following items have been changed:
+     - **Cicero's Gloves** now Fortifies Potion Duration by 50%.
+     - **Silver-Blood Family Ring** now increases Poison Resistance by 50%.
+     - **Ring of the Wind** now increases Movement Speed by 20%. 
+ - Reduced Killing XP for mihail giants.
+ - Adjusted the damage reduction calculations for Timed Blocks.
+ - Timed Blocking effects now occur as an area of effect.
+   - This includes the Stagger/Poise Damage effect built into Timed Block and perks like Disorienting Rebound.
+ - Reverberating Force (Block) renamed to Spiteful Riposte. Spiteful Riposte now does bleeding damage over 10 seconds rather than irresistable damage on hit.
+ - Adjusted stats of Mercer's Nightingale Armor to be more in line with normal Nightingale Armor.
+ - Followers now deal 25% less Poise Damage to enemies. This is bumped to 50% less on Expert+ difficulties.
+ - Followers now deal 25% less damage on Expert difficulty. This is bumped to 50% less on Master+ difficulties.
+ - Removed four bandits from Bleak Falls Barrow exterior.
+ - Removed four Forsworn from Karthspire Redoubt.
+
+### Bug Fixes
+
+ - Fixed Sinding not interacting with the player.
+ - Added Recipes for Fluted Armor so it was actually craftable.
+ - Fixed Brawl bug that could occur if using Battlemage class.
+ - Disabled floating bone trap near Talking Stone Camp.
+   - `C5311`
+ - Disabled ReachCliffTree that was clipping oddly near Old Hroldan Ruins.
+   - `E6E64A`
+ - Fixed landscape seam outside of Deadmen's Respite.
+ - Fixed issue where some Missive Boards were using the improper mesh.
+ - Crop ownership and faction fixes for FJO. Thanks to Ryge for these.
+   - Rorikstead, Riverwood, Markarth Outskirts, Kynesgrove, and Dawnstar re-covered.
+ - Fixed Trespasser (Sneak) speed bonus.
+ - Fixed the issue where entering the Woodcutter's Shack or Stable Keeper's House in Rorikstead introduced you to the infinite void.
+ - Removed parallax from `MountainCliff01.nif` due to bad mapping.
+ - Fixed texture mismatch between Mehrunes Dagon Shrine and surrounding mountains.
+ - Properly patched Alchemy and Food items added by Unslaad.
+ - You will no longer be prompted to milk "??? the Bull" in Coldharbour.
+ - Fixed mismatched `dirt02` normal map.
+ - Fixed Orkey's Tonal Clutch Ring giving 2500% Shout Cooldown Reduction instead of 25%.
+ - Removed some pine trees that were clipping near Morthal.
+   - `000F3939`
+ - Removed a tree that was floating near Pinefrost Tower.
+   - `0008D656`
+ - Adjusted a floating tree near Fort Snowhawk.
+   - `000B892E`
+ - Fixed incorrect Restore Health duration on Charred Skeever Hide.
+ - Fixed incorrect Restore Stamina duration on Large Antlers.
+ - Saints and Seducers NPCs will no longer glow purple.
+ - Adjusted positioning of the Balmora Blue chest so it was no longer buried in an inaccessible area.
+ - Fixed issue with gap between boots and torso with Illusive Infiltrator Armor.
+ - Fixed parallax warp on depleted ore veins.
+ - Knight-Paladin Mithribor will now carry Prelate's Mace (making the item actually attainable).
+ - Bound Weapons should appropriately show up in Apprentice tier level lists.
+ - Fixed missing LOD in Coldharbour.
+ - Stormfang display in Breezehome now correctly displays as a Nordic Greatsword instead of a Steel Greatsword.
+ - Fixed salt and wind textures on KS Hairs.
+ - Fixed weird underwear texture on some Whiterun men if Nevernude was disabled.
+ - Shield + Sword Wolf Stance is now longer broken.
+ - Removed some floating crows outside of Bleakwind Bluff and Movarths Lair.
+ - Fixed floating nest by Tower Stone.
+ - Adjusted Fireball, Fire Breath, Frost Breath, and Ice Form IMODs to hopefully be less blinding.
+ - Fixed binding for changing POV while in dialogue.
+ - "Fixed" XP Farm in College of Winterhold.
+ - Cleaned up some ReachTrees that were impeding NPC pathfinding.
+ - Removed duplicate type of Iron Arrows.
+ - Fixed Ebony Mail.
+ - Fixed some apprentice level spells from custom merchants showing up before they were supposed to.
+ - Adjusted EVGAT sections in Skuldafn due to conflicts.
+ - Adjusted Dawnstar Throne to no longer be floating.
+ - Adjusted tree on steps to High Hrothgar.
+   - `0x4BF56`
+ - Disabled some Mora Tapinella in the Tundra that were floating due to the lack of any nearby tree.
+   - `0x108F40` and `0x108F41`
+ - Armor of Eternal Vigor can now be tempered correctly at a Workbench.
+ - Potentially fixed some issues with certain radiant favor quests.
+ - Fixed floating embers in Raldbthar Deep Market.
+   - `F234D`
+ - Fixed bug with Alteration Ritual Quest where Tolfdir's dialogue did not appear until you had collected at least 3 Heartscales, despite only requiring 1 Heartscale to complete the quest.
+
+### Misc. Changes
+
+ - [Missing in Action](https://en.uesp.net/wiki/Skyrim:Missing_In_Action) now requires level 15 to start.
+ - Inventory menus are now paused.
+ - Updated Gore's skin texture and general improved textures. Thanks to Hayd for doing this after he pointed out I was using a very outdated texture.
+ - Restructured some MO2 separators and organization.
+ - Fixes for some Farms not being properly setup for Favor Jobs Overhaul. Thanks to Ryge for these.
+   - Solitude:
+     - Added Frederick's Farm
+   - Shor's Stone:
+     - Created new Farm Faction
+ - Took away Brenuin's hat.
+ - Cleaned the following plugins:
+   - `ArtifactsOfBoethiah.esp`
+   - `ccBGSSSE025-AdvDSGS.esm`
+   - `ccQDRSSE001-SurvivalMode.esl`
+   - `DIS_Heavy_Legion.esp`
+   - `Nordic Ruins of Skyrim.esp`
+   - `Unmasking Sybille.esp`
+ - Adjusted Veil of Blades (Talisman) tooltip to be more accurate.
+   - **NEW**: Slaying an enemy in melee range while sneaking grants invisibility for 5 seconds.
+   - **OLD**: Melee kills grant invisibility for 5 seconds.
+ - Removed some downloads for unused skin mods.
+ - Molag Bal shrine in Castle Volkihar can now be used to gain the shrine buff.
+ - Changed Shield + Sword Wolf Stance animation set because I wasn't going to reannotate an entire animation set.
+ - ENB Update:
+   - Adjusted cloud vertex, volumetric rays, and moon glow.
+ - Improved implementation of ~~Reverberating Force~~ Spiteful Riposte (Block).
+ - Sinding no longer wades through the water because it looked goofy as fuck.
+ - Enabled ENB Shader Cache.
+   - This will increase first time boot time, but decrease subequent boot times.
+   - Removed VendorAnimalHide keyword from Gauntlets of the Horny Fist.
+ - Changed default icon color to white.
+
+</details>
+
+## 1.0.X Versions
+
+<details>
+<summary>1.0.X Versions</summary>
 
  - [1.0.14](#1014) Release Date: July 23, 2024
  - [1.0.13](#1013) Release Date: July 23, 2024
@@ -31,9 +498,8 @@
  - [1.0.2](#102) Release Date: July 12, 2024
  - [1.0.1](#101) Release Date: July 11, 2024
  - [1.0.0](#100) Release Date: July 11, 2024
- - [Beta Versions](#beta-versions)
 
-## 1.0.14
+### 1.0.14
 
 Key Info
 
@@ -44,16 +510,16 @@ Key Info
 <Details>
 <summary>Changes</summary>
 
-### Updated
+#### Updated
 
  - [No Grass In Objects](https://www.nexusmods.com/skyrimspecialedition/mods/42161)
  - [Lightning VFX Edit](https://www.nexusmods.com/skyrimspecialedition/mods/124520)
 
-### Added
+#### Added
 
  - N/A
 
-### Removed
+#### Removed
 
  - N/A
 
@@ -62,21 +528,21 @@ Key Info
 <Details>
 <summary>Patch Notes</summary>
 
-### Balance
+#### Balance
 
  - N/A
 
-### Bug Fixes
+#### Bug Fixes
 
  - Fixed Font Config File.
 
-### Misc. Changes
+#### Misc. Changes
 
  - N/A
 
 </details>
 
-## 1.0.13
+### 1.0.13
 
 Key Info
 
@@ -88,7 +554,7 @@ Key Info
 <Details>
 <summary>Changes</summary>
 
-### Updated
+#### Updated
 
  - [Feris - Custom Voiced Female Follower](https://www.nexusmods.com/skyrimspecialedition/mods/90032)
  - [Snazzy Interiors - Markarth Endon's House](https://www.nexusmods.com/skyrimspecialedition/mods/107634)
@@ -102,14 +568,14 @@ Key Info
  - [Nightgate Inn Revived - Patches and Addons](https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=524195&nmm=1&game_id=1704)
  - [RedBag's Falkreath - Patch Collection](https://www.nexusmods.com/skyrimspecialedition/mods/84122)
 
-### Added
+#### Added
 
  - [precision mudcrab(Random)](https://www.nexusmods.com/skyrimspecialedition/mods/124819)
  - [Simple Block Sparks- Script Free](https://www.nexusmods.com/skyrimspecialedition/mods/58927)
  - [Lunar guard armor HDT SMP beast tail Patch](https://www.nexusmods.com/skyrimspecialedition/mods/100152)
  - [Pierced Ears - Earrings SE](https://www.nexusmods.com/skyrimspecialedition/mods/13571)
 
-### Removed
+#### Removed
 
  - N/A
 
@@ -118,7 +584,7 @@ Key Info
 <Details>
 <summary>Patch Notes</summary>
 
-### Balance
+#### Balance
 
  - Novice difficulty now has a bonus detection modifier.
    - Translated: Sneaking is easier on Novice.
@@ -128,7 +594,7 @@ Key Info
  - NPCs should block now.
    - This might introduce vanilla perma block issues again, I will attempt to reimplement my perma block fix at a later date.
 
-### Bug Fixes
+#### Bug Fixes
 
  - Removed cooking pot from Sleeping Giant Inn due to pathfinding issues.
  - Gave NPCs the Dual Wield stagger nerf that the player was given last update, oops.
@@ -145,7 +611,7 @@ Key Info
  - Fixed accessibility concerns over the trap door for the Mercenaries ship in Remiel's quest mod.
  - "Fixed" Ancient Nord Shield texture set.
 
-### Misc. Changes
+#### Misc. Changes
 
  - Rebuilt **idk i wasn't counting** BSA(s).
  - New Indigo and Gore dialogue interactions!
@@ -155,7 +621,7 @@ Key Info
 
 </details>
 
-## 1.0.12
+### 1.0.12
 
 Key Info
 
@@ -168,7 +634,7 @@ Key Info
 <Details>
 <summary>Changes</summary>
 
-### Updated
+#### Updated
 
  - [Apostasy - Menu Assets](https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=522837&nmm=1&game_id=1704)
  - [Daedric Armors and Weapons Retexture SE](https://www.nexusmods.com/skyrimspecialedition/mods/84151)
@@ -179,7 +645,7 @@ Key Info
  - Valor's DLL
  - [Snazzy Interiors - JK's Dragonsreach](https://www.nexusmods.com/skyrimspecialedition/mods/110403)
 
-### Added
+#### Added
 
  - [Snazzy Silver Inkwells - GGs Complex Silverware](https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=523087&nmm=1&game_id=1704)
  - [Precision Riekling spear](https://www.nexusmods.com/skyrimspecialedition/mods/124750)
@@ -187,7 +653,7 @@ Key Info
  - [RaceMenu - Untarnished UI - DIP Patch](https://www.nexusmods.com/skyrimspecialedition/mods/97347)
  - [UIExtensions Ultrawide Patch](https://www.nexusmods.com/skyrimspecialedition/mods/114218)
 
-### Removed
+#### Removed
 
  - N/A
 
@@ -196,7 +662,7 @@ Key Info
 <Details>
 <summary>Patch Notes</summary>
 
-### Balance
+#### Balance
 
  - Weapon tier rebalance.
    - Broke weapons into 5 tiers (based on Smithing perks) the same way Armor had been done since 1.0.
@@ -211,7 +677,7 @@ Key Info
  - Increased drop rate of Thief Stone boons.
  - Decreased value of Thief Stone boons.
 
-### Bug Fixes
+#### Bug Fixes
 
  - Fixed missing charge on Viper's Fang (Nazir's Scimitar).
  - Adjusted Feris' combat style so she would actually dual wield (which seems to be intended by the author due to her having two daggers).
@@ -230,7 +696,7 @@ Key Info
  - Fixed bad occlusion in Dragonsreach Jarl's Quarters.
  - Temporary fix for Rugs being incorrectly sized.
 
-### Misc. Changes
+#### Misc. Changes
 
  - Rebuilt **3** BSA(s).
  - Removed some unused files that were still sticking around from earlier versions of beta testing and some files that were not important for end-user.
@@ -242,7 +708,7 @@ Key Info
 
 </details>
 
-## 1.0.11
+### 1.0.11
 
 Key Info
 
@@ -252,13 +718,13 @@ Key Info
 <Details>
 <summary>Changes</summary>
 
-### Updated
+#### Updated
 
  - [Orcish Lanterns for Orc Strongholds](https://www.nexusmods.com/skyrimspecialedition/mods/124201)
  - [Lightning VFX Edit](https://www.nexusmods.com/skyrimspecialedition/mods/124520)
  - [Stones of Sacrifice - Double Edged Standing Stones](https://www.nexusmods.com/skyrimspecialedition/mods/121629)
 
-### Added
+#### Added
 
  - [HDT SMP fluffy beast race tail replacer](https://www.nexusmods.com/skyrimspecialedition/mods/91811)
  - [Custom Races - Patch Collection](https://www.nexusmods.com/skyrimspecialedition/mods/91712)
@@ -267,7 +733,7 @@ Key Info
  - [Stave Church of Skyrim](https://www.nexusmods.com/skyrimspecialedition/mods/44480)
    - Needed for assets.
 
-### Removed
+#### Removed
 
  - [Horse Behaviour Improvements](https://www.nexusmods.com/skyrimspecialedition/mods/113535)
 
@@ -276,7 +742,7 @@ Key Info
 <Details>
 <summary>Patch Notes</summary>
 
-### Balance
+#### Balance
 
  - Doom Winds (Two-Handed) now requires 60 skill (was 70).
    - This was intended to be in last update, but I forgot.
@@ -289,7 +755,7 @@ Key Info
  - Nerfed movement speed while casting by ~33%.
  - Adjusted Archer equipment score values.
 
-### Bug Fixes
+#### Bug Fixes
 
  - Fixed QuickLoot's Animal Looting MCM option not working.
  - Hall of the Dead and Brother Verulus rumors should not longer occur before the minimum level to start [The Taste of Death](https://en.uesp.net/wiki/Skyrim:The_Taste_of_Death).
@@ -307,7 +773,7 @@ Key Info
  - Fixed Lod's private letter not being in the proper cell.
    - I am literally the greatest modlist author of all time for this one.
 
-### Misc. Changes
+#### Misc. Changes
 
  - Rebuilt **3** BSA(s).
  - Removed `woodwalkway01_p.dds`.
@@ -320,7 +786,7 @@ Key Info
 
 </details>
 
-## 1.0.10
+### 1.0.10
 
 Key Info
 
@@ -330,15 +796,15 @@ Key Info
 <Details>
 <summary>Changes</summary>
 
-### Updated
+#### Updated
 
  - N/A
 
-### Added
+#### Added
 
  - N/A
 
-### Removed
+#### Removed
 
  - N/A
 
@@ -347,13 +813,13 @@ Key Info
 <Details>
 <summary>Patch Notes</summary>
 
-### Balance
+#### Balance
 
  - Tweaked Warrior's Wrath (bonus reward from Eris).
    - **NEW**: You deal 10% more Poise damage.
    - **OLD**: You resist 50% of all incoming stagger (functionally the same as resisting 50% of incoming Poise damage).
 
-### Bug Fixes
+#### Bug Fixes
 
  - Fixed one of the MoreHUD widget overlaying another widget in the bottom left.
    - Sorry I meant to include this last update but forgot until I was halfway through the compile.
@@ -364,13 +830,13 @@ Key Info
  - Fixed Respawn on a chest in Harbinger's room.
  - Fixed clipping furniture and food items in Understone Keep.
 
-### Misc. Changes
+#### Misc. Changes
 
  - Some optimizations to a few Whiterun meshes. Thanks ra2phoenix for these.
 
 </details>
 
-## 1.0.9
+### 1.0.9
 
 Key Info
 
@@ -380,21 +846,21 @@ Key Info
 <Details>
 <summary>Changes</summary>
 
-### Updated
+#### Updated
 
  - [Snazzy Interiors - Markarth Endon's House](https://www.nexusmods.com/skyrimspecialedition/mods/107634)
  - [Female Player Animations (OAR)](https://www.nexusmods.com/skyrimspecialedition/mods/85073)
  - [Male Player Animations (OAR)](https://www.nexusmods.com/skyrimspecialedition/mods/89225)
  - [Nirn's Chosen - Enhanced Races and Classes](https://www.nexusmods.com/skyrimspecialedition/mods/121427)
 
-### Added
+#### Added
 
  - [Lightning VFX Edit](https://www.nexusmods.com/skyrimspecialedition/mods/124520)
  - [Gryphonknight Regalia - Breton Noble Armor HDT-SMP - HIMBO Conversion](https://www.nexusmods.com/skyrimspecialedition/mods/124543)
  - [Draugrs - SE by Xtudo - Playable Draugr - MCO](https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=522158&nmm=1&game_id=1704)
  - [Disable Turn Animation SE I AE](https://www.nexusmods.com/skyrimspecialedition/mods/78106)
 
-### Removed
+#### Removed
 
  - N/A
 
@@ -403,7 +869,7 @@ Key Info
 <Details>
 <summary>Patch Notes</summary>
 
-### Balance
+#### Balance
 
  - Gift of Gab now gives 10% better prices instead of being useless.
  - Dragon of the North (Stormcrown) changed.
@@ -421,7 +887,7 @@ Key Info
    - Debilitating Strikes, Overwhelm, and Pressure Fighter (Hand to Hand) now require 70 skill (was 60).
    - Brace (Hand to Hand) now a 2 rank perk @ 60/90 skill (was 1 rank perk @ 70).
 
-### Bug Fixes
+#### Bug Fixes
 
  - Fixed 2 darkface bugs for some Dawnguard NPCs.
  - Added failsafe for Krahvalok to hopefully fix issue where it wasn't absorbing souls consistently.
@@ -431,7 +897,7 @@ Key Info
  - Fixed issue with Khajiit movement speed bonus not being applied.
    - Should apply to existing save games.
 
-### Misc. Changes
+#### Misc. Changes
 
  - Adjusted Mage Armor's tooltip to make it more clear that the Poise Resistance was only given while armor spells were active.
  - Changed Stonewall texture.
@@ -440,7 +906,7 @@ Key Info
 
 </details>
 
-## 1.0.8
+### 1.0.8
 
 Key Info
 
@@ -455,7 +921,7 @@ Key Info
 <Details>
 <summary>Changes</summary>
 
-### Updated
+#### Updated
 
  - [Drengin's Solitude Patch Collection](https://www.nexusmods.com/skyrimspecialedition/mods/104668)
  - [JK's Guild HQ Interiors Patch Collection](https://www.nexusmods.com/skyrimspecialedition/mods/61416)
@@ -465,12 +931,12 @@ Key Info
  - [JK's Blue Palace Terrace](https://www.nexusmods.com/skyrimspecialedition/mods/75965)
  - [Mysterious Mementos - Assorted Artifact Rebalances](https://www.nexusmods.com/skyrimspecialedition/mods/118342)
 
-### Added
+#### Added
 
  - [Draugrs New Model - Dragon Priest](https://www.nexusmods.com/skyrimspecialedition/mods/123902)
  - [Additional Skyland Parallax](https://www.nexusmods.com/skyrimspecialedition/mods/117791)
 
-### Removed
+#### Removed
 
  - N/A
 
@@ -479,12 +945,12 @@ Key Info
 <Details>
 <summary>Patch Notes</summary>
 
-### Balance
+#### Balance
 
  - Tweaks to sneak detection formula.
    - If it's too hard now I don't care.
 
-### Bug Fixes
+#### Bug Fixes
 
  - Fixed Survival Rested buffs giving the incorrect buff.
  - Fixed issue with Serpent Stone causing some NPCs to spam spell absorb vfx.
@@ -494,7 +960,7 @@ Key Info
  - Fixed uh... several issues in the Breton Paladin quest that I caused by erroneously disabling some activators that definitely should not have been disabled... [hahaha.... oops](https://tenor.com/view/ehe-anime-gif-anime-girl-teehee-gif-27178660).
  - Vampiric Ring is no longer completely useless!
 
-### Misc. Changes
+#### Misc. Changes
 
  - Rebuilt **5** BSA(s).
  - Built **0** new BSA(s).
@@ -523,7 +989,7 @@ Key Info
 
 </details>
 
-## 1.0.7
+### 1.0.7
 
 Key Info
 
@@ -533,15 +999,15 @@ Key Info
 <Details>
 <summary>Changes</summary>
 
-### Updated
+#### Updated
 
  - [Humanoid Dragon Priests](https://www.nexusmods.com/skyrimspecialedition/mods/122320)
 
-### Added
+#### Added
 
  - N/A
 
-### Removed
+#### Removed
 
  - N/A
 
@@ -550,22 +1016,22 @@ Key Info
 <Details>
 <summary>Patch Notes</summary>
 
-### Balance
+#### Balance
 
  - N/A
 
-### Bug Fixes
+#### Bug Fixes
 
  - Fixed missing NR textures.
 
-### Misc. Changes
+#### Misc. Changes
 
  - Rebuilt **1** BSA(s).
  - Built **0** new BSA(s).
 
 </details>
 
-## 1.0.6
+### 1.0.6
 
 Key Info
 
@@ -576,7 +1042,7 @@ Key Info
 <Details>
 <summary>Changes</summary>
 
-### Updated
+#### Updated
 
  - [Northern Concept - Northern Roads](https://www.nexusmods.com/skyrimspecialedition/mods/107975)
  - [Stones of Sacrifice - Double Edged Standing Stones](https://www.nexusmods.com/skyrimspecialedition/mods/121629)
@@ -584,11 +1050,11 @@ Key Info
  - [Feris - Custom Voiced Female Follower](https://www.nexusmods.com/skyrimspecialedition/mods/90032)
  - [Nirn's Chosen - Enhanced Races and Classes](https://www.nexusmods.com/skyrimspecialedition/mods/121427)
 
-### Added
+#### Added
 
  - N/A
 
-### Removed
+#### Removed
 
  - N/A
 
@@ -597,12 +1063,12 @@ Key Info
 <Details>
 <summary>Patch Notes</summary>
 
-### Balance
+#### Balance
 
  - Initiative (Light Armor) now had a 5 second internal cooldown (was 10).
  - Removed iframes from Deliverance (Block).
 
-### Bug Fixes
+#### Bug Fixes
 
  - Resonance perk will now properly multiply weapon enchantment cost by 0.50 instead of by 250.
  - Fixed recipes for Tiger Pelt Cloak and Snow Tiger Pelt Cloak.
@@ -624,7 +1090,7 @@ Key Info
  - Fixed the incorrect globals being utilized on most Crafting Motifs' level lists.
    - Ok they're definitely fixed now. Beta testers must've gotten lucky RNG pulls.
 
-### Misc. Changes
+#### Misc. Changes
 
  - Rebuilt **1** BSA(s).
  - Built **1** new BSA(s).
@@ -638,7 +1104,7 @@ Key Info
 
 </details>
 
-## 1.0.5
+### 1.0.5
 
 Key Info
 
@@ -650,20 +1116,20 @@ Key Info
 <Details>
 <summary>Changes</summary>
 
-### Updated
+#### Updated
 
  - [Fixed Meshes for Rugnarok](https://www.nexusmods.com/skyrimspecialedition/mods/123987)
  - [Gore - A Companion Mod](https://www.nexusmods.com/skyrimspecialedition/mods/85298)
  - [Particle Patch](https://www.nexusmods.com/skyrimspecialedition/mods/65720)
  - [The Taste of Death - Quest Addon](https://www.nexusmods.com/skyrimspecialedition/mods/123173)
 
-### Added
+#### Added
 
  - [Orcish Lanterns for Orc Strongholds - Largashbur](https://www.nexusmods.com/skyrimspecialedition/mods/124201)
  - [zxlice's ultimate potion animation - ZUPA](https://www.nexusmods.com/skyrimspecialedition/mods/45182)
  - [ElSopa Potions Redone - Zxlices Ultimate potion animation patch](https://www.nexusmods.com/skyrimspecialedition/mods/80929)
 
-### Removed
+#### Removed
 
  - [Toggle Dialogue Camera](https://www.nexusmods.com/skyrimspecialedition/mods/97280)
    - Mod was redundant as [Switch Camera During Dialogue](https://www.nexusmods.com/skyrimspecialedition/mods/95269) was already in the list. Thanks to @Lightsourced for bringing this to my attention.
@@ -677,7 +1143,7 @@ Key Info
 <Details>
 <summary>Patch Notes</summary>
 
-### Balance
+#### Balance
 
  - Changes to Corrupted Catalyst (One-Handed).
    - Now a 2 rank perk unlocked at 60/90 skill. (was a 1 rank perk unlocked at 90 skill).
@@ -698,7 +1164,7 @@ Key Info
    - 1H and Unarmed can strike up to 3 targets.
    - 2H can strike up to 5 targets.
 
-### Bug Fixes
+#### Bug Fixes
 
  - Removed some road chunks near Ivarstead added by the Kaidan mod that were previously missed.
  - Fixed the second Dicks problem (Male nudity was broken after I had previously fixed Male nudity for NeverNude).
@@ -710,7 +1176,7 @@ Key Info
  - Actually applied the Poise Resistance that was intended for Novice difficulty.
  - Fixed an issue where Massive Targets were not being distributed the proper controller effect.
 
-### Misc. Changes
+#### Misc. Changes
 
  - Rebuilt **2** BSA(s).
  - Built **2** new BSA(s).
@@ -722,7 +1188,7 @@ Key Info
 
 </details>
 
-## 1.0.4
+### 1.0.4
 
 Key Info
 
@@ -741,7 +1207,7 @@ Key Info
 <Details>
 <summary>Changes</summary>
 
-### Updated
+#### Updated
 
  - [Elianora's Breezehome Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/2829)
  - [Nirn's Chosen - Enhanced Races and Classes](https://www.nexusmods.com/skyrimspecialedition/mods/121427)
@@ -751,13 +1217,13 @@ Key Info
  - [Follower Dialogue Expansion - Lydia](https://www.nexusmods.com/skyrimspecialedition/mods/119226)
  - [Bjorn - Fully Voiced Follower](https://www.nexusmods.com/skyrimspecialedition/mods/91652)
 
-### Added
+#### Added
 
  - [Hellblade battle Sword animation_MCO](https://www.nexusmods.com/skyrimspecialedition/mods/123232)
  - [Elden RIM x DS3 Mashup I Dual wield katana moveset](https://www.nexusmods.com/skyrimspecialedition/mods/112165)
  - [Purification Blades MCO Dual Wield Animations](https://www.nexusmods.com/skyrimspecialedition/mods/88401)
 
-### Removed
+#### Removed
 
  - N/A
 
@@ -766,7 +1232,7 @@ Key Info
 <Details>
 <summary>Patch Notes</summary>
 
-### Balance
+#### Balance
 
  - Increased the cost of Novice Bolt Spells by 10%. 
    - I made a minor balancing mistake by not accounting for the benefits of FF vs Conc spells.
@@ -782,7 +1248,7 @@ Key Info
      - Previous implementation also had a bug due to incorrect `OR` operator.
      - I will reimplement the previous iteration once a perk entry I requested a long time ago is implemented.
 
-### Bug Fixes
+#### Bug Fixes
 
  - Fixed issue where having more than 100 base Magicka or Stamina would cause reverting out of Werewolf Form to make you have absurdly low Magicka.
    - This also came with the removal of Growl's Magicka to Stamina transfer when entering Werewolf form. Sorry this is a bug with the original mod that there was no solution to besides "lightening script load" when this didn't seem to be an issue. 
@@ -802,7 +1268,7 @@ Key Info
  - Fixed LOD Transition issue with WRStables Wood Wals. (Thanks biggie for pointing this out to me)
  - Actually saved the MoreHUD config so the widget on the bottom right was gone like I said it should have been last update.
 
-### Misc. Changes
+#### Misc. Changes
 
  - Rebuilt **1** BSA(s).
  - New animations for Hawk and Wolf Stances of Dual Katana.
@@ -814,7 +1280,7 @@ Key Info
 
 </details>
 
-## 1.0.3
+### 1.0.3
 
 Key Info
 
@@ -830,14 +1296,14 @@ Key Info
 <Details>
 <summary>Changes</summary>
 
-### Updated
+#### Updated
 
  - [Nirn's Chosen - Enhanced Races and Classes](https://www.nexusmods.com/skyrimspecialedition/mods/121427)
  - [Destroy The Dark Brotherhood - Quest Expansion](https://www.nexusmods.com/skyrimspecialedition/mods/118229?)
  - [Ultimate NPC Dodging](https://www.nexusmods.com/skyrimspecialedition/mods/120738)
  - [Caught Red Handed - Quest Expansion](https://www.nexusmods.com/skyrimspecialedition/mods/65708)
 
-### Added
+#### Added
 
  - [Creatures : Preview](https://www.distaranimation.com/mods/creatures)
  - [Fixed Meshes for Rugnarok](https://www.nexusmods.com/skyrimspecialedition/mods/123987)
@@ -846,7 +1312,7 @@ Key Info
  - [Novice Bolt Spells](https://www.nexusmods.com/skyrimspecialedition/mods/95077)
  - [Face Sculptor Expanded - Growl Patch](https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=469988&nmm=1&game_id=1704)
 
-### Removed
+#### Removed
 
  - N/A
 
@@ -855,11 +1321,11 @@ Key Info
 <Details>
 <summary>Patch Notes</summary>
 
-### Balance
+#### Balance
 
  - Novice concentration spells (only the spells, staves are unaffected) should now be replaced with bolt variants. This should make early game feel less miserable to play as a melee character fighting mages and should weaken novice mages as concentration spells are frankly too strong.
 
-### Bug Fixes
+#### Bug Fixes
 
  - Implemented a script fix for the Class script. Thank you to @ForsakenJing for providing a detailed explanation on the issue and a fix.
  - Relandscaped area outside of Folgunthur to fix a gap in between the Mountains.
@@ -870,7 +1336,7 @@ Key Info
  - Removed dicks from Nevernude.
  - Hid a debug magic effect that was shown in UI.
 
-### Misc. Changes
+#### Misc. Changes
 
  - Replaced Dual Mace and Dual Axe Bear Stance animations. Old animations had bad annotations and I didn't think the animation itself felt good enough to warrant fixing.
  - Set `Validate Screenshot Location` in `po3_Tweaks.ini` from `true` to `false`, it seems some people were experiencing CTDs on first load with this setting enabled.
@@ -892,7 +1358,7 @@ Key Info
 
 </details>
 
-## 1.0.2
+### 1.0.2
 
 Key Info
 
@@ -902,15 +1368,15 @@ Key Info
 <Details>
 <summary>Changes</summary>
 
-### Updated
+#### Updated
 
  - [Nirn's Chosen - Enhanced Races and Classes](https://www.nexusmods.com/skyrimspecialedition/mods/121427)
 
-### Added
+#### Added
 
  - N/A
 
-### Removed
+#### Removed
 
  - N/A
 
@@ -919,11 +1385,11 @@ Key Info
 <Details>
 <summary>Patch Notes</summary>
 
-### Balance
+#### Balance
 
  - N/A
 
-### Bug Fixes
+#### Bug Fixes
 
  - Katana's Bear Stance will now use the intended animation rather than using the same animation as Sword's Bear Stance (typo in folder name).
  - Moved Travelling Priest Robes from Tanning Rack to Forge for crafting (most already were moved but some were missed). 
@@ -932,14 +1398,14 @@ Key Info
  - Repainted area near Skybound Underhang to fix some minor landscape seams.
    - `5 -15`, `4 -15`, `3 -15`
 
-### Misc. Changes
+#### Misc. Changes
 
  - [Mihail Skeletons](https://www.nexusmods.com/skyrimspecialedition/mods/34368) now use the same animations as [Awoken Draugr](https://www.nexusmods.com/skyrimspecialedition/mods/77569) for more stylistic consistency and enemy diversity.
  - Changed the `disableSMPHairWhenWigEquipped` in hdtSMP64's `configs.xml` from `true` to `false` for better compatibility with Skyrim Outfit System. **Warning** this might hurt performance if you have SMP Hair on your character ***and*** equip an SMP wig (I do not know why you would do this however).
 
 </details>
 
-## 1.0.1
+### 1.0.1
 
 Key Info
 
@@ -948,15 +1414,15 @@ Key Info
 <Details>
 <summary>Changes</summary>
 
-### Updated
+#### Updated
 
  - [Experience](https://www.nexusmods.com/skyrimspecialedition/mods/17751)
 
-### Added
+#### Added
 
  - N/A
 
-### Removed
+#### Removed
 
  - [Seranade - A(nother) Serana Replacer](https://www.nexusmods.com/skyrimspecialedition/mods/112513)
 
@@ -965,21 +1431,21 @@ Key Info
 <Details>
 <summary>Patch Notes</summary>
 
-### Balance
+#### Balance
 
  - N/A
 
-### Bug Fixes
+#### Bug Fixes
 
  - N/A
 
-### Misc. Changes
+#### Misc. Changes
 
  - Changed Serana's hair at request of the author of the previously used hair asset.
 
 </details>
 
-## 1.0.0
+### 1.0.0
 
 Key Info
 
@@ -988,15 +1454,15 @@ Key Info
 <Details>
 <summary>Changes</summary>
 
-### Updated
+#### Updated
 
  - N/A
 
-### Added
+#### Added
 
  - N/A
 
-### Removed
+#### Removed
 
  - N/A
 
@@ -1005,17 +1471,19 @@ Key Info
 <Details>
 <summary>Patch Notes</summary>
 
-### Balance
+#### Balance
 
  - N/A
 
-### Bug Fixes
+#### Bug Fixes
 
  - N/A
 
-### Misc. Changes
+#### Misc. Changes
 
  - N/A
+
+</details>
 
 </details>
 

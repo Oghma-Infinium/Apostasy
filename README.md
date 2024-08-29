@@ -9,7 +9,8 @@
   <a href="https://loadorderlibrary.com/lists/Apostasy">Modlist</a> |
   <a href="https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/FAQ.md">FAQ</a> |
   <a href="https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/CONFIG.md">Configuration</a> |
-  <a href="https://ko-fi.com/aljoxo">Ko-fi</a> |
+  <a href="https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/ADDONS.md">ADDONS</a> |
+  <a href="https://ko-fi.com/aljoxo">Ko-fi</a> | 
   <a href="https://www.patreon.com/aljoxo">Patreon</a> ]
 </p>
 
@@ -62,6 +63,10 @@ A full list of the mods used in this modlist can be viewed [here](https://loador
 
 You can find a summary of all relevant gameplay changes on the [Gameplay Guide](https://github.com/Oghma-Infinium/Apostasy/blob/main/GAMEPLAY.md) as well.
 
+If you would prefer to follow along with a video guide, you can watch the Installation Guide below.
+
+[![](https://raw.githubusercontent.com/Oghma-Infinium/Apostasy/main/images/InstallThumbnail.png)](https://youtu.be/6IJlT_H7pvk?si=OldwShLFkc1-W9Xq)
+
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
@@ -80,6 +85,14 @@ The listed specs are the best idea of a baseline that I can provide at the curre
 >- Only Windows 10 or 11 operating systems are supported. Windows LTSC, special variants, lightened editions or any other modified variant **WILL NOT WORK.** Linux installations also **WILL NOT WORK**.
 
 ![](https://raw.githubusercontent.com/Oghma-Infinium/Apostasy/main/images/perfTarget.PNG)
+
+<Details>
+<summary>Clarification on PC Requirements</summary>
+
+For complete clarity, my specs while building the list were a 5800X, 2080, and 32GB of RAM. This PC ran the list @ 50-60FPS on 1440p (16:9).  
+My current specs are a 7800X3D, 3080, and 32GB of RAM with some BIOS tweaks (ReBar and PBO mostly). This PC runs the list @ stable (locked) 61FPS on 1440p (16:9).
+
+</Details>
 
 Downloads Size: ~160 GB  
 Install Size: ~190 GB  
@@ -353,6 +366,9 @@ Patreon Files: (These are free to download)
 - [ESkyrim MCO Installer](https://www.patreon.com/file?h=68233071&i=11449877)
 - [HDT-SMP Sona Armor - Female](https://www.patreon.com/file?h=68902488&i=12781379)
 - [HDT-SMP Sona Armor - Male](https://www.patreon.com/file?h=68902488&i=13158956)
+- [Highlander Armor - Female](https://www.patreon.com/file?h=79874952&i=13365775)
+- [Highlander Armor - Male](https://www.patreon.com/file?h=79874952&i=13365782)
+- [HDT-SMP Melony Armor](https://www.patreon.com/file?h=67711235&i=10980531)
 
 ## Post-Installation and Optional Setup
 
@@ -480,6 +496,7 @@ This will reduce the quality of certain large objects at far away distances, how
     </Details>
 
  3. Launch the "Play" Executable in MO2. The game may take several minutes to load on your first launch. Please be patient and **DO NOT** click the `Unlock` button on the MO2 prompt.
+    a. **I REPEAT, DO NOT CLICK THE UNLOCK BUTTON! YOU WILL BREAK YOUR GAME!**
  4. Select the **New Game** button.
  5. Create your lovely character.
  6. **(OPTIONAL)** Refer to the different MCM options listed on the [Configuration](https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/CONFIG.md#in-game-mcm-options) to adjust any MCM settings you'd like.
@@ -533,5 +550,5 @@ Please check the [FAQ](https://github.com/Oghma-Infinium/Apostasy/blob/main/Docu
 - [Sheson](https://ko-fi.com/sheson) for [DynDOLOD](https://dyndolod.info/) and associated tools.
 - [Styyx](https://github.com/Styyx1) for assisting heavily in creating DLLs for the custom mods made for the list.
 - [Aelarr](https://www.nexusmods.com/skyrim/users/6843757) and Anreme for permissions to use some custom mods from The Owl Archives server.
-- Mgde12, D1Z4STR, 半蔵 内倉, Kepler, Hencoat, Matty, EnragedHamster, Scott, snowpeachcherry, Charlie Kriech, Durgenage, Pacifist Fist, Don Maker, Russell Collins, Oresh, Danimals, Monko, Anehum, Valeria, The Unattested Wombat, Ola Nordman, Regista433, Jaron Scotland, King_Sheogorath, TheRyge, Shakes, highchae, Robbie, Scott Walker, Geero, JAYDENCITO, Nehellena, Mysthey, Echo, Scott MacLeod, Exanima, Braden earp, Lionel Lugo, Xoriat Bane, Paultinich, Thomas Carey, Nicholas Sheard, Lykk3 for support on [patreon](https://www.patreon.com/aljoxo).
-- adorion1981, aexilkv, AlphaGhost47, ambo, Ananta, annakins, Blade, BlueBeagle, Bubborus, derbaer, derkaenaz, DevZan, doombot117, E2J, FalseRealism, Felivath, ForsakenJing, FutureWorld, Gous, Gremlin, hedich, Jeremy, JoeyFlow, JollyTheRancher, JXEYES, Kannon555, kanpeki, Kathie Murphy, Lunaros, Maelstrom, Mike, Moonyb, Paulo Giovanni, Psyguyy, Psylence, rezthe0one on Discord, Roxiie, SaddestNoddles, skylion, Soloist, Steve, Stryn, Tom Curran, Victoriam, Won Pham, WoWZaton, Zhijia, and zidan for their support via [Ko-fi](https://ko-fi.com/aljoxo).
+- Mgde12, D1Z4STR, 半蔵 内倉, Kepler, Hencoat, nostalgic.wave, EnragedHamster, unclemestor, snowpeachcherry, Charlie Kriech, Durgenage, Pacifist Fist, Don Maker, Russell Collins, Oresh, Danimals, Monko, Anehum, hildocean, The Unattested Wombat, Ola Nordman, Regista433, Jaron Scotland, King_Sheogorath, TheRyge, Shakes, highchae, Robbie, cowbellhero55, Geero, JAYDENCITO, Nehellena, Mysthey, Echo, Scott MacLeod, Exanima, Thundertube, LELUGOLELU, ravenlake, Paultinich, icaruscien, Oracraen, Lykk3, VillainousJ, Micheal Hamm, netwolff, Nico, G1Broheim, sweeper240 for support on [patreon](https://www.patreon.com/aljoxo).
+- adorion1981, aexilkv, AlphaGhost47, ambo, Ananta, annakins, Blade, BlueBeagle, Bubborus, Chef Nicnaq, Danimals, derbaer, derkaenaz, DevZan, Don Maker, doombot117, E2J, Elendil, EnragedHamster, FalseRealism / Shingee Tingee, Felivath, Forsaken Jing, freshr, FutureWorld, Gous, Gremlin, hedich, Hencoat, Jeremy, Joey, JoeyFlow, JollyTheRancher, JXEYES, Kannon555, kanpeki, Kathie Murphy, Kiqing, Lunaros, Maelstrom, Mgde12, Mike, Monko, netwolff, orca, paulogrupp, Psyguyy, rezthe0one, Roxiie, SaddestNoddles, skylion, Soloist, Steve, Stryn, Tom Curran, Victoriam, Won Pham, WoWZaton, Zhijia, and zidan for their support via [Ko-fi](https://ko-fi.com/aljoxo).

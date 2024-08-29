@@ -8,6 +8,7 @@
   <a href="https://loadorderlibrary.com/lists/Apostasy">Modlist</a> |
   <a href="https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/FAQ.md">FAQ</a> |
   Configuration |
+  <a href="https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/ADDONS.md">ADDONS</a> |
   <a href="https://ko-fi.com/aljoxo">Ko-fi</a> | 
   <a href="https://www.patreon.com/aljoxo">Patreon</a> ]
 </p>
@@ -47,9 +48,6 @@ This section is going to be short and basic and only cover keybinds that must be
    - In the mod open the `DualWieldParryingSKSE.ini` and the `BlockCancel.json` files and change the keybind(s). 
      - **MAKE SURE THE KEYBIND YOU CHANGE TO IN THE `DualWieldParryingSKSE.ini` MATCHES THE KEYBIND FOR `"BlockCancel2"` IN THE `BlockCancel.json`**.
    - **In game**, edit the dual block keybind in the `Valor Perks` MCM, or dual block will not be able to trigger timed blocks.
- - **Dodging**: 
-   - Open the mod `Apostasy - Dodge Keybind`.
-   - Locate the `TK Dodge RE.ini` file and change the keybind(s).
 
 ### Controller and Gamepad Support
 
@@ -172,8 +170,9 @@ Changing MCM Settings in any MCM that is under the `> Apostasy MCM Hider <` tab 
  2. `CollisionReset`: Change the keybind for resetting SMP physics (Default: `F10`). 
  3. `Compass Controls`: Change the Toggle key for the Compass (Default: `'`).
  4. `Dialogue History`: Change the keybind to bring up the Dialogue History menu (Default: `LAlt + Y`).
- 5. `Dynamic Activation Key`: Change the keybind modifier for Dynamic Activation (Default: `LShift`).
- 6. `Edryu's Widget`: Enable/Disable or reposition the equipment widgets (the ones **above** the Health, Magicka, and Stamina bars). By default, Edryu's is configured for 1440p, dropdown below has recommended settings for other 16:9 resolutions.
+ 5. `Dismembering Framework`: Disable the mod if you do not like the added gore (Default: `ENABLED` - click `Mod Status` at the very top to toggle Enabled or Disabled state.)
+ 6. `Dynamic Activation Key`: Change the keybind modifier for Dynamic Activation (Default: `LShift`).
+ 7. `Edryu's Widget`: Enable/Disable or reposition the equipment widgets (the ones **above** the Health, Magicka, and Stamina bars). By default, Edryu's is configured for 1440p, dropdown below has recommended settings for other 16:9 resolutions.
 
 <Details>
 <summary>Edryu's Widget Settings</summary>
@@ -192,13 +191,13 @@ Changing MCM Settings in any MCM that is under the `> Apostasy MCM Hider <` tab 
 
 </Details>
 
- 7. `EVG CLAMBER`: Change the EVG Clamber settings (Default: `Balanced`). This isn't recommended to be tampered with but you can.
- 8. `Horse Whistle Key`: Change the Hotkey for Horse Call (Default: `H`). Optionally add a lesser power to perform the function of the hotkey.
- 9.  `OBody NG`: Change the keybind for the OBody morphs menu (Default: `;`).
- 10. `One Click Power Attack`: Change the keybind for Power Attacks (Default: `V`).
- 11. `QuickLoot EE`: Optionally disable QuickLoot from popping up during combat.
- 12. `SmoothCam`: Change the SmoothCam Camera preset (Default: `Apostate Preset`).
- 13. `STB_ResistsWidget`: Enable/Disable or reposition the resist widgets (the ones to the **left** of the Health, Magicka, and Stamina bars).
+ 8. `EVG CLAMBER`: Change the EVG Clamber settings (Default: `Balanced`). This isn't recommended to be tampered with but you can.
+ 9. `Horse Whistle Key`: Change the Hotkey for Horse Call (Default: `H`). Optionally add a lesser power to perform the function of the hotkey.
+ 10.  `OBody NG`: Change the keybind for the OBody morphs menu (Default: `;`).
+ 11. `One Click Power Attack`: Change the keybind for Power Attacks (Default: `V`).
+ 12. `QuickLoot EE`: Optionally disable QuickLoot from popping up during combat.
+ 13. `SmoothCam`: Change the SmoothCam Camera preset (Default: `Apostate Preset`).
+ 14. `STB_ResistsWidget`: Enable/Disable or reposition the resist widgets (the ones to the **left** of the Health, Magicka, and Stamina bars).
 
 <Details>
 <summary>STB_ResistsWidget Settings</summary>
@@ -209,13 +208,14 @@ Changing MCM Settings in any MCM that is under the `> Apostasy MCM Hider <` tab 
 
 </Details>
 
- 14.  `Swift Potion`: Change the hotkey for quick potion binds.  
+ 15.  `Swift Potion`: Change the hotkey for quick potion binds.  
      - Restore Health = `F`  
      - Restore Stamina = `Shift+F`  
      - Restore Magicka = `Ctrl+F`  
- 15.  `True Directional Movement`: Change the target lock hotkey (Default: `M3`).
- 16.  `Valor Perks`: Change Dual Wield Block key here if you changed it previously.
- 17.  `Widget Mod`: Enable/Disable or reposition the miscellaneous widgets (the ones **below** the Health, Magicka, and Stamina bars).  
+ 16.  `TK Dodge`: Change the hotkey for Dodging (Default: `LAlt`).
+ 17.  `True Directional Movement`: Change the target lock hotkey (Default: `M3`).
+ 18.  `Valor Perks`: Change Dual Wield Block key here if you changed it previously.
+ 19.  `Widget Mod`: Enable/Disable or reposition the miscellaneous widgets (the ones **below** the Health, Magicka, and Stamina bars).  
      - Please note that only the widgets used are appropriately skinned for the UI, so enabling additional widgets may be undesirable.
   
 <Details>
