@@ -31,7 +31,6 @@ Key Info
  - Tuning pass on several perks.
  - Buffs to timed blocking and nerfs to dodge.
  - Fixed Poise reduction benefits and poise damage bonuses not working at all.
-   - The tradeoff is that the TrueHUD Special Bar no longer works for tracking the target's Poise Health, this will be fixed in a future update.
  - Nerfed follower effectiveness and added additional scaling for followers based on difficulty.
  - Did a revamp of all difficulty modifiers and mechanics. Read more [here](https://github.com/Oghma-Infinium/apostasy/blob/main/GAMEPLAY.md#difficulty).
  - Nerfed the Health of many enemy types by ~20%.
