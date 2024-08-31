@@ -17,25 +17,105 @@
 
 # Table of Contents
 
+ - [1.1.1](#111) Release Date: August 31, 2024
  - [1.1.0](#110) Release Date: August 29, 2024
  - [1.0.X Versions](#10x-versions)
  - [Beta Versions](#beta-versions)
+
+## 1.1.1
+
+Key Info
+
+ - Save-Safe.
+ - Mod updates and bug fixes.
+
+<Details>
+<summary>Changes</summary>
+
+#### Updated
+
+ - Kome's Inventory Tweaks
+ - [Dynamic Interface Patcher - DIP](https://www.nexusmods.com/skyrimspecialedition/mods/96891)
+ - [I4 Armor Icons Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/119824)
+ - [Serana Dialogue Add-On](https://www.nexusmods.com/skyrimspecialedition/mods/32161)
+ - [Ascend - Hidden Peaks of Skyrim](https://www.nexusmods.com/skyrimspecialedition/mods/120802)
+ - [JS Barenziah SE](https://www.nexusmods.com/skyrimspecialedition/mods/22990)
+ - [Deadly Spell Impacts](https://www.nexusmods.com/skyrimspecialedition/mods/12939)
+ - [Smart NPC Potions - Enemies Use Potions and Poisons](https://www.nexusmods.com/skyrimspecialedition/mods/40102)
+ - [Shouting Provokes Dragons](https://www.nexusmods.com/skyrimspecialedition/mods/112664)
+ - [Ultimate NPC Dodging](https://www.nexusmods.com/skyrimspecialedition/mods/120738)
+ - [Dismembering Framework](https://www.nexusmods.com/skyrimspecialedition/mods/126203)
+ - [Just Bite - Dynamic Activation Key Patch For Vampire Mods](https://www.nexusmods.com/skyrimspecialedition/mods/122597)
+
+#### Added
+
+ - [Apostate Xelzaz Replacer](https://www.nexusmods.com/skyrimspecialedition/mods/128056)
+ - [Dylbills Papyrus Functions](https://www.nexusmods.com/skyrimspecialedition/mods/65410)
+ - [Raven HDT-SMP Armor](https://www.nexusmods.com/skyrimspecialedition/mods/87655)
+   - [Fuse00 - Raven Armor 3BA SMP](https://www.nexusmods.com/skyrimspecialedition/mods/126900)
+   - [Raven Armor - My Patches SE by Xtudo](https://www.nexusmods.com/skyrimspecialedition/mods/127797)
+ - [billyro's Falchion as Bloodscythe and Soulrender](https://www.nexusmods.com/skyrimspecialedition/mods/93646)
+
+#### Removed
+
+ - [ElSopa - Northern Roads Resculpted](https://www.nexusmods.com/skyrimspecialedition/mods/83792) + [Northern Roads Resculpted Reach Bridge Fix](https://www.nexusmods.com/skyrimspecialedition/mods/101694)
+   - Mod wasn't actually being used for anything and I didn't notice any missing textures after removing it.
+ - [Ore Vein Cube Map and Shader Fixes](https://www.nexusmods.com/skyrimspecialedition/mods/85641)
+   - Mod wasn't needed.
+
+</details>
+
+<Details>
+<summary>Patch Notes</summary>
+
+#### Balance
+
+ - Changed Wyrmstooth minimum level to 15.
+ - Removed Wyrmstooth's built in boss scaling.
+ - Nerfed Mimics again.
+ - Tweaked the enchant for Ora's Blazing Longsword.
+
+#### Bug Fixes
+
+ - Updated Acrobat and Edgerunner's (Light Armor) tooltips to properly reflect the new effects they were given in 1.1.
+ - Added missing tempering recipes for weapons added in Val Serano mod.
+ - Disabled floating Mora tapinella in cell <9,8>.
+   - `ECE94`
+ - Removed Dead Scholar NPC from generic NPC list that could be pulled from for random encounters.
+ - Updated to KIT Beta to fix some issues. May introduce other issues.
+ - Removed parallax from `mountaintrimslab.nif` due to warping.
+ - Ores will no longer glow bright white.
+ - Depleted ores should no longer warp horribly.
+ - Adjusted landscape at Riften Border Region. (Near where you find Xelzaz)
+ - Fixed Pugilist (Hand to Hand) buff tooltip to properly refer to "unarmed damage" instead of "damage with Two-Handed weapons."
+ - Fixed a Placeholder magic effect to use **Self** delivery type rather than **Touch** delivery type. This makes it so if you somehow gained access to the unusable spells it was applied to, it didn't crash your game.
+ - Removed "Show Sky" flag from Temple of Mara to prevent some rare crashes.
+ - Fixed Complacent Prey (Vampire Feeding).
+
+#### Misc. Changes
+
+ - Removed note in Morthal Barrow's mod about it being esm'ified, since this was changed in 1.1 and the note was out dated.
+ - Edited Snowy Ships for Snowy Regions swap file to exclude Morthal Ships, for better consistency with Fortified Morthal.
+ - Gave Xelzaz a makeover.
+ - Removed Xelzaz's Hood, will not take affect on existing games.
+ - Improved Locomotion for DaiKatanas. Specifically their transitions from Attacks to Idles.
+ - Removed some unused downloads.
+
+</details>
 
 ## 1.1.0
 
 Key Info
 
  - Not Save-Safe. Do not continue existing saves on this update, seriously.
- - Updated Mod Organizer 2 to version **2.5.2**.
+ - Added new content.
  - Reworked Talismans.
- - Tuning pass on several perks.
- - Buffs to timed blocking and nerfs to dodge.
- - Fixed Poise reduction benefits and poise damage bonuses not working at all.
+ - Balance pass on several perks.
+ - Balance pass for Timed Blocking and Dodging. They should be more competitive with each other now and Timed Blocking should generally feel much more viable outside of 1v1s.
+ - Fixed Poise reduction benefits and Poise damage bonuses not working at all.
  - Nerfed follower effectiveness and added additional scaling for followers based on difficulty.
  - Did a revamp of all difficulty modifiers and mechanics. Read more [here](https://github.com/Oghma-Infinium/apostasy/blob/main/GAMEPLAY.md#difficulty).
- - Nerfed the Health of many enemy types by ~20%.
- - NPCs should block more, slowing down the flow of combat.
-   - The tradeoff is that this has reintroduced the possibility to encounter permablocking enemies. The game is terrible sorry.
+ - Nerfed the Health of many enemy types by ~20% in response to general feedbac
 
 <Details>
 <summary>Changes</summary>

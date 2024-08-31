@@ -37,3 +37,8 @@ This is a generic guide for playing Apostasy on a Steam Deck (with Sunshine and 
  - [Guide](https://github.com/annakins/Skyrim/blob/main/SteamDeck.md).
  - No Thread Support.
  - Created by Annakins.
+
+# General Guides
+
+The following is a list of modification guides which **I** (aljo) have made. These should be version independent as they operate on a smaller scale from the guides above.
+ - [Changing NPC Replacers](https://www.youtube.com/watch?v=RsT7xquG5QA).
