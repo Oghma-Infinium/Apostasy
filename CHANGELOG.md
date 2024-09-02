@@ -17,11 +17,68 @@
 
 # Table of Contents
 
+ - [1.1.3](#113) Release Date: September 3, 2024
  - [1.1.2](#112) Release Date: September 2, 2024
  - [1.1.1](#111) Release Date: August 31, 2024
  - [1.1.0](#110) Release Date: August 29, 2024
  - [1.0.X Versions](#10x-versions)
  - [Beta Versions](#beta-versions)
+
+## 1.1.3
+
+Key Info
+
+ - Save-Safe.
+ - Mod updates.
+ - CTD Fix.
+ - QuickLoot keybinds adjustment.
+ - Critical Strike balancing tweaks.
+
+<Details>
+<summary>Changes</summary>
+
+#### Updated
+
+ - [Stances NG](https://www.nexusmods.com/skyrimspecialedition/mods/117986)
+ - [Misc Apothecary Patches](https://www.nexusmods.com/skyrimspecialedition/mods/79641)
+ - [VIGILANT - Alessia Replacer - Equipment Addon](https://www.nexusmods.com/skyrimspecialedition/mods/97259)
+ - [JK's Dark Brotherhood Sanctuaries](https://www.nexusmods.com/skyrimspecialedition/mods/121950)
+ - [Serious Civil War Consequences for Jarl Balgruuf](https://www.nexusmods.com/skyrimspecialedition/mods/81554)
+ - [TK Dodge RE Addon](https://www.nexusmods.com/skyrimspecialedition/mods/125238)
+
+#### Added
+
+ - N/A
+
+#### Removed
+
+ - N/A
+
+</details>
+
+<Details>
+<summary>Patch Notes</summary>
+
+#### Balance
+
+ - Fixed Tier 0 Bows having incorrect stats (i.e. Long Bow).
+ - Reduced the base additional damage added onto a critical strike from 40 to 35.
+ - Adjusted Sudden Death's (Two-Handed) breakpoints for increased critical strike chance.
+
+#### Bug Fixes
+
+ - Fixed a Combat related CTD due to per reference arrow tracking.
+ - Fixed terrain seam between cells 21,-4 and 21,-5.
+ - Repainted 21,-X cells in the general area of Fort Amol.
+
+#### Misc. Changes
+
+ - Darkened ivy grass texture. Thanks to Forosnai.
+ - "Ready Weapon" keybind will now act as "open container" in quickloot menus.
+ - "Favorites" keybind will now act as "take all" in quickloot menus.
+ - Removed DodgeCost global notification on game start.
+
+</details>
 
 ## 1.1.2
 
