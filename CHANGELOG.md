@@ -17,7 +17,7 @@
 
 # Table of Contents
 
- - [1.1.2](#112) Release Date: 
+ - [1.1.2](#112) Release Date: September 2, 2024
  - [1.1.1](#111) Release Date: August 31, 2024
  - [1.1.0](#110) Release Date: August 29, 2024
  - [1.0.X Versions](#10x-versions)
