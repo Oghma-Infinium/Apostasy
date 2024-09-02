@@ -17,10 +17,74 @@
 
 # Table of Contents
 
+ - [1.1.2](#112) Release Date: 
  - [1.1.1](#111) Release Date: August 31, 2024
  - [1.1.0](#110) Release Date: August 29, 2024
  - [1.0.X Versions](#10x-versions)
  - [Beta Versions](#beta-versions)
+
+## 1.1.2
+
+Key Info
+
+ - Save-Safe.
+ - Bug Fixes and mod updates.
+
+<Details>
+<summary>Changes</summary>
+
+#### Updated
+
+ - [Parallax Spell Impacts](https://www.nexusmods.com/skyrimspecialedition/mods/83935)
+ - [Just Bite - Dynamic Activation Key Patch For Vampire Mods](https://www.nexusmods.com/skyrimspecialedition/mods/122597)
+ - [Modern Combat AI](https://www.nexusmods.com/skyrimspecialedition/mods/74716)
+ - [JK's Castle Dour](https://www.nexusmods.com/skyrimspecialedition/mods/74309)
+ - [Katanas of Skyrim](https://www.nexusmods.com/skyrimspecialedition/mods/92187)
+ - [Ultimate NPC Dodging](https://www.nexusmods.com/skyrimspecialedition/mods/120738)
+
+#### Added
+
+ - [Armored Draugr Corpses](https://www.nexusmods.com/skyrimspecialedition/mods/104555)
+   - [Draugrs - SE by Xtudo - Armored Draugr Corpses](https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=518730&nmm=1&game_id=1704)
+ - [Praedy's Apocrypha - SE](https://www.nexusmods.com/skyrimspecialedition/mods/127944)
+ - [Auri's Unique Pod - Song of the Green Addon](https://www.nexusmods.com/skyrimspecialedition/mods/128016)
+ - [Root Weeds Redone](https://www.nexusmods.com/skyrimspecialedition/mods/128137)
+ - [Crash Log Tools for MO2 - Updated](https://www.nexusmods.com/skyrimspecialedition/mods/113668)
+
+#### Removed
+
+ - N/A
+
+</details>
+
+<Details>
+<summary>Patch Notes</summary>
+
+#### Balance
+
+ - Added Dai-Katanas.
+
+#### Bug Fixes
+
+ - Repainted landscape in cell -21,18.
+ - Adjusted floating landscape clutter in cell 32,-10.
+ - Repainted landscape in cell 32,-10.
+ - Repainted landscape in cells -10,-23; -9,-23; and -10,-22.
+ - Auri should no longer be missing her hands.
+ - Werebear will now open the correct perk menu.
+ - Fixed Stalhrim Katana texture.
+ - Fixed issue where performing a timed block during brawls would turn everyone hostile.
+ - Removed parallax from `mountaincliff02.nif` due to warping.
+ - Removed leftover debug notification from Lashing Thorns.
+ - (re)Flagged Lod's Letter as persistent.
+
+#### Misc. Changes
+
+ - Adjusted textures on dlc2mushroomtree's.
+ - Improved DaiKatana locomotion again.
+ - Improved Bloodskal Blade's tooltip.
+
+</details>
 
 ## 1.1.1
 
