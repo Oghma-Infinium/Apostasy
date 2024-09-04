@@ -29,6 +29,7 @@
 - [Contents](#contents)
   - [Introduction](#introduction)
     - [System Requirements](#system-requirements)
+    - [Video Guide](#video-guide)
   - [Installation](#installation)
     - [Pre-Installation](#pre-installation)
       - [Installing Microsoft Visual C++ and .NET](#installing-microsoft-visual-c-and-net)
@@ -62,10 +63,6 @@ Apostasy is a Wabbajack modlist for Skyrim SE that offers a modern, action-orien
 A full list of the mods used in this modlist can be viewed [here](https://loadorderlibrary.com/lists/Apostasy).
 
 You can find a summary of all relevant gameplay changes on the [Gameplay Guide](https://github.com/Oghma-Infinium/Apostasy/blob/main/GAMEPLAY.md) as well.
-
-If you would prefer to follow along with a video guide, you can watch the Installation Guide below.
-
-[![](https://raw.githubusercontent.com/Oghma-Infinium/Apostasy/main/images/InstallThumbnail.png)](https://youtu.be/6IJlT_H7pvk?si=OldwShLFkc1-W9Xq)
 
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
@@ -116,6 +113,12 @@ Apostasy heavily employs [BSA](https://en.uesp.net/wiki/Skyrim_Mod:Archive_File_
 If you are struggling with issues of Wabbajack crashing during the installation process, please read the [Problems with Installation](#problems-with-installation) section of this ReadMe.
 
 </Details>
+
+### Video Guide
+
+If you would prefer to follow along with a video guide, you can watch the Installation Guide by clicking the image below.
+
+[![](https://raw.githubusercontent.com/Oghma-Infinium/Apostasy/main/images/InstallThumbnail.png)](https://youtu.be/6IJlT_H7pvk?si=OldwShLFkc1-W9Xq)
 
 ## Installation
 
@@ -551,4 +554,4 @@ Please check the [FAQ](https://github.com/Oghma-Infinium/Apostasy/blob/main/Docu
 - [Styyx](https://github.com/Styyx1) for assisting heavily in creating DLLs for the custom mods made for the list.
 - [Aelarr](https://www.nexusmods.com/skyrim/users/6843757) and Anreme for permissions to use some custom mods from The Owl Archives server.
 - Mgde12, D1Z4STR, 半蔵 内倉, Kepler, Hencoat, nostalgic.wave, EnragedHamster, unclemestor, snowpeachcherry, Charlie Kriech, Durgenage, Pacifist Fist, Don Maker, Russell Collins, Oresh, Danimals, Monko, Anehum, hildocean, The Unattested Wombat, Ola Nordman, Regista433, Jaron Scotland, King_Sheogorath, TheRyge, Shakes, highchae, Robbie, cowbellhero55, Geero, JAYDENCITO, Nehellena, Mysthey, Echo, Scott MacLeod, Exanima, Thundertube, LELUGOLELU, ravenlake, Paultinich, icaruscien, Oracraen, Lykk3, VillainousJ, Micheal Hamm, netwolff, Nico, G1Broheim, sweeper240, calcteacher, Ark for support on [patreon](https://www.patreon.com/aljoxo).
-- adorion1981, aexilkv, AlphaGhost47, ambo, Ananta, annakins, Blade, BlueBeagle, Bubborus, Chef Nicnaq, Danimals, derbaer, derkaenaz, DevZan, Don Maker, doombot117, E2J, Elendil, EnragedHamster, FalseRealism / Shingee Tingee, Felivath, Forsaken Jing, freshr, FutureWorld, Gous, Gremlin, hedich, Hencoat, Jeremy, Joey, JoeyFlow, JollyTheRancher, JXEYES, Kannon555, kanpeki, Kathie Murphy, Kiqing, Lunaros, Maelstrom, Mgde12, Mike, Monko, netwolff, orca, paulogrupp, Psyguyy, rezthe0one, Roxiie, SaddestNoddles, skylion, Soloist, Steve, Stryn, thefrogwithnoname, Thomas Brack, Tom Curran, tyler, tyrotoxism, Victoriam, Won Pham, WoWZaton, Xtremza, Zhijia, and zidan for their support via [Ko-fi](https://ko-fi.com/aljoxo).
+- adorion1981, aexilkv, AlphaGhost47, ambo, Ananta, annakins, Atlas, Blade, BlueBeagle, Bubborus, Chef Nicnaq, Danimals, derbaer, derkaenaz, DevZan, Don Maker, doombot117, E2J, Elendil, EnragedHamster, FalseRealism / Shingee Tingee, Felivath, Forsaken Jing, freshr, FutureWorld, Gous, Gremlin, hedich, Hencoat, Jeremy, Joey, JoeyFlow, JollyTheRancher, JXEYES, Kannon555, kanpeki, Kathie Murphy, Kiqing, Lunaros, Maelstrom, Mgde12, Mike, Monko, netwolff, orca, paulogrupp, Psyguyy, rezthe0one, Roxiie, SaddestNoddles, skylion, Soloist, Steve, Stryn, thefrogwithnoname, Thomas Brack, Tom Curran, tyler, tyrotoxism, Victoriam, Won Pham, WoWZaton, Xtremza, Zhijia, and zidan for their support via [Ko-fi](https://ko-fi.com/aljoxo).
