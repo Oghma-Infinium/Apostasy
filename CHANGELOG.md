@@ -17,12 +17,63 @@
 
 # Table of Contents
 
+ - [1.1.4](#114) Release Date: September 4, 2024
  - [1.1.3](#113) Release Date: September 3, 2024
  - [1.1.2](#112) Release Date: September 2, 2024
  - [1.1.1](#111) Release Date: August 31, 2024
  - [1.1.0](#110) Release Date: August 29, 2024
  - [1.0.X Versions](#10x-versions)
  - [Beta Versions](#beta-versions)
+
+## 1.1.4
+
+Key Info
+
+ - Save-Safe.
+ - Minor bug fixes.
+
+<Details>
+<summary>Changes</summary>
+
+#### Updated
+
+ - [True Directional Movement Lock-on Fixes](https://www.nexusmods.com/skyrimspecialedition/mods/77843)
+ - [Just Bite - Dynamic Activation Key Patch For Vampire Mods](https://www.nexusmods.com/skyrimspecialedition/mods/122597)
+
+#### Added
+
+ - [ENB Light - Community Shader Light Limit Fix Light - All-Maker Stones](https://www.nexusmods.com/skyrimspecialedition/mods/128397)
+ - [SMIM Fix](https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=529687&nmm=1&game_id=1704)
+
+#### Removed
+
+ - N/A
+
+</details>
+
+<Details>
+<summary>Patch Notes</summary>
+
+#### Balance
+
+ - Adjusted Human Spear (NPC) moveset.
+
+#### Bug Fixes
+
+ - Fixed stats for Katanas and Greatsword both mistakenly pulling DaiKatana stats.
+ - Fixed Flames (and similar Fire Concentration spells) having bugged impact textures.
+ - Fixed Rayya being in the wrong Jarl's Longhouse.
+ - Added some `Actor->Is3DLoaded` checks for Poise calculations. This might fix some rare crashes where actors were being used in Poise calculations while they were unloaded.
+
+#### Misc. Changes
+
+ - Lokir will no longer do a random death animation. It looked goofy.
+ - Re-enabled SMP for Vanilla Hair styles that should have had it. I accidentally disabled the xmls in the previous update.
+ - MO2 Executable will now properly default to `Play` instead of `xEdit`.
+ - Reorganized and alphabetized some MO2 sections where order was not relevant.
+
+</details>
+
 
 ## 1.1.3
 
