@@ -17,7 +17,7 @@
 
 # Table of Contents
 
- - [1.1.5](#115) Release Date: 
+ - [1.1.5](#115) Release Date: September 6, 2024
  - [1.1.4](#114) Release Date: September 4, 2024
  - [1.1.3](#113) Release Date: September 3, 2024
  - [1.1.2](#112) Release Date: September 2, 2024
