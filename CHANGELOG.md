@@ -17,6 +17,7 @@
 
 # Table of Contents
 
+ - [1.1.5](#115) Release Date: 
  - [1.1.4](#114) Release Date: September 4, 2024
  - [1.1.3](#113) Release Date: September 3, 2024
  - [1.1.2](#112) Release Date: September 2, 2024
@@ -24,6 +25,71 @@
  - [1.1.0](#110) Release Date: August 29, 2024
  - [1.0.X Versions](#10x-versions)
  - [Beta Versions](#beta-versions)
+
+## 1.1.5
+
+Key Info
+
+ - Save-Safe.
+ - Mostly repainting landscape seams.
+
+<Details>
+<summary>Changes</summary>
+
+#### Updated
+
+ - Kome's Inventory Tweaks (KIT)
+ - I4 Weapon Icons Overhaul
+ - [Dragon War - A Dragon Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/51310)
+ - [Subdivide and Smooth - Vines](https://www.nexusmods.com/skyrimspecialedition/mods/101926)
+ - [Shout Recovery Utilities](https://www.nexusmods.com/skyrimspecialedition/mods/115457)
+ - [Follower Dialogue Expansion - Aela the Huntress](https://www.nexusmods.com/skyrimspecialedition/mods/114801)
+
+#### Added
+
+ - N/A
+
+#### Removed
+
+ - N/A
+
+</details>
+
+<Details>
+<summary>Patch Notes</summary>
+
+#### Balance
+
+ - Infernal Armor (Heavy Armor) now has diminishing returns >500 Armor Rating. This means the maximum spell damage resistance granted by Infernal Armor is 40% (was 50%).
+   - **NEW**: Incoming spell damage is reduced by up to 40% based on Armor Rating while wearing a heavy armor chest piece.
+   - **OLD**: Incoming spell damage is reduced by 0.05% per point of Armor Rating while wearing a heavy armor chest piece.
+ - Spears now do less damage. Their movesets were very fast for both the player and NPCs and they seemed to outclass some other 2H weapons by a decent margin in pure DPS.
+ - Slightly reduced weight of Dai-Katanas to better differentiate them from Spears and Greatswords.
+ - Adjusted Ebony Blade to be more in line with Dai-Katanas rather than Greatswords.
+ - Changed some weapon displays in Jorrvaskr to more appropriate weapon types. Changed the ownerships for these displays.
+   - I am finally policing player behavior.
+
+#### Bug Fixes
+
+ - Adjusted positioning of a Frost Troll at POIVolcanicTundra04 so he no longer got stuck on the nearby icicles.
+   - `D8494`
+ - Fixed landscape seam outside of Loreius Farm.
+   - `9,5` and `9,6`
+ - Fixed landscape seam near Embershard Mine. 
+   - `1,-15` and `1,-16` 
+ - Repainted landscape near Western Watchtower to fix some minor landscape seams.
+   - `2,-4`, `1,-4`, `0,-4`
+ - Fixed some landscape seams near White River Watch.
+   - `9,-3`, `10,-2`, `10,-3`, `11,-2`.
+ - Repainted a lot of area outside and surrounding Whiterun because there were some minor seams and they bothered me.
+ - Falion will no longer take a 3 hour nap in the middle of his shift. Fixes a crash that could occur in Falion's House.
+ - Fixed issue with Varla Stone's icon in menu.
+
+#### Misc. Changes
+
+ - Corrected default list difficulty to "Adept". Was accidentally compiled on "Expert" last update. 
+
+</details>
 
 ## 1.1.4
 
@@ -73,7 +139,6 @@ Key Info
  - Reorganized and alphabetized some MO2 sections where order was not relevant.
 
 </details>
-
 
 ## 1.1.3
 
