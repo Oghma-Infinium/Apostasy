@@ -17,6 +17,7 @@
 
 # Table of Contents
 
+ - [1.1.6](#116) Release Date: September 16, 2024
  - [1.1.5](#115) Release Date: September 6, 2024
  - [1.1.4](#114) Release Date: September 4, 2024
  - [1.1.3](#113) Release Date: September 3, 2024
@@ -25,6 +26,67 @@
  - [1.1.0](#110) Release Date: August 29, 2024
  - [1.0.X Versions](#10x-versions)
  - [Beta Versions](#beta-versions)
+
+## 1.1.6
+
+Key Info
+
+ - Save-Safe.
+ - Probably the last update for the foreseeable future.
+
+<Details>
+<summary>Changes</summary>
+
+#### Updated
+
+ - [True Directional Movement - Modernized Third Person Gameplay](https://www.nexusmods.com/skyrimspecialedition/mods/51614)
+ - [Oblivion Interaction Icons](https://www.nexusmods.com/skyrimspecialedition/mods/52743)
+ - [Ultimate NPC Dodging](https://www.nexusmods.com/skyrimspecialedition/mods/120738)
+ - [Arm Movement Animations (OAR)](https://www.nexusmods.com/skyrimspecialedition/mods/62849)
+ - [Embers XD](https://www.nexusmods.com/skyrimspecialedition/mods/37085)
+ - [FormList Manipulator - FLM](https://www.nexusmods.com/skyrimspecialedition/mods/74037)
+ - [Extended Guard Dialogue](https://www.nexusmods.com/skyrimspecialedition/mods/106523)
+ - [Extended Encounters](https://www.nexusmods.com/skyrimspecialedition/mods/44810)
+ - [TK Dodge RE Addon](https://www.nexusmods.com/skyrimspecialedition/mods/125238)
+ - [Serious Civil War Consequences for Jarl Balgruuf](https://www.nexusmods.com/skyrimspecialedition/mods/81554)
+ - [Face Sculptor Expanded](https://www.nexusmods.com/skyrimspecialedition/mods/110116)
+ - [RedBag's Rorikstead - Some Useful Patches](https://www.nexusmods.com/skyrimspecialedition/mods/64187)
+ - [Assorted mesh fixes](https://www.nexusmods.com/skyrimspecialedition/mods/32117)
+
+#### Added
+
+ - [Unequip Quiver NG](https://www.nexusmods.com/skyrimspecialedition/mods/128582)
+ - [Eld-beri II - Lanterns Reworked](https://www.nexusmods.com/skyrimspecialedition/mods/128812)
+ - [LeveledList Crash Fix](https://www.nexusmods.com/skyrimspecialedition/mods/129136)
+   - [LeveledList Crash Fix for Skyrim 1.5](https://www.nexusmods.com/skyrimspecialedition/mods/129152)
+
+#### Removed
+
+ - N/A
+
+</details>
+
+<Details>
+<summary>Patch Notes</summary>
+
+#### Balance
+
+ - Buffed MCO Draugr spawn before the Final Boss room in Hillgrund's Tomb.
+ - Buffed Lashing Thorns' (Talisman) bleed effect by 250%.
+
+#### Bug Fixes
+
+ - Removed MCO Draugr that interrupted the scene between Vals Veran and Golldir at the end of Hillgrund's Tomb.
+ - Fixed a bug with Engine Guardian's (Talisman) summon.
+ - Fixed crafting conditions on Nordic Steel Spears, Katanas, and DaiKatanas.
+ - Controller Config should now ship with proper Dodge MCM settings.
+ - Fixed bug where you could dodge while in menus.
+
+#### Misc. Changes
+
+ - Added a Hit Shader to Lashing Thorns' (Talisman) bleed effect.
+
+</details>
 
 ## 1.1.5
 

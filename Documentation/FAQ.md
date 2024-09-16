@@ -23,6 +23,7 @@
     - [Q: Can I uncap the FPS?](#q-can-i-uncap-the-fps)
     - [Q: What mod is it that makes favorited items/potions/quest items show on my character?](#q-what-mod-is-it-that-makes-favorited-itemspotionsquest-items-show-on-my-character)
     - [Q: How do I reposition my weapons? / Can I have swords on my back?](#q-how-do-i-reposition-my-weapons--can-i-have-swords-on-my-back)
+    - [Q: My character is really skinny and the weight sliders only adjust the neck and wrist, how do I change my character's body appearance?](#q-my-character-is-really-skinny-and-the-weight-sliders-only-adjust-the-neck-and-wrist-how-do-i-change-my-characters-body-appearance)
     - [Q: How do I start the main questline?](#q-how-do-i-start-the-main-questline)
     - [Q: I can't find Altano in the Windpeak Inn. / How do I start VIGILANT?](#q-i-cant-find-altano-in-the-windpeak-inn--how-do-i-start-vigilant)
     - [Q: How do I start UNSLAAD?](#q-how-do-i-start-unslaad)
@@ -34,14 +35,12 @@
     - [Q: Will you add \[insert mod\] to the list?](#q-will-you-add-insert-mod-to-the-list)
     - [Q: Will you add OStim/SexLab to the list?](#q-will-you-add-ostimsexlab-to-the-list)
   - [Known Issues](#known-issues)
-    - [HUD / UI Disappears during Helgen Intro!](#hud--ui-disappears-during-helgen-intro)
     - [When leveling up skills, new perk nodes do not get highlighted until exiting and re-entering the perk menu!](#when-leveling-up-skills-new-perk-nodes-do-not-get-highlighted-until-exiting-and-re-entering-the-perk-menu)
     - [Dark Brotherhood abducted me when trying to start the Helgen Intro!](#dark-brotherhood-abducted-me-when-trying-to-start-the-helgen-intro)
     - [Wicked Game Quest (Val Serano) bugged out because of the Dark Brotherhood trying to abduct me!](#wicked-game-quest-val-serano-bugged-out-because-of-the-dark-brotherhood-trying-to-abduct-me)
     - [Carriage Horse in Solitude is partially in the wall!](#carriage-horse-in-solitude-is-partially-in-the-wall)
     - [Not receiving Courier Letter from Dark Brotherhood!](#not-receiving-courier-letter-from-dark-brotherhood)
     - [Being randomly attacked or arrested by NPCs!](#being-randomly-attacked-or-arrested-by-npcs)
-    - [Body type won't change when trying to apply a new body through OBody.](#body-type-wont-change-when-trying-to-apply-a-new-body-through-obody)
     - [\[Insert Male NPC\] looks like he has tits / has a really big chest and arms!](#insert-male-npc-looks-like-he-has-tits--has-a-really-big-chest-and-arms)
     - [Can't attack with Left Hand in First Person (Dual Wield or Unarmed)!](#cant-attack-with-left-hand-in-first-person-dual-wield-or-unarmed)
     - [Widgets overlap TrueHUD Attributes Widget!](#widgets-overlap-truehud-attributes-widget)
@@ -65,6 +64,9 @@ A: [Immersive Equipment Displays](https://www.nexusmods.com/skyrimspecialedition
 
 ### Q: How do I reposition my weapons? / Can I have swords on my back?
 A: Open the [Immersive Equipment Displays](https://www.nexusmods.com/skyrimspecialedition/mods/62001) GUI with `Left Shift+Backspace` and reposition your equipment.
+
+### Q: My character is really skinny and the weight sliders only adjust the neck and wrist, how do I change my character's body appearance?
+A: Open the OBody menu with `;` (check or change the keybind in the MCM if you do not have a QWERTY keyboard).
 
 ### Q: How do I start the main questline?  
 A: Go to the Helgen Inn, speak to Matlara, and select the dialogue option `"Give me your best room. (X gold) (Start Intro)"` in order to start the intro sequence.
@@ -98,10 +100,6 @@ A: If you want to commission me to do so, then maybe. Otherwise, no.
 
 ## Known Issues
 
-### HUD / UI Disappears during Helgen Intro!
-Solution(s)
- 1. This seems to be an issue that will sometimes occur with [TrueHUD](https://www.nexusmods.com/skyrimspecialedition/mods/62775) when the `SetCartHUD` function is used in papyrus. I have removed this function (as it's not necessary to the functionality of the Helgen Intro with [Alternate Perspective](https://www.nexusmods.com/skyrimspecialedition/mods/50307)), however if it still occurs then **restarting your game** will return your HUD / UI to normal.
-
 ### When leveling up skills, new perk nodes do not get highlighted until exiting and re-entering the perk menu!
 Solution(s)
  1. This is a bug with advancing skills while inside of an active menu. I won't fix this, it's a minor visual bug, the perks can still be selected even if you don't exit and re-enter menu.
@@ -126,17 +124,13 @@ Solution(s)
 Solution(s)
  1. open the console, select one of the NPCs, and type `paycrimegold 0 0`
 
-### Body type won't change when trying to apply a new body through OBody.
-Solution(s)
- 1. This issue should be fixed with versions 4.2.0+ of [OBody NG](https://www.nexusmods.com/skyrimspecialedition/mods/77016), however if you still encounter this issue then you should check the [Troubleshooting Guide](https://www.nexusmods.com/skyrimspecialedition/articles/4868).
-
 ### [Insert Male NPC] looks like he has tits / has a really big chest and arms!
 Solution(s)
  1. Change their OBody preset, do not report this as an issue to me, I'm tired of hearing about it.
 
 ### Can't attack with Left Hand in First Person (Dual Wield or Unarmed)!
 Solution(s)
- 1. I am currently looking for an elegant solution to this issue, but the list is first and foremost focused on third person. If you wish to play a DW or Unarmed-based build in first person, I would suggest rethinking your build or playing a list that is more suitable for this.
+ 1. It works fine if you attack with right-hand first, otherwise right click (left-hand) will be treated as a "Block" input.
 
 ### Widgets overlap TrueHUD Attributes Widget!
 Solution(s)
