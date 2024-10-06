@@ -265,7 +265,7 @@ Downloading and installing Apostasy can take a while depending on your internet 
 To install Apostasy, complete the following steps.
 
  1. Open Wabbajack and click `Browse Modlists`
- 2. Tick on the `Show Unofficial Lists` box and pick the **Skyrim Special Edition** option from the game filter drop-down box (or use the search bar to find the modlist)
+ 2. Pick the **Skyrim Special Edition** option from the game filter drop-down box (or use the search bar to find the modlist).
  3. Press the download arrow on the Apostasy UI card and wait for it to download
  4. Set the `Modlist Installation Location` to a folder such as `C:\Apostasy`.
     > - **DO NOT place it in Program Files, User folders (such as Desktop, Documents, Downloads, OneDrive, etc.), or in your Skyrim's Steam folder**
