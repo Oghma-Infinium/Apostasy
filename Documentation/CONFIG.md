@@ -53,7 +53,7 @@ This section is going to be short and basic and only cover keybinds that must be
 
 Apostasy ships with a premade controller configuration, designed for the list. In order to activate the controller config, please follow the steps below:
 
- 1. Navigate to the `Keybinds and Gamepad` separator under the Optional Addons section in the **right pane** of MO2.
+ 1. Navigate to the `Keybinds and Gamepad` separator under the Optional Addons section in the **left pane** of MO2.
  2. Deactivate the `Apostasy - Default Controlmap` mod.
  3. Activate the `Wait Menu Redirected Mod`.
  4. Activate the `Apostasy - Controller Configuration` mod.
