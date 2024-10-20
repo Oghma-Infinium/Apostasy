@@ -380,8 +380,6 @@ Crafting Motifs are consumed (like spell tomes) and are not required to be held 
 
 Armors and weapons crafted from Motifs may or may not require the equivalent Smithing perk in addition to the manual knowledge requirement.
 
- - **Armor**
-   - : Purchasable from Blacksmiths with level 80+ Smithing skill.
  - **Clothes and Jewelry**
    - [Glasses](https://www.nexusmods.com/skyrimspecialedition/mods/115653): Purchasable from Jewelers and Radiant Raiments. (**FEMALE ONLY**).
    - **Earrings**: Purchasable from Jewelers and Radiant Raiments. (Covers [Goam's Earrings](https://www.nexusmods.com/skyrimspecialedition/mods/112173) and [Pierced Ears - Earrings SE](https://www.nexusmods.com/skyrimspecialedition/mods/13571).)
