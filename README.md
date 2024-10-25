@@ -60,7 +60,7 @@
 
 Apostasy is a Wabbajack modlist for Skyrim SE that offers a modern, action-oriented combat system, custom tailored gameplay, and a consistent, high-fidelity graphics overhaul. Apostasy aims to deliver a cohesive and refined experience, enhancing both visuals and mechanics.
 
-A full list of the mods used in this modlist can be viewed [here](https://loadorderlibrary.com/lists/Apostasy).
+A full list of the mods used in this modlist can be viewed [here](https://loadorderlibrary.com/lists/apostasy).
 
 You can find a summary of all relevant gameplay changes on the [Gameplay Guide](https://github.com/Oghma-Infinium/Apostasy/blob/main/GAMEPLAY.md) as well.
 
