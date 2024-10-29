@@ -45,6 +45,7 @@
     - [Can't attack with Left Hand in First Person (Dual Wield or Unarmed)!](#cant-attack-with-left-hand-in-first-person-dual-wield-or-unarmed)
     - [Widgets overlap TrueHUD Attributes Widget!](#widgets-overlap-truehud-attributes-widget)
     - [Stuck in slow motion!](#stuck-in-slow-motion)
+    - [Can't put an item into Wheeler!](#cant-put-an-item-into-wheeler)
   - [Known Crashes](#known-crashes)
     - [Wheeler.dll Crash!](#wheelerdll-crash)
     - [Crashing when talking to Azura/Peryite/Augur of Dunlain/\[Insert Talking Head Activator\]!](#crashing-when-talking-to-azuraperyiteaugur-of-dunlaininsert-talking-head-activator)
@@ -139,6 +140,10 @@ Solution(s)
 ### Stuck in slow motion!
 Solution(s)
  1. Bug with Wheeler, just reopen and close the wheel.
+
+### Can't put an item into Wheeler!
+Solution(s)
+ 1. Drop the item and pick it back up, this is usually an issue with items that are added via a script not properly initializing as a reference. 
 
 ## Known Crashes
 

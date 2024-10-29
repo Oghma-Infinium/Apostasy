@@ -44,10 +44,14 @@ The following sections detail the **supported** modifications to the list. Any o
 This section is going to be short and basic and only cover keybinds that must be changed ***outside of the game***. Please refer the [this](https://ck.uesp.net/wiki/Input_Script) page for the DXScanCodes used by most mods.
 
  - **Dual Wield Blocking**: 
-   - Open the mod `Apostasy - Dual Block Parry Keybinds`. 
-   - In the mod open the `DualWieldParryingSKSE.ini` and the `BlockCancel.json` files and change the keybind(s). 
+   1. Open the mod `Apostasy - Dual Block Parry Keybinds`. 
+   2. In the mod open the `DualWieldParryingSKSE.ini` and the `BlockCancel.json` files and change the keybind(s). 
      - **MAKE SURE THE KEYBIND YOU CHANGE TO IN THE `DualWieldParryingSKSE.ini` MATCHES THE KEYBIND FOR `"BlockCancel2"` IN THE `BlockCancel.json`**.
-   - **In game**, edit the dual block keybind in the `Valor Perks` MCM, or dual block will not be able to trigger timed blocks.
+   3. **In game**, edit the dual block keybind in the `Valor Perks` MCM, or dual block will not be able to trigger timed blocks.
+ - **Cycle Stances**: If you would prefer Stances cycle on a single key press instead of having 3 separate keybinds then you can do the following.
+   1. Open the mod `Stances NG`.
+   2. In the mod open the `StancesNG.ini`.
+   3. Change `bUseCycling` from `false` to `true`.
 
 ### Controller and Gamepad Support
 
