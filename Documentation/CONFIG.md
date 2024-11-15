@@ -93,11 +93,11 @@ This separator contains a series of visual-only mods that can be easily disabled
  2. `Camera Noise`: Adds some camera motion/shake effects to both 1st and 3rd person. Can be tweaked via the ENB Menu (must Load Config first in ENB menu for it to show up in Shaders window). Can be disabled if it does not suit the users preference and should be disabled by people prone to motion sickness.
  3. `Capture Warmer (Dynamic Cubemaps)`: Improves the reflection quality of Dynamic Cubemaps, however has an annoying bug which causes the camera to spin when entering/exiting some cells. Disabled by default since the list does not make heavy use of Dynamic Cubemaps.
  4. `Dynamic Cubemaps - Metals`: Replaces the majority of cubemaps used by Armors and Weapons in the list with the 1px cubemap required to make use of the Dynamic Cubemap feature in ENB. It is strongly suggested that if you want to use Dynamic cubemaps you use this feature instead of the "Replace All Cubemaps" feature in the ENB GUI as that feature can cause some visuals bugs (e.g. issues with eye reflections due to replacing the Eye cubemap).
- 5. `Dynamic Impact Slash Effects X`: Adds new particle effects on weapon hits. Can be disabled if it does not suit user preferences. Can also be reinstalled with a different Impact VFX choice. Make sure to keep the other FOMOD choices the same if you reinstall the mod (check the Mod's note for full FOMOD breakdown).
- 6. `Enhanced Volumetric Lighting and Shadows`: EVLaS "improves" Skyrim's Volumetric lighting at the cost of performance. Disabling this mod can cause some oddities with moon lighting.
+ 5. `Enhanced Volumetric Lighting and Shadows`: EVLaS "improves" Skyrim's Volumetric lighting at the cost of performance. Disabling this mod can cause some oddities with moon lighting.
+ 6. `No Armor Spell Shader`: Removes the shader effect from spells like [Oakflesh](https://en.uesp.net/wiki/Skyrim:Armor_(spells)#Oakflesh), etc.
  7. `Precision Trail Magic Replacer - Chaos`: Edit of the precision weapon trail for enchanted and some unique weapons. Can be disabled if it does not suit user preferences.
  8. `Precision Trail Magic Replacer - Edit`: Disable if disabling the mod above.
- 9. `Precision magic trails`: Disable if disabling the mods above.
+ 9.  `Precision magic trails`: Disable if disabling the mods above.
  10. `Precision Trail Replacer - Simple`: Replacer for the default Precision weapon trail. 
  11. `Visualized Critical Hits - MIF`: Adds some additional visual feedback on critical strikes. Can be disabled if it does not suit user preferences.
 

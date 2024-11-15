@@ -23,6 +23,8 @@
     - [Q: Can I uncap the FPS?](#q-can-i-uncap-the-fps)
     - [Q: What mod is it that makes favorited items/potions/quest items show on my character?](#q-what-mod-is-it-that-makes-favorited-itemspotionsquest-items-show-on-my-character)
     - [Q: How do I reposition my weapons? / Can I have swords on my back?](#q-how-do-i-reposition-my-weapons--can-i-have-swords-on-my-back)
+    - [Q: How do I remove the Glenmoril Witch Head from showing on my character?](#q-how-do-i-remove-the-glenmoril-witch-head-from-showing-on-my-character)
+    - [Q: How do I remove \[Insert Quest Item\] from showing on my character?](#q-how-do-i-remove-insert-quest-item-from-showing-on-my-character)
     - [Q: My character is really skinny and the weight sliders only adjust the neck and wrist, how do I change my character's body appearance?](#q-my-character-is-really-skinny-and-the-weight-sliders-only-adjust-the-neck-and-wrist-how-do-i-change-my-characters-body-appearance)
     - [Q: How do I start the main questline?](#q-how-do-i-start-the-main-questline)
     - [Q: I can't find Altano in the Windpeak Inn. / How do I start VIGILANT?](#q-i-cant-find-altano-in-the-windpeak-inn--how-do-i-start-vigilant)
@@ -35,6 +37,7 @@
     - [Q: Will you add \[insert mod\] to the list?](#q-will-you-add-insert-mod-to-the-list)
     - [Q: Will you add OStim/SexLab to the list?](#q-will-you-add-ostimsexlab-to-the-list)
   - [Known Issues](#known-issues)
+    - [Failed to create download folder!](#failed-to-create-download-folder)
     - [When leveling up skills, new perk nodes do not get highlighted until exiting and re-entering the perk menu!](#when-leveling-up-skills-new-perk-nodes-do-not-get-highlighted-until-exiting-and-re-entering-the-perk-menu)
     - [Dark Brotherhood abducted me when trying to start the Helgen Intro!](#dark-brotherhood-abducted-me-when-trying-to-start-the-helgen-intro)
     - [Wicked Game Quest (Val Serano) bugged out because of the Dark Brotherhood trying to abduct me!](#wicked-game-quest-val-serano-bugged-out-because-of-the-dark-brotherhood-trying-to-abduct-me)
@@ -64,7 +67,13 @@ A: The list is capped to 61 FPS by default. While [SSE Display Tweaks](https://w
 A: [Immersive Equipment Displays](https://www.nexusmods.com/skyrimspecialedition/mods/62001). You can open the menu with `Left Shift+Backspace` to customize what you want to show and what you don't want to show.
 
 ### Q: How do I reposition my weapons? / Can I have swords on my back?
-A: Open the [Immersive Equipment Displays](https://www.nexusmods.com/skyrimspecialedition/mods/62001) GUI with `Left Shift+Backspace` and reposition your equipment.
+A: Open the [Immersive Equipment Displays](https://www.nexusmods.com/skyrimspecialedition/mods/62001) GUI with `Left Shift + Backspace` and reposition your equipment.
+
+### Q: How do I remove the Glenmoril Witch Head from showing on my character?
+A: Open the [Immersive Equipment Displays](https://www.nexusmods.com/skyrimspecialedition/mods/62001) GUI with `Left Shift + Backspace`, under `Display Manager` click View > Custom items, look for `Quest - Left Skull`, scroll down to `Equipment overrides`, expand `Glenmoril Witch Head`, and under `General` tick the box next to `Disabled`.
+
+### Q: How do I remove [Insert Quest Item] from showing on my character?
+A: I'm not going to write a QA for *EVERY SINGLE* quest item that is displayed via IED. You can figure it out based on the instructions above.
 
 ### Q: My character is really skinny and the weight sliders only adjust the neck and wrist, how do I change my character's body appearance?
 A: Open the OBody menu with `;` (check or change the keybind in the MCM if you do not have a QWERTY keyboard).
@@ -100,6 +109,10 @@ A: No, probably not. We'll see.
 A: If you want to commission me to do so, then maybe. Otherwise, no.
 
 ## Known Issues
+
+### Failed to create download folder!
+Solution(s)
+ 1. Upon opening MO2 you may get a error warning like this: `Failed to create "D:\Downloads" Your user account probably lacks permission`. This is due to Wabbajack not changing the ini file of MO2. To fix this find the file `ModOrganizer.ini` inside the same folder as the MO2 exe is and change the line: `download_directory=D:\Downloads` to `download_directory=Your Prefered Download Folder`. It's best to find the line inside the ini by using `ctrl + F`.
 
 ### When leveling up skills, new perk nodes do not get highlighted until exiting and re-entering the perk menu!
 Solution(s)

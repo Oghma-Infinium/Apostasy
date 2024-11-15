@@ -47,6 +47,7 @@ Before reading this section, I suggest looking over the [load order](https://loa
 ![](https://raw.githubusercontent.com/Oghma-Infinium/Apostasy/main/images/GameplayHeader.png)
 
  - Apostasy uses a custom Perk Overhaul for all Warrior and Thief skills and Custom-made perks for Alteration and Enchanting. The rest of the perks are covered by a custom mashup and overhaul of other perk mods.
+ - Apostasy uses a custom encounter zone and level scaling mod to **delevel** the world, instituting minimum and maximum level caps for every dungeon.
  - [Nirn's Chosen](https://www.nexusmods.com/skyrimspecialedition/mods/121427) and [Stones of Sacrifice](https://www.nexusmods.com/skyrimspecialedition/mods/121629) cover the Race and Standing Stones overhauls within the list.
  - [Pilgrim - A Religion Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/54099) and the [Custom Skills Framework Addon](https://www.nexusmods.com/skyrimspecialedition/mods/93913) flesh out the Religion system for the list.
 
@@ -248,24 +249,42 @@ On Novice difficulty, incoming Poise damage is reduced by 20% for the player. Th
 </Details>
 
 <Details>
+<summary>Massive Targets</summary>
+
+Apostasy also introduces a "Massive Target" feature for specific enemy types, such as Giants and Dragons. Massive Targets take reduced damage from Attacks of Opportunity and can not be backstabbed. 
+
+Additionally, Massive Targets have a higher likelihood of inflicting Heavy Staggers.
+
+</Details>
+
+<Details>
 <summary>Attacks of Opportunity</summary>
 
 Apostasy introduces a unique Attacks of Opportunity system to the game. This system is designed for the list and can not be found anywhere else. Attacks of Opportunity scale with difficulty and provide advantages to tactical positioning and timing in combat. So how does it work?
 
 When you attack an enemy who is power attacking, drawing a bow, casting a spell, staggered, knocked down, or paralyzed, you will deal 50% more damage and Poise damage. When you attack an enemy from behind (a backstab), you will deal an additional 50% extra damage on top of any other Attack of Opportunity modifier(s) that may be active.
 
-The player is also susceptible to Attacks of Opportunity, however their lethality scales based on difficulty. On Adept difficulty, Attacks of Opportunity deal 25% more damage to the player. On Expert+ difficulties, Attacks of Opportunity deal 50% more damage to the player. On Novice and Apprentice difficulties, the player can not suffer an Attack of Opportunity. The player can not be backstabbed.
+The player is also susceptible to Attacks of Opportunity, however their lethality scales based on difficulty. 
+
+| Difficulty | Player Damage Taken | NPC Damage Taken | Massive Target Damage Taken
+|     :---:    |     :---:     |     :---:    |     :---:     | 
+| **Novice**    | +0% | +50% | +25% |
+| **Apprentice** | +0% | +50% | +25% |
+| **Adept** | +25% | +50% | +25% |
+| **Expert** | +50% | +50% | +0% |
+| **Master** | +50% | +50% | +0% |
+| **Legendary** | +50% | +50% | +0% |
 
 Ward spells protect the user from Attacks of Opportunities (player and any NPC).
 
 </Details>
 
 <Details>
-<summary>Massive Targets</summary>
+<summary>Bloodied</summary>
 
-Apostasy also introduces a "Massive Target" feature for specific enemy types. Massive Targets take 50% less damage from Attacks of Opportunity on Adept difficulty or lower (they take 25% more damage rather than 50% more damage) and can not be backstabbed. On Expert+ difficulties, Massive Targets can not suffer from Attacks of Opportunity.
+Apostasy introduces a new mechanic referred to as Bloodied. Bloodied targets take more damage from Power Attacks while they are below half Health.
 
-Additionally, Massive Targets have a higher likelihood of inflicting Heavy Staggers.
+The player can not be affected by Bloodied on any difficulty.
 
 </Details>
 
@@ -341,34 +360,36 @@ Below is an (incomplete) list of new armors and weapons that are added and obtai
 <summary>New Equipment</summary>
 
   - [Bone Cultist Armor](https://www.nexusmods.com/skyrimspecialedition/mods/111224): Can be found on Solstheim Bandits and has the same crafting requirements as Bonemold.
-  - [Colovian Prince Set](https://www.nexusmods.com/skyrimspecialedition/mods/79894): See Motifs. Can be found on select NPCs.
-  - [Crown Plate Set](https://www.nexusmods.com/skyrimspecialedition/mods/114751): See Motifs. Can also be found on [Kematu](https://en.uesp.net/wiki/Skyrim:Kematu) and his men.
+  - [Colovian Prince Set](https://www.nexusmods.com/skyrimspecialedition/mods/79894): See **Motifs**. Can be found on select NPCs.
+  - [Crown Plate Set](https://www.nexusmods.com/skyrimspecialedition/mods/114751): See **Motifs**. Can also be found on [Kematu](https://en.uesp.net/wiki/Skyrim:Kematu) and his men.
   - [Dark Brotherhood Armor SE](https://www.nexusmods.com/skyrimspecialedition/mods/57539): Replacer for Dark Brotherhood Armor.
-  - [Dark Witch Armor](https://www.nexusmods.com/skyrimspecialedition/mods/112260): See Motifs. Worn by [Illia](https://en.uesp.net/wiki/Skyrim:Illia).
+  - [Dark Witch Armor](https://www.nexusmods.com/skyrimspecialedition/mods/112260): See **Motifs**. Worn by [Illia](https://en.uesp.net/wiki/Skyrim:Illia).
   - [Dwemer Armor SE](https://www.nexusmods.com/skyrimspecialedition/mods/81043): Craftable with Dwemer Smithing.
   - [Eclipse Mage Outfit](https://www.nexusmods.com/skyrimspecialedition/mods/77244):
   - [Elmlock Armor and Blade](https://www.nexusmods.com/skyrimspecialedition/mods/105930): 
-  - [Fleet Knight Set](https://www.nexusmods.com/skyrimspecialedition/mods/95009): See Motifs.
+  - [Fleet Knight Set](https://www.nexusmods.com/skyrimspecialedition/mods/95009): See **Motifs**.
   - [Fluted Armor SE](https://www.nexusmods.com/skyrimspecialedition/mods/106381): Craftable with Ebony Smithing. Can also be found on select NPCs.
-  - [Glasses Pack](https://www.nexusmods.com/skyrimspecialedition/mods/115653): See Motifs.
+  - [Glasses Pack](https://www.nexusmods.com/skyrimspecialedition/mods/115653): See **Motifs**.
   - [Gryphonknight Regalia](https://www.nexusmods.com/skyrimspecialedition/mods/107437): Can be looted off of [Sabine Nytte](https://en.uesp.net/wiki/Skyrim:Sabine_Nytte).
   - [Illusive Infiltrator Armor](https://www.nexusmods.com/skyrimspecialedition/mods/105659): Craftable with Steel Smithing.
   - [Infantry Armor SE](https://www.nexusmods.com/skyrimspecialedition/mods/88099): Can be crafted with Steel Smithing. Can also be found on select NPCs.
   - [Kellan Armor](https://www.nexusmods.com/skyrimspecialedition/mods/68199): Craftable with Steel Smithing. Worn by select NPCs. 
-  - [Kvetchi Mercenary Set](https://www.nexusmods.com/skyrimspecialedition/mods/79226): See Motifs.
-  - [Lunar Guard Armor](https://www.nexusmods.com/skyrimspecialedition/mods/75349): See Motifs.
-  - [MAGECORE](https://www.nexusmods.com/skyrimspecialedition/mods/113540): See Motifs.
+  - [Kvetchi Mercenary Set](https://www.nexusmods.com/skyrimspecialedition/mods/79226): See **Motifs**.
+  - [Lunar Guard Armor](https://www.nexusmods.com/skyrimspecialedition/mods/75349): See **Motifs**.
+  - [MAGECORE](https://www.nexusmods.com/skyrimspecialedition/mods/113540): See **Motifs**.
+  - [Maormer Seascale Set](https://www.nexusmods.com/skyrimspecialedition/mods/91506): 
   - [Obi's HeadHunter Armor](https://www.nexusmods.com/skyrimspecialedition/mods/113990): Can be looted from [Captain Hargar](https://en.uesp.net/wiki/Skyrim:Captain_Hargar).
   - [Orcish Armor Expansion](https://www.nexusmods.com/skyrimspecialedition/mods/110280): Craftable with Orcish Smithing, can also be seen as variant armors for Stronghold Orcs. 
-  - [Rihad Swordsman Set](https://www.nexusmods.com/skyrimspecialedition/mods/120576): See Motifs. Can also be found on [Kematu](https://en.uesp.net/wiki/Skyrim:Kematu) and his men.
+  - [Raven HDT-SMP Armor](https://www.nexusmods.com/skyrimspecialedition/mods/87655): 
+  - [Rihad Swordsman Set](https://www.nexusmods.com/skyrimspecialedition/mods/120576): See **Motifs**. Can also be found on [Kematu](https://en.uesp.net/wiki/Skyrim:Kematu) and his men.
   - [Silver Armor SE](https://www.nexusmods.com/skyrimspecialedition/mods/79088): Craftable with Advanced Armors Smithing. Worn by select NPCs. 
-  - [Squire's Plate](https://www.nexusmods.com/skyrimspecialedition/mods/120370): See Motifs.
+  - [Squire's Plate](https://www.nexusmods.com/skyrimspecialedition/mods/120370): See **Motifs**.
   - [Stormhold Warrior Armor](https://www.nexusmods.com/skyrimspecialedition/mods/96559): Can be crafted with Steel Smithing. Variants can also be looted off [Deeja](https://en.uesp.net/wiki/Skyrim:Deeja) and [Jaree-Ra](https://en.uesp.net/wiki/Skyrim:Jaree-Ra).
   - [Travelling Priest Robes](https://www.nexusmods.com/skyrimspecialedition/mods/118327): Can be found on several Priest-type NPCs and crafted.
   - [Twilight Princess Armor](https://www.nexusmods.com/skyrimspecialedition/mods/71182): Can be crafted after completion of [Kindred Judgement](https://en.uesp.net/wiki/Skyrim:Kindred_Judgment) with Steel Smithing. Worn by [Serana](https://en.uesp.net/wiki/Skyrim:Serana).
   - [Vey Alaxon](https://www.nexusmods.com/skyrimspecialedition/mods/104572): Fully integrated into Gilded Elven tier, craftable with Elven Smithing.
-  - [Wayward Knight Set](https://www.nexusmods.com/skyrimspecialedition/mods/112793): See Motifs.
-  - [Wild Witch Outfit](https://www.nexusmods.com/skyrimspecialedition/mods/81085): See Motifs. A variant can also be looted off [The Caller](https://en.uesp.net/wiki/Skyrim:The_Caller).
+  - [Wayward Knight Set](https://www.nexusmods.com/skyrimspecialedition/mods/112793): See **Motifs**.
+  - [Wild Witch Outfit](https://www.nexusmods.com/skyrimspecialedition/mods/81085): See **Motifs**. A variant can also be looted off [The Caller](https://en.uesp.net/wiki/Skyrim:The_Caller).
   - [Wind Ruler Armor SE](https://www.nexusmods.com/skyrimspecialedition/mods/60842): Can be looted from the [Butcher](https://en.uesp.net/wiki/Skyrim:Butcher) and [Umana](https://en.uesp.net/wiki/Skyrim:Umana). Also found on select NPCs.
 
 </Details>
@@ -403,12 +424,14 @@ This section will try to list the new content focused mods added to the list, an
 
 ![](https://staticdelivery.nexusmods.com/mods/1704/images/118893/118893-1720525985-188255669.png)
 
+ - [A Conversation - Quest Mod](https://www.nexusmods.com/skyrimspecialedition/mods/124431)
  - [Artifacts - The Breton Paladin](https://www.nexusmods.com/skyrimspecialedition/mods/16199)
  - [Artifacts - The Ice Blade of the Monarch](https://www.nexusmods.com/skyrimspecialedition/mods/13972)
  - [Artifacts - The Tournament of the ten Bloods](https://www.nexusmods.com/skyrimspecialedition/mods/15264)
  - [Belethor's Sister](https://www.nexusmods.com/skyrimspecialedition/mods/92381)
  - [Dragon Hunting](https://www.nexusmods.com/skyrimspecialedition/mods/99193)
  - [Missives](https://www.nexusmods.com/skyrimspecialedition/mods/17576) + [Headhunter - Bounties Redone](https://www.nexusmods.com/skyrimspecialedition/mods/51847)
+ - [Final Farewell - Quest Mod](https://www.nexusmods.com/skyrimspecialedition/mods/127894)
  - [Mysteries of the Dwemer](https://www.nexusmods.com/skyrimspecialedition/mods/114863)
  - [Penitus Oculatus](https://www.nexusmods.com/skyrimspecialedition/mods/21061)
  - [SIRENROOT - Deluge of Deceit](https://www.nexusmods.com/skyrimspecialedition/mods/70917)
@@ -457,13 +480,7 @@ This section will try to list the new content focused mods added to the list, an
 ![](https://staticdelivery.nexusmods.com/mods/1704/images/118893/118893-1724960630-647828967.png)
 
  - [Feris - Custom Voiced Female Follower](https://www.nexusmods.com/skyrimspecialedition/mods/90032)
- - [Follower Dialogue Expansion - Aela the Huntress](https://www.nexusmods.com/skyrimspecialedition/mods/114801)
- - [Follower Dialogue Expansion - Brelyna Maryon](https://www.nexusmods.com/skyrimspecialedition/mods/113359)
- - [Follower Dialogue Expansion - Erik the Slayer](https://www.nexusmods.com/skyrimspecialedition/mods/116719)
- - [Follower Dialogue Expansion - Jenassa](https://www.nexusmods.com/skyrimspecialedition/mods/120255)
- - [Follower Dialogue Expansion - Jordis the Sword-Maiden](https://www.nexusmods.com/skyrimspecialedition/mods/117930)
- - [Follower Dialogue Expansion - Lydia](https://www.nexusmods.com/skyrimspecialedition/mods/119226)
- - [Follower Dialogue Expansion - Mjoll the Lioness](https://www.nexusmods.com/skyrimspecialedition/mods/116025)
+ - [Follower Dialogue Expansion Series](https://next.nexusmods.com/profile/anbeegod/mods?gameId=1704)
  - [Gore - A Companion Mod](https://www.nexusmods.com/skyrimspecialedition/mods/85298)
  - [INDIGO](https://www.nexusmods.com/skyrimspecialedition/mods/88240)
  - [Kaidan 2](https://www.nexusmods.com/skyrimspecialedition/mods/19075)
@@ -473,7 +490,6 @@ This section will try to list the new content focused mods added to the list, an
  - [Serana Dialogue Add-On](https://www.nexusmods.com/skyrimspecialedition/mods/32161)
  - [Song of the Green (Auri Follower)](https://www.nexusmods.com/skyrimspecialedition/mods/11278)
  - [Val Serano - Pirate Custom Voiced Follower and Quest Adventure](https://www.nexusmods.com/skyrimspecialedition/mods/103669)
- - [Xelzaz - Custom Fully Voiced Argonian Telvanni Follower](https://www.nexusmods.com/skyrimspecialedition/mods/62893)
 
 ### Player Homes
 

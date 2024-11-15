@@ -30,7 +30,6 @@ This guide does exactly what you think it does.
  - Thread in `#apostasy-modified`.
  - Maintained by Alabast.
 
-
 ## Steam Deck
 
 This is a generic guide for playing Apostasy on a Steam Deck (with Sunshine and Moonlight). The guide was tested with Apostasy.
