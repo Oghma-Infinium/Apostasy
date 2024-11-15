@@ -379,7 +379,6 @@ Key Info
    - 1H, 2H, H2H, Archery, Heavy Armor, Light Armor, Block, and Speech were the main trees that were affected.
  - Power attacks now increase **Critical Chance** rather than **Critical Damage** (it's a multiplicative buff, so if you have 0% crit strike chance, you will still have 0% crit strike chance when power attacking).
  - General improvements to most capstone perks, especially the ones I believed were underwhelming.
- - The player now deals heavy stagger always. Heavy stagger rules vs player are the same as they were previously.
  - Reduced cost of Sprinting with a Horse.
  - Added a background perk that increases the chance to recover arrows as you improve your Archery skill.
  - Changed the way in which Low Stamina penalties are applied. Penalties for low Stamina now last for 10 seconds or until an actor replenishes 50% of their Stamina.
