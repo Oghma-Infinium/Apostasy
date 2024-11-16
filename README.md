@@ -92,7 +92,7 @@ My current specs are a 7800X3D, 3080, and 32GB of RAM with some BIOS tweaks (ReB
 </Details>
 
 Downloads Size: ~160 GB  
-Install Size: ~190 GB  
+Install Size: ~200 GB  
 Temporary Files: ~40 GB (on OS drive)  
 **TOTAL:** ~350 GB  
 
