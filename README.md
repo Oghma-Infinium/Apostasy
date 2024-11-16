@@ -91,10 +91,10 @@ My current specs are a 7800X3D, 3080, and 32GB of RAM with some BIOS tweaks (ReB
 
 </Details>
 
-Downloads Size: ~160 GB  
-Install Size: ~200 GB  
+Downloads Size: ~170 GB  
+Install Size: ~205 GB  
 Temporary Files: ~40 GB (on OS drive)  
-**TOTAL:** ~350 GB  
+**TOTAL:** ~375 GB  
 
 > The **Install Size** listed on the Wabbajack Gallery is **wrong** and does not properly account of the size saved by compressing files during the installation.
 
