@@ -17,10 +17,69 @@
 
 # Table of Contents
 
+ - [2.0.1](#201) Release Date: November 16, 2024
  - [2.0.0](#120) Release Date: November 15, 2024
  - [1.1.X Versions](#11x-versions)
  - [1.0.X Versions](#10x-versions)
  - [Beta Versions](#beta-versions)
+
+## 2.0.1
+
+Key Info
+
+ - Save-Safe, ignore the missing plugin.
+   - If you were using the Shadow Stone, then you should swap stones before the update so it properly updates.
+ - Some minor balancing and fixing some bugs.
+
+<Details>
+<summary>Changes</summary>
+
+#### Updated
+
+ - [Nirn's Chosen - Enhanced Races and Classes](https://www.nexusmods.com/skyrimspecialedition/mods/121427)
+ - [Stones of Sacrifice - Double Edged Standing Stones](https://www.nexusmods.com/skyrimspecialedition/mods/121629)
+ - [Considerate Followers - Followers are Silent During Dialogue](https://www.nexusmods.com/skyrimspecialedition/mods/133659)
+ - [Considerate Followers for Skyrim 1.5](https://www.nexusmods.com/skyrimspecialedition/mods/133666)
+
+#### Added
+ 
+ - N/A
+
+#### Removed
+
+ - N/A
+
+</details>
+
+<Details>
+<summary>Patch Notes</summary>
+
+#### Balance
+
+ - Standing Stone changes.
+   - Lord Stone changed.
+     - **Rally** now increases your Health Regeneration by 100%. (was 50% Health Recovery).
+   - Shadow Stone buffed.
+     - **Phase Shift** now reduces your blocking and bashing effectiveness by 50%. (was -150 Armor / -25% Magic Resist).
+   - Tower Stone nerfed.
+     - **Warden's Wall** now reduces incoming poise damage by 20% (was 50%).
+ - Battlemage's Magicka Battery now works on bashes in addition to melee attacks.
+ - Lowered Hoods can not be enchanted anymore due to slot conflicts.
+ - Lowered Hoods no longer have armor and can not be tempered.
+
+#### Bug Fixes
+
+ - Fixed an issue with Eleidon's Ward where the bonus healing at low Health never kicked in.
+ - Fixed issue where Paladin's Aura set bonus (Breton Paladin) was giving 5% Disease Resist instead of the intended 100%.
+ - Added a failsafe for the rare bug where stances were not properly applied when creating a new character.
+ - Fixed some landscape seams near Whiterun.
+   - `5, -4` and `6, -4`
+
+#### Misc. Changes
+
+ - Renamed Lowered Hoods for consistency.
+
+</details>
 
 ## 2.0.0
 

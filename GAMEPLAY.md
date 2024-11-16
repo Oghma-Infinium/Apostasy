@@ -377,10 +377,10 @@ Below is an (incomplete) list of new armors and weapons that are added and obtai
   - [Kvetchi Mercenary Set](https://www.nexusmods.com/skyrimspecialedition/mods/79226): See **Motifs**.
   - [Lunar Guard Armor](https://www.nexusmods.com/skyrimspecialedition/mods/75349): See **Motifs**.
   - [MAGECORE](https://www.nexusmods.com/skyrimspecialedition/mods/113540): See **Motifs**.
-  - [Maormer Seascale Set](https://www.nexusmods.com/skyrimspecialedition/mods/91506): 
+  - [Maormer Seascale Set](https://www.nexusmods.com/skyrimspecialedition/mods/91506): Can be looted from [Haldyn](https://en.uesp.net/wiki/Skyrim:Haldyn).
   - [Obi's HeadHunter Armor](https://www.nexusmods.com/skyrimspecialedition/mods/113990): Can be looted from [Captain Hargar](https://en.uesp.net/wiki/Skyrim:Captain_Hargar).
   - [Orcish Armor Expansion](https://www.nexusmods.com/skyrimspecialedition/mods/110280): Craftable with Orcish Smithing, can also be seen as variant armors for Stronghold Orcs. 
-  - [Raven HDT-SMP Armor](https://www.nexusmods.com/skyrimspecialedition/mods/87655): 
+  - [Raven HDT-SMP Armor](https://www.nexusmods.com/skyrimspecialedition/mods/87655): Can be looted from the boss in [Bloodlet Throne](https://en.uesp.net/wiki/Skyrim:Bloodlet_Throne).
   - [Rihad Swordsman Set](https://www.nexusmods.com/skyrimspecialedition/mods/120576): See **Motifs**. Can also be found on [Kematu](https://en.uesp.net/wiki/Skyrim:Kematu) and his men.
   - [Silver Armor SE](https://www.nexusmods.com/skyrimspecialedition/mods/79088): Craftable with Advanced Armors Smithing. Worn by select NPCs. 
   - [Squire's Plate](https://www.nexusmods.com/skyrimspecialedition/mods/120370): See **Motifs**.
@@ -391,6 +391,7 @@ Below is an (incomplete) list of new armors and weapons that are added and obtai
   - [Wayward Knight Set](https://www.nexusmods.com/skyrimspecialedition/mods/112793): See **Motifs**.
   - [Wild Witch Outfit](https://www.nexusmods.com/skyrimspecialedition/mods/81085): See **Motifs**. A variant can also be looted off [The Caller](https://en.uesp.net/wiki/Skyrim:The_Caller).
   - [Wind Ruler Armor SE](https://www.nexusmods.com/skyrimspecialedition/mods/60842): Can be looted from the [Butcher](https://en.uesp.net/wiki/Skyrim:Butcher) and [Umana](https://en.uesp.net/wiki/Skyrim:Umana). Also found on select NPCs.
+  - [Ysmir Armor SE](https://www.nexusmods.com/skyrimspecialedition/mods/112454): Replaces the appearance of [Ahzidal's relics](https://en.uesp.net/wiki/Lore:Relics_of_Ahzidal), and can be crafted after completion of [Glory of the Dead](https://en.uesp.net/wiki/Skyrim:Glory_of_the_Dead).
 
 </Details>
 
@@ -429,7 +430,9 @@ This section will try to list the new content focused mods added to the list, an
  - [Artifacts - The Ice Blade of the Monarch](https://www.nexusmods.com/skyrimspecialedition/mods/13972)
  - [Artifacts - The Tournament of the ten Bloods](https://www.nexusmods.com/skyrimspecialedition/mods/15264)
  - [Belethor's Sister](https://www.nexusmods.com/skyrimspecialedition/mods/92381)
+ - [Demon of Dream](https://www.nexusmods.com/skyrimspecialedition/mods/118719)
  - [Dragon Hunting](https://www.nexusmods.com/skyrimspecialedition/mods/99193)
+ - [Final Farewell - Quest Mod](https://www.nexusmods.com/skyrimspecialedition/mods/127894?)
  - [Missives](https://www.nexusmods.com/skyrimspecialedition/mods/17576) + [Headhunter - Bounties Redone](https://www.nexusmods.com/skyrimspecialedition/mods/51847)
  - [Final Farewell - Quest Mod](https://www.nexusmods.com/skyrimspecialedition/mods/127894)
  - [Mysteries of the Dwemer](https://www.nexusmods.com/skyrimspecialedition/mods/114863)

@@ -47,7 +47,7 @@ This section is going to be short and basic and only cover keybinds that must be
    1. Open the mod `Apostasy - Dual Block Parry Keybinds`. 
    2. In the mod open the `DualWieldParryingSKSE.ini` and the `BlockCancel.json` files and change the keybind(s). 
      - **MAKE SURE THE KEYBIND YOU CHANGE TO IN THE `DualWieldParryingSKSE.ini` MATCHES THE KEYBIND FOR `"BlockCancel2"` IN THE `BlockCancel.json`**.
-   3. **In game**, edit the dual block keybind in the `Valor Perks` MCM, or dual block will not be able to trigger timed blocks.
+   3. **In game**, edit the dual block keybind in the `Paragon Perks` MCM, or dual block will not be able to trigger timed blocks.
  - **Cycle Stances**: If you would prefer Stances cycle on a single key press instead of having 3 separate keybinds then you can do the following.
    1. Open the mod `Stances NG`.
    2. In the mod open the `StancesNG.ini`.
@@ -218,7 +218,7 @@ Changing MCM Settings in any MCM that is under the `> Apostasy MCM Hider <` tab 
      - Restore Magicka = `Ctrl+F`  
  16.  `TK Dodge`: Change the hotkey for Dodging (Default: `LAlt`).
  17.  `True Directional Movement`: Change the target lock hotkey (Default: `M3`).
- 18.  `Valor Perks`: Change Dual Wield Block key here if you changed it previously.
+ 18.  `Paragon Perks`: Change Dual Wield Block key here if you changed it previously.
  19.  `Widget Mod`: Enable/Disable or reposition the miscellaneous widgets (the ones **below** the Health, Magicka, and Stamina bars).  
      - Please note that only the widgets used are appropriately skinned for the UI, so enabling additional widgets may be undesirable.
   
