@@ -17,11 +17,89 @@
 
 # Table of Contents
 
+ - [2.1.0](#210) Release Date: November 17, 2024
  - [2.0.1](#201) Release Date: November 16, 2024
  - [2.0.0](#120) Release Date: November 15, 2024
- - [1.1.X Versions](#11x-versions)
- - [1.0.X Versions](#10x-versions)
+ - [1.0 Versions](#10-versions)
  - [Beta Versions](#beta-versions)
+
+## 2.1.0
+
+Key Info
+
+ - Save-Safe **if you follow the instructions BEFORE updating the list!**
+   1. Deactivate DynDOLOD from the DynDOLOD MCM. Wait for the deactivation message.
+   2. Go into an interior (e.g., Heimskr's House).
+   3. Wait 24 in-game hours.
+   4. Save and exit the game.
+   5. Update the list as normal, DynDOLOD should reinitialize itself when you re-enter the exterior worldspace.
+ - Not Save-Safe if you fail to follow the above directions.
+   - When loading into your 2.0 save, it will tell you that this update is savegame incompatible. You can **ignore** this if you properly followed the instructions above.
+ - Fixed several animation related bugs and improved sprinting power attack functionality.
+ - Fixed other bugs that were reported.
+
+<Details>
+<summary>Changes</summary>
+
+#### Updated
+
+ - DynDOLOD Output
+ - Bodyslide Output
+ - [KittyVFX - ENBHands](https://www.nexusmods.com/skyrimspecialedition/mods/133936)
+ - [Reasonably Round Dunmer Lanterns - High Poly Meshes - ENB Light](https://www.nexusmods.com/skyrimspecialedition/mods/110646)
+ - [Icy Winterhold Spire - Revised Edition](https://www.nexusmods.com/skyrimspecialedition/mods/132911)
+ - [Local Map Upgrade](https://www.nexusmods.com/skyrimspecialedition/mods/129756)
+
+#### Added
+ 
+ - [Common Clothing Expansion](https://www.nexusmods.com/skyrimspecialedition/mods/134088)
+ - [Common Clothing Expansion - CBBE 3BA](https://www.nexusmods.com/skyrimspecialedition/mods/134131)
+ - [Common Clothing - Darker Textures](https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=563117&nmm=1&game_id=1704)
+
+#### Removed
+
+ - [Considerate Followers - Followers are Silent During Dialogue](https://www.nexusmods.com/skyrimspecialedition/mods/133659) + [Considerate Followers for Skyrim 1.5](https://www.nexusmods.com/skyrimspecialedition/mods/133666)
+   - This mod will be added back in a future update when it is deemed more stable.
+
+</details>
+
+<Details>
+<summary>Patch Notes</summary>
+
+#### Balance
+
+ - Agent of Mara now gives 10% cost reduction for Healing spells. (was 15% Magic Resist)
+
+#### Bug Fixes
+
+ - Fixed issue with Power Attack 5 for Sword + Shield Wolf Stance moveset (3rd person).
+ - Added missing AMR data to Power Attack 5 for Sword + Shield Wolf Stance moveset (3rd person).
+ - Adjusted sprint power attacks so that the hitframes were no longer instantaneous.
+ - Fixed speed multipliers being incorrectly applied on sprint power attacks.
+ - Adjusted, or otherwise added if it was missing, AMR data on several sprint power attacks.
+ - Removed some parallaxgen files which were erroneously overriding mods that had better baseline complex material settings.
+ - Fixed an issue where you could perform projectile timed blocks without the prerequisite perks. 
+ - Fixed issue where Winterhold Spire was missing lod.
+ - Fixed a typo in the name of a placeholder plugin.
+   - This will result in a missing plugin warning which can be safely ignored.
+ - Potentially fixed an issue where certain controller perks and abilities were lost after updating on an existing save-game.
+   - ~~This is **not** a retroactive fix if your save already lost these.~~ Everyone should thank Ylik for spending an hour troubleshooting potential solutions to make the fix both retroactive and automated.
+ - Fixed a random crash that could occur on cell transitions.
+ - Adjusted some floating clutter in Morthal.
+ - Fixed tooltip issue with Shadow Stone where interacting with the stone still displayed the previous debuff.
+ - Should have fixed an issue where some quests that were intended to give perk points were not giving the points.
+   - This fix is not retroactive.
+
+#### Misc. Changes
+
+ - Removed erroneous SkyrimSouls config from the `Apostasy - Controller Configuration` mod.
+ - Replaced most vanilla Farm Clothes with new models.
+ - Removed Katana's rifle and dialogue about guns, thanks Anna.
+   - If you have already met Katana, this change will not apply unless you use the `resetinventory` console command on her.
+ - Removed Feris' dialogue that referenced Standing Stones being once a day powers.
+
+</details>
+
 
 ## 2.0.1
 
@@ -544,10 +622,10 @@ Key Info
 
 </details>
 
-## 1.1.X Versions
+## 1.0 Versions
 
 <details>
-<summary>1.1.X Versions</summary>
+<summary>1.0 Versions</summary>
 
  - [1.1.6](#116) Release Date: September 16, 2024
  - [1.1.5](#115) Release Date: September 6, 2024
@@ -556,6 +634,21 @@ Key Info
  - [1.1.2](#112) Release Date: September 2, 2024
  - [1.1.1](#111) Release Date: August 31, 2024
  - [1.1.0](#110) Release Date: August 29, 2024
+ - [1.0.14](#1014) Release Date: July 23, 2024
+ - [1.0.13](#1013) Release Date: July 23, 2024
+ - [1.0.12](#1012) Release Date: July 20, 2024
+ - [1.0.11](#1011) Release Date: July 19, 2024
+ - [1.0.10](#1010) Release Date: July 18, 2024
+ - [1.0.9](#109) Release Date: July 17, 2024
+ - [1.0.8](#108) Release Date: July 16, 2024
+ - [1.0.7](#107) Release Date: July 16, 2024
+ - [1.0.6](#106) Release Date: July 15, 2024
+ - [1.0.5](#105) Release Date: July 14, 2024
+ - [1.0.4](#104) Release Date: July 13, 2024
+ - [1.0.3](#103) Release Date: July 12, 2024
+ - [1.0.2](#102) Release Date: July 12, 2024
+ - [1.0.1](#101) Release Date: July 11, 2024
+ - [1.0.0](#100) Release Date: July 11, 2024
 
 ### 1.1.6
 
@@ -1385,29 +1478,6 @@ Key Info
  - Changed default icon color to white.
 
 </details>
-
-</details>
-
-## 1.0.X Versions
-
-<details>
-<summary>1.0.X Versions</summary>
-
- - [1.0.14](#1014) Release Date: July 23, 2024
- - [1.0.13](#1013) Release Date: July 23, 2024
- - [1.0.12](#1012) Release Date: July 20, 2024
- - [1.0.11](#1011) Release Date: July 19, 2024
- - [1.0.10](#1010) Release Date: July 18, 2024
- - [1.0.9](#109) Release Date: July 17, 2024
- - [1.0.8](#108) Release Date: July 16, 2024
- - [1.0.7](#107) Release Date: July 16, 2024
- - [1.0.6](#106) Release Date: July 15, 2024
- - [1.0.5](#105) Release Date: July 14, 2024
- - [1.0.4](#104) Release Date: July 13, 2024
- - [1.0.3](#103) Release Date: July 12, 2024
- - [1.0.2](#102) Release Date: July 12, 2024
- - [1.0.1](#101) Release Date: July 11, 2024
- - [1.0.0](#100) Release Date: July 11, 2024
 
 ### 1.0.14
 
