@@ -231,7 +231,7 @@ To download Bethesda's version of Rare Curios:
 - Select the card titled `Rare Curios` and press **Download**
 - Once it is done, accept Bethesda's load order message and exit the game
 
-![](https://cdn.discordapp.com/attachments/1008055818782003421/1263168806054920283/Rare_Curios.png?ex=669a929f&is=6699411f&hm=9441dc9f4f9e95a4ac3e890de860d406884be4b88dc8e8d8309a2ff3f93830b9&)
+![](https://cdn.discordapp.com/attachments/1008055818782003421/1263168806054920283/Rare_Curios.png?ex=673cbb1f&is=673b699f&hm=1f79621666901b9b4fd93a5a1eb0732779388c4fa3fe4bb77d2211ffb6ab881b&)
 
 >[!IMPORTANT]
 >
@@ -270,7 +270,7 @@ To install Apostasy, complete the following steps.
  4. Set the `Modlist Installation Location` to a folder such as `C:\Apostasy`.
     > - **DO NOT place it in Program Files, User folders (such as Desktop, Documents, Downloads, OneDrive, etc.), or in your Skyrim's Steam folder**
     > - The `Resource Download Location` does not need to be on an SSD, but it makes installing faster. You can set this location to an HDD for the sake of saving space.
- 5. Download the files from the [Problematic Files](#problematic-files) section and place them in your designated `Resource Download Location` folder.
+ 5. Download the files from the [Missing Manual Downloads](#missing-manual-downloads) section and place them in your designated `Resource Download Location` folder.
  6. Press the play arrow to begin.
  7. Turn on your favorite show or a nice long video essay as Wabbajack does its thing. Alternatively read through this readme again.
  8. If the installation is successful, then rejoice and move onto [post installation](#post-installation-and-optional-setup). If the installation is unsuccessful, follow the tips below or the [discord server](https://discord.gg/4WwqfK5yHg) for support.
