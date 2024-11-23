@@ -78,6 +78,25 @@ Apostasy uses [Experience](https://www.nexusmods.com/skyrimspecialedition/mods/1
 
 My custom settings are explained below:
 <Details>
+<summary>XP Breakpoints</summary>
+
+ Apostasy modifies the vanilla XP per level requirements.
+
+ `requiredXP = 290 + (playerlevel * 20)`
+
+| Level | XP Required |  
+|     :---:    |     :---:     |  
+| 1  | 310  |  
+| 10  | 4,000  | 
+| 20 | 10,000  | 
+| 30 | 18,000  | 
+| 40 | 28,000  | 
+| 50 | 40,000  |
+| 100 | 130,000 | 
+
+</Details>
+
+<Details>
 <summary>Static Skill Leveling Settings</summary>
 
  - Gain skill points equal to 10 + (1 * playerlevel) for each level up, up to 50 points per level (this cap will be hit at level 40+).
@@ -288,6 +307,15 @@ The player can not be affected by Bloodied on any difficulty.
 
 </Details>
 
+<Details>
+<summary>Confusion</summary>
+
+Apostasy introduces a new mechanic referred to as Confusion. Confusion affects mages when they receive a melee attack while casting a spell.
+
+The player can be affected by Confusion on Expert or higher difficulties.
+
+</Details>
+
 ## Quests Changes
 
 Apostasy changes a significant amount of vanilla quests in one way or another in order to offer a more complete roleplaying exprience. The following list is non-exhaustive.
@@ -405,7 +433,7 @@ Armors and weapons crafted from Motifs may or may not require the equivalent Smi
  - **Clothes and Jewelry**
    - [Glasses](https://www.nexusmods.com/skyrimspecialedition/mods/115653): Purchasable from Jewelers and Radiant Raiments. (**FEMALE ONLY**).
    - **Earrings**: Purchasable from Jewelers and Radiant Raiments. (Covers [Goam's Earrings](https://www.nexusmods.com/skyrimspecialedition/mods/112173) and [Pierced Ears - Earrings SE](https://www.nexusmods.com/skyrimspecialedition/mods/13571).)
-     - WARNING: Earrings and Ear meshes are complicated and they may not align perfectly. Please keep in mind that the meshes are designed for specific ear shapes and I will not try to make it so they accomodate more shapes.
+     - WARNING: Earrings and Ear meshes are complicated and they may not align perfectly with all ear shapes.
    - [Magecore](https://www.nexusmods.com/skyrimspecialedition/mods/113540): Purchasable from Radiant Raiments. (**FEMALE ONLY**, Armored variants can be crafted with Ebony Smithing + Manual). More NSFW/Lewd variants can be toggled in the Apostasy MCM.
    - [Wild Witch](https://www.nexusmods.com/skyrimspecialedition/mods/81085): Purchasable from Radiant Raiments.
  - **Armor and Weapons**

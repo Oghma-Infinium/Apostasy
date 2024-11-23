@@ -17,11 +17,133 @@
 
 # Table of Contents
 
+ - [2.1.1](#211) Release Date: November 23, 2024
  - [2.1.0](#210) Release Date: November 17, 2024
  - [2.0.1](#201) Release Date: November 16, 2024
  - [2.0.0](#120) Release Date: November 15, 2024
  - [1.0 Versions](#10-versions)
  - [Beta Versions](#beta-versions)
+
+## 2.1.1
+
+Key Info
+
+ - Save-safe I guess.
+   - If you are using the Atronach Stone or Shadow Stone, change your stone before updating.
+ - Reworked Shadow Stone.
+ - Reworked Heavy Armor Capstone.
+ - Added some new ways to earn experience with certain support skills.
+ - Added a new anti-mage mechanic, read more on the [Gameplay Guide](https://github.com/Oghma-Infinium/apostasy/blob/main/GAMEPLAY.md#new-mechanics).
+   - Thanks to komegaki for making me an icon for it.
+ - Some ENB tweaks *were* planned for this update, but bingus got lost to Arcane.
+
+<Details>
+<summary>Changes</summary>
+
+#### Updated
+
+ - ENB Binaries
+ - [Nirn Necessities - SMP Accessories](https://www.nexusmods.com/skyrimspecialedition/mods/112481)
+ - [Mfg Fix NG](https://www.nexusmods.com/skyrimspecialedition/mods/133568)
+ - [Static Mesh Improvement Mod Improvement Mod](https://www.nexusmods.com/skyrimspecialedition/mods/55543)
+ - [Dynamic Interface Patcher - DIP](https://www.nexusmods.com/skyrimspecialedition/mods/96891)
+ - [Modlist Maintenance Utility](https://www.nexusmods.com/skyrimspecialedition/mods/117093)
+ - [RedBag's Falkreath - Pinewatch Addon](https://www.nexusmods.com/skyrimspecialedition/mods/91813)
+ - [AMON ENB REBORN for NAT 3](https://www.nexusmods.com/skyrimspecialedition/mods/99786)
+ - [Object Categorization Framework - Some KID Patches - I4 - OCF](https://www.nexusmods.com/skyrimspecialedition/mods/99726)
+ - [Water for ENB](https://www.nexusmods.com/skyrimspecialedition/mods/37061)
+ - [Drengin's Blue Palace Terrace](https://www.nexusmods.com/skyrimspecialedition/mods/35180)
+ - [YAR - Yuril's Additional Resources](https://www.nexusmods.com/skyrimspecialedition/mods/89416)
+ - [Follower Dialogue Expansion - Lydia](https://www.nexusmods.com/skyrimspecialedition/mods/119226)
+
+#### Added
+ 
+ - [Fishermen Fish](https://www.nexusmods.com/skyrimspecialedition/mods/134408)
+ - [Footprints - Alternative Design - Complex Parallax Addon](https://www.nexusmods.com/skyrimspecialedition/mods/126638)
+ - [B612 - my little asteroid of useful UI components](https://www.nexusmods.com/skyrimspecialedition/mods/127701)
+ - [Temper and Recharge Services](https://www.nexusmods.com/skyrimspecialedition/mods/129279)
+ - [Comfy Coffins](https://www.nexusmods.com/skyrimspecialedition/mods/134461)
+ - [Dynamic Crafting Animations](https://www.nexusmods.com/skyrimspecialedition/mods/116422)
+ - [Northborn Scars](https://www.nexusmods.com/skyrimspecialedition/mods/720)
+ - [Skyland Sovngarde](https://www.nexusmods.com/skyrimspecialedition/mods/65502)
+
+#### Removed
+
+ - [Player Eyes Blink Fix](https://www.nexusmods.com/skyrimspecialedition/mods/21713)
+
+</details>
+
+<Details>
+<summary>Patch Notes</summary>
+
+#### Balance
+
+ - Frontline Tactics rank 2 now nullifies enchant damage on a successful timed block.
+   - Previously it reduced it by 50% since it counted as "spell damage", but I figured it was fine to make it reduce enchant damage by 99.99% specifically.
+ - NPCs will spam sprint power attacks less now.
+ - Receiving a melee hit while casting now slows cast speed by 25% for 5 seconds. This always applies to NPCs and applies to the player on Expert+ difficulties.
+ - Giant Stomps now apply minor bleeding damage.
+ - Giants are now able to regenerate their Health in combat.
+ - Dragons now deal poise damage and apply minor bleeding in a small area around where they land. 
+ - Reduced Distortion's dodge distance by 10%.
+ - Cutthroat (Security) now allows you to gain experience from picking locks and pockets.
+ - Silver Tongue (Speech) now allows you to gain experience from successfully passing persuasion and intimidation checks.
+ - Silver Tongue (Speech) now requires 20 Speech. (was 30)
+ - Doom Winds (Two-Handed) now has a cooldown of 15 seconds. (was 30)
+ - Reduced the amount of gold merchants have baseline.
+   - There was no specific logic to this, so I can not give you a specific % change. 
+   - This should make investment into speech perks feel better.
+ - Blacksmiths can now temper your gear for you.
+ - Court Wizards can now recharge your enchanted equipment for you.
+ - Elemental Fury's additional Elemental damage now works similar to Chaos Damage enchants.
+   - 50% Chance to proc on every hit.
+   - No longer has the "secondary effect" bonus of the given element.
+ - Rogue's (Class) Opportunist ability now has a 15 second cooldown. (was 10 seconds)
+ - Increased Magicka cost of River's Frostbite spell (Katana).
+ - Increased Magicka cost of River's Icy Spear spell (Katana).
+ - Reduced base unarmed damage of Sabre Cats from 35 to 25.
+ - Buffed base unarmed damage of Spirit Wolf Race (from Companion's Questline) from 5 to 15.
+ - Reduced base unarmed damage of Snow Bears from 45 to 40.
+ - Sabre Cats, Wolves, and Bears now have a chance to apply bleeds on their attacks.
+   - These bleeds are resisted by Armor Rating and Disease Resistance.
+ - Low Stamina debuff will now only apply in combat or while sneaking.
+ - Cultist of Malacath now increases Power Attack cost by 50%, instead of reducing all non-power attack damage by 50%.
+ - Lord Stone's effectiveness is now increased by 50% on Power Attacks. (was 100%)
+ - Rally (Lord Stone) and Battlemage (Class) are now 25% less effective while dual wielding.
+ - Atronach Stone's Magicka absorption effect now only triggers while you are below half Magicka.
+ - Hero (Class) now reduces incoming stagger by 20%. (was 25%)
+ - Shadow Stone reworked.
+   - **NEW**: You move 20% faster, and performing a dodge marks nearby enemies for 3 seconds. Melee attacks against marked enemies restore Stamina. However, your blocking and bashing are 50% less effective.
+   - **OLD**: You move 20% faster, and have a chance to become intangible during incoming melee attacks. However, your blocking and bashing are 50% less effective.
+ - Reworked Imposing Presence (Heavy Armor capstone).
+   - **NEW**: Nearby enemies deal 20% less damage and take 25% more damage while you are wearing a Heavy Armor chest piece.
+   - **OLD**: You reduce the damage of nearby enemies by 20% and when you fall below half Health you absorb Health from nearby enemies while wearing a Heavy Armor chest piece.
+
+#### Bug Fixes
+
+ - Fixed some visual shader bugs with DirtCliff meshes.
+ - Fixed visual issue where some spider webs appeared very bright in exteriors.
+ - Fixed NPC Name Distributor bug in Saints and Seducers Extended Cut.
+ - Fixed an issue that caused Distortion (Alteration) dodge to not actually trigger the correct animations.
+ - Fixed some annotation issues on Beast Race Mace moveset (NPCs).
+ - Fixed a bug where legendary's incoming damage modifier was still x4.0 instead of x2.0.
+ - Fixed a bug where Atronach Stone was reducing the effectiveness of Magicka potions by 25% rather than 50%.
+ - Fixed a bug where the random spell cost reduction from the Apprentice Stone was not applying.
+ - Made it so that you can no longer be abducted by the Dark Brotherhood when attempting to start the vanilla intro. 
+ - More fixes for Wolf Stance Sword and Shield animation. (pray for ylik being a brave soldier and suffering through this one)
+ - "Fixed" an issue with the clarity of the message on the Battlemage Class selection.
+ - Fixed an issue where spell timed block was unreliable at certain angle checks.
+ - Fixed an issue where the Horn of Jurgen Windcaller was positioned oddly on your character when wearing a satchel.
+   - This fix can be applied to existing save games by re-importing the default IED config.
+
+#### Misc. Changes
+
+ - Clarified the tooltip on Arcane Awakening.
+ - Changed the freeze time keybind in PhotoMode from `F` to `Y`.
+ - Removed SMP Bones from the chest area of Hedge Witch armor because it caused some wonky physics and clipping. 
+ - Adjusted the fire trail on Eltonbrand.
+
+</details>
 
 ## 2.1.0
 
@@ -99,7 +221,6 @@ Key Info
  - Removed Feris' dialogue that referenced Standing Stones being once a day powers.
 
 </details>
-
 
 ## 2.0.1
 
