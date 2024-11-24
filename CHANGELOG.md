@@ -17,12 +17,55 @@
 
 # Table of Contents
 
+ - [2.1.2](#212) Release Date: November 24, 2024
  - [2.1.1](#211) Release Date: November 23, 2024
  - [2.1.0](#210) Release Date: November 17, 2024
  - [2.0.1](#201) Release Date: November 16, 2024
  - [2.0.0](#120) Release Date: November 15, 2024
  - [1.0 Versions](#10-versions)
  - [Beta Versions](#beta-versions)
+
+## 2.1.2
+
+Key Info
+
+ - Save-safe.
+ - Fixed a bug with Silver Tongue's Experience gains.
+ - Got the ENB tweaks from bingus, so now we're chilling.
+
+<Details>
+<summary>Changes</summary>
+
+#### Updated
+
+ - N/A
+
+#### Added
+ 
+ - N/A
+
+#### Removed
+
+ - N/A
+
+</details>
+
+<Details>
+<summary>Patch Notes</summary>
+
+#### Balance
+
+ - N/A
+
+#### Bug Fixes
+
+ - Fixed a bug with Silver Tongue's experience gain because it was apparently not tested thoroughly enough.
+
+#### Misc. Changes
+
+ - Tweaked Sovngarde weather parameters.
+
+</details>
 
 ## 2.1.1
 
