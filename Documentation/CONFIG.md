@@ -210,6 +210,14 @@ Changing MCM Settings in any MCM that is under the `> Apostasy MCM Hider <` tab 
 
 ![](https://raw.githubusercontent.com/Oghma-Infinium/Apostasy/main/images/MCM%20Configs/ResistWidgets.png)
 
+**21:9**
+
+May need Tweaks.  
+
+**32:9**
+
+Bother Kannon on discord for it.  
+
 </Details>
 
  15.  `Swift Potion`: Change the hotkey for quick potion binds.  
@@ -236,7 +244,11 @@ Changing MCM Settings in any MCM that is under the `> Apostasy MCM Hider <` tab 
 
 **21:9**
 
-May need Tweaks
+May need Tweaks.  
+
+**32:9**
+
+Bother Kannon on discord for it.  
 
 </Details>
 
