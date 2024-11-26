@@ -350,7 +350,10 @@ If you find yourself struggling to run Wabbajack without it crashing, freezing u
 
 #### Missing Manual Downloads
 
-Wabbajack frequently has trouble downloading mods hosted on sites other than Nexus. If you get an error such as **Missing Manual Downloads**, then read this section. You will need to manually download these files and place them in the `Resource Download Location` that is made in the [Downloading and Installing Apostasy](#downloading-and-installing-apostasy) section, make sure that you **DO NOT** unzip in the files.
+Wabbajack frequently has trouble downloading mods hosted on sites other than Nexus. If you get an error such as **Missing Manual Downloads**, then read this section. You will need to manually download these files and place them in the `Resource Download Location` that is made in the [Downloading and Installing Apostasy](#downloading-and-installing-apostasy) section.
+
+>[!WARNING]
+> Make sure that you **DO NOT** unzip these files at all.
 
 Google Drive Files:
 
