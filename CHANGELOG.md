@@ -17,6 +17,7 @@
 
 # Table of Contents
 
+ - [2.1.3](#213) Release Date: December 7, 2024
  - [2.1.2](#212) Release Date: November 24, 2024
  - [2.1.1](#211) Release Date: November 23, 2024
  - [2.1.0](#210) Release Date: November 17, 2024
@@ -24,6 +25,52 @@
  - [2.0.0](#120) Release Date: November 15, 2024
  - [1.0 Versions](#10-versions)
  - [Beta Versions](#beta-versions)
+
+## 2.1.3
+
+Key Info
+
+ - Save-safe.
+ - Potentially fixed the void issues with Bleak Falls Barrow
+ - More ENB tweaks yay
+
+<Details>
+<summary>Changes</summary>
+
+#### Updated
+
+ - Bleak Falls Barrow Overhaul V2 - Dungeon Revisted AIO Patch
+
+#### Added
+ 
+ - N/A
+
+#### Removed
+
+ - N/A
+
+</details>
+
+<Details>
+<summary>Patch Notes</summary>
+
+#### Balance
+
+ - N/A
+
+#### Bug Fixes
+
+ - (Hopefully) Fixed the Bleak Falls Barrow voids
+
+#### Misc. Changes
+
+  - ENB Tweaks
+    - Brightened up interiors and dungeons
+    - Turned off `Lens Dirt` to fix issues with viewing fire in your peripheral vision
+    - Tweaked `Lens Frost` so it's not as distracting and doesn't blend in with the UI widgets
+    - Tweaked the `BLOOM` and `WINDOWLIGHT` parameters to reduce the glow from fires & embers
+
+</details>
 
 ## 2.1.2
 
