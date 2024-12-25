@@ -17,6 +17,7 @@
 
 # Table of Contents
 
+ - [2.1.4](#214) Release Date: December 24, 2024
  - [2.1.3](#213) Release Date: December 7, 2024
  - [2.1.2](#212) Release Date: November 24, 2024
  - [2.1.1](#211) Release Date: November 23, 2024
@@ -25,6 +26,48 @@
  - [2.0.0](#120) Release Date: November 15, 2024
  - [1.0 Versions](#10-versions)
  - [Beta Versions](#beta-versions)
+
+## 2.1.4
+
+Key Info
+
+ - Save-Safe
+ - This update mostly consists of mod updates and includes a tiny fix for the optional `No Armor Spell Shader` mod not working
+ - Brightened up interiors yet again (by a veryyy small amount)
+
+<Details>
+<summary>Changes</summary>
+
+#### Updated
+ - Alternate Perspective
+ - Dynamic Interface Patcher
+
+#### Added
+ - N/A
+
+#### Removed
+ - N/A
+
+</details>
+
+<Details>
+<summary>Patch Notes</summary>
+
+#### Balance
+ - N/A
+
+#### Bug Fixes
+
+ - Fixed the optional `No Armor Spell Shader` mod not disabling the armor spell shader like it was supposed to
+
+#### Misc. Changes
+
+  - ENB Tweaks
+    - Brightened up interiors and dungeons
+      - Lowered the `In White Interior` value (`.50` > `.45`) to brighten lights in interiors slightly
+      - Lowered the `Gamma Interior` value (`1.00` > `.85`) to lift shadows in interiors slightly
+
+</details>
 
 ## 2.1.3
 
