@@ -258,7 +258,7 @@ I am only writing this section because it is commonly asked enough that I feel I
 
 ## Wheel Editing
 
-Changes to the wheel can be made when you open the wheel in either the inventory or magic menu. When you open the wheel in these two menus, the background will grey out, suggesting that you're now in **edit mode**.
+Changes to the wheel can be made when you open the wheel in either the **inventory or magic menu**. When you open the wheel in these two menus, the background will grey out, suggesting that you're now in **edit mode**.
 
 ### Creation
 
