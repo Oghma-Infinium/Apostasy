@@ -68,6 +68,7 @@ Key Info
 #### Misc. Changes
 
 - Strengthened the [COMPLEXPARTICLELIGHT] parameters to mitigate weird lighting issues with the Eld-Beri lanterns
+- Lowered Shadow Resolution back to Apostasy's default x1024 res (I left it on 2048 by accident oops)
 
 </details>
 
