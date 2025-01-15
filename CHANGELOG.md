@@ -17,6 +17,7 @@
 
 # Table of Contents
 
+- [2.1.6](#216) Release Date: January 15, 2025
 - [2.1.5](#215) Release Date: January 3, 2025
 - [2.1.4](#214) Release Date: December 24, 2024
 - [2.1.3](#213) Release Date: December 7, 2024
@@ -28,12 +29,54 @@
 - [1.0 Versions](#10-versions)
 - [Beta Versions](#beta-versions)
 
+## 2.1.6
+
+Key Info
+
+- Save-Safe
+- More bug fixes! (and a ENB tweak!)
+
+<Details>
+<summary>Changes</summary>
+
+#### Updated
+
+- N/A
+
+#### Added
+
+- N/A
+
+#### Removed
+
+- N/A
+
+</details>
+
+<Details>
+<summary>Patch Notes</summary>
+
+#### Balance
+
+- N/A
+
+#### Bug Fixes
+
+- Potentially fixed the crashes that can happen in the Temple of Mara for good (thank you ForsakenJing!)
+- Fixed the Large Nordic Ship having a see-through deck
+
+#### Misc. Changes
+
+- Strengthened the [COMPLEXPARTICLELIGHT] parameters to mitigate weird lighting issues with the Eld-Beri lanterns
+
+</details>
+
 ## 2.1.5
 
 Key Info
 
 - Save-Safe
-- Just some bug fixes
+- Just some bug fixes 
 
 <Details>
 <summary>Changes</summary>
