@@ -1186,4 +1186,5 @@ Apostasy comes with several new quest mods and expansions for several vanilla qu
 ![](https://staticdelivery.nexusmods.com/mods/1704/images/118893/118893-1720691342-1079637258.png)
 
  - [Elianora's Breezehome Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/2829): A massive overhaul to the beloved starter home.
+ - [ePath's Vlindrel Hall](https://www.nexusmods.com/skyrimspecialedition/mods/100635): An expansion to the Markarth player home, incoporating many new amenities.
  - [Tel Jerdein - Telvanni Sorcerer Tower](https://www.nexusmods.com/skyrimspecialedition/mods/33539): A new Dunmer-themed player home in the mountains of the Rift.
