@@ -17,39 +17,197 @@
 
 # Table of Contents
 
-- [2.1.6](#216) Release Date: January 15, 2025
-- [2.1.5](#215) Release Date: January 3, 2025
-- [2.1.4](#214) Release Date: December 24, 2024
-- [2.1.3](#213) Release Date: December 7, 2024
-- [2.1.2](#212) Release Date: November 24, 2024
-- [2.1.1](#211) Release Date: November 23, 2024
-- [2.1.0](#210) Release Date: November 17, 2024
-- [2.0.1](#201) Release Date: November 16, 2024
-- [2.0.0](#120) Release Date: November 15, 2024
-- [1.0 Versions](#10-versions)
-- [Beta Versions](#beta-versions)
+ - [3.0.0](#300) Release Date: March 22, 2025
+ - [2.0 Versions](#20-versions)
+ - [1.0 Versions](#10-versions)
+ - [Beta Versions](#beta-versions)
 
-## 2.1.6
+## 3.0.0
 
 Key Info
 
-- Save-Safe
-- More bug fixes! (and a ENB tweak!)
+ - Not Save-Safe.
+ - Reworked the Religion system from the ground up. 
+   - Read more on the [Gameplay Guide](https://github.com/Oghma-Infinium/apostasy/blob/main/GAMEPLAY.md).
+ - Many unique Draugr Bosses will now be more interesting to fight.
+ - Increased skill point gains per level to smooth leveling curve a little bit.
+ - Slightly increased the number of quests required to progress the Companions Questline.
+ - Several changes to animal and creature enemies to make fighting them more interesting and to make resistances feel more impactful.
+   - If someone wants to help work on an Apostasy Bestiary Patch, then you can reach out to me on discord.
+ - Overhauled NPC clothing.
+ - Changed Snow Shader.
+ - Expanded character customization for beast races.
+ - Various moveset changes, tweaks, and improvements for the Player and NPCs.
+ - Added Alt Death mechanics.
+ - Added SMP to numerous armors in the list.
+ - Redesigned and overhauled the UI and Heads-Up Display. 
+ - Included a "band-aid" fixed a critical bug between MO2 and Windows 11 where file overwrites were not properly respected for config files.
+ - Due to the lengthy development cycle of this update, the `Changes` section of the Changelog is incomplete.
 
 <Details>
 <summary>Changes</summary>
 
 #### Updated
 
-- N/A
+ - List Outputs
+ - Synthesis
+ - [Snozz's Resource Pack](https://www.nexusmods.com/skyrimspecialedition/mods/110110)
+ - [The Great Cities- Resources](https://www.nexusmods.com/skyrimspecialedition/mods/104373)
+ - [Utenlands Nordic Tents - Replacer and Campfire Addon](https://www.nexusmods.com/skyrimspecialedition/mods/121203)
+ - [White River Watch](https://www.nexusmods.com/skyrimspecialedition/mods/82794?)
+ - [Steel Armors and Weapons Retexture SE](https://www.nexusmods.com/skyrimspecialedition/mods/85445)
+ - [Thuldor's Ivarstead - Tweaks and Addons](https://www.nexusmods.com/skyrimspecialedition/mods/113706)
+ - [Comfy Coffins](https://www.nexusmods.com/skyrimspecialedition/mods/134461)
+ - [Stonehollow Overhaul for Wyrmstooth](https://www.nexusmods.com/skyrimspecialedition/mods/131619)
+ - [Descriptions for Various Mods](https://www.nexusmods.com/skyrimspecialedition/mods/106229)
+ - [Mu Joint Fix (Knee Fix dll edition)](https://www.nexusmods.com/skyrimspecialedition/mods/61479)
+ - [Particle Patch](https://www.nexusmods.com/skyrimspecialedition/mods/65720)
+ - [Sonorum Arcana - The Magic Sound Compendium](https://www.nexusmods.com/skyrimspecialedition/mods/119738)
+ - [Lux Orbis](https://www.nexusmods.com/skyrimspecialedition/mods/56095)
+ - [Lux Orbis - Patch Hub](https://www.nexusmods.com/skyrimspecialedition/mods/133666)
+ - [Local Map Upgrade](https://www.nexusmods.com/skyrimspecialedition/mods/129756)
+ - [Better Argonian Horns](https://www.nexusmods.com/skyrimspecialedition/mods/80568)
+ - [Fishermen Fish](https://www.nexusmods.com/skyrimspecialedition/mods/134408)
+ - [Settling of Squad - Set Follower Home](https://www.nexusmods.com/skyrimspecialedition/mods/125471)
+ - [Knotwork](https://www.nexusmods.com/skyrimspecialedition/mods/128235) + [Knotwork for Skyrim 1.5](https://www.nexusmods.com/skyrimspecialedition/mods/129164)
+ - [Embers XD](https://www.nexusmods.com/skyrimspecialedition/mods/37085)
+ - [Lurking Menace - A Mimic Mod](https://www.nexusmods.com/skyrimspecialedition/mods/117330)
+ - [Peasant Dreams - A Common Bed Replacer](https://www.nexusmods.com/skyrimspecialedition/mods/130488)
+ - [Song of the Green (Auri Follower)](https://www.nexusmods.com/skyrimspecialedition/mods/11278)
+ - [Flat World Map Framework (FWMF)](https://www.nexusmods.com/skyrimspecialedition/mods/29932)
+ - [Dismembering Framework](https://www.nexusmods.com/skyrimspecialedition/mods/126203) + [DF - Official Humanoid Asset Pack](https://www.nexusmods.com/skyrimspecialedition/mods/126327)
+ - [Dragon War - A Dragon Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/51310)
+ - [Dynamic Sprint](https://www.nexusmods.com/skyrimspecialedition/mods/95561)
+ - [JK's Blue Palace Terrace](https://www.nexusmods.com/skyrimspecialedition/mods/75965)
+ - [Mountain Flowers - Base Object Swapper - Cathedral 3D Mountain Flowers - Reimagined Mountain Flowers - Skying Mountain Flowers](https://www.nexusmods.com/skyrimspecialedition/mods/60756)
+ - [Simplicity of Seeding - Better Hearthfires and Farming CC Planter Scripts](https://www.nexusmods.com/skyrimspecialedition/mods/94428)
+ - [Katana Crafting - GDPR](https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=560409&nmm=1&game_id=1704)
+ - [JK's Guild HQ Interiors Patch Collection](https://www.nexusmods.com/skyrimspecialedition/mods/61416)
+ - [Common Clothing Expansion](https://www.nexusmods.com/skyrimspecialedition/mods/134088) + [3BA Refit](https://www.nexusmods.com/skyrimspecialedition/mods/134131)
+ - [KittyVFX - ENBHands](https://www.nexusmods.com/skyrimspecialedition/mods/133936)
+ - [The Great City Of Winterhold SSE Edition](https://www.nexusmods.com/skyrimspecialedition/mods/17127) + [Patch Collection](https://www.nexusmods.com/skyrimspecialedition/mods/74560)
+ - [Dylbills Papyrus Functions](https://www.nexusmods.com/skyrimspecialedition/mods/65410)
+ - [Assorted mesh fixes](https://www.nexusmods.com/skyrimspecialedition/mods/32117)
+ - [Simplicity of Snow](https://www.nexusmods.com/skyrimspecialedition/mods/56235)
+ - [Dragon Hunting - Quest Rewards and Alchemy Ingredients](https://www.nexusmods.com/skyrimspecialedition/mods/99193)
+ - [Katana - Journey in the Shadows](https://www.nexusmods.com/skyrimspecialedition/mods/69622)
+ - [Water for ENB](https://www.nexusmods.com/skyrimspecialedition/mods/37061)
+ - [OnMagicEffectApply Replacer](https://www.nexusmods.com/skyrimspecialedition/mods/67968)
+ - [No Grass In Objects](https://www.nexusmods.com/skyrimspecialedition/mods/42161)
+ - [Swindlers Den](https://www.nexusmods.com/skyrimspecialedition/mods/110737)
+ - [QuickLoot IE - A QuickLoot EE Fork](https://www.nexusmods.com/skyrimspecialedition/mods/120075) + [Untarnished Patch](https://www.nexusmods.com/skyrimspecialedition/mods/123475)
+ - [Animated Ice Floes](https://www.nexusmods.com/skyrimspecialedition/mods/90634)
+ - [Animated Icebergs](https://www.nexusmods.com/skyrimspecialedition/mods/121420)
+ - [Daughter of Coldharbour - Serana I Valerica Moveset (MCO ADXP I SCAR)](https://www.nexusmods.com/skyrimspecialedition/mods/116600)
+ - [Khajiit Will Follow](https://www.nexusmods.com/skyrimspecialedition/mods/2227)
+ - [The Red-Eyed Warrior - A Kaidan NPC Replacer](https://www.nexusmods.com/skyrimspecialedition/mods/125951)
+ - [B612 - my little asteroid of useful UI components](https://www.nexusmods.com/skyrimspecialedition/mods/127701)
+ - [Photo Mode](https://www.nexusmods.com/skyrimspecialedition/mods/91701)
+ - [Ebony Armors and Weapons Retexture SE](https://www.nexusmods.com/skyrimspecialedition/mods/83654)
+ - [Northern Roads - Patches Compendium](https://www.nexusmods.com/skyrimspecialedition/mods/77893)
+ - [Northern Roads Patch Collection](https://www.nexusmods.com/skyrimspecialedition/mods/77386)
+ - [Apostate Feris Replacer](https://www.nexusmods.com/skyrimspecialedition/mods/127064)
+ - [Val Serano - Pirate Custom Voiced Follower and Quest Adventure](https://www.nexusmods.com/skyrimspecialedition/mods/103669)
+ - [Boethiah's Calling - Alternate Questline](https://www.nexusmods.com/skyrimspecialedition/mods/121499)
+ - [The Taste of Death - Quest Addon](https://www.nexusmods.com/skyrimspecialedition/mods/123173)
+ - [The Handy Icon Collection Collective](https://www.nexusmods.com/skyrimspecialedition/mods/90508)
+ - [powerofthree's Tweaks](https://www.nexusmods.com/skyrimspecialedition/mods/51073)
+ - [Ancient AF Windhelm Complex Material](https://www.nexusmods.com/skyrimspecialedition/mods/132706)
+ - [Stony AF Markarth Complex Material](https://www.nexusmods.com/skyrimspecialedition/mods/127407)
+ - [Skyking Signs Complex Material](https://www.nexusmods.com/skyrimspecialedition/mods/128727)
+ - [Psychopatchist Purgatory](https://www.nexusmods.com/skyrimspecialedition/mods/87016)
+ - [JK's Blue Palace Terrace](https://www.nexusmods.com/skyrimspecialedition/mods/75965)
+ - [Weapon switch animation Fix](https://www.nexusmods.com/skyrimspecialedition/mods/100366)
+ - [Favor Jobs Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/40145)
+ - [Simple Hunting Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/95943?)
+ - [Unique Markarth Doors - Security Overhaul SKSE - Base Object Swapper](https://www.nexusmods.com/skyrimspecialedition/mods/62969?)
+ - [Skuldafn Paper Map for FWMF by Limon](https://www.nexusmods.com/skyrimspecialedition/mods/123990)
+ - [Bosmer NPCs have antlers](https://www.nexusmods.com/skyrimspecialedition/mods/33349)\
+ - [Follower Dialogue Expansion - Aela the Huntress](https://www.nexusmods.com/skyrimspecialedition/mods/114801)
+ - [Follower Dialogue Expansion - Lydia](https://www.nexusmods.com/skyrimspecialedition/mods/119226)
+ - [GKB Waves Reborn](https://www.nexusmods.com/skyrimspecialedition/mods/71126)
+ - [Falmer Servant Lines Expansion](https://www.nexusmods.com/skyrimspecialedition/mods/120995)
+ - [Favor Jobs Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/40145)
+ - [JK's The Drunken Huntsman](https://www.nexusmods.com/skyrimspecialedition/mods/33783)
+ - [Morthal Barrow](https://www.nexusmods.com/skyrimspecialedition/mods/90737)
+ - [Follower Dialogue Expansion - Erik the Slayer](https://www.nexusmods.com/skyrimspecialedition/mods/116719)
 
 #### Added
-
-- N/A
+ 
+ - [Siege at Icemoth](https://www.nexusmods.com/skyrimspecialedition/mods/109541) + [Paper Map Addon](https://www.nexusmods.com/skyrimspecialedition/mods/119974) + [Tweaks](https://www.nexusmods.com/skyrimspecialedition/mods/110277)
+ - [DAc0da](https://www.nexusmods.com/skyrimspecialedition/mods/134405) + [English Translation](https://www.nexusmods.com/skyrimspecialedition/mods/135682) + [Delayed Start](https://www.nexusmods.com/skyrimspecialedition/mods/136031)
+ - [Whispers of the Depths - Quest Mod](https://www.nexusmods.com/skyrimspecialedition/mods/127087)
+ - [Imperial Castles of Skyrim - Fort Battlements v2](https://www.nexusmods.com/skyrimspecialedition/mods/129327)
+ - [Tomato's Imperial Forts 2.0 - Complex Material](https://www.nexusmods.com/skyrimspecialedition/mods/114714)
+ - [Heretical Haemars Shame - Alternate Perspective](https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=565668&nmm=1&game_id=1704)
+ - [Bound Weapon Fix](https://www.nexusmods.com/skyrimspecialedition/mods/134772)
+ - [Casual Pirate Outfit](https://www.nexusmods.com/skyrimspecialedition/mods/133795)
+ - [Casual Pirate Outfit - HIMBO Refit](https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=562550&nmm=1&game_id=1704)
+ - [Casual Pirate - 3BA Conversion](https://www.nexusmods.com/skyrimspecialedition/mods/134468)
+ - [HDT-SMP Paladin Melus Armor Patch from Vigilant](https://www.nexusmods.com/skyrimspecialedition/mods/130747)
+ - [Cozy Cots - A Cot Replacer](https://www.nexusmods.com/skyrimspecialedition/mods/134836)
+ - [Next-Gen Decapitations](https://www.nexusmods.com/skyrimspecialedition/mods/135254)
+ - [Misc Voice Consistency Fixes](https://www.nexusmods.com/skyrimspecialedition/mods/135051)
+ - [Sunderstone](https://www.nexusmods.com/skyrimspecialedition/mods/135078)
+ - [JK's Castle Volkihar LOD fix](https://www.nexusmods.com/skyrimspecialedition/mods/134979)
+ - Fuse Spriggan Armor + [Xtudo Fixes](https://www.nexusmods.com/skyrimspecialedition/mods/135386) + [3BA Refit](https://www.nexusmods.com/skyrimspecialedition/mods/134634) + [HIMBO Refit](https://www.nexusmods.com/skyrimspecialedition/mods/134430)
+ - [Summoning Portals VFX Edit](https://www.nexusmods.com/skyrimspecialedition/mods/135614)
+ - [Reimagined Mountain Flowers - Base Object Swapper - Seasons of Skyrim](https://www.nexusmods.com/skyrimspecialedition/mods/135460)
+ - [The Great Village of series - NPC replacer](https://www.nexusmods.com/skyrimspecialedition/mods/135315)
+ - [The Great Town of series - NPC replacer](https://www.nexusmods.com/skyrimspecialedition/mods/135907)
+ - [Golden Dwemer Pipeworks Redone Patches for Vanilla Item](https://www.nexusmods.com/skyrimspecialedition/mods/133366)
+ - [FPS Boost for Quest Mods](https://www.nexusmods.com/skyrimspecialedition/mods/122050)
+ - [JK's Thieves Guild HQ](https://www.nexusmods.com/skyrimspecialedition/mods/133787)
+ - [Metallurgy - Consistency Patches and Collision Fix](https://www.nexusmods.com/skyrimspecialedition/mods/124223)
+ - [Rudy HQ - ENB Complex Material Mineral Pools Water](https://www.nexusmods.com/skyrimspecialedition/mods/135409)
+ - [Complex Material Hub](https://www.nexusmods.com/skyrimspecialedition/mods/135679)
+ - [ePath's Vlindrel Hall](https://www.nexusmods.com/skyrimspecialedition/mods/100635)
+ - [Katana - Indigo Interactions](https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=570816&nmm=1&game_id=1704)
+ - [slightly Better Oil](https://www.nexusmods.com/skyrimspecialedition/mods/135759)
+ - [Gonzeh - Stonehills ReRe-imagined](https://www.nexusmods.com/skyrimspecialedition/mods/133572)
+ - [Riton's Fortified Morthal Retexture](https://www.nexusmods.com/skyrimspecialedition/mods/134534)
+ - [Val Soprano - A Val Serano Replacer](https://www.nexusmods.com/skyrimspecialedition/mods/119001) + [Poster](https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=518452&nmm=1&game_id=1704)
+ - [Redeeming Fultheim - A Blades Quest Addon](https://www.nexusmods.com/skyrimspecialedition/mods/136788)
+ - [Northern Roads - Bridge Stairs Fix](https://www.nexusmods.com/skyrimspecialedition/mods/137711)
+ - [Vigilant CBBE Patch](https://www.nexusmods.com/skyrimspecialedition/mods/43676)
+ - [Solstheim and Baan Malur Paper Map for FWMF](https://www.nexusmods.com/skyrimspecialedition/mods/137315)
+ - [STB Widgets](https://www.nexusmods.com/skyrimspecialedition/mods/136148)
+ - [NIF Preview for Mod Organizer 2.5.x](https://www.nexusmods.com/skyrimspecialedition/mods/137741)
+ - [Lux - RedBag's Falkreath Lanterns](https://www.nexusmods.com/skyrimspecialedition/mods/90941)
+ - [Conditional Werewolf Howl](https://www.nexusmods.com/skyrimspecialedition/mods/45683)
+ - [New Creature Animation - Dwarven Centurion - SCAR2.0 - MCO](https://www.nexusmods.com/skyrimspecialedition/mods/137805)
+ - [Follower Dialogue Expansion - Illia](https://www.nexusmods.com/skyrimspecialedition/mods/137845)
+ - [Mehrunes Dagon Unique Shrine - Shrine Objects Swapped - Base Object Swapper](https://www.nexusmods.com/skyrimspecialedition/mods/133264)
+ - [Ryn's Mehrunes Dagon - Patch Collection](https://www.nexusmods.com/skyrimspecialedition/mods/96663)
+ - [New Creature Animation - Dwarven Centurion - OAR](https://www.nexusmods.com/skyrimspecialedition/mods/137900)
+ - [Hammer and Whetstone - Portable Tempering](https://www.nexusmods.com/skyrimspecialedition/mods/89808)
+ - [More Varied Clothes](https://www.nexusmods.com/skyrimspecialedition/mods/102479) + [3BA Conversion](https://www.nexusmods.com/skyrimspecialedition/mods/135043)
+ - [HAG - Occult Orphan Rock](https://www.nexusmods.com/skyrimspecialedition/mods/137996)
+ - [Baka World Map FOV Extended](https://www.nexusmods.com/skyrimspecialedition/mods/138584)
+ - [Snazzy Interiors - Winterhold Birna's Oddments](https://www.nexusmods.com/skyrimspecialedition/mods/138308)
+ - [Snazzy Interiors - Winterhold Kraldar's House](https://www.nexusmods.com/skyrimspecialedition/mods/138309)
+ - [Snazzy Interiors - Darkwater Crossing Verner and Annekke's House](https://www.nexusmods.com/skyrimspecialedition/mods/138513)
+ - [Snazzy Interiors - Sarethi Farm](https://www.nexusmods.com/skyrimspecialedition/mods/132149)
+ - [Bocksten Cloak - HDT-SMP - 2k](https://www.nexusmods.com/skyrimspecialedition/mods/138180) + [HIMBO Refit](https://www.nexusmods.com/skyrimspecialedition/mods/138296)
+ - [Sons of Skyrim - HDT Physics for Cloaks Patch](https://www.nexusmods.com/skyrimspecialedition/mods/114690)
 
 #### Removed
 
-- N/A
+ - [Volkihar's Descent - EVGAT](https://www.nexusmods.com/skyrimspecialedition/mods/90529)
+ - [Cathedral - 3D Mountain Flowers](https://www.nexusmods.com/skyrimspecialedition/mods/41312) + [Cathedral 3D Mountain Flowers - Alternate Textures](https://www.nexusmods.com/skyrimspecialedition/mods/87951)
+ - [Snazzy Riftweald Manor](https://www.nexusmods.com/skyrimspecialedition/mods/131091)
+ - [Gonzeh - Stonehills Re-imagined](https://www.nexusmods.com/skyrimspecialedition/mods/96657)
+ - [DVA - Dynamic Vampire Appearance](https://www.nexusmods.com/skyrimspecialedition/mods/96817) + BnP Patches
+ - Hayd's Val Serano + [Poster](https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=492791&nmm=1&game_id=1704)
+ - [TGC Winterhold - No ForceGreet](https://www.nexusmods.com/skyrimspecialedition/mods/123346)
+ - [Tales of Skyrim - Berserkyr](https://www.nexusmods.com/skyrimspecialedition/mods/103559) + [Patch Hub](https://www.nexusmods.com/skyrimspecialedition/mods/103318) + [3BA](https://www.nexusmods.com/skyrimspecialedition/mods/105371) and [HIMBO](https://www.nexusmods.com/skyrimspecialedition/mods/105047) Refits
+ - [Apachii Divine Elegance Store](https://www.nexusmods.com/skyrimspecialedition/mods/9213) + [3BA Refit](https://www.nexusmods.com/skyrimspecialedition/mods/106621)
+ - [No smiling female Dwarven Helmet](https://www.nexusmods.com/skyrimspecialedition/mods/87434)
+ - [STB_ResistsWidget](https://www.nexusmods.com/skyrimspecialedition/mods/59880)
+ - [Widget Mod](https://www.nexusmods.com/skyrimspecialedition/mods/32387) + [Elden Ring Skin](https://www.nexusmods.com/skyrimspecialedition/mods/65855)
+ - [Show My Time](https://www.nexusmods.com/skyrimspecialedition/mods/116486)
+ - [Artifacts - The Breton Paladin](https://www.nexusmods.com/skyrimspecialedition/mods/16199) + Associated Patches, etc
+ - [Pilgrim](https://www.nexusmods.com/skyrimspecialedition/mods/54099) + Associated Patches, etc
 
 </details>
 
@@ -58,41 +216,231 @@ Key Info
 
 #### Balance
 
-- N/A
+ - Increased skill points per level from `10+x` to `15+x` (where x is equal to `1 * playerlevel`).
+   - This results in around a ~20-30% increase in skill points.
+     - 31% more at level 10.
+     - 24% more at level 20.
+     - 19% more at level 30.
+     - 16% more at level 40.
+     - 17% more at level 50.
+ - Increased the total amount of skill points you can have any any time to 60. (was 50)
+   - This means level 45 and onwards is when you will gain the maximum possible skill points per level. Previously, this occurred at level 40.
+ - Reduced the XP needed to level up by ~10%.
+ - Companions now require 3 radiant quests before [Proving Honor](https://en.uesp.net/wiki/Skyrim:Proving_Honor). (was 2)
+ - Companions now require 4 radiant quests before [The Silver Hand](https://en.uesp.net/wiki/Skyrim:The_Silver_Hand). (was 3)
+ - [Bleak Falls Barrow](https://en.uesp.net/wiki/Skyrim:Bleak_Falls_Barrow_(quest)), [Diplomatic Immunity](https://en.uesp.net/wiki/Skyrim:Diplomatic_Immunity), and [The Fallen](https://en.uesp.net/wiki/Skyrim:The_Fallen) no longer give perk points.
+ - Dragonbane is no longer balanced around Steel tier (this was an oversight).
+ - Adjusted Dragon death item level lists.
+ - Nightingale Armor now requires Ebony Ingots to temper instead of Void Salts.
+ - Rebalanced Nocturnal's Trinket.
+   - **NEW**: Your Illusion spells are 25% stronger and last 50% longer.
+   - **OLD**: Your Illusion spells cost 20% less Magicka. You are 20% harder to detect while sneaking. You deal 20% extra damage with ranged weapons. You deal 20% extra damage with One-Handed weapons.
+ - Grandfather now grants up to 50% increased damage (was 100%) based on Health.
+ - Animal/Creature Tweaks:
+   - Horkers and Mammoths now reduce Armor Rating by 100 for 10 seconds. The magnitude of this is resisted by disease.
+   - Horker unarmed damage has been increased.
+   - Mammoths now have 50% Frost Resistance (was 33%).
+   - Mammoths now have 50% Fire Resistance (was 0%).
+   - Mudcrabs now have 100 Armor Rating (was 0).
+   - Mudcrab unarmed damage has been increased.
+   - Chaurus Poison spits now deal their damage over 10 seconds instead of 5 seconds.
+   - Chaurus now have 250 Armor Rating (was 100).
+   - Trolls now have a 50% Weakness to Poison.
+   - Frost Trolls now have 50% Frost Resistance (was 33%). 
+   - Reduced Frost Troll racial Stamina from 125 to 100.
+   - Ice Wraiths now have a 50% Weakness to Fire (was 25%).
+   - Ice Wraith bites now deal their damage over 10 seconds instead of 3 seconds.
+   - Wispmother's now have 100% Frost and Poison Resistance (was 0%).
+   - Wispmother's Ice Volley no longer does 200% damage to Stamina (now does 100% damage to Stamina like most Frost spells).
+   - Malkoran's Shade and Corrupted Shades now have 100% Poison Resistance (was 0%).
+   - Malkoran's Shade and Corrupted Shades now have 50% Frost Resistance (was 0%).
+   - Death Hounds now deal 4 Frost Damage to nearby enemies (was 1).
+   - Death Hounds now have 50% Frost Resistance (was 33%).
+   - Death Hounds now have 50% Poison Resistance (was 0%).
+ - Reduced the chance to contract Sanguinare Vampiris.
+ - Sanguinare Vampiris now reduces Health by 50 (was 25).
+ - Siren's Coronet now gives 10% better prices (was 20%).
+ - Started Rebalance of Unslaad items.
+   - Thanks to Psylence for doing the plugin level work for this.
+ - Reworked [Sailor's Repose](https://elderscrolls.fandom.com/wiki/Sailor%27s_Repose).
+   - **NEW**: While under the effects of alcohol, your Health Regeneration is increased by 50%.
+   - **OLD**: Healing spells cure 10% more.
+ - Tweaked some inconsistencies with Vampire Lord perks so that some of them can now affect normal drain spells as was originally intended.
+   - Changed Hemomancer perk (Vampire Lord).
+     - **NEW**: Vampiric blood and drain spells are 25% stronger. 
+     - **OLD**: Vampiric blood spells deal 0.4% more damage per level of Destruction.
+   - Changed Blood from Stone perk (Vampire Lord).
+     - **NEW**: Vampiric blood and drain spells can now affect nonliving targets.
+     - **OLD**: Vampiric blood spells can now damage nonliving targets.
+ - Spears and Katanas (1H and 2H) now deal 20% less Critical Damage.
+ - Galmar now gives the player 3x Potions of Healing and 1x Elixir of Frost Resistance instead of Ice Wraith Bane.
+ - Tweaked Archery damage.
+ - Gauntlets of Glory now Fortify Magicka by 25 (was 50).
+ - Gauntlets of the Horny Fists buffed.
+   - **NEW**: You deal 25% extra unarmed damage, and your unarmed strikes deal 5 Fire Damage.
+   - **OLD**: You deal 25% extra unarmed damage.
+ - Tower of the Nine now increases Armor Rating by 75 (was 50).
+ - Veloth's Judgement now deals 15 Fire Damage (was 30).
+ - Reduced base value of Darksun Shield from **1300** to **1250**.
+ - Reduced base value of Aegis of the Apocalypse from **5000** to **4000**.
+ - Reduced base value of Dondoran's Juggernaut from **3000** to **2000**.
+ - Reduced base value of Temreki, Shackler of Souls from **3120** to **1250**.
+ - Reduced base value of Calliben's Grim Retort from **4000** to **3000**.
+ - Reduced base value of Sinweaver from **4000** to **3000**.
+ - Reduced base value of Veloth's Judgement from **4600** to **4500**.
+ - Increased base value of Fin Gleam from **500** to **600**.
+ - Increased base value of Tower of the Nine from **750** to **1000**.
+ - Severin Family Ring now provides Fortify Poison Use **20%** (previously provided an Attack Speed Bonus).
+ - The Longhammer now provides Damages Armor **50** (previously provided an useless Attack Speed Bonus).
+   - Additionally, The Longhammer is now disenchantable, making it a reliable source for this enchantment.
+ - Buffed Curate's Dagger to Tier 4 to be on par with the rest of Ancient Falmer equipment.
+ - Changes and rebalances for some Katana and all DaiKatana movesets.
+ - Reworked Battle Fury shout.
+ - Reworked Ritual Stone.
+   - **NEW**: Spells cast via scrolls and staves are 50% stronger and last twice as long, however regular spells are half as strong and last half as long.
+   - **OLD**: During combat, your Magicka recovers half as fast and your Stamina recovers twice as fast. Outside of combat, this effect is reversed. 
+ - Rebalanced Thief Stone.
+   - **NEW**: Your Stamina is increased by 50, you deal 25% extra damage with sneak attacks, and you find more gold in your travels. However, you receive 25% worse prices.
+   - **OLD**: Your Stamina is increased by 50, and you are more likely to find gold and other valuable items. However, you receive 25% worse prices.
+ - Kyne's Red Tear (Vigilant) now increases One-Handed damage by 25% (was a useless attack speed bonus).
+ - Edits to Sacrilege's Mortal Hemomancy spells:
+   - Vampiric Seed now lasts 10 seconds (was 5).
+   - Vampiric Seed is now an Adept-level spell.
+     - This affects the cost, not the acquisition.
+   - Vampiric Seed now has a 0.5 second Charge Time.
+   - Vampiric Orb now lasts 10 seconds (was 5).
+   - Vampiric Orb is now an Expert-level spell.
+     - This affects the cost, not the acquisition.
+   - Vampiric Orb now has a 1.0 second Charge Time.
+   - Vampiric Cloak is now a Master-level spell
+     - This affects the cost, not the acquisition.
+   - Vampiric Cloak now has a 1.0 second Charge Time.
+   - Vampiric Cloak now absorbs 4 Health and deals 4 Magic damage per tick (was 1).
+ - Elmlock lowered hoods are no longer enchantable as they did not take up a head slot.
+   - They are also no longer armored equipment.
+ - Varla Stones are now the equivalent of Lesser Soul Gems (was Common).
+ - Drastically reduced the duration of the large stagger animation in first person.
+   - This should make first person combat feel much less punishing.
+ - Ghostwalk (added by [Mysticism](https://www.nexusmods.com/skyrimspecialedition/mods/27839), Master level Illusion spell) now behaves similarly to the way Ghostwalk works in [Apocalypse](https://www.nexusmods.com/skyrimspecialedition/mods/1090).
+ - Re-implemented the Forsaken status effect for Vampires.
 
 #### Bug Fixes
 
-- Potentially fixed the crashes that can happen in the Temple of Mara for good (thank you ForsakenJing!)
-- Fixed the Large Nordic Ship having a see-through deck
+ - Fixed typos in several perk descriptions.
+ - Dual Casting bound weapons now places them in the right hand instead of the left hand.
+ - Fixed incorrect value of Ring of Hircine.
+ - Fixed incorrect value, weight, and damage of Dragonbane.
+ - Fixed bodyslide on Nightstalker Armor.
+ - Fixed incorrect value on Chillrend.
+ - Fixed an issue with [Blood of the Ancients](https://elderscrolls.fandom.com/wiki/Blood_of_the_Ancients) not properly affecting certain Drain Spells and not being a Script-type effect when it should be.
+ - Fixed performance in some dungeons added by Remiel.
+ - Fixed incorrect Music Type in Fort Valus Muster (`WyrmstoothFortValusMuster`).
+ - Removed a bugged fallen tree in the rift.
+ - Fixed some displays in Breezehome so they should now display the correct, modded models.
+ - Downgraded [Headhunter](https://www.nexusmods.com/skyrimspecialedition/mods/51847) to hopefully fix some bugs that seemed to be present in newer versions.
+ - Fixed placement of a fire plate trap in Forsaken Cave.
+ - Fixed placement of Vampiric Ring so it could be obtained without no clipping under a book shelf.
+ - Repathed the mesh used in `FXLargeSplashChurnWaterSilentDB` so that TMD's Waterfall didn't break the effect.
+   - This object is used in several mods.
+ - Ahzidal's Helm of Vision now properly affects (most) mod-added cloak spells.
+ - Fixed an issue where Nimble Finger's 100% chance boost was not properly persisting after game restarts.
+ - Fixed an issue where the enchantment on Cicero's Gloves was still called "Fortify Attack Speed" when it did not do that.
+ - Windshear's tooltip no longer refers to it swinging 20% faster since this didn't actually do anything.
+ - Fixed some placeholder enchantment and effect names with Vampire and Werewolf Rings.
+ - Fixed a translation string error in [Alternate Perspective](https://www.nexusmods.com/skyrimspecialedition/mods/50307) (thanks bingus).
+ - Fixed an issue with the Break Invisibility spell added by [TG Alternative Endings](https://www.nexusmods.com/skyrimspecialedition/mods/114558).
+ - Blacklisted [Katana (and friends)](https://www.nexusmods.com/skyrimspecialedition/mods/69622) from [Settling of Squad](https://www.nexusmods.com/skyrimspecialedition/mods/125471).
+ - Fixed some visual issues with Mysticism's Bound Weapons.
+ - Fixed a bug where Witch Hunter (Class) was not receiving the 10% Spell Absorb.
+ - The Brown Fur Collar from [Sons of Skyrim](https://www.nexusmods.com/skyrimspecialedition/mods/68656) is no longer enchantable.
+ - Fixed fighting guards in Morthal.
+ - Fixed several bodyslide issues.
+ - Fixed several inventory mesh issues.
+ - Fixed issue where you could loot Miraak's skeleton and wear it.
+ - Fixed issue where dwarven fishing rod could not be crafted.
+ - Fixed a minor issue in the sprint animation that played when you had a spell equipped in left-hand while right-hand was unarmed.
+ - Fixed missing tooltips on Nir's Origin Ring, Magnus' Return Ring, and Phynaster's Footstep Ring from Vigilant. Thanks to Anehum for the report.
+ - Fixed some minor landscaping issues in Dragon Bridge. Thanks to Dovahqueef for making these changes.
+ - Fixed some visual issues with waterfalls in the Forgotten Vale, Blackreach, Solstheim, and some other areas.
+ - Fixed an issue where attack 3 and 4 for Wolf Stance Dual Katana did not consume any Stamina due to improperly annotated `HitFrame`.
+ - Fixed an issue where the Player fired off both the Player and NPC version of the Mortal Wounds hit spell (Two-Handed).
+ - Fixed an issue where some NPCs who should have benefitted from having the Mortal Wounds perk (Two-Handed) were not.
+ - Fixed some bugs with Sanguine's Rose summons.
 
 #### Misc. Changes
 
-- Strengthened the [COMPLEXPARTICLELIGHT] parameters to mitigate weird lighting issues with the Eld-Beri lanterns
-- Lowered Shadow Resolution back to Apostasy's default x1024 res (I left it on 2048 by accident oops)
+ - Changed enchanted weapons used by 2H + Element Draugr so that they're enchanted weapons properly matched their elemental affinity.
+ - Changed the models used by the pirates from Val Serano.
+ - Repathed [Katana](https://www.nexusmods.com/skyrimspecialedition/mods/69622)'s Outfit and Val Serano's Mage Outfit so they would be properly bodyslided.
+ - Auri is now Essential instead of Protected.
+ - Removed Necrotic Blade from Halldir's Cairn.
+ - Mercer's Nightingale Armor is no longer playable.
+ - Some minor performance improvements and improved occlusion in certain locations.
+ - [Katana](https://www.nexusmods.com/skyrimspecialedition/mods/69622) will now interact with Indigo!
+ - Animal attacks that should be resisted by disease will now no longer apply if you have 100% Disease Resistance.
+ - Added new Spriggan Themed unique set. Go hunt some Spriggans!
+   - **Head**: Your poisons last for 50% more hits.
+   - **Chest**: Your Stamina Regeneration is increased by 100%.
+   - **Gloves**: Your Poison Resistance is increased by 50%.
+   - **Boots**: Your Movement Speed is increased by 10%.
+     - **Set Bonus**: When you enter combat, summon a Spriggan to your side. (Leveled)
+   - **Necklace**: Your Stamina is increased by 100, and you receive 10% better prices. 
+ - Moved two words of Lightning Breath and one word of Poison Breath (shouts added by [Stormcrown](https://www.nexusmods.com/skyrimspecialedition/mods/90659)) to Icemoth island.
+ - Renamed Skyrim Outfit System MCM so that it appears at the top of the MCM list.
+   - This was a requested QOL change.
+ - Raven Rock Mine no longer requires permission to mine in.
+ - Tweaked HUD positioning and placement.
+ - Changed back to Atlantean Snow. It was not an intentional choice to use Tomato's snow in version 2.0+.
+ - Tweaked tooltip of Lover Stone.
+ - Rewrote tooltips for all Werewolf perks.
+ - Rewrote tooltips for all Vampire Lord perks.
+ - Vigilant's Hearts of Order ingredient should be fully replaced with the Rare Curios' version.
+   - Previously the model was replaced but Vigilant still referenced the unique item. Now the item should be consistent between the two mods.
+ - Tweaked sprint animations.
+ - Reshaped and improved most perk trees.
+ - Invisibility and Ethereal now break on activation.
+ - Thalmor encountered during the [A New Source of Stalhrim](https://en.uesp.net/wiki/Skyrim:A_New_Source_of_Stalhrim) now wear Elven Gilded equipment instead of standard Elven.
+ - Entering stealth now applies a vignette overlay. 
+   - This can be tweaked in an MCM, read more on the [Config page](https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/CONFIG.md#in-game-mcm-options).
 
 </details>
 
-## 2.1.5
+## 2.0 Versions
+
+<details>
+<summary>2.0 Versions</summary>
+
+ - [2.1.6](#216) Release Date: January 15, 2025
+ - [2.1.5](#215) Release Date: January 3, 2025
+ - [2.1.4](#214) Release Date: December 24, 2024
+ - [2.1.3](#213) Release Date: December 7, 2024
+ - [2.1.2](#212) Release Date: November 24, 2024
+ - [2.1.1](#211) Release Date: November 23, 2024
+ - [2.1.0](#210) Release Date: November 17, 2024
+ - [2.0.1](#201) Release Date: November 16, 2024
+ - [2.0.0](#200) Release Date: November 15, 2024
+
+### 2.1.6
 
 Key Info
 
-- Save-Safe
-- Just some bug fixes 
+ - Save-Safe
+ - More bug fixes! (and an ENB tweak!)
 
 <Details>
 <summary>Changes</summary>
 
 #### Updated
 
-- Praedy and Willow's Elder Scroll and Elder Council Amulet Replacers
+ - N/A
 
 #### Added
-
-- N/A
+ 
+ - N/A
 
 #### Removed
 
-- N/A
+ - N/A
 
 </details>
 
@@ -101,7 +449,50 @@ Key Info
 
 #### Balance
 
-- N/A
+ - N/A
+
+#### Bug Fixes
+
+ - Potentially fixed the crashes that can happen in the Temple of Mara for good (thank you ForsakenJing!)
+ - Fixed the Large Nordic Ship having a see-through deck
+
+#### Misc. Changes
+
+ - Strengthened the [COMPLEXPARTICLELIGHT] parameters to mitigate weird lighting issues with the Eld-Beri lanterns
+ - Lowered Shadow Resolution back to Apostasy's default x1024 res (I left it on 2048 by accident oops)
+
+</details>
+
+### 2.1.5
+
+Key Info
+
+ - Save-Safe
+ - Just some bug fixes
+
+<Details>
+<summary>Changes</summary>
+
+#### Updated
+
+ - Praedy and Willow's Elder Scroll and Elder Council Amulet Replacers
+
+#### Added
+ 
+ - N/A
+
+#### Removed
+
+ - N/A
+
+</details>
+
+<Details>
+<summary>Patch Notes</summary>
+
+#### Balance
+
+ - N/A
 
 #### Bug Fixes
 
@@ -117,29 +508,29 @@ Key Info
 
 </details>
 
-## 2.1.4
+### 2.1.4
 
 Key Info
 
-- Save-Safe
-- This update mostly consists of mod updates and includes a tiny fix for the optional `No Armor Spell Shader` mod not working
-- Brightened up interiors yet again (by a veryyy small amount)
+ - Save-Safe
+ - This update mostly consists of mod updates and includes a tiny fix for the optional `No Armor Spell Shader` mod not working
+ - Brightened up interiors yet again (by a veryyy small amount)
 
 <Details>
 <summary>Changes</summary>
 
 #### Updated
 
-- Alternate Perspective
-- Dynamic Interface Patcher
+ - Alternate Perspective
+ - Dynamic Interface Patcher
 
 #### Added
 
-- N/A
+ - N/A
 
 #### Removed
 
-- N/A
+ - N/A
 
 </details>
 
@@ -148,7 +539,7 @@ Key Info
 
 #### Balance
 
-- N/A
+ - N/A
 
 #### Bug Fixes
 
@@ -163,7 +554,7 @@ Key Info
 
 </details>
 
-## 2.1.3
+### 2.1.3
 
 Key Info
 
@@ -209,7 +600,7 @@ Key Info
 
 </details>
 
-## 2.1.2
+### 2.1.2
 
 Key Info
 
@@ -251,7 +642,7 @@ Key Info
 
 </details>
 
-## 2.1.1
+### 2.1.1
 
 Key Info
 
@@ -372,7 +763,7 @@ Key Info
 
 </details>
 
-## 2.1.0
+### 2.1.0
 
 Key Info
 
@@ -449,7 +840,7 @@ Key Info
 
 </details>
 
-## 2.0.1
+### 2.0.1
 
 Key Info
 
@@ -507,7 +898,7 @@ Key Info
 
 </details>
 
-## 2.0.0
+### 2.0.0
 
 Key Info
 
@@ -967,6 +1358,8 @@ Key Info
 - Changed Hrongar's Outfit to be more fitting of a high ranking Noble.
 - Improved non-performance LOD quality a little.
 - Removed horse near Nightgate Inn.
+
+</details>
 
 </details>
 
