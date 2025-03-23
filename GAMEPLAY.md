@@ -224,7 +224,7 @@ Deity buffs are granted by praying at a shrine associated with that deity. New s
 **Auriel**
  1. **Blessing of Auriel**: Your Magicka is increased by 50.
  2. **Acolyte of Auriel**: Your Restoration spells cost 10-25% less Magicka after learning 5-40 spells.
- 3. **Champion of Auriel**: 
+ 3. **Champion of Auriel**: Your Restoration spells are 50% stronger against targets below half Health.
 
 **Magnus**
  1. **Blessing of Magnus**: You have a 10% chance to absorb the Magicka from incoming spells. 
