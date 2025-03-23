@@ -431,7 +431,7 @@ Paragon is an overhaul of Skyrim’s Combat and Stealth perk trees with the aim 
 <Details>
 <summary>Security</summary>
 
-**Cutpurse (10/50)**: You are 50/100% more likely to succeed at lockpicking and pickpocketing.
+**Cutpurse (10/50)**: You are 50/100% more likely to succeed at lockpicking and pickpocketing. Successfully picking a lock or pocket grants experience.
 
 **Icepick (30/70)**: You can lockpick basic/advanced automatons to shut them down.
 
@@ -497,7 +497,7 @@ Paragon is an overhaul of Skyrim’s Combat and Stealth perk trees with the aim 
 
 **Merchant (10/50)**: You receive 10/20% better prices.
 
-**Silver Tongue (30)**: You are much more likely to succeed at persuasion and intimidation, and you can bribe guards to ignore crimes.
+**Silver Tongue (30)**: You are much more likely to succeed at persuasion and intimidation, and you can bribe guards to ignore crimes. Successfully passing a persuasion or intimidation check, or bribing an individual grants experience.
 
 **Supply and Demand (20/70)**: Merchants have extra gold / even more gold available for bartering.  
 **Investor (80)**: You can invest in a merchant’s business to increase their available gold.  
