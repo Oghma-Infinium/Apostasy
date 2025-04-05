@@ -17,11 +17,53 @@
 
 # Table of Contents
 
+ - [3.1.1](#311) Release Date: April 5, 2025
  - [3.1.0](#310) Release Date: April 4, 2025
  - [3.0.0](#300) Release Date: March 22, 2025
  - [2.0 Versions](#20-versions)
  - [1.0 Versions](#10-versions)
  - [Beta Versions](#beta-versions)
+
+## 3.1.1
+
+Key Info
+
+ - Save-Safe.
+ - Fixed some issues with the previous compilation.
+
+<Details>
+<summary>Changes</summary>
+
+### Updated
+
+ - N/A
+
+### Added
+
+ - N/A
+
+### Removed
+
+ - N/A
+
+</Details>
+
+<Details>
+<summary>Patch Notes</summary>
+
+### Balancing Changes
+
+ - N/A
+
+### Bug Fixes
+ 
+ - I don't want to talk about it.
+
+### Misc. Tweaks
+
+ - N/A
+
+</Details>
 
 ## 3.1.0
 
