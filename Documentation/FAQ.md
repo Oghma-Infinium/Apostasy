@@ -59,8 +59,7 @@
     - [Getting "Failed to start Dialogue Quest" error in the start room!](#getting-failed-to-start-dialogue-quest-error-in-the-start-room)
   - [Known Crashes](#known-crashes)
     - [Wheeler.dll Crash!](#wheelerdll-crash)
-    - [Crashing when talking to Azura/Peryite/Augur of Dunlain/\[Insert Talking Head Activator\]!](#crashing-when-talking-to-azuraperyiteaugur-of-dunlaininsert-talking-head-activator)
-    - [Crashing after loading a save! / Crashing after dying!](#crashing-after-loading-a-save--crashing-after-dying)
+    - [Crashing after loading a save!](#crashing-after-loading-a-save)
 
 ## FAQ
 
@@ -205,17 +204,11 @@ Solution(s)
 2. You no longer have an item in your inventory that Wheeler is trying to reference.  
    **Fix**: Open dMenu (Default: `Home`). Navigate to Wheeler Controls --> Reset All Wheels. **This will reset your current Wheeler configuration**.
 
-### Crashing when talking to Azura/Peryite/Augur of Dunlain/[Insert Talking Head Activator]!
+### Crashing after loading a save!
 > [!NOTE]  
-> This should no longer be an issue as of version 2.0+
-**Cause**: Bug with the [Katana follower](https://www.nexusmods.com/skyrimspecialedition/mods/69622) mod if you are on the quest `Chasing the Current` with the quest stage `Talk to Katana another time`.  
-**Fix**: Talk to Katana to progress to the next stage (`Head to the Drunken Huntsman`) in order to fix the crash.
-
-### Crashing after loading a save! / Crashing after dying!
-> [!NOTE]  
-> This issue seems to be mostly resolved as of version 2.1+
-**Cause** Skyrim has a multitude of issues when it comes to loading back game data without restarting the game. There are a few culprits that could be the main driver of these crashes, but I have yet to collect enough information or consistently reproducible crashes to report it to the relevant authors.  
-**Fix**: Please post logs in in the [discord](https://discord.gg/4WwqfK5yHg) channel `#apostasy-support` if you suffer from these crashes, but realize that I have very little ability to fix them at this current time.
+> This issue should happen significantly less as of version 3.0+
+**Cause** Skyrim has a multitude of issues when it comes to loading back game data without restarting the game.
+**Fix**: You can try the experimental fix below, but note that this bug is due to some deeply rooted issues with the base game engine and it is out of my control to do anything about it.
 
 <Details>
 <summary>Experimental Fix for crash on load (after dying, after fast travel, from a carriage ride, or just reloading a save game)</summary>

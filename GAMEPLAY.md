@@ -26,9 +26,12 @@
   - [Changes to Leveling](#changes-to-leveling)
   - [Perk Point Acquisition](#perk-point-acquisition)
 - [Difficulty and Mechanics](#difficulty-and-mechanics)
-  - [Alternative Death Mechanics](#alternative-death-mechanics)
   - [Difficulty-based Mechanics](#difficulty-based-mechanics)
   - [New and Notable Mechanics](#new-and-notable-mechanics)
+    - [Assorted Minor Mechanics](#assorted-minor-mechanics)
+    - [Alternative Death Mechanics](#alternative-death-mechanics)
+    - [Item Degradation](#item-degradation)
+    - [Resistance Scaling](#resistance-scaling)
 - [Quests Changes](#quests-changes)
 - [New Armors and Weapons](#new-armors-and-weapons)
 - [Content Additions and Improvements](#content-additions-and-improvements)
@@ -716,7 +719,7 @@ Apostasy modifies the vanilla XP per level requirements.
 <Details>
 <summary>Static Skill Leveling Settings</summary>
 
- - Gain skill points equal to 15 + (1 * playerlevel) for each level up, up to 60 points per level (this cap will be hit at level 40+).
+ - Gain skill points equal to 15 + (1 * playerlevel) for each level up, up to 60 points per level (this cap will be hit at level 45+).
  - You can only store a maximum of 60 skill points per level, therefore **after level 45, you must spend all your skill points at level up or you will waste some points.**
  - You can increase skills up to 25 times per level (permitting you have enough points and the skills are adequately below the current skill cap).
 
@@ -828,14 +831,6 @@ Additionally, on Legendary difficulty your spells cost 10% more Magicka, you rec
 
 </Details>
 
-### Alternative Death Mechanics
-
-Apostasy changes the way death works in Skyrim.  
-
-When your Health is reduced to 0, you will be granted **10** seconds of Ethereal and nearby enemies will be disengaged from combat and fully healed, giving you the opportunity to run away.  
-
-As punishment for dying, every death will apply a random **Minor Injury** to the player. If you die while under the effect of a **Minor Injury**, it will progress to a **Moderate Injury**. If you die while under the effect of a **Moderate Injury**, it will progress to a **Severe Injury**. These injuries can be cured by *sleeping* in a safe place for at least 8 hours.  
-
 ### Difficulty-based Mechanics
 
 Apostasy overhauls or adds additional mechanics, reminiscent of modern Action RPGs to further enhance the gameplay. Check out the sections below to learn more!
@@ -924,6 +919,12 @@ On Novice difficulty, incoming Poise damage is reduced by 20% for the player. Th
 
 ### New and Notable Mechanics
 
+As previously mentioned, Apostasy implements significant changes to many of the core game systems and expands on many others. Below you should be able to find some additional mechanics to take note of through your playthrough.  
+
+#### Assorted Minor Mechanics 
+
+Apostasy adds some minor gameplay mechanics focused on increasing flavor and rewarding good player behavior, you can read about these below.
+
 <Details>
 <summary>Bloodied</summary>
 
@@ -949,30 +950,38 @@ The player can be affected by Confusion on **Expert or higher** difficulties.
 
 </Details>
 
-<Details>
-<summary>Item Degradation</summary>
+#### Alternative Death Mechanics
+
+Apostasy changes the way death works in Skyrim.  
+
+When your Health is reduced to 0, you will be granted **10** seconds of Ethereal and nearby enemies will be disengaged from combat and fully healed, giving you the opportunity to run away.  
+
+As punishment for dying, every death will apply a random **Minor Injury** to the player. If you die while under the effect of a **Minor Injury**, it will progress to a **Moderate Injury**. If you die while under the effect of a **Moderate Injury**, it will progress to a **Severe Injury**. These injuries can be cured by *sleeping* in a safe place for at least 8 hours.  
+
+#### Item Degradation
 
 Apostasy utilizes [Simple Degradation](https://www.nexusmods.com/skyrimspecialedition/mods/74790), which makes armor and weapons lose their tempering durability over time. Weapons will never degrade below +0 tempering (read: they can never become worse than the base item).  
 
 To help manage item degradation, the player can find or craft hammers and whetstones to temper their gear while away from town.
 
-</Details>
-
-<Details>
-<summary>Resistance Scaling</summary>
+#### Resistance Scaling
 
 Apostasy changes the way in which resists are calculated. I am adding this section here solely for the min-maxers and for those who care and/or want something to reference. 
 
- - Armor has a *soft cap* of 75% Physical Resist @ 500 Armor Rating and a *hard cap* of 90% Physical Resist @ 1000 Armor Rating.  
- - Magic and Elemental Resistances have a *soft cap* of 75% Resistance @ 75% Resistance (enchanting, alchemy, etc), however they have a *hard cap* of 90% Resistance @ 150% Resistance. 
+<Details>
+<summary>Resistance Caps</summary>
+
+ - Armor has a *soft cap* of 75% Physical Resist @ 500 Armor Rating and a ***hard cap*** of 90% Physical Resist @ 1000 Armor Rating.  
+ - Magic and Elemental Resistances have a *soft cap* of 75% Resistance @ 75% Resistance (enchanting, alchemy, etc), however they have a ***hard cap*** of 90% Resistance @ 150% Resistance. 
    - This sounds convoluted so here is an example of how it actually works in practice: you equip a pair of boots with 50% Frost Resistance as a non-Nord, you will resist 50% of incoming Frost damage, as a Nord you would resist 80% of incoming Frost damage (50% base resist + 50% resist on armor = 100% Frost Resist, however scaling is reduced >75%).
+ - Spell Absorption has a ***hard cap*** of 75% Chance @ 75% Spell Absorb.
+
+</Details>
 
 There are effects that exist outside of raw Armor Rating and raw Resistance values that act as multipliers on top of your base resistances, these will usually be worded as "weapon" and "spell" damage (e.g., "You resist 50% of incoming weapon and spell damage").
  - If you have 500 Armor Rating and 75% Magic Resist with the **Defiance** perk in the Heavy Armor tree, then you would have the equivalent of 87.5% Physical and Magic Resistance while power attacking (the required condition to proc Defiance's bonus).
 
 This section is very technical and not necessary to know to play the game normally, however understanding additive vs multiplicative bonuses can better inform decisions made while playing the list. Keep in mind that it is impossible to become *fully immune* to damage.
-
-</Details>
 
 ## Quests Changes
 
