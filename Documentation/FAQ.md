@@ -5,7 +5,7 @@
   <a href="https://github.com/Oghma-Infinium/Apostasy/blob/main/README.md">Installation</a> |
   <a href="https://github.com/Oghma-Infinium/Apostasy/blob/main/GAMEPLAY.md">Gameplay Guide</a> |
   <a href="https://github.com/Oghma-Infinium/Apostasy/blob/main/CHANGELOG.md">Changelog</a> |
-  <a href="https://loadorderlibrary.com/lists/apostasy">Modlist</a> |
+  <a href="https://loadorderlibrary.com/lists/apostasy">Load Order</a> |
   FAQ |
   <a href="https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/CONFIG.md">Configuration</a> |
   <a href="https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/ADDONS.md">ADDONS</a> |

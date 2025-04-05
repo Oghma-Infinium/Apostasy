@@ -5,7 +5,7 @@
   <a href="https://github.com/Oghma-Infinium/Apostasy/blob/main/README.md">Installation</a> |
   <a href="https://github.com/Oghma-Infinium/Apostasy/blob/main/GAMEPLAY.md">Gameplay Guide</a> |
   <a href="https://github.com/Oghma-Infinium/Apostasy/blob/main/CHANGELOG.md">Changelog</a> |
-  <a href="https://loadorderlibrary.com/lists/apostasy">Modlist</a> |
+  <a href="https://loadorderlibrary.com/lists/apostasy">Load Order</a> |
   <a href="https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/FAQ.md">FAQ</a> |
   Configuration |
   <a href="https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/ADDONS.md">ADDONS</a> |
@@ -153,7 +153,7 @@ The following `.ini` files must be edited **while out of game**. After tweaking 
 
 By default, Wabbajack will set the resolution in the list's `Skyrimprefs.ini` to match the native resolution of your monitor. However, Skyrim scales very poorly at resolutions above 1080p (`1920x1080`) and depending on your hardware, it might be difficult to achieve consistent FPS on higher resolutions.
 
-The preferable way to change your resolution is to find the `SSEDisplayTweaks.ini` located in the `[Performance] SSE Display Tweaks - Modified` mod. Open the file and navigate to the `[Render]` section and find the lines `#Resolution=1920x1080` and `#ResolutionScale=0.75`. Here you can change the resolution here to your desired resolution. After changing the resolution, remove the `#` in order for the settings to take affect when launching the game.
+The preferable way to change your resolution is to find the `SSEDisplayTweaks.ini`. Open the file and navigate to the `[Render]` section and find the lines `#Resolution=1920x1080` and `#ResolutionScale=0.75`. Here you can change the resolution here to your desired resolution. After changing the resolution, remove the `#` in order for the settings to take affect when launching the game.
 
 Example for how the .ini line should look:  
 Before: `#Resolution=1920x1080`  

@@ -5,7 +5,7 @@
   <a href="https://github.com/Oghma-Infinium/Apostasy/blob/main/README.md">Installation</a> |
   <a href="https://github.com/Oghma-Infinium/Apostasy/blob/main/GAMEPLAY.md">Gameplay Guide</a> |
   Changelog |
-  <a href="https://loadorderlibrary.com/lists/apostasy">Modlist</a> |
+  <a href="https://loadorderlibrary.com/lists/apostasy">Load Order</a> |
   <a href="https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/FAQ.md">FAQ</a> |
   <a href="https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/CONFIG.md">Configuration</a> |
   <a href="https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/ADDONS.md">ADDONS</a> |
@@ -17,10 +17,172 @@
 
 # Table of Contents
 
+ - [3.1.0](#310) Release Date: 
  - [3.0.0](#300) Release Date: March 22, 2025
  - [2.0 Versions](#20-versions)
  - [1.0 Versions](#10-versions)
  - [Beta Versions](#beta-versions)
+
+## 3.1.0
+
+Key Info
+
+ - The discord voted to make this update **NOT SAVE-SAFE**, blame the discord not me!
+ - Several bug fixes and stability improvements, please read the changelog for more information.
+ - ENB Improvements.
+ - Completely reworked the Alt Death mechanic based on feedback. Thanks to Styyx for assisting heavily with the implementation, more details on the [Gameplay Guide](https://github.com/Oghma-Infinium/Apostasy/blob/main/GAMEPLAY.md).
+ - Special thanks to @Velgus on discord and my strongest Helpers (Anehum, Fovez, Kannon, komugidoll) for several high quality bug reports that were rolled into this update.
+
+<Details>
+<summary>Changes</summary>
+
+### Updated
+
+ - [Shouting Provokes Dragons](https://www.nexusmods.com/skyrimspecialedition/mods/112664)
+ - [CBBE 3BA Vanilla Outfits Redone](https://www.nexusmods.com/skyrimspecialedition/mods/109194)
+ - [FOMOD Plus - A Mod Installation Overhaul for Mod Organizer 2](https://www.nexusmods.com/skyrimspecialedition/mods/141001)
+ - [Fibbi - Designer Eyebags - Racemenu Overlays-Makeup-Warpaints](https://www.nexusmods.com/skyrimspecialedition/mods/144926)
+ - [Diverse Tanning Racks - Base Object Swapper](https://www.nexusmods.com/skyrimspecialedition/mods/129205)
+ - [Sneak Vignette](https://www.nexusmods.com/skyrimspecialedition/mods/145046)
+ - [Song of the Green (Auri Follower)](https://www.nexusmods.com/skyrimspecialedition/mods/11278)
+ - [Follower Dialogue Expansion - Aela the Huntress](https://www.nexusmods.com/skyrimspecialedition/mods/114801)
+ - [Simplicity of Seeding - Better Hearthfires and Farming CC Planter Scripts](https://www.nexusmods.com/skyrimspecialedition/mods/94428)
+ - [Edmond's Nature Series - BIRDS](https://www.nexusmods.com/skyrimspecialedition/mods/123068)
+ - [Fuse00 - Melony Set 3BA SMP](https://www.nexusmods.com/skyrimspecialedition/mods/124176)
+ - [Comprehensive Attack Rate Patch - SKSE](https://www.nexusmods.com/skyrimspecialedition/mods/89042)
+ - [JS Vanilla Circlets SE](https://www.nexusmods.com/skyrimspecialedition/mods/131813)
+ - [Elianora's Breezehome Overhaul (EBO)](https://www.nexusmods.com/skyrimspecialedition/mods/2829)
+ - [Serious Civil War Consequences for Jarl Balgruuf](https://www.nexusmods.com/skyrimspecialedition/mods/81554)
+ - [STB Widgets](https://www.nexusmods.com/skyrimspecialedition/mods/136148)
+ - [Dialogue History](https://www.nexusmods.com/skyrimspecialedition/mods/114238)
+ - [Photo Mode](https://www.nexusmods.com/skyrimspecialedition/mods/91701)
+ - [Patreons Menu](https://www.nexusmods.com/skyrimspecialedition/mods/120505)
+ - [New Creature Animation - Giant](https://www.nexusmods.com/skyrimspecialedition/mods/83317)
+ - [Snozz's Resource Pack](https://www.nexusmods.com/skyrimspecialedition/mods/110110)
+ - [DAC0DA - Delayed Start](https://www.nexusmods.com/skyrimspecialedition/mods/136031)
+ - [High Poly Head UV Stretch Fix](https://www.nexusmods.com/skyrimspecialedition/mods/141690)
+ - [AMON ENB REBORN for NAT 3 weathers](https://www.nexusmods.com/skyrimspecialedition/mods/99786)
+ - [Nature of the Wild Lands - forest and trees improvement mod](https://www.nexusmods.com/skyrimspecialedition/mods/63604)
+ - [Riding Animation Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/102881)
+ - [Sonorum Arcana - The Magic Sound Compendium](https://www.nexusmods.com/skyrimspecialedition/mods/119738)
+ - [Unmarked Locations Pack - All In One](https://www.nexusmods.com/skyrimspecialedition/mods/113660)
+ - [Pelts 'o' Plenty - Fur Pelt Cloaks](https://www.nexusmods.com/skyrimspecialedition/mods/120726)
+ - [Better Third Person Selection - BTPS](https://www.nexusmods.com/skyrimspecialedition/mods/64339)
+
+### Added
+
+ - [Stages of Suffering - An SKSE Death Alternative](https://www.nexusmods.com/skyrimspecialedition/mods/146568)
+ - [Arch-Curate Vyrthur Revoiced](https://www.nexusmods.com/skyrimspecialedition/mods/145795)
+ - [Mordant - Poison Magic SFX](https://www.nexusmods.com/skyrimspecialedition/mods/145884?)
+ - [Edmond's Nature Series - DEER](https://www.nexusmods.com/skyrimspecialedition/mods/145374)
+ - [Diverse Grindstones Base Object Swapper](https://www.nexusmods.com/skyrimspecialedition/mods/145870)
+ - [RaceMenu OverlayFix and Various Mod Fixes](https://www.nexusmods.com/skyrimspecialedition/mods/138586)
+ - [Fix for Male SMP Ancient Imperial Armor](https://www.nexusmods.com/skyrimspecialedition/mods/145963)
+ - [Miscellaneous Quests are Favors](https://www.nexusmods.com/skyrimspecialedition/mods/121610)
+ - [Ethereal Skill Menu Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/138515)
+ - [Falmer Equip Armor](https://www.nexusmods.com/skyrimspecialedition/mods/82101)
+ - [Falmer Equip Armor - CBBE - 3BAv2 - BHUNPv3](https://www.nexusmods.com/skyrimspecialedition/mods/93052)
+ - [Falmer Equip Armor - Himbo bodyslide](https://www.nexusmods.com/skyrimspecialedition/mods/118665)
+ - [Fort Dunstad](https://www.nexusmods.com/skyrimspecialedition/mods/144471)
+ - [Robber's Gorge](https://www.nexusmods.com/skyrimspecialedition/mods/145380)
+ - [Snowpoint](https://www.nexusmods.com/skyrimspecialedition/mods/146533)
+ - [Xenius Character Enhancement - Dirt Masks](https://www.nexusmods.com/skyrimspecialedition/mods/46437?tab=files&file_id=188967)
+ - [DAc0da Paper Map for FWMF by Limon](https://www.nexusmods.com/skyrimspecialedition/mods/146754)
+
+### Removed
+
+ - [Shades of Mortality - Death Alternative SKSE](https://www.nexusmods.com/skyrimspecialedition/mods/136825)
+ - [Animation Motion Fix](https://www.nexusmods.com/skyrimspecialedition/mods/145100)
+ - [Katana - Journey in the Shadows](https://www.nexusmods.com/skyrimspecialedition/mods/69622)
+ - [Katana - A Visual Replacer](https://www.nexusmods.com/skyrimspecialedition/mods/106158)
+ - [Fluffy Pelts 'o' Plenty - Fur Pelt Cloaks](https://www.nexusmods.com/skyrimspecialedition/mods/121195)
+
+</Details>
+
+<Details>
+<summary>Patch Notes</summary>
+
+### Balancing Changes
+
+ - Magicka Battery (Battlemage class) is now affected by Low Stamina debuffs.
+   - This is for consistency with several other effects, such as the Lord Stone, which had reduced magnitudes while suffering from Low Stamina penalties.
+ - Reduced Astrid's base Frost Resistance as it was stacking too strongly with her Nord racial bonus.
+ - Removed Astrid's minor bonuses because they were unnecessary additions to player power and most of the tooltips did not accurately reflect what the effects actually did.
+ - Reworked the injury system entirely into a tiered injury system with multiple debuffs that are randomly selected.
+ - Sindwen no longer has a duplicate copy of the Curate's Armor.
+ - Removed duplicate copy of Curate's Cuirass in one of Remiel's dungeons.
+ - Lady Stone reworked.
+   - **NEW**: Your Health, Magicka, and Stamina Regeneration is increased by 25%. When you die, you instead expend an amount of gold to avoid any injury. However, if you can not pay this tax, you become affected by all accumulated injuries.
+   - **OLD**: When you fall below 25% Health, you resist 50% of incoming weapon and spell damage and rapidly restore Health for 10 seconds. This effect costs an amount of gold. When you do not have the required amount of gold, you instead receive **Lady's Scorn**.
+ - Atronach Stone reduced from +200 Magicka to +150 Magicka.
+ - Nerfed the amount of damage dealt by actors who are affected by the Low Stamina penalties.
+ - Nerfed the amount of stagger damage dealt by actors who are affected by the Low Stamina penalties.
+
+### Bug Fixes
+ 
+ - Fixed a random havok crash that some users were experiencing.
+ - Fixed typo in Witch Hunter class description.
+ - Fixed a typo in the Shadow Stone description.
+ - Rewrote the Ritual Stone's description to be accurate to the current iteration.
+ - Fixed a bug where Acolyte of Hermaeus Mora and Blessing of Talos were not appropriately applying their benefits.
+ - Should have fixed issues with the in-game controlmap display (F11) for controller.
+ - Fixed missing Whiterun Horse mesh.
+ - Fixed some trees clipping near a Stormcrown-added word wall in Morthal Swamp.
+ - Fixed Casual Pirate not properly morphing with OBody.
+ - Fixed Vampire Forsaken debuff not properly affecting certain Shrine Blessings.
+ - Fixed the crafting conditions on some items from UNSLAAD.
+ - Optimized the collision of several Witcher Asset meshes used in some mods.
+ - Optimized a mesh utilized in Riverwood that was referenced in some user submitted crash logs.
+   - This crash was rare and non-reproducible so I am unsure if this will actually do anything.
+ - Fixed a bug where MagickaRate would sometimes be set to an obscene number.
+   - This bug will not be fixed retroactively on saves that already have this issue.
+ - Sithis now properly gives a 20% bonus to stealth instead of 50%.
+ - Fixed(?) issue where "Planter" placeholder NPCs could spawn in Whiterun during [Battle for Whiterun](https://en.uesp.net/wiki/Skyrim:Battle_for_Whiterun_(Stormcloaks)) quest.
+ - Fixed(?) issue where the door for Heimskr's House was bugged during the [Battle for Whiterun](https://en.uesp.net/wiki/Skyrim:Battle_for_Whiterun_(Stormcloaks)) quest.
+   - Due to the persistent nature of this reference, it's possible this will not take effect on existing save games.
+ - Cleaned up some Hanging Moss and other tree clutter that did not align properly with the list's tree meshes.
+ - Fixed some incorrect conflict resolution between The Great City of Winterhold and Better Dynamic Snow.
+ - Fixed some incorrect conflict resolution within the Blue Palace that left some floating clutter in some bedrooms.
+ - Numerous improvements to the Immersive Equipment Displays preset.
+ - Fixed some landscape seams.
+   - too lazy to document specifics.
+ - Cleaned up some floating clutter that was reported.
+   - too lazy to document specifics.
+ - Repositioned floating lanterns on Blue Palace Terrace.
+ - Fixed a bug where the Ritual Stone and the Sage perk did not properly affect Attunement and Regen spells.
+ - Fixed the Ring of Phynaster being unobtainable without use of the mythical console.
+ - Fixed a bug where SnowElfRace gave 175 base kill experience instead of 8 like all other humanoid/playable races.
+ - Fixed a bug where Varen Aquilarios' Shield was disenchantable.
+ - Fixed double Shrine of Vaermina at the end of Nightcaller Temple.
+ - Removed awful vertex coloring on `FarmBTrapDoor02.nif`.
+ - Fixed a typo in the Windrunner (Light Armor) perk description.
+ - Fixed a bug where the Agent (Sneak) perk's sneak stamina cost reduction was also affecting the movement speed bonus from Trespasser (Sneak) perk.
+ - Fixed a bug where reforging Mehrunes' Razor did not properly progress the quest.
+ - Fixed a bug where you could not interact with Mehrunes' Shrine to receive the Razor after killing Silus.
+ - Corrected some incorrect conflict resolution for SDA.
+ - Fixed crash related to morphing Ancient Falmer Armor.
+ - Fixed Bloody Cleaver's animation type being incorrectly set to sword instead of axe.
+ - Fixed Poisoned Apple texture.
+ - Fixed issue where Attacks of Opportunity did not work under certain conditions where they should.
+
+### Misc. Tweaks
+
+ - The list should no longer default to 0 Master Volume.
+ - Improvements to controller config thanks to @Velgus.
+ - Nevernude is now enabled by default as intended.
+ - Made the rats that run around major cities and sewers a little smaller (note: I am not refering to Skeevers).
+ - Reverted some experimental UI positioning changes that were not intended to be included in the 3.0 update.
+ - Adjusted subtitle positioning (thanks Anehum).
+ - Made some tweaks to the way frame transfer is handled, which may improve screen tearing issues that some users reported.
+ - Crab boss fight from CC Fishing no longer plays Miraak's Boss fight music.
+ - Added Photo Mode and Dialogue History to the Tween Menu.
+ - ENB Tweaks
+   - Nights have been brightened
+   - Color grading and various other visual tweaks
+   - Particle lights were brighted in exteriors to accomodate Eld-Beri lanterns.
+ - Greatly expanded selection of cloaks.
+
+</Details>
 
 ## 3.0.0
 
@@ -41,7 +203,7 @@ Key Info
  - Added Alt Death mechanics.
  - Added SMP to numerous armors in the list.
  - Redesigned and overhauled the UI and Heads-Up Display. 
- - Included a "band-aid" fixed a critical bug between MO2 and Windows 11 where file overwrites were not properly respected for config files.
+ - Included a "band-aid" fix for a critical bug between MO2 and Windows 11 where file overwrites were not properly respected for config files.
  - Due to the lengthy development cycle of this update, the `Changes` section of the Changelog is incomplete.
 
 <Details>

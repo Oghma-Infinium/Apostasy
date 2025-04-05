@@ -5,7 +5,7 @@
   <a href="https://github.com/Oghma-Infinium/Apostasy/blob/main/README.md">Installation</a> |
   Gameplay Guide |
   <a href="https://github.com/Oghma-Infinium/Apostasy/blob/main/CHANGELOG.md">Changelog</a> |
-  <a href="https://loadorderlibrary.com/lists/apostasy">Modlist</a> |
+  <a href="https://loadorderlibrary.com/lists/apostasy">Load Order</a> |
   <a href="https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/FAQ.md">FAQ</a> |
   <a href="https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/CONFIG.md">Configuration</a> |
   <a href="https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/ADDONS.md">ADDONS</a> |
@@ -26,6 +26,7 @@
   - [Changes to Leveling](#changes-to-leveling)
   - [Perk Point Acquisition](#perk-point-acquisition)
 - [Difficulty and Mechanics](#difficulty-and-mechanics)
+  - [Alternative Death Mechanics](#alternative-death-mechanics)
   - [Difficulty-based Mechanics](#difficulty-based-mechanics)
   - [New and Notable Mechanics](#new-and-notable-mechanics)
 - [Quests Changes](#quests-changes)
@@ -44,7 +45,7 @@ Before reading this guide, please follow the [Installation Guide](https://github
 
 This section will cover the absolute basics of the list. I suggest reading, or skimming all of the linked mod pages in this section if you are unfamiliar with the preceding mods.
 
-Before reading this section, I suggest looking over the [load order](https://loadorderlibrary.com/lists/Apostasy) and [keybinds](https://github.com/Oghma-Infinium/Apostasy/blob/main/images/Keybinds.png).
+Before reading this section, I suggest looking over the [load order](https://loadorderlibrary.com/lists/apostasy) and [keybinds](https://github.com/Oghma-Infinium/Apostasy/blob/main/images/Keybinds.png).
 
 ### Core Overhauls
 
@@ -152,7 +153,7 @@ Deity buffs are granted by praying at a shrine associated with that deity. New s
 **Hircine**
  1. **Blessing of Hircine**: Your Movement Speed is increased by 10%.
  2. **Acolyte of Hircine**: Your Stamina Regeneration is increased by 20-50% after slaying 25-300 creatures.
- 3. **Champion of Hircine**: Your attacks deal additional Sun damage after completing [Ill Met By Moonlight](https://en.uesp.net/wiki/Skyrim:Ill_Met_By_Moonlight), additionally you must be a Werewolf.
+ 3. **Champion of Hircine**: Your attacks deal additional Bleed damage after completing [Ill Met By Moonlight](https://en.uesp.net/wiki/Skyrim:Ill_Met_By_Moonlight), additionally you must be a Werewolf.
 
 **Jyggalag**
  1. **Blessing of Jyggalag**: Your Armor Rating is increased by 100.
@@ -207,7 +208,7 @@ Deity buffs are granted by praying at a shrine associated with that deity. New s
 **Sheogorath**
  1. **Blessing of Sheogorath**: Your Health is increased by 50.
  2. **Acolyte of Sheogorath**: Your potions last 20-50% longer after plucking 6-72 butterfly wings.
- 3. **Champion of Sheogorath**: Your attacks and spells randomly deal between 3% and 3,200% of their total damage after completing [The Mind of Madness](https://en.uesp.net/wiki/Skyrim:The_Mind_of_Madness).
+ 3. **Champion of Sheogorath**: Your attacks and spells randomly deal between 1% and 1,000% of their total damage after completing [The Mind of Madness](https://en.uesp.net/wiki/Skyrim:The_Mind_of_Madness).
 
 **Vaermina**
  1. **Blessing of Vaermina**: Your Magicka Regeneration is increased by 50%.
@@ -553,7 +554,7 @@ Apostasy uses Adamant to be the main overhaul for perk trees that are untouched 
    - **Spell Surge** now requires 30 skill (was 20).
    - **Spell Surge** now reduces dual casting costs by 20% (was 25%).
    - **Augment [X]` perks now require 20 skill (was 30).
-   - Tier 1 specialization perks (e.g., **Firebrand`, **North Wind`, etc.) now require 40/90 skill (was 60/90).
+   - Tier 1 specialization perks (e.g., **Firebrand**, **North Wind**, etc.) now require 40/90 skill (was 60/90).
    - **Impact** now requires 70 skill (was 40).
  - Incorporated [Ascension](https://www.nexusmods.com/skyrimspecialedition/mods/89223) to give perk bonuses to non-elemental Destruction skills.
    - Unaspected spells include Destruction school spells from [Desecration](https://www.nexusmods.com/skyrimspecialedition/mods/90832) and [Natura](https://www.nexusmods.com/skyrimspecialedition/mods/77826).
@@ -561,8 +562,8 @@ Apostasy uses Adamant to be the main overhaul for perk trees that are untouched 
    - **Execution** perk now requires 40/90 skill and **Raw Power** (was 80/100 skill and **Aspection`).
    - **Aspection** perk now requires 100 skill and **Execution** (was 60 skill and **Raw Power`).
    - **Magic Mantle** removed.
-   - **Destructive Barrier** now requires **Spell Surge** (was **Magic Mantle`).
-   - New Perk, **Fevered Incantation**, added.
+   - **Destructive Barrier** now requires **Spell Surge** (was **Magic Mantle**).
+   - New Perk, **Elemental Veil**, added.
      - Requires 60 skill and **Destructive Barrier**. Doubles the damage dealt by *elemental* cloaks (e.g., Flame Cloak).
 
 **Restoration** 
@@ -614,9 +615,9 @@ Elemental Fury grants your weapons a chance to deal additional elemental damage 
 
 Battle Fury now restores the attributes for yourself and nearby allies.
  - Each word increases the strength of the restore effect.
-   - First Word: Stamina
-   - Second Word: Magicka
-   - Third Word: Health
+   - First Word: Stamina  
+   - Second Word: Magicka  
+   - Third Word: Health  
  - The meditation increases regen of associated attribute(s).
  - The shout's magnitude can be increased by Fortify Shout Power effects and is unaffected by Fortify Shout Duration effects.
 
@@ -628,6 +629,9 @@ Additionally, the two words of Lightning Breath and one word of Poison Breath ha
 <summary>Standing Stone Changes</summary>
 
 In an effort to create some more interesting effects that can leverage the unique gameplay components of the list, ~~and because I can never make up my mind regarding certain effects~~, certain Standing Stones are changed compared to the default effect in [Stones of Sacrifice](https://www.nexusmods.com/skyrimspecialedition/mods/121629).
+
+Apostasy's Lady Stone Effect:
+> Your Health, Magicka, and Stamina Regeneration is increased by 25%. When you die, you instead expend an amount of gold to avoid any injury. However, if you can not pay this tax, you become affected by all accumulated injuries.
 
 Apostasy's Ritual Stone Effect:
 > Spells cast via scrolls and staves are 50% stronger and last twice as long, however regular spells are half as strong and last half as long.
@@ -712,8 +716,8 @@ Apostasy modifies the vanilla XP per level requirements.
 <Details>
 <summary>Static Skill Leveling Settings</summary>
 
- - Gain skill points equal to 15 + (1 * playerlevel) for each level up, up to 50 points per level (this cap will be hit at level 40+).
- - You can only store a maximum of 60 skill points per level, therefore **after level 40, you must spend all your skill points at level up or you will waste some points.**
+ - Gain skill points equal to 15 + (1 * playerlevel) for each level up, up to 60 points per level (this cap will be hit at level 40+).
+ - You can only store a maximum of 60 skill points per level, therefore **after level 45, you must spend all your skill points at level up or you will waste some points.**
  - You can increase skills up to 25 times per level (permitting you have enough points and the skills are adequately below the current skill cap).
 
 Skill Point Costs are as follows:
@@ -824,6 +828,14 @@ Additionally, on Legendary difficulty your spells cost 10% more Magicka, you rec
 
 </Details>
 
+### Alternative Death Mechanics
+
+Apostasy changes the way death works in Skyrim.  
+
+When your Health is reduced to 0, you will be granted **10** seconds of Ethereal and nearby enemies will be disengaged from combat and fully healed, giving you the opportunity to run away.  
+
+As punishment for dying, every death will apply a random **Minor Injury** to the player. If you die while under the effect of a **Minor Injury**, it will progress to a **Moderate Injury**. If you die while under the effect of a **Moderate Injury**, it will progress to a **Severe Injury**. These injuries can be cured by *sleeping* in a safe place for at least 8 hours.  
+
 ### Difficulty-based Mechanics
 
 Apostasy overhauls or adds additional mechanics, reminiscent of modern Action RPGs to further enhance the gameplay. Check out the sections below to learn more!
@@ -916,6 +928,15 @@ On Novice difficulty, incoming Poise damage is reduced by 20% for the player. Th
 <summary>Bloodied</summary>
 
 Apostasy introduces a new mechanic referred to as Bloodied. Bloodied targets take more damage from Power Attacks while they are below half Health. The player is not affected by Bloodied on any difficulty.
+
+</Details>
+
+<Details>
+<summary>Challenger's Burden</summary>
+
+When playing on Legendary difficulty, the player is affected by **Challenger's Burden**, increasing the cost of spells, poise damage taken, and making sneak attacks less effective.  
+
+Challenger's Burden is meant to offer some increased, targetted challenge over Master difficulty.
 
 </Details>
 
@@ -1106,7 +1127,7 @@ Apostasy comes with several new quest mods and expansions for several vanilla qu
 
 ### Followers
 
-![](https://staticdelivery.nexusmods.com/mods/1704/images/118893/118893-1724960630-647828967.png)
+![](https://staticdelivery.nexusmods.com/mods/1704/images/118893/118893-1743807378-1038802819.png)
 
  - [Feris - Custom Voiced Female Follower](https://www.nexusmods.com/skyrimspecialedition/mods/142226): A wandering rogue who can be met in Whiterun's Bannered Mare!
  - [Follower Dialogue Expansion Series](https://next.nexusmods.com/profile/anbeegod/mods?gameId=1704): Greatly expands the dialogue and adds new short character quests for many vanilla followers.
@@ -1114,7 +1135,6 @@ Apostasy comes with several new quest mods and expansions for several vanilla qu
  - [Heart of Ice - Astrid](https://www.nexusmods.com/skyrimspecialedition/mods/132350): A warrior from Roscrea who has traveled to Skyrim for a village artifact, she can be found in Bluewater cave near Rorikstead.
  - [INDIGO](https://www.nexusmods.com/skyrimspecialedition/mods/88240): A Khajiit with a complex needs system who can be found imprisoned over a simple misunderstanding in Riften Jail.
  - [Kaidan 2](https://www.nexusmods.com/skyrimspecialedition/mods/19075): A mercenary who is hunter by the Thalmor, he can be found in the Abandoned Prison.
- - [Katana - Journey in the Shadows](https://www.nexusmods.com/skyrimspecialedition/mods/69622): An *otherworldly* individual with a few friends, she can be found in Solitude's Winking Skeever.
  - [Khajiit Will Follow](https://www.nexusmods.com/skyrimspecialedition/mods/2227): Four new Kahjiit followers with their own unique quests, backstories, and personalities. 
  - [Remiel-Custom Voiced Dwemer Specialist and Companion](https://www.nexusmods.com/skyrimspecialedition/mods/51874): A Breton engineer from Wayrest who has traveled to Skyrim in hopes of exploring the province's various Dwemer ruins, she can be found in Markarth's Silver Blood Inn.
  - [Serana Dialogue Add-On](https://www.nexusmods.com/skyrimspecialedition/mods/32161): A massive expansion and overhaul to Skyrim's most beloved follower.
@@ -1131,7 +1151,6 @@ Apostasy comes with several new quest mods and expansions for several vanilla qu
  - [Belethor's Sister](https://www.nexusmods.com/skyrimspecialedition/mods/92381): What if Belethor actually sold his sister?
  - [DAc0da](https://www.nexusmods.com/skyrimspecialedition/mods/134405): Work with the Psijic order to uncover the secrets of the destroyed Numidium that suddenly appears off the coast of Solitude.
  - [Demon of Dream](https://www.nexusmods.com/skyrimspecialedition/mods/118719): While wandering Skyrim, you may come across three ex-cultists of Vaermina. Enter their nightmares and uncover the secrets within!
- - [Dragon Hunting](https://www.nexusmods.com/skyrimspecialedition/mods/99193): Adds new ingredients and rewards to dragons and a repeatable Dragon Hunting quest to make the act of killing dragons more engaging.
  - [Final Farewell](https://www.nexusmods.com/skyrimspecialedition/mods/127894?): Come across a ghost who searches for vengeance, and help him come to terms with the afterlife.
  - [Missives](https://www.nexusmods.com/skyrimspecialedition/mods/17576) + [Headhunter - Bounties Redone](https://www.nexusmods.com/skyrimspecialedition/mods/51847): New Notice Board type system, reminiscent of The Witcher and other classic RPG titles.
  - [More to do in the Soul Cairn](https://www.nexusmods.com/skyrimspecialedition/mods/115962): Three new inhabitants have been added to the Soul Cairn, help them settle their affairs before they face the judgement of the Ideal Masters.
@@ -1158,6 +1177,7 @@ Apostasy comes with several new quest mods and expansions for several vanilla qu
  - [Collecting the Edda](https://www.nexusmods.com/skyrimspecialedition/mods/52081): Restores an unfinished vanilla quest for the Bards College, allowing you to collect the Edda for Giraud Gemane.
  - [Defeat the Dragon Cult](https://www.nexusmods.com/skyrimspecialedition/mods/86625): Adds a new quest to help direct the Dragonborn to the location of Alduin's most loyal servants.
  - [Destroy the Dark Brotherhood - Quest Expansion](https://www.nexusmods.com/skyrimspecialedition/mods/118229): Introduces new, lore-friendly ways to get kidnapped by Astrid and expands upon the vanilla Destroy the Dark Brotherhood questline!
+ - [Dragon Hunting](https://www.nexusmods.com/skyrimspecialedition/mods/99193): Adds new ingredients and rewards to dragons and makes changes to the [Rebuilding the Blades](https://en.uesp.net/wiki/Skyrim:Rebuilding_the_Blades) and [Dragon Research](https://en.uesp.net/wiki/Skyrim:Dragon_Research) quests.
  - [Finding Susanna Alive](https://www.nexusmods.com/skyrimspecialedition/mods/32512): Did you ever find it weird that you could never meet the tavern maid who is butchered in Blood on Ice? No? Well now you can anyways!
  - [House of Horrors - Quest Expansion](https://www.nexusmods.com/skyrimspecialedition/mods/57285): Greatly expands upon Molag Bal's daedric quest, providing new "good guy" routes and more!
  - [In the Shadow of the Crown](https://www.nexusmods.com/skyrimspecialedition/mods/79600): Provides an alternative route to completing the Stones of Barenziah, without ever dealing with the Thieves Guild.
