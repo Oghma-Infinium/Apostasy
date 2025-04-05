@@ -17,7 +17,7 @@
 
 # Table of Contents
 
- - [3.1.0](#310) Release Date: 
+ - [3.1.0](#310) Release Date: April 4, 2025
  - [3.0.0](#300) Release Date: March 22, 2025
  - [2.0 Versions](#20-versions)
  - [1.0 Versions](#10-versions)
