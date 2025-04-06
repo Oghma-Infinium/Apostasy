@@ -19,7 +19,7 @@
 
 Apostasy utilizes [EasyNPC](https://www.nexusmods.com/skyrimspecialedition/mods/52313) in order to create a custom NPC replacer merge for the list. While the assets for the individual mods that make up this merge are *downloaded* by Wabbajack during the download stage, they are not *installed* during the installation stage. Doing this saves ~40gb of installation size while still requiring the files to be downloaded by Wabbajack in order to construct the `.bsa` files related to the merge.  
 
-Below you will find a relatively complete list of NPCs and the responsible replacer mod. If any NPC replacer is wrong here, please let me know and I will correct it, this list was generated using Excel lookup formulas based on my own documentation. The table is sorted alphabetically and only contains ***vanilla NPCs***, in the future I may consider adding followers to this list, but since they are not included in the NPC Merge, it seems unnecessary.
+Below you will find a relatively complete list of NPCs and the responsible replacer mod. If any NPC replacer is wrong here, please let me know and I will correct it, this list was generated using Excel lookup formulas based on my own documentation. The table is sorted alphabetically (by Editor ID) and only contains ***vanilla NPCs***, in the future I may consider adding followers to this list, but since they are not included in the NPC Merge, it seems unnecessary.
 
  **NPC**                             | **REPLACER MOD**                                                                                                                      
 :-----------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------:
@@ -333,7 +333,7 @@ Below you will find a relatively complete list of NPCs and the responsible repla
  **Ronthil**                         | [Pandorable's NPCs - Dawnguard](https://www.nexusmods.com/skyrimspecialedition/mods/24135)                                        
  **Minorne**                         | [Kalilies NPCs](https://www.nexusmods.com/skyrimspecialedition/mods/30247)                                                        
  **Salonia Caelia**                  | [Blood and Ash](https://www.nexusmods.com/skyrimspecialedition/mods/85718)                                                        
- **Serana**                          | [Serana Re-Imagined SE](https://www.nexusmods.com/skyrimspecialedition/mods/43430)                                                
+ **Serana**                          | A modified version of [Serana Re-Imagined SE](https://www.nexusmods.com/skyrimspecialedition/mods/43430)                                                
  **Sorine Jurard**                   | [Blood and Ash](https://www.nexusmods.com/skyrimspecialedition/mods/85718)                                                        
  **Stalf**                           | [NITHI NPC Enhancement - Dawnguard DLC](https://www.nexusmods.com/skyrimspecialedition/mods/87900)                                
  **Galathil**                        | [DIbella's Blessing](https://www.nexusmods.com/skyrimspecialedition/mods/82606)                                                   
