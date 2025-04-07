@@ -17,12 +17,76 @@
 
 # Table of Contents
 
+ - [3.1.2](#312) Release Date: April 6, 2025
  - [3.1.1](#311) Release Date: April 5, 2025
  - [3.1.0](#310) Release Date: April 4, 2025
  - [3.0.0](#300) Release Date: March 22, 2025
  - [2.0 Versions](#20-versions)
  - [1.0 Versions](#10-versions)
  - [Beta Versions](#beta-versions)
+
+## 3.1.2
+
+Key Info
+
+ - Save-Safe.
+ - Read patch notes.
+
+<Details>
+<summary>Changes</summary>
+
+### Updated
+
+ - [Particle Patch](https://www.nexusmods.com/skyrimspecialedition/mods/65720?)
+ - [Katanas of Skyrim](https://www.nexusmods.com/skyrimspecialedition/mods/92187)
+ - [Artifacts of the Ancestors](https://www.nexusmods.com/skyrimspecialedition/mods/92389)
+ - [Halted Stream](https://www.nexusmods.com/skyrimspecialedition/mods/132119)
+
+### Added
+
+ - [Song of the Green (Auri Follower) - Enhanced Voice Remastered](https://www.nexusmods.com/skyrimspecialedition/mods/63787)
+ - [Lu'ah Al-Skaven Enhanced Voice](https://www.nexusmods.com/skyrimspecialedition/mods/146906)
+ - [Stealing is For Thieves](https://www.nexusmods.com/skyrimspecialedition/mods/146914)
+ - [Peryite Revoiced](https://www.nexusmods.com/skyrimspecialedition/mods/146986)
+
+### Removed
+
+ - N/A
+
+</Details>
+
+<Details>
+<summary>Patch Notes</summary>
+
+### Balancing Changes
+
+ - Added several Spear Artifacts.
+   - **Bthuangth's Harvester** can be found in Avanchnzel.
+   - **Greed** can be purchased from Belethor.
+   - **Spear of the Snow Prince** can be found in Frossel.
+   - **Spear of the Hunter** can be purchased from Gharol.
+   - **Stormforge** can be purchased from Moth gro-Bagol.
+   - **The Penetrator** can be purchased from Bersi Honey-Hand.
+ - Adjusted the enchants on Absolution and Ascension from Khajiit Will Follow.
+
+### Bug Fixes
+ 
+ - Partially fixed the Stalhrim Spear textures.
+ - Fixed a bug where Endurance and Momentum had their positions swapped in the Light Armor tree.
+ - Fixed bug where ghost rabbits near the rabbit sacrifical altar were hostile towards nearby wolves.
+ - Fixed an issue where Blessing of Malacath gave Champion of Malacath's bonus without the proper quest requirements.
+ - Fixed an issue where Champion of Hircine was proc'ing Champion of Stendarr's Sun Damage instead of the intended Bleed Damage.
+ - Fixed landscape seams.
+   - too lazy to document which cells.
+
+### Misc. Tweaks
+
+ - Added a few Spear artifacts to the world.
+ - Added Iron Katanas and DaiKatanas.
+ - Renamed Mountain Flowers to be themed after different deities.
+ - Repositioned Animated Text on HUD.
+
+</Details>
 
 ## 3.1.1
 
