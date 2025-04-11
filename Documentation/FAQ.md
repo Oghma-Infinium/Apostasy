@@ -190,8 +190,7 @@ Solution(s)
 
 ### Getting "Failed to start Dialogue Quest" error in the start room!
 Solution(s)
- 1. Seems to be an issue some users experience with version 4.0+ of [Alternate Perspective](https://www.nexusmods.com/skyrimspecialedition/mods/50307). Try to restart your game, if that doesn't fix it then reinstall the list as it's likely there are other issues with your install.
- 2. When people provide me a method to reproduce this, I will look into it more, however I have never encountered this issue.
+ 1. This issue only occurs if you (A.) Start a New Game by backing out of an existing save into main menu *without* restarting the game entirely - this breaks an incredible amount of scripts as they do not properly reset; or (B.) Modified the list and have conflicts with the scripts that Alternate Perspective edits.
 
 ## Known Crashes
 
