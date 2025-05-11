@@ -58,7 +58,7 @@
 - [Issues](#issues)
 - [Credits and Thanks](#credits-and-thanks)
 
-## Introduction
+# Introduction
 
 Apostasy is a modlist for Skyrim Special Edition offering high-fidelity visuals, expanded and enhanced locations, new quests, and modern, action-oriented gameplay. Developed over the course of thousands of hours, with input from an experienced group of modlist creators and curators—known for lists like [Arisen](https://github.com/aljoxo/Arisen), [Ascensio](https://github.com/Oghma-Infinium/Ascensio), [Fahluaan](https://github.com/Oghma-Infinium/Fahluaan), and [Vagabond](https://github.com/Oghma-Infinium/Vagabond)—Apostasy brings a refined and immersive Skyrim experience like never before.
 
@@ -74,7 +74,7 @@ You can find a summary of all relevant gameplay changes and notable mods on the 
 [cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
 [cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
 
-### System Requirements
+## System Requirements
 
 Based on both internal performance testing and user feedback, the section below outlines my *recommended* system specifications for the list. Please keep in mind that every PC is different, and these recommendations are an estimate based on available data and firsthand reports. Individual performance may vary depending on specific hardware and software configurations, as well as other system optimizations. **Troubleshooting & support for hardware related issues will not be provided.**
 
@@ -109,21 +109,21 @@ If you are struggling with issues of Wabbajack crashing during the installation 
 
 </Details>
 
-### Video Guide
+## Video Guide
 
 If you would prefer to follow along with a video guide, you can watch the Installation Guide by clicking the image below.
 
 [![](https://raw.githubusercontent.com/Oghma-Infinium/Apostasy/main/images/InstallThumbnail.png)](https://youtu.be/6IJlT_H7pvk?si=OldwShLFkc1-W9Xq)
 
-## Installation
+# Installation
 
 Installing Apostasy is relatively easy and, if you have Nexus Premium, will be a simple waiting game. If you are updating the modlist, you can safely skip to the [updating section](#updating-the-modlist).
 
-### Pre-Installation
+## Pre-Installation
 
 These steps are only required for installing the modlist for the first time. Additionally, many of these steps may be covered in other modlist installs, for new users I suggest reading through here regardless.
 
-#### Installing Microsoft Visual C++ and .NET
+### Installing Microsoft Visual C++ and .NET
 
  1. Install [Visual C++ x64](https://aka.ms/vs/17/release/vc_redist.x64.exe).
  2. Install [.NET Runtime 9.X.X Desktop x64](https://dotnet.microsoft.com/en-us/download/dotnet/9.0).
@@ -132,7 +132,7 @@ These steps are only required for installing the modlist for the first time. Add
 >[!WARNING]
 >If you already have Visual C++ installed, please make sure you install it again and use the `Repair` option to get the latest version of the redistributables. **Do NOT skip this step or MO2 and the game may fail to launch.**
 
-#### Pagefile and Crash Prevention
+### Pagefile and Crash Prevention
 
 >[!WARNING]
 >Larger Skyrim modlists require a significant amount of memory, running out of memory **will** result in crashes and other potential issues. Due to Apostasy's size and number of files, this step is **NOT** optional. I do not care how much RAM or VRAM you have, please do this step.
@@ -169,7 +169,7 @@ But why is this? Skyrim appears to use system memory in very unexpected ways, fo
 
 </Details>
 
-#### Setting Shader Cache Size (NVIDIA Users Only)
+### Setting Shader Cache Size (NVIDIA Users Only)
 
 >[!IMPORTANT]
 >For NVIDIA users, it is recommended to boost the size of the shader cache. These settings have been shown to improve stability, while it may not be entirely necessary, it is still recommended.
@@ -184,16 +184,16 @@ But why is this? Skyrim appears to use system memory in very unexpected ways, fo
 - Exit out of the application
 ![](https://raw.githubusercontent.com/iAmMe27/Tahrovin/main/img/ShaderCache.png)
 
-#### Steam Setup
+### Steam Setup
 
 >[!WARNING]
 >If you have your Steam Library in Program Files, read [this article](https://github.com/LostDragonist/steam-library-setup-tool/wiki/Usage-Guide) by LostDragonist. Locations such as Desktop, Documents, Downloads, OneDrive, etc. *will* cause issues with installing and playing the list.
 
  1. Change Skyrim so it does not [automatically update](https://help.steampowered.com/en/faqs/view/71AB-698D-57EB-178C#disable).
  2. Right click on Skyrim SE and click on properties, untick the `Enable Steam Overlay while in-game.`
- 3. Please ensure you follow the steps outlined in the [Installing Rare Curios Files](#installing-rare-curios-files) section. **DO NOT SKIP THIS STEP OR YOUR INSTALL WILL FAIL.**
+ 3. Please ensure you follow the steps outlined in the [Installing Creation Club Files](#installing-creation-club-files) section. **DO NOT SKIP THIS STEP OR YOUR INSTALL WILL FAIL.**
 
-#### Changing the Game Language
+### Changing the Game Language
 
 >[!WARNING]
 >**The English Steam version of Skyrim SE is the only supported version.**
@@ -207,7 +207,7 @@ To change your Skyrim SE's language:
  3. Click `Language`
  4. Set the Language to `English`
 
-#### Installing Creation Club Files
+### Installing Creation Club Files
 >
 >[!WARNING]
 > ***Do NOT skip this step or your install may fail!***
@@ -233,9 +233,9 @@ As a result of this, for users who do not own the AE, you must ensure that you d
 >- **DO NOT** Alt+Tab during this process or it will fail to properly download these files.
 >- **DO NOT** verify your game files after doing the steps above as it will revert the "correct" file hashes for the CC files you downloaded in this step.
 
-### Wabbajack Installation
+## Wabbajack Installation
 
-#### Installing Wabbajack
+### Installing Wabbajack
 
 Once you have completed the pre-installation section, follow these steps to install Wabbajack:
 
@@ -250,7 +250,7 @@ Once you have completed the pre-installation section, follow these steps to inst
 >[!IMPORTANT]
 >The list requires Wabbajack version **4.0.0.0 or later**. Installing the modlist on older versions of Wabbajack will result in issues.
 
-#### Downloading and Installing Apostasy
+### Downloading and Installing Apostasy
 
 >[!CAUTION]
 >**A legal copy of Skyrim Special Edition is required.** Pirated copies of the game will cause the installation to fail and even if you manage to somehow get around Wabbajack's built-in piracy prevention measures, SKSE does not work with the cracked exes.  
@@ -270,7 +270,7 @@ To install Apostasy, complete the following steps.
  7. Turn on your favorite show or a nice long video essay as Wabbajack does its thing. Alternatively read through this readme again.
  8. If the installation is successful, then rejoice and move onto [post installation](#post-installation-and-optional-setup). If the installation is unsuccessful, follow the tips below or the [discord server](https://discord.gg/4WwqfK5yHg) for support.
 
-### Problems with installation
+## Problems with installation
 
 It is possible that you may encounter an error with Wabbajack when installing. Some common issues are listed below.
 
@@ -341,7 +341,7 @@ If you find yourself struggling to run Wabbajack without it crashing, freezing u
 
 </Details>  
 
-#### Missing Manual Downloads
+### Missing Manual Downloads
 
 Wabbajack frequently has trouble downloading mods hosted on sites other than Nexus. If you get an error such as **Missing Manual Downloads**, then read this section. You will need to manually download these files and place them in the `Resource Download Location` that is made in the [Downloading and Installing Apostasy](#downloading-and-installing-apostasy) section.
 
@@ -365,13 +365,13 @@ Patreon Files: (These are free to download)
 - [Spriggan Armor - Female](https://www.patreon.com/file?h=115658146&m=376483627)
 - [Spriggan Armor - Male](https://www.patreon.com/file?h=115658146&m=376483634)
 
-## Post-Installation and Optional Setup
+# Post-Installation and Optional Setup
 
-### Game Folder
+## Game Folder
 
 Apostasy uses a Wabbajack feature called Stock Game to keep your Skyrim installation clean. All the files that you need to run the list are in a folder called `Stock Game`. You don’t need to copy anything at all.
 
-### Antivirus Exceptions
+## Antivirus Exceptions
 
 >[!WARNING]
 >Antivirus programs are notorious for false flagging [MO2's Virtual File System](https://stepmodifications.org/wiki/Guide:Mod_Organizer/Advanced), which can and will cause crashes and other problems. Antivirus programs like BitDefender, Norton, and Webroot are especially aggressive, and you will need to fully remove them from your PC in order to actually launch the game through MO2. It is 2024, Windows Defender and being smart online is more than adequate to protect yourself from malicious software.
@@ -396,7 +396,7 @@ If you use Windows Defender, it is advised that you set up an exception for the 
 
 </Details>  
 
-### Post-Installation Issues and Troubleshooting
+## Post-Installation Issues and Troubleshooting
 
 <Details>
 <summary>Game is zoomed into the top left corner!</summary>
@@ -450,11 +450,11 @@ This will reduce the quality of certain large objects at far away distances, how
 
 </Details>
 
-### Keyboard Keybinds
+## Keyboard Keybinds
 
 ![](https://raw.githubusercontent.com/Oghma-Infinium/Apostasy/main/images/Keybinds.png)
 
-### Gamepad Keybinds
+## Gamepad Keybinds
 
 >[!WARNING]
 >Gamepads may need additional setup in order to work as intended. Please refer to the [Configuration](https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/CONFIG.md#gamepad-support) page.
@@ -464,12 +464,12 @@ This will reduce the quality of certain large objects at far away distances, how
 >[!TIP]
 >You can review default keybinds in game by pressing `F11`!
 
-## Playing the List
+# Playing the List
 
 >[!WARNING]
 >Before starting the list, read over the [Configuration](https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/CONFIG.md), [FAQ](https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/FAQ.md), and [Gameplay](https://github.com/Oghma-Infinium/Apostasy/blob/main/GAMEPLAY.md) pages.
 
-### Before Launching the Game
+## Before Launching the Game
 
  1. Head over to your modlist installation folder (e.g. `C:\Apostasy`), locate an executable named `ModOrganizer.exe`, and launch it. Your first launch of Mod Organizer 2 may take several minutes due to GitHub repository downloads, so please be patient.
  2. Set up your CPU Affinity by following the instructions below. **Please do not skip this step!**
@@ -485,7 +485,7 @@ This will reduce the quality of certain large objects at far away distances, how
 
     </Details>
 
-### Actually Playing the Game
+## Actually Playing the Game
 
  1. Launch the "Play" Executable in MO2. The game may take several minutes to load on your first launch. Please be patient and **DO NOT** click the `Unlock` button on the MO2 prompt.
    >[!CAUTION]
@@ -496,7 +496,7 @@ This will reduce the quality of certain large objects at far away distances, how
  5. Pick your class and talk to the little Dragon sitting on a lantern. If no specified start is chosen, then you will have the default start in the Helgen Inn.
  6. Simply open the door next to him and step into the black void gazing at you :)
 
-## Updating the modlist
+# Updating the modlist
 
 Versioning for the list will adhere to the following format: `MAJOR.MINOR.PATCH`.
 
@@ -513,18 +513,18 @@ Updating is like installing the list. Simply make sure your paths are the same a
 >[!TIP]
 >RaceMenu presets can be placed in the `[NoDelete] RaceMenu Presets` mod under the `Stock List [NoDelete]'s` separator of MO2 if you want to ensure they are saved after an update.
 
-## Removing the Modlist
+# Removing the Modlist
 
 Simply delete the Apostasy folder. Congratulations, you have uninstalled Apostasy.
 
-## Issues
+# Issues
 
 Please check the [FAQ](https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/FAQ.md) first if you have any issues.
 
 >[!TIP]
 >If you encounter any bugs or issues while playing the list, the [Waking Dreams](https://discord.gg/4WwqfK5yHg) support server is preferred and will have the fastest turn around time for support.  Alternatively, you can leave an issue report via Github's [Issues](https://github.com/Oghma-Infinium/Apostasy/issues) page, using the repository's template.
 
-## Credits and Thanks
+# Credits and Thanks
 
 - *YOU* for reading this.
 - [Bingus](https://next.nexusmods.com/profile/bingusthecatto/about-me) for [Ascensio](https://github.com/Oghma-Infinium/Ascensio), ENB tweaking, asset editing, and much, much more.
@@ -544,5 +544,5 @@ Please check the [FAQ](https://github.com/Oghma-Infinium/Apostasy/blob/main/Docu
 - [Styyx](https://github.com/Styyx1) for assisting heavily in creating DLLs for the custom mods made for the list.
 - [Aelarr](https://www.nexusmods.com/skyrim/users/6843757) and Anreme for permissions to use some custom mods from The Owl Archives server.
 - All mod authors whose work is included, this list would not be possible without the greater modding community.
-- Mgde12, D1Z4STR, 半蔵 内倉, Kepler, Hencoat, nostalgic.wave, EnragedHamster, unclemestor, snowpeachcherry, Charlie Kriech, Durgenage, Pacifist Fist, Don Maker, Russell Collins, Oresh, Danimals, Monko, Anehum, hildocean, The Unattested Wombat, Ola Nordman, Regista433, Jaron Scotland, King_Sheogorath, TheRyge, Shakes, highchae, Robbie, cowbellhero55, Geero, JAYDENCITO, Nehellena, Mysthey, Echo, Scott MacLeod, Exanima, Thundertube, LELUGOLELU, ravenlake, Paultinich, icaruscien, Oracraen, Lykk3, VillainousJ, Micheal Hamm, netwolff, Nico, G1Broheim, sweeper240, calcteacher, Ark, Zenity, Zolleu, medmen, jaimey19, Redwyne, Thrash Wizard, Baumalein, Serge, lorifey, TripleDoubleRuss0, De Wijswolf, FightForge for support on [patreon](https://www.patreon.com/aljoxo).
+- Mgde12, D1Z4STR, 半蔵 内倉, Kepler, Hencoat, nostalgic.wave, EnragedHamster, unclemestor, snowpeachcherry, Charlie Kriech, Durgenage, Pacifist Fist, Don Maker, Russell Collins, Oresh, Danimals, Monko, Anehum, hildocean, The Unattested Wombat, Ola Nordman, Regista433, Jaron Scotland, King_Sheogorath, TheRyge, Shakes, highchae, Robbie, cowbellhero55, Geero, JAYDENCITO, Nehellena, Mysthey, Echo, Scott MacLeod, Exanima, Thundertube, LELUGOLELU, ravenlake, Paultinich, icaruscien, Oracraen, Lykk3, VillainousJ, Micheal Hamm, netwolff, Nico, G1Broheim, sweeper240, calcteacher, Ark, Zenity, Zolleu, medmen, jaimey19, Redwyne, Thrash Wizard, Baumalein, Serge, lorifey, TripleDoubleRuss0, De Wijswolf, FightForge, NaNo0408, DrukenReaps for support on [patreon](https://www.patreon.com/aljoxo).
 - adorion1981, aexilkv, Alex H., AlphaGhost47, ambo, Ananta, annakins, Atlas, bigmact, Blade, BlueBeagle, Bubborus, Chef Nicnaq, Child_of_Sithis, Danimals, derbaer, derkaenaz, DevZan, Don Maker, doombot117, E2J, Elendil, EnragedHamster, FalseRealism, Felivath, Forsaken Jing, freshr, FutureWorld, Gous, Gremlin, hedich, Hencoat, Jeremy, Joey, JoeyFlow, JollyTheRancher, Julian, JXEYES, Kannon555, kanpeki, Kathie Murphy, Kiqing, Lunaros, Maelstrom, Makk, Mgde12, Mike, Modux, Monko, nana, Nehellena, netwolff, orca, paulogrupp, Psyguyy, Recklessness, rezthe0one, Rick, Roxiie, SaddestNoddles, shallow_green, skylion, Soloist, Steve, Stryn, Tamanaki, TazerReloaded, thefrogwithnoname, thepotion, Thomas Brack, Tom Curran, tyler, tyrotoxism, Victoriam, Won Pham, WoWZaton, Xtremza, Zhijia, and zidan for their support via [Ko-fi](https://ko-fi.com/aljoxo).
