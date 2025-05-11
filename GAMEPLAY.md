@@ -14,6 +14,9 @@
 </p>
 
 ---
+<header>
+    <h1>Contents</h1>
+</header>
 
 - [Initial Setup](#initial-setup)
 - [Overview and Basics](#overview-and-basics)
@@ -40,17 +43,17 @@
   - [Vanilla Quest Expansions and Edits](#vanilla-quest-expansions-and-edits)
   - [Player Homes](#player-homes)
 
-## Initial Setup
+# Initial Setup
 
 Before reading this guide, please follow the [Installation Guide](https://github.com/Oghma-Infinium/Apostasy/blob/main/README.md) as it will answer the vast majority of technical questions related to getting the list setup and running. Be sure to check out the [Configuration](https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/CONFIG.md) page to learn more about the controller support, optional tweaks, addons, MCM options, and more.
 
-## Overview and Basics
+# Overview and Basics
 
 This section will cover the absolute basics of the list. I suggest reading, or skimming all of the linked mod pages in this section if you are unfamiliar with the preceding mods.
 
 Before reading this section, I suggest looking over the [load order](https://loadorderlibrary.com/lists/apostasy) and [keybinds](https://github.com/Oghma-Infinium/Apostasy/blob/main/images/Keybinds.png).
 
-### Core Overhauls
+## Core Overhauls
 
 ![](https://raw.githubusercontent.com/Oghma-Infinium/Apostasy/main/images/GameplayHeader.png)
 
@@ -67,12 +70,12 @@ Before reading this section, I suggest looking over the [load order](https://loa
  - [Apothecary](https://www.nexusmods.com/skyrimspecialedition/mods/52130) and [Thaumaturgy](https://www.nexusmods.com/skyrimspecialedition/mods/57138) cover Alchemy and Enchanting respectively.
  - [Artificer](https://www.nexusmods.com/skyrimspecialedition/mods/99619), [Artifacts of the Ancestors](https://www.nexusmods.com/skyrimspecialedition/mods/92389), and [Mysterious Mementos](https://www.nexusmods.com/skyrimspecialedition/mods/118342) overhaul unique artifacts and add several new ones.
    - Some tweaks have been made for items to fit into the list better, specific changes are discussed [here](#additional-edits).
- - [Stormcrown](https://www.nexusmods.com/skyrimspecialedition/mods/90659) overhauls the vanilla shout system, improving the vanilla shouts, adding new ones, and completely overhauling the meditation system.
+ - [Stormcrown](https://www.nexusmods.com/skyrimspecialedition/mods/90659) overhauls the vanilla shout system, improving and expanding upon vanilla shout choices, completely overhauls the meditation system, and adds a custom perk tree.
    - Some shouts have been tweaked to function better within the list.
  - [Gourmet](https://www.nexusmods.com/skyrimspecialedition/mods/96876) overhauls food and drink, transforming the traditional "eat 30 cheese wheels mid combat" into a more complex buff system.
  - [Starfrost](https://www.nexusmods.com/skyrimspecialedition/mods/97536) manages the Survival changes, such as Exhaustion, Hunger, and Warmth.
 
-#### Archon - Faiths of Tamriel
+### Archon - Faiths of Tamriel
 
 Archon is an overhaul of Skyrim's religion system that focuses on enhancing and adding deities native to Skyrim's world. Archon is heavily inspired by [Pilgrim](https://www.nexusmods.com/skyrimspecialedition/mods/54099) and [3Tweaks](https://sites.google.com/view/3bftweaksrequiem/character/divine)' implementation of Religion.  
 
@@ -242,25 +245,25 @@ Deity buffs are granted by praying at a shrine associated with that deity. New s
 
 </Details>
 
-#### Paragon - A Modern Perk Overhaul
+### Paragon - A Modern Perk Overhaul
 
 Paragon is an overhaul of Skyrim’s Combat and Stealth perk trees with the aim of redesigning and balancing skills and perks around a Modern Combat setup. Paragon was built from the ground up with Apostasy in mind and currently covers 14 out of the 18 trees, the remaining 4 trees are covered under [Additional Edits](#additional-edits). In addition to perks, Paragon also controls a large majority of Apostasy's Stamina system.
 
 <Details>
 <summary>Alchemy</summary>
 
-**Alchemist (10/50)**: Crafted potions and poisons are 50/100% stronger.
+**Alchemist (10/50)**: Crafted potions and poisons are 25/50% stronger.
 
 **Experimenter (20)**: Eating an ingredient reveals all of its effects.  
 **Green Thumb (40/70)**: You gather one/two extra ingredient/s from plants.  
 **Purity (80)**: All negative effects are removed from crafted potions, and all positive effects are removed from crafted poisons.
 
 **Intensity (30)**: Poisons last for up to 10 additional hits based on your Alchemy skill.  
-**Solvency (60)**: Crafted poisons are 25% stronger.  
+**Solvency (60)**: Crafted poisons are 50% stronger.  
 **Overdose (90)**: Your attacks against Poisoned targets deal additional Poison damage to all nearby enemies.
 
 **Concentration (30)**: Potions last up to 100% longer based on your Alchemy skill.  
-**Potency (60)**: Crafted potions are 25% stronger.  
+**Potency (60)**: Crafted potions are 50% stronger.  
 **Philosopher's Stone (90)**: Consuming a beneficial potion or ingredient gives a chance to receive an additional side effect.
 
 **Chemist (100)**: You create twice as many potions and poisons from the same number of ingredients.
@@ -326,7 +329,7 @@ Paragon is an overhaul of Skyrim’s Combat and Stealth perk trees with the aim 
 <Details>
 <summary>Enchanting</summary>
 
-**Artificer (10/50)**: Crafted enchantments are 50/100% stronger and soul gems restore 50/100% more charge.
+**Artificer (10/50)**: Crafted enchantments are 25/50% stronger and soul gems restore 50/100% more charge.
 
 **Jewelry Enchanter (20)**: Crafted jewelry enchantments are 50% stronger.  
 **Armor Enchanter (40/80)**: Crafted armor and clothing enchantments are 25/50% stronger.  
@@ -435,7 +438,7 @@ Paragon is an overhaul of Skyrim’s Combat and Stealth perk trees with the aim 
 <Details>
 <summary>Security</summary>
 
-**Cutpurse (10/50)**: You are 50/100% more likely to succeed at lockpicking and pickpocketing. Successfully picking a lock or pocket grants experience.
+**Cutpurse (10/50)**: You are 25/50% more likely to succeed at lockpicking and pickpocketing. Successfully picking a lock or pocket grants experience.
 
 **Icepick (30/70)**: You can lockpick basic/advanced automatons to shut them down.
 
@@ -490,9 +493,9 @@ Paragon is an overhaul of Skyrim’s Combat and Stealth perk trees with the aim 
 
 **Trespasser (20)**: You can execute a silent roll while sneaking, increasing your movement speed by 20% for 10 seconds.  
 **Infiltrator (40)**: You no longer trigger traps and make 50% less noise while moving.  
-**Cloak of Shadows (60)**: Sneaking in combat restores 10 Health per second for 10 seconds and causes enemies to stop searching for you. This effect can occur once every 60 seconds.  
-**Subterfuge (80)**: Performing a silent roll grants you invisibility for 10 seconds. This effect can occur once every 30 seconds.  
-**Lingering Shadow (100)**: Your sneak attacks deal 100% more damage while under the effects of Subterfuge and for an additional 3 seconds after it ends.
+**Cloak of Shadows (60)**: Sneaking in combat restores 10 Health per second for 10 seconds and causes enemies to stop searching for you. This effect can occur once every 30 seconds.  
+**Subterfuge (80)**: Performing a silent roll grants you invisibility for 10 seconds. This effect can occur once every 10 seconds.  
+**Lingering Shadow (100)**: While under the effects of Subterfuge, all attacks become guaranteed sneak attacks.
 
 </Details>
 
@@ -540,7 +543,7 @@ Paragon is an overhaul of Skyrim’s Combat and Stealth perk trees with the aim 
 
 </Details>
 
-#### Additional Edits
+### Additional Edits
 
 The list includes a multitude of changes to core mods, below I will attempt to list out the important ones.
 
@@ -598,6 +601,7 @@ Apostasy makes a multitude of changes to Artifacts in the list so that they bett
  - **Gauntlets of the Horny Fist**: Additionally makes unarmed attacks deal additional fire damage.
  - **Severin Family Ring**: Fortifies Poison Use by 20% instead of increasing Attack Speed by 10%.
  - **Silver-Blood Family Ring**: Increases Poison Resist by 50% instead of increasing Attack Speed by 10%.
+ - **Sinweaver** is now found in Reachcliff Cave, rather than being purchased from Riften's Scorched Hammer.
 
 Technically not artifacts but these are going to be listed here:
 
@@ -670,7 +674,7 @@ Werewolves:
 
 </Details>
 
-### Combat Foundations
+## Combat Foundations
 
 ![](https://staticdelivery.nexusmods.com/mods/1704/images/118893/118893-1720691484-471070989.png)
 
@@ -686,13 +690,13 @@ The following mods are considered the "foundations" of the combat and gameplay f
    - The Block skill tree has multiple perks to upgrade Timed Block with additional effects and bonuses.
  - [Maxsu Poise](https://github.com/max-su-2019/MaxsuPoise/blob/master/docs/en/Mechanics%20Manual.md) and [Modern Stagger Lock](https://github.com/max-su-2019/ModernStaggerLock) implement a Poise system, which has been fine tuned for the list. Poise Health can be seen on the Special Bar of TrueHUD (the yellow bar above Health on player and target widgets). The Poise system is discussed in more depth in the [Difficulty and Mechanics](#difficulty-and-mechanics) section.
 
-## Leveling and Progression
+# Leveling and Progression
 
 ![](https://staticdelivery.nexusmods.com/mods/1704/images/118893/118893-1720520004-1902455222.png)
 
 Apostasy modifies the vanilla leveling experience in a way to reward the player for engaging in the world in sensible ways. While perks can be obtained through leveling, the perks gained from leveling alone are unlikely to be sufficient for sustaining a full character build in late game. Below is a general breakdown of what to expect with the leveling and progression system in Apostasy.
 
-### Changes to Leveling
+## Changes to Leveling
 
 Apostasy uses [Experience](https://www.nexusmods.com/skyrimspecialedition/mods/17751) and [Static Skill Leveling Rewritten](https://www.nexusmods.com/skyrimspecialedition/mods/89940) to handle leveling and progression.
 
@@ -706,7 +710,7 @@ Apostasy modifies the vanilla XP per level requirements.
 
 | Level | Cumulative XP Required |  
 |     :---:    |     :---:     |  
-| 1  | 260  |  
+| 2  | 260  |  
 | 10  | 3,500  | 
 | 20 | 9,000  | 
 | 30 | 16,500  | 
@@ -753,7 +757,7 @@ Skill Point Costs are as follows:
 
 </Details>
 
-### Perk Point Acquisition
+## Perk Point Acquisition
 
 Apostasy takes a mixed approach to the acquisition of perks and skills. Providing the player with 60 Perks from level 1-50 (no perks are granted from leveling after level 50) and up to an additional 31 perks from Quests.
 
@@ -809,7 +813,7 @@ The following is a list of the additional perk sources in Apostasy.
 
 </Details>
 
-## Difficulty and Mechanics
+# Difficulty and Mechanics
 
 ![](https://staticdelivery.nexusmods.com/mods/1704/images/118893/118893-1720419196-1191687929.png)
 
@@ -831,7 +835,7 @@ Additionally, on Legendary difficulty your spells cost 10% more Magicka, you rec
 
 </Details>
 
-### Difficulty-based Mechanics
+## Difficulty-based Mechanics
 
 Apostasy overhauls or adds additional mechanics, reminiscent of modern Action RPGs to further enhance the gameplay. Check out the sections below to learn more!
 
@@ -917,11 +921,11 @@ On Novice difficulty, incoming Poise damage is reduced by 20% for the player. Th
 
 </Details>
 
-### New and Notable Mechanics
+## New and Notable Mechanics
 
 As previously mentioned, Apostasy implements significant changes to many of the core game systems and expands on many others. Below you should be able to find some additional mechanics to take note of through your playthrough.  
 
-#### Assorted Minor Mechanics 
+### Assorted Minor Mechanics 
 
 Apostasy adds some minor gameplay mechanics focused on increasing flavor and rewarding good player behavior, you can read about these below.
 
@@ -950,7 +954,7 @@ The player can be affected by Confusion on **Expert or higher** difficulties.
 
 </Details>
 
-#### Alternative Death Mechanics
+### Alternative Death Mechanics
 
 Apostasy changes the way death works in Skyrim.  
 
@@ -958,13 +962,13 @@ When your Health is reduced to 0, you will be granted **10** seconds of Ethereal
 
 As punishment for dying, every death will apply a random **Minor Injury** to the player. If you die while under the effect of a **Minor Injury**, it will progress to a **Moderate Injury**. If you die while under the effect of a **Moderate Injury**, it will progress to a **Severe Injury**. These injuries can be cured by *sleeping* in a safe place for at least 8 hours.  
 
-#### Item Degradation
+### Item Degradation
 
 Apostasy utilizes [Simple Degradation](https://www.nexusmods.com/skyrimspecialedition/mods/74790), which makes armor and weapons lose their tempering durability over time. Weapons will never degrade below +0 tempering (read: they can never become worse than the base item).  
 
 To help manage item degradation, the player can find or craft hammers and whetstones to temper their gear while away from town.
 
-#### Resistance Scaling
+### Resistance Scaling
 
 Apostasy changes the way in which resists are calculated. I am adding this section here solely for the min-maxers and for those who care and/or want something to reference. 
 
@@ -983,7 +987,7 @@ There are effects that exist outside of raw Armor Rating and raw Resistance valu
 
 This section is very technical and not necessary to know to play the game normally, however understanding additive vs multiplicative bonuses can better inform decisions made while playing the list. Keep in mind that it is impossible to become *fully immune* to damage.
 
-## Quests Changes
+# Quests Changes
 
 Apostasy changes a significant amount of vanilla quests in one way or another in order to offer a more complete roleplaying exprience. The following list is non-exhaustive.
 
@@ -1046,7 +1050,7 @@ Apostasy changes a significant amount of vanilla quests in one way or another in
 
 </Details>
 
-## New Armors and Weapons
+# New Armors and Weapons
 
 ![](https://staticdelivery.nexusmods.com/mods/1704/images/118893/118893-1720811383-481712445.png)
 
@@ -1130,11 +1134,11 @@ Armors and weapons crafted from Motifs may or may not require the equivalent Smi
 
 </Details>
 
-## Content Additions and Improvements
+# Content Additions and Improvements
 
 Apostasy comes with several new quest mods and expansions for several vanilla quests or quest lines. These content additions and improvements will expand on the game, offering new adventures, routes, and companions to explore and engage with!
 
-### Followers
+## Followers
 
 ![](https://staticdelivery.nexusmods.com/mods/1704/images/118893/118893-1743807378-1038802819.png)
 
@@ -1150,7 +1154,7 @@ Apostasy comes with several new quest mods and expansions for several vanilla qu
  - [Song of the Green (Auri Follower)](https://www.nexusmods.com/skyrimspecialedition/mods/11278): A Bosmer traditionalist who has ended up in Skyrim, she can be found in her secluded hut in the forests of Falkreath.
  - [Val Serano - Pirate Custom Voiced Follower and Quest Adventure](https://www.nexusmods.com/skyrimspecialedition/mods/103669): A sea-faring rogue with an extensive questline, in order to find Val Serano you must first go to White River Watch in Whiterun and find the note in a bottle.
 
-### New Quests
+## New Quests
 
 ![](https://staticdelivery.nexusmods.com/mods/1704/images/118893/118893-1720525985-188255669.png)
 
@@ -1174,7 +1178,7 @@ Apostasy comes with several new quest mods and expansions for several vanilla qu
  - [Whispers of the Depths - Quest Mod](https://www.nexusmods.com/skyrimspecialedition/mods/127087): Encounter Slays-Manys-Beasts and hear him regale his tales of the sea.
  - [Wyrmstooth](https://www.nexusmods.com/skyrimspecialedition/mods/45565): Travel to the island of Wyrmstooth to assist the East Empire Company take on an ancient and powerful dragon. 
 
-### Vanilla Quest Expansions and Edits
+## Vanilla Quest Expansions and Edits
 
 ![](https://staticdelivery.nexusmods.com/mods/1704/images/118893/118893-1720526384-1494096468.png)
 
@@ -1210,7 +1214,7 @@ Apostasy comes with several new quest mods and expansions for several vanilla qu
  - [Thieves Guild Alternative Endings](https://www.nexusmods.com/skyrimspecialedition/mods/114558): Greatly expands upon the ending of the Thieves Guild questline, allowing the player to defy or betray Nocturnal or refuse the mantle of Nightingale.
  - [Unmasking Sybille](https://www.nexusmods.com/skyrimspecialedition/mods/109265): Investigate and reveal the dark secret of one of the most powerful Court Wizards of the province.
 
-### Player Homes
+## Player Homes
 
 ![](https://staticdelivery.nexusmods.com/mods/1704/images/118893/118893-1720691342-1079637258.png)
 

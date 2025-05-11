@@ -14,6 +14,9 @@
 </p>
 
 ---
+<header>
+    <h1>Contents</h1>
+</header>
 
 - [Optional Addons](#optional-addons)
   - [Keybinds and Gamepad](#keybinds-and-gamepad)
