@@ -487,14 +487,15 @@ This will reduce the quality of certain large objects at far away distances, how
 
 ## Actually Playing the Game
 
- 1. Launch the "Play" Executable in MO2. The game may take several minutes to load on your first launch. Please be patient and **DO NOT** click the `Unlock` button on the MO2 prompt.
+ 1. Before Launching the game, read over the [Gameplay Guide](https://github.com/Oghma-Infinium/apostasy/blob/main/GAMEPLAY.md).
+ 2. Launch the "Play" Executable in MO2. The game may take several minutes to load on your first launch. Please be patient and **DO NOT** click the `Unlock` button on the MO2 prompt.
    >[!CAUTION]
    >**FOR THE LOVE OF AKATOSH, DO NOT CLICK THE UNLOCK BUTTON!**
- 2. Select the **New Game** button.
- 3. Create your lovely character.
- 4. **(OPTIONAL)** Refer to the different MCM options listed on the [Configuration](https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/CONFIG.md#in-game-mcm-options) to adjust any MCM settings you'd like.
- 5. Pick your class and talk to the little Dragon sitting on a lantern. If no specified start is chosen, then you will have the default start in the Helgen Inn.
- 6. Simply open the door next to him and step into the black void gazing at you :)
+ 3. Select the **New Game** button.
+ 4. Create your lovely character.
+ 5. **(OPTIONAL)** Refer to the different MCM options listed on the [Configuration](https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/CONFIG.md#in-game-mcm-options) to adjust any MCM settings you'd like.
+ 6. Pick your class and talk to the little Dragon sitting on a lantern. If no specified start is chosen, then you will have the default start in the Helgen Inn.
+ 7. Simply open the door next to him and step into the black void gazing at you :)
 
 # Updating the modlist
 
@@ -544,5 +545,5 @@ Please check the [FAQ](https://github.com/Oghma-Infinium/Apostasy/blob/main/Docu
 - [Styyx](https://github.com/Styyx1) for assisting heavily in creating DLLs for the custom mods made for the list.
 - [Aelarr](https://www.nexusmods.com/skyrim/users/6843757) and Anreme for permissions to use some custom mods from The Owl Archives server.
 - All mod authors whose work is included, this list would not be possible without the greater modding community.
-- Mgde12, D1Z4STR, 半蔵 内倉, Kepler, Hencoat, nostalgic.wave, EnragedHamster, unclemestor, snowpeachcherry, Charlie Kriech, Durgenage, Pacifist Fist, Don Maker, Russell Collins, Oresh, Danimals, Monko, Anehum, hildocean, The Unattested Wombat, Ola Nordman, Regista433, Jaron Scotland, King_Sheogorath, TheRyge, Shakes, highchae, Robbie, cowbellhero55, Geero, JAYDENCITO, Nehellena, Mysthey, Echo, Scott MacLeod, Exanima, Thundertube, LELUGOLELU, ravenlake, Paultinich, icaruscien, Oracraen, Lykk3, VillainousJ, Micheal Hamm, netwolff, Nico, G1Broheim, sweeper240, calcteacher, Ark, Zenity, Zolleu, medmen, jaimey19, Redwyne, Thrash Wizard, Baumalein, Serge, lorifey, TripleDoubleRuss0, De Wijswolf, FightForge, NaNo0408, DrukenReaps for support on [patreon](https://www.patreon.com/aljoxo).
+- Mgde12, D1Z4STR, 半蔵 内倉, Kepler, Hencoat, nostalgic.wave, EnragedHamster, unclemestor, snowpeachcherry, Charlie Kriech, Durgenage, Pacifist Fist, Don Maker, Russell Collins, Oresh, Danimals, Monko, Anehum, hildocean, The Unattested Wombat, Ola Nordman, Regista433, Jaron Scotland, King_Sheogorath, TheRyge, Shakes, highchae, Robbie, cowbellhero55, Geero, JAYDENCITO, Nehellena, Mysthey, Echo, Scott MacLeod, Exanima, Thundertube, LELUGOLELU, ravenlake, Paultinich, icaruscien, Oracraen, Lykk3, VillainousJ, Micheal Hamm, netwolff, Nico, G1Broheim, sweeper240, calcteacher, Ark, Zenity, Zolleu, medmen, jaimey19, Redwyne, Thrash Wizard, Baumalein, Serge, lorifey, TripleDoubleRuss0, De Wijswolf, FightForge, NaNo0408, DrukenReaps, Yunoronio for support on [patreon](https://www.patreon.com/aljoxo).
 - adorion1981, aexilkv, Alex H., AlphaGhost47, ambo, Ananta, annakins, Atlas, bigmact, Blade, BlueBeagle, Bubborus, Chef Nicnaq, Child_of_Sithis, Danimals, derbaer, derkaenaz, DevZan, Don Maker, doombot117, E2J, Elendil, EnragedHamster, FalseRealism, Felivath, Forsaken Jing, freshr, FutureWorld, Gous, Gremlin, hedich, Hencoat, Jeremy, Joey, JoeyFlow, JollyTheRancher, Julian, JXEYES, Kannon555, kanpeki, Kathie Murphy, Kiqing, Lunaros, Maelstrom, Makk, Mgde12, Mike, Modux, Monko, nana, Nehellena, netwolff, orca, paulogrupp, Psyguyy, Recklessness, rezthe0one, Rick, Roxiie, SaddestNoddles, shallow_green, skylion, Soloist, Steve, Stryn, Tamanaki, TazerReloaded, thefrogwithnoname, thepotion, Thomas Brack, Tom Curran, tyler, tyrotoxism, Victoriam, Won Pham, WoWZaton, Xtremza, Zhijia, and zidan for their support via [Ko-fi](https://ko-fi.com/aljoxo).
