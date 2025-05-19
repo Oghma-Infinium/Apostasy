@@ -17,6 +17,7 @@
 
 # Table of Contents
 
+ - [3.1.3](#313) Release Date: May 18, 2025
  - [3.1.2](#312) Release Date: April 6, 2025
  - [3.1.1](#311) Release Date: April 5, 2025
  - [3.1.0](#310) Release Date: April 4, 2025
@@ -24,6 +25,61 @@
  - [2.0 Versions](#20-versions)
  - [1.0 Versions](#10-versions)
  - [Beta Versions](#beta-versions)
+
+## 3.1.3
+
+Key Info
+
+ - **Save-Safe Update**
+ - Lots of bug fixes this update. Read patch notes below for detailed info!
+
+<Details>
+<summary>Changes</summary>
+
+### Updated
+
+ - [Survival Mode Improved - SKSE](https://www.nexusmods.com/skyrimspecialedition/mods/78244)
+ - [NPCs Names Distributor](https://www.nexusmods.com/skyrimspecialedition/mods/73081)
+ - [Misc Stormcrown Patches](https://www.nexusmods.com/skyrimspecialedition/mods/90738)
+
+</Details>
+
+<Details>
+<summary>Patch Notes</summary>
+
+### Bug Fixes  
+
+ - Updated **NPCs Names Distributor** to fix TrueHUD compatibility. Enemy names should now display properly
+ - **Momentum** and **Endurance** are ACTUALLY now correctly placed in the perk tree
+ - Resolved floating word wall words from Stormcrown that were removed in 3.0 for smoother integration (oops)
+ - The Amulet of Zenithar now correctly grants **+25 Carry Weight** instead of **25% Barter enchantment**
+ - Fixed incorrect enchantments on Divine Amulets
+ - Fixed an issue where some ARMA records weren't forwarded for **Rugged Masks** and **Loose Neck Gaiters** causing them to not display properly
+ - We told Estormo to put his grippers away and he now wears proper boots
+ - Fixed unique spear icons and categories, including **The Penetrator’s** easter egg enchant
+ - Champion bonuses for Clavicus Vile and Meridia should now properly apply
+ - Adjusted **Acolyte of Azura**’s scaling to match the [Gameplay Guide](https://github.com/Oghma-Infinium/Apostasy/blob/main/GAMEPLAY.md)
+ - Resolved "You cannot fast travel from this location" errors occurring despite Survival Mode being disabled
+ - Fixed Feris’ dialogue issue where she would say "EMPTY." (she's trying her best)
+ - Addressed BGSWaterCollisionManager crashes in Whiterun
+ - Mitigated a crash in the Temple of Mara related to an Eld-Beri Test NPC
+ - Fixed pathing issues in Dac0da with Yngol and Akashiya-Samon due to Animated Ice Floes
+ - Beast Races’ heads no longer clip through Psijic Hoods
+ - Fixed a weird translucent farmhouse trapdoor
+ - Fluffy **Wolf Armor** boot variants no longer glow unnaturally
+ - Restored missing textures on hot irons in forges, they should no longer glow purple
+ - Fixed broken shaders on Riekling Outputs and certain Dragonborn candle meshes
+ - Fixed the Dac0da dragon being purple
+
+### Visual Tweaks  
+
+ - **Stendarr's Aura** cloak has been toned down, it should no longer blind you with the light of a thousand suns
+
+### Misc Tweaks
+
+ - Updated the Patreons Menu to include newer patrons :D
+
+</Details>
 
 ## 3.1.2
 
