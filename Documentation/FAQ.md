@@ -198,6 +198,7 @@ Solution(s)
 ### Wheeler.dll Crash!
 > [!NOTE]  
 > This should no longer be an issue as of version 2.0+  
+
 **Cause**: Wheeler typically crashes for one of two reasons: 
 1. You slotted player-made potions in Wheeler and ran out of them.  
    **Fix**: Do not put player-made potions in Wheeler.  
@@ -207,6 +208,7 @@ Solution(s)
 ### Crashing after loading a save!
 > [!NOTE]  
 > This issue should happen significantly less as of version 3.0+  
+
 **Cause** Skyrim has a multitude of issues when it comes to loading back game data without restarting the game.
 **Fix**: You can try the experimental fix below, but note that this bug is due to some deeply rooted issues with the base game engine and it is out of my control to do anything about it.
 
