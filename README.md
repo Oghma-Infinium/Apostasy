@@ -291,13 +291,6 @@ Either buy the game or re-read the [Pre-Installation](#pre-installation) section
 </Details>  
 
 <Details>
-<summary>My antivirus reports a virus with the program or modlist!</summary>
-
-Windows 10/11 may automatically quarantine a key file which is needed for Mod Organizer. You can fix this by [adding an exclusion for Mod Organizer in windows defender](#antivirus-exceptions).  
-
-</Details>
-
-<Details>
 <summary>Unable to download 'Data_ccbgssse037-curios': </summary>
 
 Please make sure you are following the steps outlined in the [Installing Creation Club Files](#installing-creation-club-files) section
@@ -305,11 +298,36 @@ Please make sure you are following the steps outlined in the [Installing Creatio
 </Details>  
 
 <Details>
-<summary>Unable to download Skyrim_Default.ini:</summary>
+<summary>Unable to download Skyrim_Default.ini or SkyrimPrefs.ini:</summary>
 
 This error means you failed to follow this Readme. Go back and follow the steps outlines in the [Changing the Game Language](#changing-the-game-language) section
 
 </Details>  
+
+<Details>
+<summary>Could not find part of the path "TEMP_BSA_FILES"</summary>
+
+This is typically caused by a problem extracting zip files.  
+
+The quickest solution is as follows:  
+ 1. Close Wabbajack.
+ 2. Go to your install folder and locate the `TEMP_BSA_FILES` folder (if it exists).
+ 3. Delete that folder (if it exists).
+ 4. Restart Wabbajack.
+ 5. Restart the modlist installation.  
+
+If the `TEMP_BSA_FILES` folder does not exist, then delete the download file for the mod being referenced before restarting Wabbajack.  
+
+**Note**: Using the retry button will not work as Wabbajack does not understand that there was an issue with extraction and will not retry extraction steps.
+
+</Details>  
+
+<Details>
+<summary>My antivirus reports a virus with the program or modlist!</summary>
+
+Windows 10/11 may automatically quarantine a key file which is needed for Mod Organizer. You can fix this by [adding an exclusion for Mod Organizer in windows defender](#antivirus-exceptions).  
+
+</Details>
 
 <Details>
 <summary>Sanity check error extracting file:</summary>
