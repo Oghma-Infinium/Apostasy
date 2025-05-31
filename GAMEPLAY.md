@@ -559,14 +559,14 @@ Apostasy uses Adamant to be the main overhaul for perk trees that are untouched 
  - Changed the skill requirements for several perks.
    - **Spell Surge** now requires 30 skill (was 20).
    - **Spell Surge** now reduces dual casting costs by 20% (was 25%).
-   - **Augment [X]` perks now require 20 skill (was 30).
+   - **Augment [X]** perks now require 20 skill (was 30).
    - Tier 1 specialization perks (e.g., **Firebrand**, **North Wind**, etc.) now require 40/90 skill (was 60/90).
    - **Impact** now requires 70 skill (was 40).
  - Incorporated [Ascension](https://www.nexusmods.com/skyrimspecialedition/mods/89223) to give perk bonuses to non-elemental Destruction skills.
    - Unaspected spells include Destruction school spells from [Desecration](https://www.nexusmods.com/skyrimspecialedition/mods/90832) and [Natura](https://www.nexusmods.com/skyrimspecialedition/mods/77826).
    - Unaspected spells do not include Vampire or Drain spells, those scale with perks in the Vampire Lord tree.
-   - **Execution** perk now requires 40/90 skill and **Raw Power** (was 80/100 skill and **Aspection`).
-   - **Aspection** perk now requires 100 skill and **Execution** (was 60 skill and **Raw Power`).
+   - **Execution** perk now requires 40/90 skill and **Raw Power** (was 80/100 skill and **Aspection**).
+   - **Aspection** perk now requires 100 skill and **Execution** (was 60 skill and **Raw Power**).
    - **Magic Mantle** removed.
    - **Destructive Barrier** now requires **Spell Surge** (was **Magic Mantle**).
    - New Perk, **Elemental Veil**, added.
@@ -1167,12 +1167,14 @@ Apostasy comes with several new quest mods and expansions for several vanilla qu
  - [Final Farewell](https://www.nexusmods.com/skyrimspecialedition/mods/127894?): Come across a ghost who searches for vengeance, and help him come to terms with the afterlife.
  - [Missives](https://www.nexusmods.com/skyrimspecialedition/mods/17576) + [Headhunter - Bounties Redone](https://www.nexusmods.com/skyrimspecialedition/mods/51847): New Notice Board type system, reminiscent of The Witcher and other classic RPG titles.
  - [More to do in the Soul Cairn](https://www.nexusmods.com/skyrimspecialedition/mods/115962): Three new inhabitants have been added to the Soul Cairn, help them settle their affairs before they face the judgement of the Ideal Masters.
- - [Mysteries of the Dwemer](https://www.nexusmods.com/skyrimspecialedition/mods/114863): Maro, a researcger of the Dwemer, will appear outside of multiple Dwarven ruins, providing exposition and lore about the Deep Folk's history and theories on their downfall. 
+ - [Mysteries of the Dwemer](https://www.nexusmods.com/skyrimspecialedition/mods/114863): Maro, a researcher of the Dwemer, will appear outside of multiple Dwarven ruins, providing exposition and lore about the Deep Folk's history and theories on their downfall. 
+ - [Once We Were Here - Quest Mod](https://www.nexusmods.com/skyrimspecialedition/mods/149820): Sillas, a Bosmer scholar, can be encountered across various historical sites, providing exposition and lore about the Falmer and their storied history.
  - [Penitus Oculatus](https://www.nexusmods.com/skyrimspecialedition/mods/21061): Expands upon the Destroy the Dark Brotherhood quest, adding an entire Penitus Oculatus questline for "good guy" playthroughs!
  - [Redeeming Fultheim](https://www.nexusmods.com/skyrimspecialedition/mods/136788): Convince Fultheim to rejoin the Blades.
  - [Siege at Icemoth](https://www.nexusmods.com/skyrimspecialedition/mods/109541): Travel to Icemoth, an island hidden in the Sea of Ghosts, and uncover the secrets that lay buried there. 
  - [SIRENROOT - Deluge of Deceit](https://www.nexusmods.com/skyrimspecialedition/mods/70917): Scour the Aedric ruins at the bottom of Lake Honrich in a Tomb Raider and Dragon Age inspired quest.
  - [Skyrim Extended Cut - Saints and Seducers](https://www.nexusmods.com/skyrimspecialedition/mods/72772): Travel to the Shivering Isles in a fully-voiced overhaul of Skyrim's CC Saints and Seducers Addon!
+ - [Sleepwalking Into A Nightmare](https://www.nexusmods.com/skyrimspecialedition/mods/141047): 
  - [Unslaad](https://www.nexusmods.com/skyrimspecialedition/mods/11789): What happens to the Hero when the adventure is over?
  - [VIGILANT](https://www.nexusmods.com/skyrimspecialedition/mods/11849): Join the remnants of the Vigilant of Stendarr and embark on an epic journey through the lore of the Elder Scrolls.
  - [Whispers of the Depths - Quest Mod](https://www.nexusmods.com/skyrimspecialedition/mods/127087): Encounter Slays-Manys-Beasts and hear him regale his tales of the sea.
@@ -1182,8 +1184,7 @@ Apostasy comes with several new quest mods and expansions for several vanilla qu
 
 ![](https://staticdelivery.nexusmods.com/mods/1704/images/118893/118893-1720526384-1494096468.png)
 
- - [A Lovely Letter Alternate Routes](https://www.nexusmods.com/skyrimspecialedition/mods/21916): No longer must you involve yourself in Scen and Faendal's quarrel, alternatively you can expose both of them to Camilla.
- - [Blood and Silver - Cidhna Mine Expanded](https://www.nexusmods.com/skyrimspecialedition/mods/20269): Expands upon Cidhna Mine, adding new NPCs, potential escape routes, and secrets to explore.
+ - [A Lovely Letter Alternate Routes](https://www.nexusmods.com/skyrimspecialedition/mods/21916): No longer must you involve yourself in Sven and Faendal's quarrel, alternatively you can expose both of them to Camilla.
  - [Bring Meeko to Lod](https://www.nexusmods.com/skyrimspecialedition/mods/25246): "Lod wants a dog and Meeko wants an owner. Seems like a perfect pair."
  - [Boethiah's Calling - Alternate Questline](https://www.nexusmods.com/skyrimspecialedition/mods/121499): Adds a new quest that allows you to obtain the Ebony Mail without ever siding with Boethiah.
  - [Caught Red Handed - Quest Expansion](https://www.nexusmods.com/skyrimspecialedition/mods/65708): Adds some new dialogue to the infamous quest involving Svana and Haelga in Riften!
