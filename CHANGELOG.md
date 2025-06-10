@@ -17,16 +17,68 @@
 
 # Table of Contents
 
+ - [3.0 Versions](#30-versions)
+ - [2.0 Versions](#20-versions)
+ - [1.0 Versions](#10-versions)
+ - [Beta Versions](#beta-versions)
+
+## 3.0 Versions
+
+<details>
+<summary>3.0 Versions</summary>
+
+ - [3.1.4](#314) Release Date: June 9, 2025
  - [3.1.3](#313) Release Date: May 18, 2025
  - [3.1.2](#312) Release Date: April 6, 2025
  - [3.1.1](#311) Release Date: April 5, 2025
  - [3.1.0](#310) Release Date: April 4, 2025
  - [3.0.0](#300) Release Date: March 22, 2025
- - [2.0 Versions](#20-versions)
- - [1.0 Versions](#10-versions)
- - [Beta Versions](#beta-versions)
 
-## 3.1.3
+### 3.1.4
+
+Key Info
+
+ - **Save-Safe Update**
+ - Small update for more bug fixing and to make the list installable again. Read the patch notes below for detailed info
+
+<Details>
+<summary>Changes</summary>
+
+#### Updated
+
+ - [Next-Gen Decapitations](https://www.nexusmods.com/skyrimspecialedition/mods/135254)
+ - [Dismembering Framework](https://www.nexusmods.com/skyrimspecialedition/mods/126203)
+ - [Better Third Person Selection - BTPS](https://www.nexusmods.com/skyrimspecialedition/mods/64339)
+ - [Dragon Hunting - Quest Rewards and Alchemy Ingredients](https://www.nexusmods.com/skyrimspecialedition/mods/99193)
+ - [ENBSeries Binaries](http://enbdev.com/news.html)
+
+#### Added
+
+ - [Remove Orphaned Hazards](https://www.nexusmods.com/skyrimspecialedition/mods/151085)
+ - [World Encounter Noble Riding Horse Fix - WERoad02](https://www.nexusmods.com/skyrimspecialedition/mods/150951)
+ - [Non-Horse Mount Animation Fix](https://www.nexusmods.com/skyrimspecialedition/mods/151793)
+
+</Details>
+
+<Details>
+<summary>Patch Notes</summary>
+
+#### Bug Fixes  
+
+- Fixed Aegisbane's appearance being overwritten by a weapon template. It should no longer look like a generic Steel Warhammer
+- Fixed an issue with selling Dragon Bones to Farengar by updating [Dragon Hunting](https://www.nexusmods.com/skyrimspecialedition/mods/99193)
+- Fixed a texture set issue with the Ancient Nord Shield
+- Fixed an incorrect mesh being referenced on Dented Draugr Shields
+- Fixed snowy variants of Mountain Flowers not using the proper custom names
+- Hopefully fixed an issue with with ENB keybinds not working for some users on Windows 11
+
+#### Misc Tweaks  
+
+- Adjusted **Compass Navigation Overhaul** configs for the optional ultrawide support, ensuring they match the base list's settings for consistency
+
+</Details>
+
+### 3.1.3
 
 Key Info
 
@@ -36,7 +88,7 @@ Key Info
 <Details>
 <summary>Changes</summary>
 
-### Updated
+#### Updated
 
  - [Survival Mode Improved - SKSE](https://www.nexusmods.com/skyrimspecialedition/mods/78244)
  - [NPCs Names Distributor](https://www.nexusmods.com/skyrimspecialedition/mods/73081)
@@ -47,7 +99,7 @@ Key Info
 <Details>
 <summary>Patch Notes</summary>
 
-### Bug Fixes  
+#### Bug Fixes  
 
  - Updated **NPCs Names Distributor** to fix TrueHUD compatibility. Enemy names should now display properly
  - **Momentum** and **Endurance** are ACTUALLY now correctly placed in the perk tree
@@ -71,17 +123,17 @@ Key Info
  - Fixed broken shaders on Riekling Outputs and certain Dragonborn candle meshes
  - Fixed the Dac0da dragon being purple
 
-### Visual Tweaks  
+#### Visual Tweaks  
 
  - **Stendarr's Aura** cloak has been toned down, it should no longer blind you with the light of a thousand suns
 
-### Misc Tweaks
+#### Misc Tweaks
 
  - Updated the Patreons Menu to include newer patrons :D
 
 </Details>
 
-## 3.1.2
+### 3.1.2
 
 Key Info
 
@@ -91,21 +143,21 @@ Key Info
 <Details>
 <summary>Changes</summary>
 
-### Updated
+#### Updated
 
  - [Particle Patch](https://www.nexusmods.com/skyrimspecialedition/mods/65720?)
  - [Katanas of Skyrim](https://www.nexusmods.com/skyrimspecialedition/mods/92187)
  - [Artifacts of the Ancestors](https://www.nexusmods.com/skyrimspecialedition/mods/92389)
  - [Halted Stream](https://www.nexusmods.com/skyrimspecialedition/mods/132119)
 
-### Added
+#### Added
 
  - [Song of the Green (Auri Follower) - Enhanced Voice Remastered](https://www.nexusmods.com/skyrimspecialedition/mods/63787)
  - [Lu'ah Al-Skaven Enhanced Voice](https://www.nexusmods.com/skyrimspecialedition/mods/146906)
  - [Stealing is For Thieves](https://www.nexusmods.com/skyrimspecialedition/mods/146914)
  - [Peryite Revoiced](https://www.nexusmods.com/skyrimspecialedition/mods/146986)
 
-### Removed
+#### Removed
 
  - N/A
 
@@ -114,7 +166,7 @@ Key Info
 <Details>
 <summary>Patch Notes</summary>
 
-### Balancing Changes
+#### Balancing Changes
 
  - Added several Spear Artifacts.
    - **Bthuangth's Harvester** can be found in Avanchnzel.
@@ -125,7 +177,7 @@ Key Info
    - **The Penetrator** can be purchased from Bersi Honey-Hand.
  - Adjusted the enchants on Absolution and Ascension from Khajiit Will Follow.
 
-### Bug Fixes
+#### Bug Fixes
  
  - Partially fixed the Stalhrim Spear textures.
  - Fixed a bug where Endurance and Momentum had their positions swapped in the Light Armor tree.
@@ -135,7 +187,7 @@ Key Info
  - Fixed landscape seams.
    - too lazy to document which cells.
 
-### Misc. Tweaks
+#### Misc. Tweaks
 
  - Added a few Spear artifacts to the world.
  - Added Iron Katanas and DaiKatanas.
@@ -144,7 +196,7 @@ Key Info
 
 </Details>
 
-## 3.1.1
+### 3.1.1
 
 Key Info
 
@@ -154,15 +206,15 @@ Key Info
 <Details>
 <summary>Changes</summary>
 
-### Updated
+#### Updated
 
  - N/A
 
-### Added
+#### Added
 
  - N/A
 
-### Removed
+#### Removed
 
  - N/A
 
@@ -171,21 +223,21 @@ Key Info
 <Details>
 <summary>Patch Notes</summary>
 
-### Balancing Changes
+#### Balancing Changes
 
  - N/A
 
-### Bug Fixes
+#### Bug Fixes
  
  - I don't want to talk about it.
 
-### Misc. Tweaks
+#### Misc. Tweaks
 
  - N/A
 
 </Details>
 
-## 3.1.0
+### 3.1.0
 
 Key Info
 
@@ -198,7 +250,7 @@ Key Info
 <Details>
 <summary>Changes</summary>
 
-### Updated
+#### Updated
 
  - [Shouting Provokes Dragons](https://www.nexusmods.com/skyrimspecialedition/mods/112664)
  - [CBBE 3BA Vanilla Outfits Redone](https://www.nexusmods.com/skyrimspecialedition/mods/109194)
@@ -231,7 +283,7 @@ Key Info
  - [Pelts 'o' Plenty - Fur Pelt Cloaks](https://www.nexusmods.com/skyrimspecialedition/mods/120726)
  - [Better Third Person Selection - BTPS](https://www.nexusmods.com/skyrimspecialedition/mods/64339)
 
-### Added
+#### Added
 
  - [Stages of Suffering - An SKSE Death Alternative](https://www.nexusmods.com/skyrimspecialedition/mods/146568)
  - [Arch-Curate Vyrthur Revoiced](https://www.nexusmods.com/skyrimspecialedition/mods/145795)
@@ -251,7 +303,7 @@ Key Info
  - [Xenius Character Enhancement - Dirt Masks](https://www.nexusmods.com/skyrimspecialedition/mods/46437?tab=files&file_id=188967)
  - [DAc0da Paper Map for FWMF by Limon](https://www.nexusmods.com/skyrimspecialedition/mods/146754)
 
-### Removed
+#### Removed
 
  - [Shades of Mortality - Death Alternative SKSE](https://www.nexusmods.com/skyrimspecialedition/mods/136825)
  - [Animation Motion Fix](https://www.nexusmods.com/skyrimspecialedition/mods/145100)
@@ -264,7 +316,7 @@ Key Info
 <Details>
 <summary>Patch Notes</summary>
 
-### Balancing Changes
+#### Balancing Changes
 
  - Magicka Battery (Battlemage class) is now affected by Low Stamina debuffs.
    - This is for consistency with several other effects, such as the Lord Stone, which had reduced magnitudes while suffering from Low Stamina penalties.
@@ -280,7 +332,7 @@ Key Info
  - Nerfed the amount of damage dealt by actors who are affected by the Low Stamina penalties.
  - Nerfed the amount of stagger damage dealt by actors who are affected by the Low Stamina penalties.
 
-### Bug Fixes
+#### Bug Fixes
  
  - Fixed a random havok crash that some users were experiencing.
  - Fixed typo in Witch Hunter class description.
@@ -327,7 +379,7 @@ Key Info
  - Fixed Poisoned Apple texture.
  - Fixed issue where Attacks of Opportunity did not work under certain conditions where they should.
 
-### Misc. Tweaks
+#### Misc. Tweaks
 
  - The list should no longer default to 0 Master Volume.
  - Improvements to controller config thanks to @Velgus.
@@ -346,7 +398,7 @@ Key Info
 
 </Details>
 
-## 3.0.0
+### 3.0.0
 
 Key Info
 
@@ -726,6 +778,8 @@ Key Info
  - Thalmor encountered during the [A New Source of Stalhrim](https://en.uesp.net/wiki/Skyrim:A_New_Source_of_Stalhrim) now wear Elven Gilded equipment instead of standard Elven.
  - Entering stealth now applies a vignette overlay. 
    - This can be tweaked in an MCM, read more on the [Config page](https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/CONFIG.md#in-game-mcm-options).
+
+</details>
 
 </details>
 
