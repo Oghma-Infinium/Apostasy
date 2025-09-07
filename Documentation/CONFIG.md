@@ -114,7 +114,6 @@ This separator contains a series of visual-only mods that can be easily disabled
  8. `Precision Trail Magic Replacer - Edit`: Disable if disabling the mod above.
  9.  `Precision magic trails`: Disable if disabling the mods above.
  10. `Precision Trail Replacer - Simple`: Replacer for the default Precision weapon trail. 
- 11. `Visualized Critical Hits - MIF`: Adds some additional visual feedback on critical strikes. Can be disabled if it does not suit user preferences.
 
 ## Optional Gameplay Tweaks
 
@@ -198,24 +197,24 @@ Thanks to Wabbajack, MCMs will come pre-configured with the intended settings. T
 >Changing MCM Settings in any MCM that is not listed below is considered a list modification!
 
  1. `Apostasy`: This is a custom MCM made for the list.
-    > **NSFW Armors Toggle**: Determines whether some lewd-er versions of some armors will be craftable or not. Has no effect on the armors that NPCs wear or the armors that can be looted. (Default: Disabled)
-    > **Killmove Mode**: Choose to enable or disable killmoves: Disabled or Vanilla Style. (Default: Vanilla Style)
-    > **Skin Animals**: Determines whether [Simple Hunting Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/95943) skins animals. (Default: Disabled)
+    > **NSFW Armors Toggle**: Determines whether some lewd-er versions of some armors will be craftable or not. Has no effect on the armors that NPCs wear or the armors that can be looted. (Default: Disabled)  
+    > **Killmove Mode**: Choose to enable or disable killmoves: Disabled or Vanilla Style. (Default: Vanilla Style)  
+    > **Skin Animals**: Determines whether [Simple Hunting Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/95943) skins animals. (Default: Disabled)  
  2. `Better Third Person Selection`: ???
- 3. `CollisionReset`: Change the keybind for resetting SMP physics (Default: `F10`). 
- 4. `Compass Controls`: Change the Toggle key for the Compass (Default: `'`).
- 5. `Dialogue History`: Change the keybind to bring up the Dialogue History menu (Default: `LAlt + Y`).
- 6. `Dismembering Framework`: Disable the mod if you do not like the added gore (Default: `ENABLED` - click **Mod Status** at the very top to toggle Enabled or Disabled state.)
- 7. `Dynamic Activation Key`: Change the keybind modifier for Dynamic Activation (Default: `LShift`).
- 8. `Dynamic Crafting`: Can enable and disable the features of the mod.
- 9. `Dynamic Looting`: Can enable and disable different interaction animations. Note that animations do not play when weapon is drawn. 
- 10. `Eld Beri II`: **(DEBUG ONLY)** Can clear stuck lantern effects on the player or other actors. 
- 11. `EVG CLAMBER`: Change the EVG Clamber settings (Default: `Balanced`). This isn't recommended to be tampered with but you can.
- 12. `Horse Whistle Key`: Change the Hotkey for Horse Call (Default: `H`). Optionally add a lesser power to perform the function of the hotkey.
- 13. `LOD Reload Bug Fix`: **(DEBUG ONLY)** Can fix unloaded LODs.
- 14. `moreHUD`: Can adjust certain widgets on the HUD.
- 15. `OBody NG`: Change the keybind for the OBody morphs menu (Default: `;`). **DO NOT ENABLE PERFORMANCE MODE!**
- 16. `One Click Power Attack`: Change the keybind for Power Attacks (Default: `V`).
+ 3. `BFCO`: Change the keybind for Power Attacks (Default: `V`). **DO NOT TOUCH ANY SETTING BUT `Hotkey: PowerAttack`**
+ 4. `CollisionReset`: Change the keybind for resetting SMP physics (Default: `F10`). 
+ 5. `Compass Controls`: Change the Toggle key for the Compass (Default: `'`).
+ 6. `Dialogue History`: Change the keybind to bring up the Dialogue History menu (Default: `LAlt + Y`).
+ 7. `Dismembering Framework`: Disable the mod if you do not like the added gore (Default: `ENABLED` - click **Mod Status** at the very top to toggle Enabled or Disabled state.)
+ 8. `Dynamic Activation Key`: Change the keybind modifier for Dynamic Activation (Default: `LShift`).
+ 9. `Dynamic Crafting`: Can enable and disable the features of the mod.
+ 10. `Dynamic Looting`: Can enable and disable different interaction animations. Note that animations do not play when weapon is drawn. 
+ 11. `Eld Beri II`: **(DEBUG ONLY)** Can clear stuck lantern effects on the player or other actors. 
+ 12. `EVG CLAMBER`: Change the EVG Clamber settings (Default: `Balanced`). This isn't recommended to be tampered with but you can.
+ 13. `Horse Whistle Key`: Change the Hotkey for Horse Call (Default: `H`). Optionally add a lesser power to perform the function of the hotkey.
+ 14. `LOD Reload Bug Fix`: **(DEBUG ONLY)** Can fix unloaded LODs.
+ 15. `moreHUD`: Can adjust certain widgets on the HUD.
+ 16. `OBody NG`: Change the keybind for the OBody morphs menu (Default: `;`). **DO NOT ENABLE PERFORMANCE MODE!**
  17. `Paragon Perks`: Change Dual Wield Block key here if you changed it previously.
  18. `Photo Mode`: Adjust the keybinds and settings for [po3's Photo Mode](https://www.nexusmods.com/skyrimspecialedition/mods/91701).
  19. `Precision`: Can enable or disable Hitstop (Default: `Enabled`).

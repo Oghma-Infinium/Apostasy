@@ -156,7 +156,7 @@ These steps are only required for installing the modlist for the first time. Add
  15. **Restart your PC**.
 
 >[!TIP]
-> Your pagefile does not need to be on the same drive as your Wabbajack install or Steam install.
+> Your pagefile does not need to be on the same drive as your Wabbajack install or Steam install of the game.
 
 <Details>
 <summary>ICYWW: Why do we need a Pagefile?</summary>
@@ -259,14 +259,14 @@ Downloading and installing Apostasy can take a while depending on your internet 
 
 To install Apostasy, complete the following steps.
 
- 1. Open Wabbajack and click `Browse Modlists`
+ 1. Open Wabbajack and click `Browse lists`
  2. Pick the **Skyrim Special Edition** option from the game filter drop-down box (or use the search bar to find the modlist).
  3. Press the download arrow on the Apostasy UI card and wait for it to download
- 4. Set the `Modlist Installation Location` to a folder such as `C:\Apostasy`.
+ 4. Set the `Installation Location` to a folder such as `C:\Apostasy`.
     > - **DO NOT place it in Program Files, User folders (such as Desktop, Documents, Downloads, OneDrive, etc.), or in your Skyrim's Steam folder**
-    > - The `Resource Download Location` does not need to be on an SSD, but it makes installing faster. You can set this location to an HDD for the sake of saving space.
- 5. Download the files from the [Missing Manual Downloads](#missing-manual-downloads) section and place them in your designated `Resource Download Location` folder.
- 6. Press the play arrow to begin.
+    > - The `Downloads Location` does not need to be on an SSD, but it makes installing faster. You can set this location to an HDD for the sake of saving space.
+ 5. Download the files from the [Missing Manual Downloads](#missing-manual-downloads) section and place them in your designated `Downloads Location` folder.
+ 6. Press the `Install` button.
  7. Turn on your favorite show or a nice long video essay as Wabbajack does its thing. Alternatively read through this readme again.
  8. If the installation is successful, then rejoice and move onto [post installation](#post-installation-and-optional-setup). If the installation is unsuccessful, follow the tips below or the [discord server](https://discord.gg/4WwqfK5yHg) for support.
 
