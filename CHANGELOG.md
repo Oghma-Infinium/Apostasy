@@ -27,12 +27,75 @@
 <details>
 <summary>3.0 Versions</summary>
 
+ - [3.2.0](#320) Release Date: April 5, 2026
  - [3.1.4](#314) Release Date: June 9, 2025
  - [3.1.3](#313) Release Date: May 18, 2025
  - [3.1.2](#312) Release Date: April 6, 2025
  - [3.1.1](#311) Release Date: April 5, 2025
  - [3.1.0](#310) Release Date: April 4, 2025
  - [3.0.0](#300) Release Date: March 22, 2025
+
+### 3.2.0
+
+Key Info
+
+ - **Likely Save-Safe Update**
+ - Small update for more bug fixing and to make the list installable again. Read the patch notes below for detailed info
+
+<Details>
+<summary>Changes</summary>
+
+#### Updated
+
+ - []()
+ - []()
+ - []()
+ - []()
+ - []()
+ - []()
+ - []()
+ - []()
+
+#### Added
+
+ - []()
+ - []()
+ - []()
+ - []()
+ - []()
+ - []()
+ - []()
+ - []()
+ - []()
+ - []()
+ - []()
+ - []()
+ - []()
+ - []()
+ - []()
+ - []()
+ - []()
+ - []()
+ - []()
+ - []()
+
+</Details>
+
+<Details>
+<summary>Patch Notes</summary>
+
+#### Bug Fixes  
+
+- Fixed Edgerunner Light Armor perk sometimes not proccing when intended.
+
+#### Misc Tweaks  
+
+- Added unique boss movesets to Dac0da bosses
+- Updated Vigilant and Unslaad boss movesets
+- Updated most Bear Stance movesets and few others
+- Added unique movesets to Dremora and Goblins
+
+</Details>
 
 ### 3.1.4
 
