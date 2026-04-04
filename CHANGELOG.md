@@ -41,6 +41,7 @@ Key Info
 
  - **Likely Save-Safe Update**
  - Filler update before 4.0 to add some QoL and stability mods
+ - Updated ENB to include latest binaries and tweaks
  - Custom bow gameplay overhaul!
 
 <Details>
@@ -60,7 +61,6 @@ Key Info
 
 #### Added
 
- - [Reactable Spellsword Attack](https://www.nexusmods.com/skyrimspecialedition/mods/170708)
  - [Nature of the Wild Lands - Animations Addon](https://www.nexusmods.com/skyrimspecialedition/mods/148132)
    - As optional mod, enabled by default
  - [ENB Extender and Helper Skyrim](https://www.nexusmods.com/skyrimspecialedition/mods/99406)
@@ -72,6 +72,7 @@ Key Info
  - [Knockback SKSE](https://www.nexusmods.com/skyrimspecialedition/mods/171277)
  - [Hit Flash](https://www.nexusmods.com/skyrimspecialedition/mods/172209)
  - [Wheeler Slow Time Fix](https://www.nexusmods.com/skyrimspecialedition/mods/166848?tab=description)
+ - [Reactable Spellsword Attack](https://www.nexusmods.com/skyrimspecialedition/mods/170708)
  - [Auto Physics Reset](https://www.nexusmods.com/skyrimspecialedition/mods/174098)
  - [Particle Wind - SKSE Plugin](https://www.nexusmods.com/skyrimspecialedition/mods/174812)
  - [Cold Breath NG](https://www.nexusmods.com/skyrimspecialedition/mods/174838)
