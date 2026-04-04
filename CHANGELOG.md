@@ -40,7 +40,8 @@
 Key Info
 
  - **Likely Save-Safe Update**
- - Small update for more bug fixing and to make the list installable again. Read the patch notes below for detailed info
+ - Filler update before 4.0 to add some QoL and stability mods
+ - Custom bow gameplay overhaul!
 
 <Details>
 <summary>Changes</summary>
@@ -90,6 +91,7 @@ Key Info
 
 #### Misc Tweaks  
 
+- Overhauled bow gameplay
 - Added unique boss movesets to Dac0da bosses
 - Updated Vigilant and Unslaad boss movesets
 - Updated most Bear Stance movesets and few others
