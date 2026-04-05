@@ -99,6 +99,12 @@ Key Info
  - [Stuck Underwater Visuals and Sounds Fix SKSE](https://www.nexusmods.com/skyrimspecialedition/mods/173716)
  - [Keep Up - Follower Locomotion Fix](https://www.nexusmods.com/skyrimspecialedition/mods/173685)
 
+
+#### Removed
+
+ - [Dynamic Dodge Shot](https://www.nexusmods.com/skyrimspecialedition/mods/114101)
+   - Part of the new custom bow overhaul
+
 </Details>
 
 <Details>
