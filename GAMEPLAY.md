@@ -184,7 +184,7 @@ Deity buffs are granted by praying at a shrine associated with that deity. New s
 **Meridia**
  1. **Blessing of Meridia**: Your Magicka Regeneration is increased by 50%.
  2. **Acolyte of Meridia**: Your Restoration spells cost 10-25% less Magicka after slaying 10-250 undead.
- 3. **Champion of Meridia**: Your Magic Resistance is increased by 25% after completing [The Break of Dawn](https://en.uesp.net/wiki/Skyrim:The_Break_of_Dawn), additionally you can not be a Vampire, or side with Molag Bal in [The House of Horrors](https://en.uesp.net/wiki/Skyrim:The_House_of_Horrors).
+ 3. **Champion of Meridia**: While in combat, you periodically grant a nearby target Meridia's Favor or Meridia's Retribution after completing [The Break of Dawn](https://en.uesp.net/wiki/Skyrim:The_Break_of_Dawn), additionally you can not be a Vampire, or side with Molag Bal in [The House of Horrors](https://en.uesp.net/wiki/Skyrim:The_House_of_Horrors).
 
 **Molag Bal**
  1. **Blessing of Molag Bal**: Your Magicka is increased by 50.
