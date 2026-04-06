@@ -70,6 +70,7 @@ Key Info
 #### Bug Fixes  
 
 - Re-enabled regular quick saves in Engine Fixes toml
+- (install-related) sourced High Poly Head 1.4 from CDN instead of Google Drive to potentially reduce install issues
 
 </Details>
 
