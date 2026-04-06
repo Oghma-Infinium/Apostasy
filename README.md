@@ -369,7 +369,6 @@ Wabbajack frequently has trouble downloading mods hosted on sites other than Nex
 Google Drive Files:
 
 - [HDT-SMP Elite Wolf Armor](https://drive.google.com/file/d/1CXdZi2vOpxKde6H_5NZaJOeHmMsJIreT/) + [3BA Patch](https://drive.google.com/file/d/1Xz3EXwzvY1pmzS9RiLl21m89eaYJ00-g) + [HIMBO Patch](https://drive.google.com/file/d/1qsW6gFcmZdS5yZLnS0owQQyf0b-J6thB)
-- [High Poly Head v1.4 (SE)](https://drive.google.com/uc?id=15_0njBUjHKidNnJPmLXEygzGVWsA3Zbq&export=download)
 - [Olivier Kenjutsu Battleaxe and Warhammer](https://drive.google.com/file/d/1rX4INfO3ieWp25gPh0NiLPl1ktLoegZ9)
 
 Patreon Files: (These are free to download)
