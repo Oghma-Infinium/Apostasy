@@ -27,6 +27,7 @@
 <details>
 <summary>3.0 Versions</summary>
 
+ - [3.2.1](#321) Release Date: April 6, 2026
  - [3.2.0](#320) Release Date: April 5, 2026
  - [3.1.4](#314) Release Date: June 9, 2025
  - [3.1.3](#313) Release Date: May 18, 2025
@@ -34,6 +35,40 @@
  - [3.1.1](#311) Release Date: April 5, 2025
  - [3.1.0](#310) Release Date: April 4, 2025
  - [3.0.0](#300) Release Date: March 22, 2025
+
+### 3.2.1
+
+Key Info
+
+ - **Save-Safe Update**
+ - Small update for more bug fixing. Read the patch notes below for detailed info
+
+<Details>
+<summary>Changes</summary>
+
+#### Updated
+
+ - [Hit Flash](https://www.nexusmods.com/skyrimspecialedition/mods/172209)
+ - [STB Widgets](https://www.nexusmods.com/skyrimspecialedition/mods/136148)
+   
+#### Added
+
+ - [Horse Animation Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/140122)
+ - [Smart Talk](https://www.nexusmods.com/skyrimspecialedition/mods/161500)
+ - [Skyrim Souls and Wheeler Slow Time Fix](https://www.nexusmods.com/skyrimspecialedition/mods/174828)
+ - [Save and Load Accelerator for SKSE Cosaves](https://www.nexusmods.com/skyrimspecialedition/mods/163969)
+
+
+</Details>
+
+<Details>
+<summary>Patch Notes</summary>
+
+#### Bug Fixes  
+
+- Re-enabled regular quick saves in Engine Fixes toml
+
+</Details>
 
 ### 3.2.0
 
