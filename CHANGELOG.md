@@ -41,7 +41,7 @@
 Key Info
 
  - **Save-Safe Update**
- - Small update for more bug fixing. Read the patch notes below for detailed info
+ - Small update, read the patch notes below for detailed info
 
 <Details>
 <summary>Changes</summary>
