@@ -54,10 +54,13 @@ Key Info
 #### Added
 
  - [Horse Animation Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/140122)
+   - Better animations for horsepower!
  - [Smart Talk](https://www.nexusmods.com/skyrimspecialedition/mods/161500)
+   - Marks quest-related dialogue
  - [Skyrim Souls and Wheeler Slow Time Fix](https://www.nexusmods.com/skyrimspecialedition/mods/174828)
+   - Hopefully fixes Wheeler related slow-downs for good  
  - [Save and Load Accelerator for SKSE Cosaves](https://www.nexusmods.com/skyrimspecialedition/mods/163969)
-
+   - I forgot there is another save accelerator compatible with the other one
 
 </Details>
 
