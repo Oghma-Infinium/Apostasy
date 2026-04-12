@@ -59,6 +59,7 @@
   - [Can't put an item into Wheeler!](#cant-put-an-item-into-wheeler)
   - [Getting "Failed to start Dialogue Quest" error in the start room!](#getting-failed-to-start-dialogue-quest-error-in-the-start-room)
 - [Known Crashes](#known-crashes)
+  - [Crash in Solitude During Roggvir execution](#crash-in-solitude-during-roggvir-execution)
   - [Wheeler.dll Crash!](#wheelerdll-crash)
   - [Crashing after loading a save!](#crashing-after-loading-a-save)
 
@@ -194,6 +195,12 @@ Solution(s)
  1. This issue only occurs if you (A.) Start a New Game by backing out of an existing save into main menu *without* restarting the game entirely - this breaks an incredible amount of scripts as they do not properly reset; or (B.) Modified the list and have conflicts with the scripts that Alternate Perspective edits.
 
 ## Known Crashes
+
+### Crash in Solitude During Roggvir execution
+
+***Cause*** Known bug with [Skyrim Outfit System](https://www.nexusmods.com/skyrimspecialedition/mods/151890)
+
+***Fix*** Temporarily disable the mod in the [MCM menu](https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/CONFIG.md#in-game-mcm-options)
 
 ### Wheeler.dll Crash!
 > [!NOTE]  
