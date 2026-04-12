@@ -198,9 +198,9 @@ Solution(s)
 
 ### Crash in Solitude During Roggvir execution
 
-***Cause*** Known bug with [Skyrim Outfit System](https://www.nexusmods.com/skyrimspecialedition/mods/151890)
+***Cause***: Known bug with [Skyrim Outfit System](https://www.nexusmods.com/skyrimspecialedition/mods/151890).
 
-***Fix*** Temporarily disable the mod in the [MCM menu](https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/CONFIG.md#in-game-mcm-options)
+***Fix***: Temporarily disable the mod in the [MCM menu](https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/CONFIG.md#in-game-mcm-options).
 
 ### Wheeler.dll Crash!
 > [!NOTE]  
