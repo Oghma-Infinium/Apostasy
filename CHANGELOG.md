@@ -68,8 +68,9 @@ Key Info
    - If Val Serano has blackface or something, let me know
   
 #### Changes
- - Removed custom block cancel mechanic in the list. Previously cancel was limited end of the attack. Now block cancel works at any point in the animation, but costs 10 stamina.
- - Basically the block cancel mechanic is now more mechanically forgiving, but resource limited.
+ - Removed custom block cancel mechanic in the list. Previously cancel was limited end of the attack. Now block cancel works at any point in the animation, but costs 10 stamina
+ - Basically the block cancel mechanic is now more mechanically forgiving, but resource limited
+ - Fixed some high-level weapon-wielding enemies dealing much more damage than inteded
      
 </Details>
 
