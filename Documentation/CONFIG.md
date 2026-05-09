@@ -50,8 +50,7 @@ This section is going to be short and basic and only cover keybinds that must be
 
  - **Dual Wield Blocking**: 
    1. Open the mod `Apostasy - Dual Block Parry Keybinds`. 
-   2. In the mod open the `DualWieldParryingSKSE.ini` and the `BlockCancel.json` files and change the keybind(s). 
-     - **MAKE SURE THE KEYBIND YOU CHANGE TO IN THE `DualWieldParryingSKSE.ini` MATCHES THE KEYBIND FOR `"BlockCancel2"` IN THE `BlockCancel.json`**.
+   2. In the mod open the `blockOverhaul.ini` and change the keybind
    3. **In game**, edit the dual block keybind in the `Paragon Perks` MCM, or dual block will not be able to trigger timed blocks.
  - **Cycle Stances**: If you would prefer Stances cycle on a single key press instead of having 3 separate keybinds then you can do the following.
    1. Open the mod `Stances NG`.
