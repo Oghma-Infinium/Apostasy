@@ -27,6 +27,7 @@
 <details>
 <summary>3.0 Versions</summary>
 
+ - [3.2.2](#322) Release Date: May 9, 2026
  - [3.2.1](#321) Release Date: April 6, 2026
  - [3.2.0](#320) Release Date: April 5, 2026
  - [3.1.4](#314) Release Date: June 9, 2025
@@ -35,6 +36,42 @@
  - [3.1.1](#311) Release Date: April 5, 2025
  - [3.1.0](#310) Release Date: April 4, 2025
  - [3.0.0](#300) Release Date: March 22, 2025
+
+### 3.2.2
+
+Key Info
+
+ - **Save-Safe Update**
+ - Small update, read the patch notes below for detailed info
+
+<Details>
+<summary>Changes</summary>
+
+#### Updated
+
+ - [Next-Gen Decapitations](https://www.nexusmods.com/skyrimspecialedition/mods/135254)
+   - Maybe fixes Solitude Roggvir execution scene crash
+   
+#### Added
+
+ - [WHEELER - Refined](https://www.nexusmods.com/skyrimspecialedition/mods/167380?tab=files)
+   - Had issues before, seems to work fine now. Let me know if it doesn't
+
+#### Removed
+
+ - [Wheeler Slow Time Fix](https://www.nexusmods.com/skyrimspecialedition/mods/166848)
+ - [Skyrim Souls and Wheeler Slow Time Fix](https://www.nexusmods.com/skyrimspecialedition/mods/174828)
+   - These two mods did not actually fix the issue, just made it worse
+ - Val Soprano - A Val Serano Replacer
+   - By request of the author
+   - I didn't go check if I reverted the visual properly
+   - If Val Serano has blackface or something, let me know
+  
+#### Changes
+ - Removed custom block cancel mechanic in the list. Previously cancel was limited end of the attack. Now block cancel works at any point in the animation, but costs 10 stamina.
+ - Basically the block cancel mechanic is now more mechanically forgiving, but resource limited.
+     
+</Details>
 
 ### 3.2.1
 
