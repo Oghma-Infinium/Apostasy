@@ -60,6 +60,7 @@
   - [Getting "Failed to start Dialogue Quest" error in the start room!](#getting-failed-to-start-dialogue-quest-error-in-the-start-room)
 - [Known Crashes](#known-crashes)
   - [Crash in Solitude During Roggvir execution](#crash-in-solitude-during-roggvir-execution)
+  - [Crash in Whiterun](#crash-in-whiterun)
   - [Wheeler.dll Crash!](#wheelerdll-crash)
   - [Crashing after loading a save!](#crashing-after-loading-a-save)
 
@@ -201,6 +202,14 @@ Solution(s)
 ***Cause***: Known bug with [Skyrim Outfit System](https://www.nexusmods.com/skyrimspecialedition/mods/151890).
 
 ***Fix***: Temporarily disable the mod in the [MCM menu](https://github.com/Oghma-Infinium/Apostasy/blob/main/Documentation/CONFIG.md#in-game-mcm-options).
+
+### Crash in Whiterun
+
+***Cause***: This is a weird issue that we haven't fully solved, but we think its probably due to corrupted waterfall meshes during installation. 
+We do not know why these meshes get corrupted during install process as there is no issue on developer end.
+
+***Possible fix***: Delete mod `Apostasy - Assorted Asset Edits`   and rerun Wabbajack installer.
+Proper fix is likely not coming until Update 4.0, which is a full rebuild of the list (no ETA).
 
 ### Wheeler.dll Crash!
 > [!NOTE]  
