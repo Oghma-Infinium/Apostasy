@@ -27,6 +27,7 @@
 <details>
 <summary>3.0 Versions</summary>
 
+ - [3.2.3](#323) Release Date: July 10, 2026
  - [3.2.2](#322) Release Date: May 9, 2026
  - [3.2.1](#321) Release Date: April 6, 2026
  - [3.2.0](#320) Release Date: April 5, 2026
@@ -36,6 +37,34 @@
  - [3.1.1](#311) Release Date: April 5, 2025
  - [3.1.0](#310) Release Date: April 4, 2025
  - [3.0.0](#300) Release Date: March 22, 2025
+
+### 3.2.3
+
+Key Info
+
+ - **Save-Safe Update**
+ - Small maintenance update
+   
+<Details>
+<summary>Changes</summary>
+
+#### Updated
+
+ - [powerofthree's Papyrus Extender](https://www.nexusmods.com/skyrimspecialedition/mods/22854)
+ - [powerofthree's Tweaks](https://www.nexusmods.com/skyrimspecialedition/mods/51073)
+   
+#### Added
+
+ - [BGSWaterCollision - CrashFix](https://www.nexusmods.com/skyrimspecialedition/mods/181562)
+   - Fixes the Whiterun cell transition crash
+
+#### Removed
+
+ - [Dylbills Papyrus Functions](https://www.nexusmods.com/skyrimspecialedition/mods/65410)
+   - Quite sure no mod in the list actually needed this, but caused some random crashes
+     
+</Details>
+
 
 ### 3.2.2
 
