@@ -147,8 +147,8 @@ These steps are only required for installing the modlist for the first time. Add
  6. Uncheck `Automatically Manage` if it is checked
  7. Select your disk drive, ideally your fastest solid state drive
  8. Click `Custom Size:`
- 9. In the box next to **Initial Size (MB)**, type `40960`
- 10. In the box next to **Maximum Size (MB)**, type `40960`
+ 9. In the box next to **Initial Size (MB)**, type `20480`
+ 10. In the box next to **Maximum Size (MB)**, type `20480`
  11. Click `Set`.
  12. Click `OK`.
  13. Click `Apply`.
