@@ -1143,7 +1143,6 @@ Apostasy comes with several new quest mods and expansions for several vanilla qu
 ![](https://staticdelivery.nexusmods.com/mods/1704/images/118893/118893-1743807378-1038802819.png)
 
  - [Feris - Custom Voiced Female Follower](https://www.nexusmods.com/skyrimspecialedition/mods/142226): A wandering rogue who can be met in Whiterun's Bannered Mare!
- - [Follower Dialogue Expansion Series](https://next.nexusmods.com/profile/anbeegod/mods?gameId=1704): Greatly expands the dialogue and adds new short character quests for many vanilla followers.
  - [Gore - A Companion Mod](https://www.nexusmods.com/skyrimspecialedition/mods/85298): A former mercenary with a dark past and extensive personality, he can be found in the Falkreath wilds after being caught in a rather unfortunate situation!
  - [Heart of Ice - Astrid](https://www.nexusmods.com/skyrimspecialedition/mods/132350): A warrior from Roscrea who has traveled to Skyrim for a village artifact, she can be found in Bluewater cave near Rorikstead.
  - [INDIGO](https://www.nexusmods.com/skyrimspecialedition/mods/88240): A Khajiit with a complex needs system who can be found imprisoned over a simple misunderstanding in Riften Jail.
