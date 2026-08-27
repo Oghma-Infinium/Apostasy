@@ -27,6 +27,7 @@
 <details>
 <summary>3.0 Versions</summary>
 
+ - [3.3.1](#331) Release Date: August 27, 2026 (Thanks Todd)
  - [3.3.0](#330) Release Date: August 26, 2026 (yes I know Todd is updating again tomorrow. . .)
  - [3.2.3](#323) Release Date: July 10, 2026
  - [3.2.2](#322) Release Date: May 9, 2026
@@ -38,6 +39,14 @@
  - [3.1.1](#311) Release Date: April 5, 2025
  - [3.1.0](#310) Release Date: April 4, 2025
  - [3.0.0](#300) Release Date: March 22, 2025
+
+### 3.3.1
+
+Key Info
+
+ - **Save-Safe Update**
+ - Recompiled against Skyrim version 1.7.104.
+ - Fixed Photo Mode Gallery being at the forefront of the Tween Menu Selectors.
 
 ### 3.3.0
 
