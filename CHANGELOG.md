@@ -27,6 +27,7 @@
 <details>
 <summary>3.0 Versions</summary>
 
+ - [3.3.0](#330) Release Date: August 26, 2026 (yes I know Todd is updating again tomorrow. . .)
  - [3.2.3](#323) Release Date: July 10, 2026
  - [3.2.2](#322) Release Date: May 9, 2026
  - [3.2.1](#321) Release Date: April 6, 2026
@@ -37,6 +38,137 @@
  - [3.1.1](#311) Release Date: April 5, 2025
  - [3.1.0](#310) Release Date: April 4, 2025
  - [3.0.0](#300) Release Date: March 22, 2025
+
+### 3.3.0
+
+Key Info
+
+ - **Not Save-Safe Update**
+ - Recompiled to be installable vs the newest version of Skyrim.
+ - Mostly just updating mods and doing a small amount of curation, see patch notes.
+ - Probably some small optimizations here and there.
+ - Class is now chosen from RaceMenu instead of from a Menu AFTER RaceMenu. 
+   - If you choose no class then you will get Assassin by default since that's the first class alphabetically.
+ - Crash fix for Ivory (Ancient Falmer) Armor. (For real this time)
+
+<Details>
+<summary>Changes</summary>
+
+#### Updated
+
+ - [SkyUI](https://www.nexusmods.com/skyrimspecialedition/mods/12604)
+ - [Crash Logger SSE AE VR - PDB support](https://www.nexusmods.com/skyrimspecialedition/mods/59818)
+ - [Sonders Keyword Distribution Resources](https://www.nexusmods.com/skyrimspecialedition/mods/93995)
+ - [Sharpen Other Swords II - AnimObject Swapper](https://www.nexusmods.com/skyrimspecialedition/mods/75237)
+ - [Item Equip Restrictor](https://www.nexusmods.com/skyrimspecialedition/mods/108665)
+ - [Sound Record Distributor](https://www.nexusmods.com/skyrimspecialedition/mods/77815)
+ - [Comprehensive Attack Rate Patch - SKSE](https://www.nexusmods.com/skyrimspecialedition/mods/89042)
+ - [Description Framework](https://www.nexusmods.com/skyrimspecialedition/mods/105799)
+ - [Dynamic String Distributor (DSD)](https://www.nexusmods.com/skyrimspecialedition/mods/107676)
+ - [Papyrus Ini Manipulator](https://www.nexusmods.com/skyrimspecialedition/mods/65634)
+ - [Papyrus Tweaks NG](https://www.nexusmods.com/skyrimspecialedition/mods/77779)
+ - [ConsolePlusPlus](https://www.nexusmods.com/skyrimspecialedition/mods/79975)
+ - [Switch Camera During Dialogue](https://www.nexusmods.com/skyrimspecialedition/mods/95269)
+ - [Use or Take SKSE](https://www.nexusmods.com/skyrimspecialedition/mods/70868)
+ - [NPC Stuck in Bleedout fix](https://www.nexusmods.com/skyrimspecialedition/mods/95489)
+ - [Simplicity of Seeding - Better Hearthfires and Farming CC Planter Scripts](https://www.nexusmods.com/skyrimspecialedition/mods/94428)
+ - [Stuck on Screen Load Door Prompt Fix](https://www.nexusmods.com/skyrimspecialedition/mods/96531)
+ - [Unaggressive Dragon Priests Fix](https://www.nexusmods.com/skyrimspecialedition/mods/69026)
+ - [Proper Mod-Added Torch Support](https://www.nexusmods.com/skyrimspecialedition/mods/104521)
+ - [WIDeadBodyCleanupScript Crash Fix](https://www.nexusmods.com/skyrimspecialedition/mods/62413)
+ - [Camera Follows SKSE](https://www.nexusmods.com/skyrimspecialedition/mods/95209)
+ - [Combat Music Fix NG Updated](https://www.nexusmods.com/skyrimspecialedition/mods/110459)
+ - [Enhanced Invisibility](https://www.nexusmods.com/skyrimspecialedition/mods/61950)
+ - [LeveledList Crash Fix](https://www.nexusmods.com/skyrimspecialedition/mods/129136) and [LeveledList Crash Fix for Skyrim 1.5](https://www.nexusmods.com/skyrimspecialedition/mods/129152)
+ - [Mfg Fix NG](https://www.nexusmods.com/skyrimspecialedition/mods/133568)
+ - [Name Those Ash Piles](https://www.nexusmods.com/skyrimspecialedition/mods/24701)
+ - [Stagger Effect Fix](https://www.nexusmods.com/skyrimspecialedition/mods/110508)
+ - [Perk Entry Point Extender](https://www.nexusmods.com/skyrimspecialedition/mods/91192)
+ - [Dialogue History](https://www.nexusmods.com/skyrimspecialedition/mods/114238)
+ - [Enemies Respect Encounter Zones](https://www.nexusmods.com/skyrimspecialedition/mods/78847)
+ - [Favorite Misc Items](https://www.nexusmods.com/skyrimspecialedition/mods/42750)
+ - [Grab And Throw](https://www.nexusmods.com/skyrimspecialedition/mods/120460)
+ - [Mute On Focus Loss](https://www.nexusmods.com/skyrimspecialedition/mods/130163)
+ - [ImGui Icons](https://www.nexusmods.com/skyrimspecialedition/mods/114790) and [ImGui Icons - Untarnished UI](https://www.nexusmods.com/skyrimspecialedition/mods/114953)
+ - [Object Categorization Framework](https://www.nexusmods.com/skyrimspecialedition/mods/81469)
+ - [Keyword Item Distributor (KID)](https://www.nexusmods.com/skyrimspecialedition/mods/55728)
+ - [Spell Perk Item Distributor (SPID)](https://www.nexusmods.com/skyrimspecialedition/mods/36869)
+ - [RaceMenu OverlayFix and Various Mod Fixes](https://www.nexusmods.com/skyrimspecialedition/mods/138586)
+ - [SmoothCam](https://www.nexusmods.com/skyrimspecialedition/mods/41252)
+ - [Favorites Menu Effects Description](https://www.nexusmods.com/skyrimspecialedition/mods/143532)
+ - [Knotwork](https://www.nexusmods.com/skyrimspecialedition/mods/128235) and [Knotwork for Skyrim 1.5](https://www.nexusmods.com/skyrimspecialedition/mods/129164)
+ - [Sneak Vignette](https://www.nexusmods.com/skyrimspecialedition/mods/145046)
+ - [Tween Menu Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/143275) and [Tween Menu Overhaul - Untarnished UI Reskin](https://www.nexusmods.com/skyrimspecialedition/mods/143591)
+ - [STB Widgets](https://www.nexusmods.com/skyrimspecialedition/mods/136148) and [Dragonborn Reskin - STB Widgets](https://www.nexusmods.com/skyrimspecialedition/mods/140283)
+ - [Untarnished UI - QuickLootIE Patch](https://www.nexusmods.com/skyrimspecialedition/mods/123475)
+ - [Object Categorization Framework - Some KID Patches - I4 - OCF](https://www.nexusmods.com/skyrimspecialedition/mods/99726)
+ - [The Handy Icon Collection Collective](https://www.nexusmods.com/skyrimspecialedition/mods/90508)
+ - [Acoustic Space Improvement Fixes](https://www.nexusmods.com/skyrimspecialedition/mods/78992)
+ - [Regional Sounds Expansion](https://www.nexusmods.com/skyrimspecialedition/mods/77829)
+ - [ENB Extender and Helper Skyrim](https://www.nexusmods.com/skyrimspecialedition/mods/99406)
+ - [Splashes Of Skyrim](https://www.nexusmods.com/skyrimspecialedition/mods/47710)
+ - [Splashes of Storms](https://www.nexusmods.com/skyrimspecialedition/mods/72115)
+ - [ECE Sliders Addon for Racemenu](https://www.nexusmods.com/skyrimspecialedition/mods/75686)
+ - [Missile's IED Preset](https://www.nexusmods.com/skyrimspecialedition/mods/67770) 
+ - [OBody Next Generation](https://www.nexusmods.com/skyrimspecialedition/mods/77016) and [OBody Next Generation - Settings Loader](https://www.nexusmods.com/skyrimspecialedition/mods/77336)
+ - [Growl - Werebeasts of Skyrim](https://www.nexusmods.com/skyrimspecialedition/mods/31245)
+ - [Experience](https://www.nexusmods.com/skyrimspecialedition/mods/17751)
+ - [Conjuration Limit Fix](https://www.nexusmods.com/skyrimspecialedition/mods/117155)
+ - [Conditional Dog Barking (OAR)](https://www.nexusmods.com/skyrimspecialedition/mods/72336)
+ - [Improved Barstool Exit Animation](https://www.nexusmods.com/skyrimspecialedition/mods/143012)
+ - [Weapon switch animation Fix](https://www.nexusmods.com/skyrimspecialedition/mods/100366)
+ - [Gesture Animation Remix](https://www.nexusmods.com/skyrimspecialedition/mods/64420)
+ - [NPC Animation Remix](https://www.nexusmods.com/skyrimspecialedition/mods/63471)
+ - [Organic Player Animations](https://www.nexusmods.com/skyrimspecialedition/mods/99270)
+ - [Feris - Custom Voiced Rogue Follower](https://www.nexusmods.com/skyrimspecialedition/mods/142226) and [Apostate Feris Replacer](https://www.nexusmods.com/skyrimspecialedition/mods/127064)
+ - [Gore - A Companion Mod](https://www.nexusmods.com/skyrimspecialedition/mods/85298)
+ - [CoMAP - Common Marker Addon Project](https://www.nexusmods.com/skyrimspecialedition/mods/56123) and [CoMAP 4 for Skyrim 1.5](https://www.nexusmods.com/skyrimspecialedition/mods/101421)
+ - [Serana Dialogue Add-On](https://www.nexusmods.com/skyrimspecialedition/mods/32161) and [Serana Dialogue Add-On Patch Hub](https://www.nexusmods.com/skyrimspecialedition/mods/70782)
+ - [Settling of Squad - Set Follower Home](https://www.nexusmods.com/skyrimspecialedition/mods/125471)
+ - [Simply Order Summons](https://www.nexusmods.com/skyrimspecialedition/mods/66919) and [Swiftly Order Squad - Follower Commands UI](https://www.nexusmods.com/skyrimspecialedition/mods/63259)
+ - [Nirn's Chosen - Enhanced Races and Classes](https://www.nexusmods.com/skyrimspecialedition/mods/121427)
+   
+#### Added
+
+ - [Texture Downscaler](https://www.nexusmods.com/skyrimspecialedition/mods/187049)
+   - Users told me this worked well for them, so it's added as an optional performance mod.
+ - [Sassy Salt and Wind Hair Retexture - Vanilla and KS Hairdos](https://www.nexusmods.com/skyrimspecialedition/mods/160675)
+
+#### Removed
+
+ - Following mods were removed due to the [SkyUI 6](https://www.nexusmods.com/skyrimspecialedition/mods/12604) Update:
+   - [SkyUI 5.2 SE Plugin with Master Added](https://www.nexusmods.com/skyrimspecialedition/mods/67166)
+   - [SkyUI 3D Item Offset Fix for MCM Helper (SkyUI 5.2 - Updated - Centered Item Card - Script Fix)](https://www.nexusmods.com/skyrimspecialedition/mods/92602)
+   - [SkyUI - Ghost Item Bug Fix](https://www.nexusmods.com/skyrimspecialedition/mods/49106)
+   - [Fix Note Icon for SkyUI (SKSE64 plugin)](https://www.nexusmods.com/skyrimspecialedition/mods/32561)
+   - [Better Container Controls for SkyUI](https://www.nexusmods.com/skyrimspecialedition/mods/25271)
+ - Follow Dialogue Expansion Series, due to my own personal preferences and opinions on the current modding environment and widespread use of AI.
+   - [Aela the Huntress](https://www.nexusmods.com/skyrimspecialedition/mods/114801)
+   - [Aranea Ienith](https://www.nexusmods.com/skyrimspecialedition/mods/141907)
+   - [Borgakh the Steel Heart](https://www.nexusmods.com/skyrimspecialedition/mods/133571)
+   - [Brelyna Maryon](https://www.nexusmods.com/skyrimspecialedition/mods/113359)
+   - [Erik the Slayer](https://www.nexusmods.com/skyrimspecialedition/mods/116719)
+   - [Faendal](https://www.nexusmods.com/skyrimspecialedition/mods/130418)
+   - [Illia](https://www.nexusmods.com/skyrimspecialedition/mods/137845)
+   - [Jenassa](https://www.nexusmods.com/skyrimspecialedition/mods/120255)
+   - [Jordis the Sword-Maiden](https://www.nexusmods.com/skyrimspecialedition/mods/117930)
+   - [Lydia](https://www.nexusmods.com/skyrimspecialedition/mods/119226)
+   - [Mjoll the Lioness](https://www.nexusmods.com/skyrimspecialedition/mods/116025)
+   - [Rayya](https://www.nexusmods.com/skyrimspecialedition/mods/143288)
+   - [Uthgerd the Unbroken](https://www.nexusmods.com/skyrimspecialedition/mods/122487)
+ - [Untarnished UI - QuickLootIE Patch Updated](https://www.nexusmods.com/skyrimspecialedition/mods/140287)
+   - Redundant.
+ - [Skyrim's Environmental Audio Enhancer](https://www.nexusmods.com/skyrimspecialedition/mods/98204)
+   - Sat down and tested this mod again and realized I didn't like it.
+ - [ENB Input Disabler](https://www.nexusmods.com/skyrimspecialedition/mods/62796)
+   - Redundant.
+ - [ENB Helper SE](https://www.nexusmods.com/skyrimspecialedition/mods/23174)
+   - Redundant.
+ - [KS Hairdos 1.7 Salt and Wind](https://www.nexusmods.com/skyrimspecialedition/mods/44975) and [Salt and Wind - KS Hairdos - Update](https://www.nexusmods.com/skyrimspecialedition/mods/64707) and [Vanilla hair - Salt and Wind](https://www.nexusmods.com/skyrimspecialedition/mods/45147)
+ - Apostasy Khajiit Speak Patch.
+   - Do not want to maintain it at this time.
+     
+</Details>
 
 ### 3.2.3
 

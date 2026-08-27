@@ -87,7 +87,8 @@ Please note that by default, the controller config does not support blocking wit
 Below are the list of mods you will find under the `Performance Optimizations` separator in MO2.
  1. `ENB Frame Generation`: This mod requires a GPU that supports DirectX 12 and a 120hz+ monitor.
     - Must enable with in-game ENB menu and restart the game to take effect. See this [image](https://raw.githubusercontent.com/Oghma-Infinium/Apostasy/refs/heads/main/images/enbfg.png) for reference.
- 3. `Faster HDT-SMP - AVX512 Optimization`: This mod contains the AVX512 version of the [Faster HDT-SMP](https://www.nexusmods.com/skyrimspecialedition/mods/57339) `.dll` file compatible with the list. It is ***highly*** suggested that you try out this addon if you have a CPU that supports AVX-512 instruction. If you do not know if your CPU supports AVX-512, then google it or use a tool like HWinfo. **ENABLING THIS MOD WITH AN INCOMPATIBLE CPU WILL EITHER CRASH YOUR GAME OR BREAK ALL SMP**.
+ 2. `Faster HDT-SMP - AVX512 Optimization`: This mod contains the AVX512 version of the [Faster HDT-SMP](https://www.nexusmods.com/skyrimspecialedition/mods/57339) `.dll` file compatible with the list. It is ***highly*** suggested that you try out this addon if you have a CPU that supports AVX-512 instruction. If you do not know if your CPU supports AVX-512, then google it or use a tool like HWinfo. **ENABLING THIS MOD WITH AN INCOMPATIBLE CPU WILL EITHER CRASH YOUR GAME OR BREAK ALL SMP**.
+ 3. `Texture Downscaler`: Downscales textures at runtime. Enable for performance improvement if you are VRAM limited.
  4. `Apostasy - Performance DynDOLOD Output`: ***Strongly suggested*** for PCs that are barely meeting the [system requirements](https://github.com/Oghma-Infinium/Apostasy/blob/main/README.md#system-requirements) for the list, or for those who are experiencing performance-related issues.  
  If you plan on swapping to this version of DynDOLOD then read the steps below. **FAILING TO FOLLOW THESE STEPS WILL RESULT IN A CORRUPTED GAME.**
     1. **If swapping on an existing save game**, Make a [clean save](https://dyndolod.info/Help/Clean-Save) (follow steps 1-4).
@@ -118,7 +119,7 @@ This separator contains a series of visual-only mods that can be easily disabled
 ## Optional Gameplay Tweaks
 
 This separator contains a series of gameplay-related tweaks that should be enabled or disabled **BEFORE** starting a new game. They will be discussed below.
- 1. `Apostasy - Khajiit Speak`: Patches all Dialogue in the list to act like [Khajiit Speak](https://www.nexusmods.com/skyrimspecialedition/mods/441).
+ 1. ~~`Apostasy - Khajiit Speak`: Patches all Dialogue in the list to act like [Khajiit Speak](https://www.nexusmods.com/skyrimspecialedition/mods/441).~~ Removed in Version 3.3.0. May come back in the future.
  2. `Apostasy - Arachnophobia and Entomophobia Support`: Removes some enemies that may trigger Arachnophobia or Entomophobia in some users.
 
 ## Ultrawide Support
